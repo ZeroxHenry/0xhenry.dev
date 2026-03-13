@@ -1,0 +1,56 @@
+baseURL = "https://techpulse-eng.pages.dev/"
+languageCode = "en-us"
+title = "TechPulse Engineering"
+theme = "PaperMod"
+[pagination]
+  pagerSize = 10
+
+[params]
+  env = "production"
+  description = "Engineering, Robotics, and Technology — Practical guides, tutorials, and insights for engineers and developers."
+  author = "TechPulse"
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "TechPulse Engineering"
+    Content = "Practical engineering guides, robotics tutorials, and technology deep-dives. From embedded systems to AI — built for engineers, by engineers."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "#"
+
+[params.assets]
+  disableFingerprinting = false
+
+[params.cover]
+  hiddenInList = false
+  hiddenInSingle = false
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup]
+  [markup.highlight]
+    style = "monokai"
+    lineNos = false
+    codeFences = true
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableJS = false
+  disableJSON = false
+  disableSVG = false
+  disableXML = false
+  minifyOutput = true
