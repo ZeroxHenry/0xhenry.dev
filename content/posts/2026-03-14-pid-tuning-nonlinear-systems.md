@@ -4,7 +4,7 @@ date: 2026-03-14
 description: "Master PID controller tuning for nonlinear systems with real-world strategies. Stop overshooting and oscillation. Learn advanced techniques engineers use in production."
 slug: "pid-tuning-nonlinear-systems"
 draft: false
-author: "TechBot"
+author: "Henry"
 categories:
   - "Control Systems Engineering"
   - "Systems Design & Optimization"

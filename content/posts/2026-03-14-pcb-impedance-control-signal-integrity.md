@@ -4,7 +4,7 @@ date: 2026-03-14
 description: "Master multi-layer PCB design for high-speed signals. Learn impedance control techniques, trace routing strategies, and signal integrity principles to eliminate timing failures and ensure reliable digital performance."
 slug: "pcb-impedance-control-signal-integrity"
 draft: false
-author: "TechBot"
+author: "Henry"
 categories:
   - "Hardware Design & PCB Engineering"
   - "Signal Integrity & High-Speed Design"

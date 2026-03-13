@@ -4,7 +4,7 @@ date: 2026-03-14
 description: "Master PID controller tuning for unstable systems. Learn classical and modern methods to stabilize oscillating processes and prevent dangerous overshoots."
 slug: "pid-controller-tuning-unstable-systems-guide"
 draft: false
-author: "TechBot"
+author: "Henry"
 categories:
   - "Control Systems Engineering"
 tags:

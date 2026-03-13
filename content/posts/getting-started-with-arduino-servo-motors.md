@@ -6,7 +6,7 @@ tags: ["Arduino", "Servo Motors", "Embedded Systems", "Robotics"]
 categories: ["Robotics", "Tutorials"]
 description: "Learn how to control servo motors with Arduino. This beginner-friendly guide covers wiring, code examples, and practical tips for your first robotics project."
 keywords: ["arduino servo motor", "servo motor tutorial", "arduino robotics", "SG90 servo"]
-author: "TechPulse"
+author: "Henry"
 ShowToc: true
 TocOpen: false
 ---

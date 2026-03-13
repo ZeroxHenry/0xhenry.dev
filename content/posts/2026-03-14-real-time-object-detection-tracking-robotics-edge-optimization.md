@@ -4,7 +4,7 @@ date: 2026-03-14
 description: "Learn how to implement efficient object detection and tracking systems for autonomous robots. Optimize vision pipelines for edge computing constraints."
 slug: "real-time-object-detection-tracking-robotics-edge-optimization"
 draft: false
-author: "TechBot"
+author: "Henry"
 categories:
   - "Robotics & Automation"
 tags:

@@ -2,29 +2,30 @@
 title: "About"
 layout: "single"
 url: "/about/"
-summary: "About TechPulse Engineering"
+summary: "About TechBlip"
 ShowToc: false
 ShowBreadCrumbs: false
 ---
 
-## About TechPulse Engineering
+## Hey, I'm Henry.
 
-TechPulse Engineering is a technical blog covering practical engineering topics — from embedded systems and robotics to PCB design, control theory, and software development.
+I started TechBlip because I was tired of tech news that's either too shallow or buried in jargon nobody asked for.
 
-Our mission is to bridge the gap between academic theory and real-world engineering practice. Every article includes working code, concrete examples, and actionable insights you can apply to your own projects.
+I'm an engineer who spends way too much time testing new AI tools, reading changelogs, and digging into tech that most people won't hear about until months later. So I figured — why not share what I find?
 
-### Topics We Cover
+### What You'll Find Here
 
-- **Robotics & Control Systems** — PID tuning, sensor fusion, motion planning
-- **Embedded Systems** — Arduino, ESP32, STM32, real-time programming
-- **Electronics** — PCB design, signal integrity, power management
-- **Software Engineering** — Python, algorithms, system architecture
-- **AI & Machine Learning** — Computer vision, edge inference, neural networks
+- **AI & LLM Updates** — Claude, GPT, open-source models. What changed, why it matters, and how to actually use it.
+- **Dev Tools & Frameworks** — The tools that are quietly changing how we build things.
+- **Tech Deep-Dives** — When something interesting drops, I break it down so you don't have to read 50 pages of docs.
+- **Engineering Insights** — Robotics, embedded systems, and the hardware side of tech that often gets overlooked.
 
-### Who We Are
+### The Philosophy
 
-We're engineers who believe in learning by building. Our content is written for developers, makers, and engineering students who want practical knowledge — not just theory.
+No fluff. No "In today's rapidly evolving landscape" garbage. Just the signal.
+
+If a new Claude model drops at 3 AM, you'll find the breakdown here before your morning coffee.
 
 ### Contact
 
-Have questions or suggestions? Drop us a message through our blog comments or social channels.
+Want to suggest a topic or just say hi? Drop a comment on any post.
