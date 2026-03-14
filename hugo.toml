@@ -21,12 +21,18 @@ theme = "PaperMod"
   disableThemeToggle = false
 
   [params.homeInfoParams]
-    Title = "TechBlips"
-    Content = "Quick blips on AI breakthroughs, dev tools, and tech that actually matters. No fluff — just the signal."
+    Title = "⚡ TechBlips"
+    Content = """Your daily dose of AI updates, dev tool drops, and tech that's actually changing things.
+Written by Henry — no corporate fluff, just real takes on what matters in tech right now."""
 
   [[params.socialIcons]]
     name = "rss"
     url = "/index.xml"
+
+  [params.label]
+    text = "⚡ TechBlips"
+    icon = ""
+    iconHeight = 35
 
 [params.assets]
   disableFingerprinting = false
@@ -42,20 +48,30 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
+    identifier = "ai"
+    name = "🤖 AI"
+    url = "/categories/artificial-intelligence/"
+    weight = 10
+  [[menu.main]]
+    identifier = "devtools"
+    name = "🛠 Dev Tools"
+    url = "/categories/developer-tools/"
+    weight = 20
+  [[menu.main]]
+    identifier = "trending"
+    name = "🔥 Trending"
+    url = "/categories/technology/"
+    weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "🔍 Search"
+    url = "/search/"
+    weight = 40
+  [[menu.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "search"
-    name = "Search"
-    url = "/search/"
-    weight = 20
-  [[menu.main]]
-    identifier = "archives"
-    name = "Archives"
-    url = "/archives/"
-    weight = 30
+    weight = 50
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
