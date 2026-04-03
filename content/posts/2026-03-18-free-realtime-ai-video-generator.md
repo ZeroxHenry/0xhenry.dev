@@ -664,7 +664,6 @@ SSIM (structural similarity) between generated frames and reference footage tell
 - **P99 latency > 15 seconds**: You're losing users.
 - **GPU utilization < 40%**: Idle capacity. Scale down or add work.
 - **GPU utilization > 95%**: Queue is building. Scale up or reject requests.
-- **Quality
 
 ---
 

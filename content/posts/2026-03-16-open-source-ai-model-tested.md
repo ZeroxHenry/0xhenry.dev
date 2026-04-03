@@ -640,16 +640,6 @@ def log_inference_event(request_id, input_tokens, output_tokens, latency_ms, err
 
 Log slow requests (anything over 2 seconds), all errors, and token counts. Token counts matter—they're your cost signal.
 
-### Distributed Tracing
-
-If this inference call is part of a larger request flow, you need to see where time actually bleeds. Use correlation IDs to thread requests through your entire stack:
-
-```python
-import uuid
-from functools import wraps
-
-def traced
-
 ---
 
 ## Related Articles

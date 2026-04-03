@@ -628,36 +628,5 @@ Track these four buckets:
 
 Here's the debugging anti-pattern I see constantly: assume the model forward pass is the problem. It's almost never the problem.
 
-Measure these phases independently:
-
-```python
-import time
-from collections import defaultdict
-
-class InferenceProfiler:
-    def __init__(self):
-        self.timings = defaultdict(list)
-    
-    def record(self, phase, duration_ms):
-        self.timings[phase].append(duration_ms)
-    
-    def report(self):
-        for phase, times in self.timings.items():
-            avg = sum(times) / len(times)
-            p95 = sorted(times)[int(len(times) * 0.95)]
-            print(f"{phase}: avg={avg:.1f}ms, p95={p95:.1f}ms")
-
-# Usage in your inference pipeline
-profiler = InferenceProfiler()
-
-start = time.time()
-tokens = tokenizer.encode(prompt)
-profiler.record("tokenization", (time.time() - start) * 1000)
-
-start = time.time()
-# Wait for batching queue
-time.sleep(0.01)  # Placeholder for queue wait
-profiler.record("queue_
-
 ---
 

@@ -668,18 +668,7 @@ signal.signal(signal.SIGINT, graceful_shutdown)
 
 Kubernetes doesn't ask your service if it's okay to reschedule it. It just sends SIGTERM and gives you 30 seconds (default) to clean up. If your framework is mid-inference on a request, that request dies. In-flight data gets corrupted. Model state gets lost.
 
-You need graceful shutdown hooks. When you receive SIGTERM, stop accepting new requests, wait for in-flight requests to finish, then exit cleanly. Set your `terminationGracePeriodSeconds` high enough to actually drain your workload:
-
-```yaml
-apiVersion: v1
-kind: Pod
-metadata:
- name: inference-service
-spec:
- terminationGracePeriodSeconds: 60
- containers:
- - name: app
- image:
+You need graceful shutdown hooks. When you receive SIGTERM, stop accepting new requests, wait for in-flight requests to finish, then exit cleanly.
 
 ---
 

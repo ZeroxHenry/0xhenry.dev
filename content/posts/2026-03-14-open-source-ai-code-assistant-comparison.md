@@ -483,22 +483,6 @@ Paid tools win hardest when:
 
 If you're a solo developer or a small team optimizing for cost over everything, open-source still makes sense. But the moment you have 8+ people, the calculus flips.
 
-## Section 8: Real-World Case Study — A Team's Migration Experience
-
-A 12-person backend team building distributed systems in Go and Rust was hemorrhaging $2,400 a year on a paid AI assistant. Their hypothesis was clean: self-host an open-source alternative, slash costs to $500 annually, pocket the difference. On paper, it made sense. In practice, it nearly broke their deployment pipeline.
-
-### The Setup That Looked Perfect
-
-They deployed an open-source model on a shared GPU server, integrated it into VS Code and their IDE plugins, and spent two weeks training the team on effective prompting. Total upfront investment: 60 hours across the team. Infrastructure cost: $150/month. The math still worked. Then they started measuring what actually mattered.
-
-### What the Numbers Actually Showed
-
-After 8 weeks of real work:
-
-- **Code completion accuracy tanked** from 74% to 58% for multi-line completions. That's not a rounding error—that's a 16-point drop in reliability.
-- **PR review time ballooned** from 11 minutes per review to 16 minutes. Reviewers had to spend more time catching mistakes the assistant should've prevented.
-- **Two critical bugs shipped** because the open-source tool suggested unsafe pointer operations in Rust that the paid tool would've immediately flagged. Both made it past code review. Both required hotf
-
 ---
 
 ## Related Articles

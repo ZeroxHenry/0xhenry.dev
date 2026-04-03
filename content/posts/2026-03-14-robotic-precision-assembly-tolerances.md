@@ -572,10 +572,6 @@ Active monitoring isn't optional. Retraining isn't nice-to-have. They're the dif
 
 The robot that "just did something impossible"? It stays impossible because someone's actively keeping it sharp. That's the real story nobody tells.
 
-## Section 7: Infrastructure Design for Adaptive Manufacturing
-
-Here's the problem nobody talks about: you build a killer AI model that can predict gripper failures 30 seconds before they happen, but your entire manufacturing line goes down because the learning system crashed and took your decision
-
 ---
 
 ## Related Articles

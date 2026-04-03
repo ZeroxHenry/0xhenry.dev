@@ -565,41 +565,6 @@ If metrics stay clean, go full. If not—and this is critical—don't force it. 
 
 This is non-negotiable. If inference latency exceeds 500ms or error rate climbs above 2%, automatically fail over to your proprietary API. GPU memory fragmentation, thermal throttling, or a spike in concurrent requests will happen. You need automatic protection.
 
-```python
-import time
-from enum import Enum
-
-class ModelPath(Enum):
- OPENSOURCE = "opensource"
- FALLBACK = "fallback"
-
-class RequestRouter:
- def __init__(self, latency_threshold_ms=500, error_threshold=0.02):
- self.latency_threshold = latency_threshold_ms / 1000
- self.error_threshold = error_threshold
- self.recent_errors = []
- self.recent_latencies = []
- self.window_size = 100
- 
- def should_use_fallback(self):
- if len(self.recent_latencies) < 10:
- return False
- 
- avg_latency = sum(self.recent_latencies[-self.window_size:]) / min(len(self.recent_latencies), self.window_size)
- error_rate = sum(self.recent_errors[-self.window_size:]) / min(len(self.recent_errors), self.window_size)
- 
- return avg_latency > self.latency_threshold or error_rate > self.error_threshold
- 
- def route_request(self, request_data):
- if self.should_use_fallback():
- return self._call_fallback_api(request_data)
- 
- start = time.time()
- try:
- result = self._call_opensource_model(request_data)
- latency = time.time() - start
- self.recent
-
 ---
 
 ## Related Articles

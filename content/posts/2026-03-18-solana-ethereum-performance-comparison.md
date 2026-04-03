@@ -520,24 +520,6 @@ A network with 20% annual inflation has to mint new tokens constantly to pay val
 
 Compare that to a network with 2% annual inflation. Validators need less yield from fees. They can afford lower transaction costs and still break even.
 
-```python
-# Validator economics: inflation impact on fee requirements
-class ValidatorEconomics:
- def __init__(self, annual_inflation_percent, token_price_usd):
- self.inflation = annual_inflation_percent / 100
- self.token_price = token_price_usd
- self.annual_operating_cost = 50000 # Server, bandwidth, etc.
- self.staked_tokens = 100000
- 
- def required_annual_yield_usd(self):
- return self.annual_operating_cost
- 
- def yield_from_inflation_usd(self):
- # Inflation reward on staked tokens
- return self.staked_tokens * self.inflation * self.token_price
- 
- def yield_gap_usd(
-
 ---
 
 ## Related Articles

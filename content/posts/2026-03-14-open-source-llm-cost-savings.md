@@ -587,19 +587,7 @@ Every forward pass now requires GPU-to-GPU communication. Tensor A finishes comp
 
 I've seen teams implement this and wonder why latency went *up* instead of down. The network overhead completely swallows the benefit of parallel computation.
 
-**Measure before assuming it helps.** Seriously. Run a latency profile:
-
-```python
-import time
-
-def measure_distributed_inference(model, batch, num_gpus):
-    """Profile where time actually goes in distributed setup"""
-    
-    start = time.perf_counter()
-    
-    # Forward pass with inter-GPU communication
-    for layer_idx, layer in enumerate(model.layers):
-        layer_start =
+**Measure before assuming it helps.**
 
 ---
 

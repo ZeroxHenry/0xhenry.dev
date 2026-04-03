@@ -605,12 +605,6 @@ You deploy your new open-source model to production. Traffic spikes. Inference l
 
 The model itself isn't the problem—it's your architecture around it. You need defensive layers that actively reject or redirect requests before they choke the system.
 
-### Circuit Breaker: Stop the Bleeding
-
-Think of this like an electrical breaker in your house. When current spikes, it trips and cuts power. Same idea here.
-
-Monitor your inference latency (p99 is the real metric, not average). If it
-
 ---
 
 ## Related Articles
