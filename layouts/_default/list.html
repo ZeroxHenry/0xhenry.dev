@@ -63,7 +63,12 @@
 {{- $class = "post-entry tag-entry" }}
 {{- end }}
 
-<article class="{{ $class }}">
+{{- $catClass := "" }}
+{{- if .Params.categories }}
+  {{- $catClass = (printf " category-%s" (index .Params.categories 0 | urlize | lower)) }}
+{{- end }}
+
+<article class="{{ $class }}{{ $catClass }}">
   {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
   {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
   <header class="entry-header">

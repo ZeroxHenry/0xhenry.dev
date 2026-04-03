@@ -27,8 +27,8 @@ Written by Henry — no corporate fluff, just real takes on what matters in tech
 
 
   [params.label]
-    text = "⚡ TechBlips"
-    icon = ""
+    text = "TechBlips"
+    icon = "/logo.svg"
     iconHeight = 35
 
 [params.assets]
