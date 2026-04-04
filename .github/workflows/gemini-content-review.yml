@@ -39,8 +39,7 @@ jobs:
             - Do NOT change post dates
             - Keep the author's voice and opinions
             - English commit messages only
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6

@@ -47,8 +47,7 @@ jobs:
             - Keep changes minimal and focused
             - Test dark mode compatibility
             - English commit messages only
-        env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6
