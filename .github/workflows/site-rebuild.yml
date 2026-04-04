@@ -1,4 +1,4 @@
-name: Gemini Site Rebuild
+name: Site Rebuild
 
 on:
   workflow_dispatch:
@@ -22,21 +22,21 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           submodules: true
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
           extended: true
 
       - name: TASK 1 — Homepage + Navigation
-        uses: google-github-actions/run-gemini-cli@v0
+        uses: anthropics/claude-code-action@v1
         with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
             Read GEMINI.md first. Follow all rules.
 
@@ -71,17 +71,13 @@ jobs:
             4. Dark mode support for all changes
             5. Mobile responsive (860px breakpoint)
 
-            After changes, run: hugo --minify
-            If build succeeds, you're done with this task.
-          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
-
-      - name: Build test
-        run: hugo --minify
+            After making changes, run: hugo --minify
+            If build succeeds, commit all changes.
 
       - name: Push changes
         run: |
-          git config user.name "gemini-bot"
-          git config user.email "gemini-bot@techblips.com"
+          git config user.name "claude-bot"
+          git config user.email "claude-bot@techblips.com"
           git add -A
           git diff --cached --quiet && echo "No changes" || (git commit -m "redesign: homepage + navigation (Task 1)" && git push)
 
@@ -91,21 +87,21 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           submodules: true
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
           extended: true
 
       - name: TASK 2 — Post Detail Pages
-        uses: google-github-actions/run-gemini-cli@v0
+        uses: anthropics/claude-code-action@v1
         with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
             Read GEMINI.md first. Follow all rules.
             NEVER touch themes/ folder.
@@ -137,16 +133,12 @@ jobs:
 
             6. Dark mode + mobile for all changes
 
-            After changes, run: hugo --minify
-          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
-
-      - name: Build test
-        run: hugo --minify
+            After making changes, run: hugo --minify
 
       - name: Push changes
         run: |
-          git config user.name "gemini-bot"
-          git config user.email "gemini-bot@techblips.com"
+          git config user.name "claude-bot"
+          git config user.email "claude-bot@techblips.com"
           git add -A
           git diff --cached --quiet && echo "No changes" || (git commit -m "redesign: post detail pages (Task 2)" && git push)
 
@@ -156,21 +148,21 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           submodules: true
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
           extended: true
 
       - name: TASK 3 — Radar Page
-        uses: google-github-actions/run-gemini-cli@v0
+        uses: anthropics/claude-code-action@v1
         with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
             Read GEMINI.md first. Follow all rules.
             NEVER touch themes/ folder.
@@ -195,16 +187,12 @@ jobs:
 
             5. Dark mode for all radar elements
 
-            After changes, run: hugo --minify
-          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
-
-      - name: Build test
-        run: hugo --minify
+            After making changes, run: hugo --minify
 
       - name: Push changes
         run: |
-          git config user.name "gemini-bot"
-          git config user.email "gemini-bot@techblips.com"
+          git config user.name "claude-bot"
+          git config user.email "claude-bot@techblips.com"
           git add -A
           git diff --cached --quiet && echo "No changes" || (git commit -m "redesign: radar page (Task 3)" && git push)
 
@@ -214,21 +202,21 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           submodules: true
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
           extended: true
 
       - name: TASK 4 — About + Polish
-        uses: google-github-actions/run-gemini-cli@v0
+        uses: anthropics/claude-code-action@v1
         with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
             Read GEMINI.md first. Follow all rules.
             NEVER touch themes/ folder.
@@ -249,16 +237,12 @@ jobs:
 
             5. Scroll progress bar: .progress-bar CSS improvement
 
-            After changes, run: hugo --minify
-          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
-
-      - name: Build test
-        run: hugo --minify
+            After making changes, run: hugo --minify
 
       - name: Push changes
         run: |
-          git config user.name "gemini-bot"
-          git config user.email "gemini-bot@techblips.com"
+          git config user.name "claude-bot"
+          git config user.email "claude-bot@techblips.com"
           git add -A
           git diff --cached --quiet && echo "No changes" || (git commit -m "redesign: about page + polish (Task 4)" && git push)
 
@@ -268,21 +252,21 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pull-requests: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           submodules: true
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+      - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: "latest"
           extended: true
 
       - name: TASK 5 — Dark Mode + Responsive QA
-        uses: google-github-actions/run-gemini-cli@v0
+        uses: anthropics/claude-code-action@v1
         with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
             Read GEMINI.md first. Follow all rules.
             NEVER touch themes/ folder.
@@ -306,15 +290,11 @@ jobs:
                - Remove unnecessary animations
                - Verify hugo --minify builds clean
 
-            After changes, run: hugo --minify
-          gemini_api_key: ${{ secrets.GEMINI_API_KEY }}
-
-      - name: Build test
-        run: hugo --minify
+            After making changes, run: hugo --minify
 
       - name: Push changes
         run: |
-          git config user.name "gemini-bot"
-          git config user.email "gemini-bot@techblips.com"
+          git config user.name "claude-bot"
+          git config user.email "claude-bot@techblips.com"
           git add -A
           git diff --cached --quiet && echo "No changes" || (git commit -m "redesign: dark mode + responsive QA (Task 5)" && git push)
