@@ -1,3 +1,8 @@
+// Support both Vercel Neon integration prefixes: "DATABASE" and "STORAGE"
+if (!process.env.DATABASE_URL && process.env.STORAGE_URL) {
+  process.env.DATABASE_URL = process.env.STORAGE_URL;
+}
+
 import { PrismaClient } from '@prisma/client';
 
 const globalForPrisma = globalThis as unknown as { prisma: PrismaClient };
