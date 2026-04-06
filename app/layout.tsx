@@ -2,8 +2,41 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'TechBlips',
+  title: {
+    default: 'TechBlips',
+    template: '%s | TechBlips',
+  },
   description: 'Engineer Study — learning real tech from scratch.',
+  metadataBase: new URL('https://techblips.com'),
+  openGraph: {
+    title: 'TechBlips',
+    description: 'Engineer Study — learning real tech from scratch.',
+    url: 'https://techblips.com',
+    siteName: 'TechBlips',
+    type: 'website',
+    images: [
+      {
+        url: '/og-default.png',
+        width: 1200,
+        height: 630,
+        alt: 'TechBlips - Engineer Study',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'TechBlips',
+    description: 'Engineer Study — learning real tech from scratch.',
+    images: ['/og-default.png'],
+  },
+  alternates: {
+    types: {
+      'application/rss+xml': [
+        { url: '/feed.xml', title: 'TechBlips RSS (EN)' },
+        { url: '/ko/feed.xml', title: 'TechBlips RSS (KO)' },
+      ],
+    },
+  },
 };
 
 export default function RootLayout({

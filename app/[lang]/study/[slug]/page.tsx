@@ -2,6 +2,8 @@ import { getAllSlugs, getPost } from '@/lib/posts';
 import { locales } from '@/lib/i18n';
 import type { Locale } from '@/lib/i18n';
 import Link from 'next/link';
+import Comments from '@/components/Comments';
+import ShareButtons from '@/components/ShareButtons';
 
 export function generateStaticParams() {
   const params: { lang: string; slug: string }[] = [];
@@ -67,6 +69,14 @@ export default async function StudyPost({ params }: { params: Promise<{ lang: st
       )}
 
       <div className="prose" dangerouslySetInnerHTML={{ __html: post.content }} />
+
+      <div className="mt-10 pt-6 border-t border-gray-200 dark:border-gray-800">
+        <ShareButtons title={post.title} slug={slug} lang={locale} />
+      </div>
+
+      <div className="mt-12">
+        <Comments slug={slug} lang={locale} />
+      </div>
     </article>
   );
 }

@@ -2,12 +2,15 @@
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
+import { useSession } from 'next-auth/react';
 import type { Locale } from '@/lib/i18n';
 import { t } from '@/lib/i18n';
+import SearchModal from './SearchModal';
 
 export default function Nav({ lang }: { lang: Locale }) {
   const pathname = usePathname();
+  const { data: session } = useSession();
   const labels = t[lang];
   const otherLang = lang === 'en' ? 'ko' : 'en';
   const otherLabel = lang === 'en' ? 'KO' : 'EN';
@@ -16,6 +19,7 @@ export default function Nav({ lang }: { lang: Locale }) {
     : pathname.replace(/^\/ko/, '') || '/en';
 
   const [dark, setDark] = useState(false);
+  const [searchOpen, setSearchOpen] = useState(false);
 
   useEffect(() => {
     const saved = localStorage.getItem('theme');
@@ -32,34 +36,100 @@ export default function Nav({ lang }: { lang: Locale }) {
     localStorage.setItem('theme', next ? 'dark' : 'light');
   };
 
+  // Cmd+K / Ctrl+K shortcut
+  useEffect(() => {
+    const handler = (e: KeyboardEvent) => {
+      if ((e.metaKey || e.ctrlKey) && e.key === 'k') {
+        e.preventDefault();
+        setSearchOpen((prev) => !prev);
+      }
+    };
+    document.addEventListener('keydown', handler);
+    return () => document.removeEventListener('keydown', handler);
+  }, []);
+
+  const closeSearch = useCallback(() => setSearchOpen(false), []);
+
   return (
-    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-xl border-b border-gray-200 dark:border-gray-800">
-      <div className="max-w-5xl mx-auto px-5 h-16 flex items-center justify-between">
-        <Link href={`/${lang}`} className="text-xl font-extrabold tracking-tight hover:text-[var(--accent)] transition-colors">
-          TechBlips
-        </Link>
-        <div className="flex items-center gap-6">
-          <div className="hidden sm:flex items-center gap-5 text-sm font-medium text-gray-600 dark:text-gray-400">
-            <Link href={`/${lang}`} className="hover:text-[var(--accent)] transition-colors">{labels.home}</Link>
-            <Link href={`/${lang}/study`} className="hover:text-[var(--accent)] transition-colors">{labels.study}</Link>
-            <Link href={`/${lang}/about`} className="hover:text-[var(--accent)] transition-colors">{labels.about}</Link>
-          </div>
-          <Link href={otherPath} className="text-xs font-bold px-2.5 py-1 rounded-md bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-[var(--accent)] hover:bg-[var(--accent)]/10 transition-all">
-            {otherLabel}
+    <>
+      <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-xl border-b border-gray-200 dark:border-gray-800">
+        <div className="max-w-5xl mx-auto px-5 h-16 flex items-center justify-between">
+          <Link href={`/${lang}`} className="text-xl font-extrabold tracking-tight hover:text-[var(--accent)] transition-colors">
+            TechBlips
           </Link>
-          <button onClick={toggleTheme} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle theme">
-            {dark ? (
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+          <div className="flex items-center gap-6">
+            {/* Nav links */}
+            <div className="hidden sm:flex items-center gap-5 text-sm font-medium text-gray-600 dark:text-gray-400">
+              <Link href={`/${lang}`} className="hover:text-[var(--accent)] transition-colors">{labels.home}</Link>
+              <Link href={`/${lang}/study`} className="hover:text-[var(--accent)] transition-colors">{labels.study}</Link>
+              <Link href={`/${lang}/about`} className="hover:text-[var(--accent)] transition-colors">{labels.about}</Link>
+            </div>
+
+            {/* Search button */}
+            <button
+              onClick={() => setSearchOpen(true)}
+              className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+              aria-label="Search"
+            >
+              <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                <circle cx="11" cy="11" r="8" />
+                <path d="m21 21-4.35-4.35" />
               </svg>
+              <kbd className="hidden sm:inline-flex text-[10px] font-mono text-gray-400 bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded">
+                {typeof navigator !== 'undefined' && /Mac/.test(navigator.userAgent) ? '\u2318K' : 'Ctrl+K'}
+              </kbd>
+            </button>
+
+            {/* Language toggle */}
+            <Link href={otherPath} className="text-xs font-bold px-2.5 py-1 rounded-md bg-gray-100 dark:bg-gray-800 text-gray-600 dark:text-gray-400 hover:text-[var(--accent)] hover:bg-[var(--accent)]/10 transition-all">
+              {otherLabel}
+            </Link>
+
+            {/* Theme toggle */}
+            <button onClick={toggleTheme} className="p-2 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors" aria-label="Toggle theme">
+              {dark ? (
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/>
+                </svg>
+              ) : (
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                  <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
+                </svg>
+              )}
+            </button>
+
+            {/* Auth: Sign In / User avatar */}
+            {session?.user ? (
+              <Link
+                href={`/${lang}/dashboard`}
+                className="shrink-0"
+                aria-label="Dashboard"
+              >
+                {session.user.image ? (
+                  <img
+                    src={session.user.image}
+                    alt=""
+                    className="w-8 h-8 rounded-full ring-2 ring-transparent hover:ring-[var(--accent)] transition-all"
+                  />
+                ) : (
+                  <div className="w-8 h-8 rounded-full bg-[var(--accent)] flex items-center justify-center text-white text-xs font-bold">
+                    {session.user.name?.charAt(0)?.toUpperCase() ?? '?'}
+                  </div>
+                )}
+              </Link>
             ) : (
-              <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/>
-              </svg>
+              <Link
+                href={`/${lang}/login`}
+                className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-[var(--accent)] transition-colors"
+              >
+                {lang === 'ko' ? '로그인' : 'Sign In'}
+              </Link>
             )}
-          </button>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+
+      <SearchModal lang={lang} isOpen={searchOpen} onClose={closeSearch} />
+    </>
   );
 }
