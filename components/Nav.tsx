@@ -15,8 +15,8 @@ export default function Nav({ lang }: { lang: Locale }) {
   const otherLang = lang === 'en' ? 'ko' : 'en';
   const otherLabel = lang === 'en' ? 'KO' : 'EN';
   const otherPath = lang === 'en'
-    ? `/ko${pathname}`
-    : pathname.replace(/^\/ko/, '') || '/en';
+    ? pathname.replace(/^\/en/, '/ko')
+    : pathname.replace(/^\/ko/, '/en');
 
   const [dark, setDark] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
