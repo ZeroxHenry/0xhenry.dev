@@ -44,6 +44,7 @@ export default async function StudyPost({ params }: { params: Promise<{ lang: st
         )}
         <div className="flex flex-wrap items-center gap-3 text-sm text-gray-500">
           <time>{post.date}</time>
+          <span>{locale === 'ko' ? `${post.readingTime}분 읽기` : `${post.readingTime} min read`}</span>
           <span>by Henry</span>
           {post.series && <span className="text-[var(--accent)] font-medium">{post.series}</span>}
         </div>

@@ -29,6 +29,7 @@ export default async function StudyPage({ params }: { params: Promise<{ lang: st
                 )}
                 <div className="flex items-center gap-3 mt-3 text-xs text-gray-500">
                   <time>{post.date}</time>
+                  <span>{locale === 'ko' ? `${post.readingTime}분 읽기` : `${post.readingTime} min read`}</span>
                   {post.series && <span className="text-[var(--accent)] font-medium">{post.series}</span>}
                   {post.youtube && <span className="text-red-500 font-medium">YouTube</span>}
                 </div>

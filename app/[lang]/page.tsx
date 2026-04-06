@@ -50,6 +50,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
                 )}
                 <div className="flex items-center gap-3 text-xs text-gray-500">
                   <time>{post.date}</time>
+                  <span>{locale === 'ko' ? `${post.readingTime}분 읽기` : `${post.readingTime} min read`}</span>
                   {post.tags?.slice(0, 3).map((tag) => (
                     <span key={tag} className="px-2 py-0.5 bg-[var(--accent)]/10 text-[var(--accent)] rounded font-medium">{tag}</span>
                   ))}

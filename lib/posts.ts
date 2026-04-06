@@ -14,6 +14,16 @@ export interface Post {
   youtube?: string;
   series?: string;
   content: string;
+  readingTime: number;
+}
+
+function calcReadingTime(text: string, lang: Locale): number {
+  if (lang === 'ko') {
+    const chars = text.replace(/\s+/g, '').length;
+    return Math.max(1, Math.ceil(chars / 500));
+  }
+  const words = text.trim().split(/\s+/).length;
+  return Math.max(1, Math.ceil(words / 200));
 }
 
 const contentDir = (lang: Locale) =>
@@ -29,7 +39,7 @@ export function getAllPosts(lang: Locale): Post[] {
     .map((filename) => {
       const slug = filename.replace(/\.md$/, '');
       const file = fs.readFileSync(path.join(dir, filename), 'utf-8');
-      const { data } = matter(file);
+      const { data, content } = matter(file);
       return {
         slug,
         title: data.title || slug,
@@ -39,6 +49,7 @@ export function getAllPosts(lang: Locale): Post[] {
         youtube: data.youtube,
         series: data.series,
         content: '',
+        readingTime: calcReadingTime(content, lang),
       };
     })
     .filter((p) => p.date)
@@ -62,6 +73,7 @@ export async function getPost(lang: Locale, slug: string): Promise<Post | null> 
     youtube: data.youtube,
     series: data.series,
     content: result.toString(),
+    readingTime: calcReadingTime(content, lang),
   };
 }
 
