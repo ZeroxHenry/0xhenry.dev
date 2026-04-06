@@ -17,7 +17,7 @@ Not because I'm slow — because the failure mode is *silence*. No error message
 
 This post is everything I learned in that month so nobody else has to repeat it.
 
-![1-month timeline of failures and final success](/images/zed-timeline.svg)
+![The debugging journey — from chaos to a working setup](/images/study/zed/journey-desk.jpg)
 
 ---
 
@@ -54,11 +54,17 @@ The ZED X Mini uses **GMSL2** (Gigabit Multimedia Serial Link), not USB. This me
 
 Here's the critical thing nobody tells you: **not all CSI connectors are the same.**
 
-![Connection topology: adapter path fails, native path works](/images/zed-connection-diagram.svg)
+![The complete signal path: ZED X Mini → GMSL2 Capture Card → Jetson Orin NX](/images/study/zed/signal-path.jpeg)
+
+And here's what the real hardware connection looks like — the GMSL2 capture card sits between the camera and the Jetson board, connected via FFC ribbon cable:
+
+![Real hardware: Jetson Orin NX connected to GMSL2 capture card via FFC ribbon](/images/study/zed/capture-card-real.jpeg)
 
 ---
 
 ## Week 1-2: The Adapter Trap
+
+![The reality of weeks of failed attempts](/images/study/zed/failure-desk.jpg)
 
 My first board was the **Seeed reComputer J4012**. Great board — 15-pin CSI port, compact, well-documented.
 
@@ -91,6 +97,8 @@ I tried:
 **Nothing.**
 
 The problem isn't the pin count. The 15-pin CSI connector on the reComputer routes different signals than what the GMSL2 deserializer expects. An adapter changes the physical shape but **cannot remap the electrical signals**.
+
+![15-pin (wrong) vs 22-pin (correct) CSI connectors — they look similar but route completely different signals](/images/study/zed/csi-connector-comparison.jpeg)
 
 > Think of it like this: you can get a Lightning-to-USB-C adapter, but you can't get a "remap PCIe lanes to I2C" adapter. The protocols are fundamentally different paths on the silicon.
 
@@ -147,11 +155,13 @@ zed-explorer                      # Live camera feed
 
 Depth map, point cloud, everything — first try.
 
+![Working depth map — the rainbow visualization that took 30 days to see](/images/study/zed/depth-success.jpg)
+
 ---
 
 ## The Full Software Stack
 
-![Software architecture from hardware to application](/images/zed-software-stack.svg)
+![Five-layer software architecture from hardware to application](/images/study/zed/stack-visual.jpg)
 
 Each layer **must match**. The version coupling is tight:
 
