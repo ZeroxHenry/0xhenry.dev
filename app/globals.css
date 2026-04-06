@@ -8,6 +8,7 @@
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 ::selection {
@@ -15,10 +16,60 @@ body {
   color: #6c5ce7;
 }
 
-/* Prose */
+/* ── Typography tightening ── */
+h1 { letter-spacing: -0.06em; }
+h2 { letter-spacing: -0.04em; }
+h3 { letter-spacing: -0.03em; }
+
+/* ── Card system: layered shadows + organic hover ── */
+.card-hover {
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.04),
+    0 4px 8px rgba(0, 0, 0, 0.04),
+    0 12px 24px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.card-hover:hover {
+  box-shadow:
+    0 2px 4px rgba(108, 92, 231, 0.06),
+    0 8px 16px rgba(108, 92, 231, 0.08),
+    0 24px 48px rgba(108, 92, 231, 0.06);
+  transform: translateY(-2px) scale(1.01);
+}
+.dark .card-hover {
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.2),
+    0 4px 8px rgba(0, 0, 0, 0.15),
+    0 12px 24px rgba(0, 0, 0, 0.1);
+}
+.dark .card-hover:hover {
+  box-shadow:
+    0 2px 4px rgba(108, 92, 231, 0.1),
+    0 8px 16px rgba(108, 92, 231, 0.12),
+    0 24px 48px rgba(108, 92, 231, 0.08);
+}
+
+/* ── Glassmorphism nav border ── */
+.nav-glass {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.12);
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: blur(20px) saturate(180%);
+  -webkit-backdrop-filter: blur(20px) saturate(180%);
+}
+.dark .nav-glass {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(3, 7, 18, 0.72);
+}
+
+/* ── Dark mode card gradient (Raycast style) ── */
+.dark .card-gradient {
+  background: linear-gradient(145deg, rgba(30, 30, 40, 1), rgba(20, 20, 28, 1));
+}
+
+/* ── Prose ── */
 .prose h2 { @apply text-2xl font-bold mt-10 mb-4 pb-2 border-b border-gray-200 dark:border-gray-800; }
 .prose h3 { @apply text-xl font-semibold mt-8 mb-3 text-[var(--accent)]; }
-.prose p { @apply mb-5 leading-relaxed; }
+.prose p { @apply mb-5 leading-relaxed; line-height: 1.8; }
 .prose a { @apply text-[var(--accent)] underline underline-offset-4 hover:opacity-80 transition-opacity; }
 .prose blockquote { @apply border-l-4 border-[var(--accent)] bg-[var(--accent)]/5 rounded-r-lg px-5 py-3 my-6 text-gray-600 dark:text-gray-400; }
 .prose ul, .prose ol { @apply mb-5 pl-6; }

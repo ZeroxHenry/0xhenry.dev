@@ -52,7 +52,7 @@ export default function Nav({ lang }: { lang: Locale }) {
 
   return (
     <>
-      <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-xl border-b border-gray-200 dark:border-gray-800">
+      <nav className="sticky top-0 z-50 nav-glass">
         <div className="max-w-5xl mx-auto px-5 h-16 flex items-center justify-between">
           <Link href={`/${lang}`} className="text-xl font-extrabold tracking-tight hover:text-[var(--accent)] transition-colors">
             TechBlips

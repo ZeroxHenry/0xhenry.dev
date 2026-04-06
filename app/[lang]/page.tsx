@@ -43,7 +43,7 @@ export default async function Home({ params }: { params: Promise<{ lang: string 
         {posts.length > 0 ? (
           <div className="grid md:grid-cols-2 gap-6">
             {posts.map((post) => (
-              <Link key={post.slug} href={`/${locale}/study/${post.slug}`} className="group block p-6 rounded-2xl border border-gray-200 dark:border-gray-800 hover:border-[var(--accent)] hover:shadow-xl hover:shadow-[var(--accent)]/5 transition-all hover:-translate-y-1">
+              <Link key={post.slug} href={`/${locale}/study/${post.slug}`} className="group block p-6 rounded-2xl border border-gray-200 dark:border-gray-800 dark:card-gradient card-hover hover:border-[var(--accent)]">
                 <h3 className="text-lg font-bold mb-2 group-hover:text-[var(--accent)] transition-colors">{post.title}</h3>
                 {post.description && (
                   <p className="text-sm text-gray-600 dark:text-gray-400 mb-3 line-clamp-2">{post.description}</p>

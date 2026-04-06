@@ -21,7 +21,7 @@ export default async function StudyPage({ params }: { params: Promise<{ lang: st
       {posts.length > 0 ? (
         <div className="space-y-4">
           {posts.map((post) => (
-            <Link key={post.slug} href={`/${locale}/study/${post.slug}`} className="group flex items-start gap-5 p-5 rounded-2xl border border-gray-200 dark:border-gray-800 hover:border-[var(--accent)] hover:shadow-lg hover:shadow-[var(--accent)]/5 transition-all hover:-translate-y-0.5">
+            <Link key={post.slug} href={`/${locale}/study/${post.slug}`} className="group flex items-start gap-5 p-5 rounded-2xl border border-gray-200 dark:border-gray-800 dark:card-gradient card-hover hover:border-[var(--accent)]">
               <div className="flex-1">
                 <h2 className="text-lg font-bold group-hover:text-[var(--accent)] transition-colors">{post.title}</h2>
                 {post.description && (
