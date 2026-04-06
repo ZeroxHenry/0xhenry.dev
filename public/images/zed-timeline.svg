@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="tealG" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f87171"/>
+      <stop offset="60%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#2dd4bf"/>
+    </linearGradient>
+    <linearGradient id="bgG" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="280" rx="16" fill="url(#bgG)"/>
+
+  <text x="400" y="35" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="600" letter-spacing="2">THE 1-MONTH JOURNEY</text>
+
+  <!-- Timeline line -->
+  <line x1="80" y1="100" x2="720" y2="100" stroke="url(#tealG)" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Week 1 -->
+  <circle cx="120" cy="100" r="8" fill="#f87171"/>
+  <text x="120" y="80" text-anchor="middle" fill="#f87171" font-size="11" font-weight="700">Week 1</text>
+  <text x="120" y="130" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="500">reComputer J4012</text>
+  <text x="120" y="148" text-anchor="middle" fill="#64748b" font-size="10">15-pin CSI</text>
+  <text x="120" y="165" text-anchor="middle" fill="#f87171" font-size="10">i2c = empty</text>
+
+  <!-- Week 2 -->
+  <circle cx="300" cy="100" r="8" fill="#f87171"/>
+  <text x="300" y="80" text-anchor="middle" fill="#f87171" font-size="11" font-weight="700">Week 2</text>
+  <text x="300" y="130" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="500">22→15 Adapter</text>
+  <text x="300" y="148" text-anchor="middle" fill="#64748b" font-size="10">Fits physically</text>
+  <text x="300" y="165" text-anchor="middle" fill="#f87171" font-size="10">Still no signal</text>
+
+  <!-- Week 3 -->
+  <circle cx="480" cy="100" r="8" fill="#fbbf24"/>
+  <text x="480" y="80" text-anchor="middle" fill="#fbbf24" font-size="11" font-weight="700">Week 3</text>
+  <text x="480" y="130" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="500">JetPack 6.1 / 6.2.0</text>
+  <text x="480" y="148" text-anchor="middle" fill="#64748b" font-size="10">Flash failures</text>
+  <text x="480" y="165" text-anchor="middle" fill="#fbbf24" font-size="10">Wrong versions</text>
+
+  <!-- Week 4 -->
+  <circle cx="660" cy="100" r="10" fill="#2dd4bf"/>
+  <text x="660" y="78" text-anchor="middle" fill="#2dd4bf" font-size="11" font-weight="700">Week 4</text>
+  <text x="660" y="130" text-anchor="middle" fill="#e2e8f0" font-size="11" font-weight="500">Waveshare + JP 6.2.1</text>
+  <text x="660" y="148" text-anchor="middle" fill="#2dd4bf" font-size="10">22-pin native</text>
+  <text x="660" y="165" text-anchor="middle" fill="#2dd4bf" font-size="10" font-weight="700">IT WORKS</text>
+
+  <!-- Cost section -->
+  <text x="400" y="210" text-anchor="middle" fill="#94a3b8" font-size="11">Total cost of learning:</text>
+  <text x="400" y="235" text-anchor="middle" fill="#e2e8f0" font-size="16" font-weight="700">2 boards + 3 adapters + 4 JetPack flashes + 30 days</text>
+  <text x="400" y="258" text-anchor="middle" fill="#64748b" font-size="11">So you don't have to.</text>
+</svg>

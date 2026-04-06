@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" font-family="system-ui, -apple-system, sans-serif">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="500" height="380" rx="16" fill="url(#bg2)"/>
+
+  <text x="250" y="35" text-anchor="middle" fill="#94a3b8" font-size="13" font-weight="600" letter-spacing="2">SOFTWARE STACK</text>
+
+  <!-- Layer 5: Application -->
+  <rect x="60" y="55" width="380" height="48" rx="8" fill="#0d9488" opacity="0.15" stroke="#0d9488" stroke-width="1"/>
+  <text x="250" y="76" text-anchor="middle" fill="#2dd4bf" font-size="13" font-weight="700">zed-explorer / Your App</text>
+  <text x="250" y="93" text-anchor="middle" fill="#64748b" font-size="10">Depth, Point Cloud, Tracking, Spatial Mapping</text>
+
+  <!-- Arrow -->
+  <text x="250" y="116" text-anchor="middle" fill="#334155" font-size="14">&#9660;</text>
+
+  <!-- Layer 4: ZED SDK -->
+  <rect x="60" y="120" width="380" height="48" rx="8" fill="#0d9488" opacity="0.1" stroke="#0d9488" stroke-width="1"/>
+  <text x="250" y="141" text-anchor="middle" fill="#2dd4bf" font-size="13" font-weight="700">ZED SDK 5.2.1</text>
+  <text x="250" y="158" text-anchor="middle" fill="#64748b" font-size="10">Camera API, Neural Depth, CUDA Acceleration</text>
+
+  <!-- Arrow -->
+  <text x="250" y="181" text-anchor="middle" fill="#334155" font-size="14">&#9660;</text>
+
+  <!-- Layer 3: ZED Link -->
+  <rect x="60" y="185" width="380" height="48" rx="8" fill="#1e40af" opacity="0.15" stroke="#3b82f6" stroke-width="1"/>
+  <text x="250" y="206" text-anchor="middle" fill="#60a5fa" font-size="13" font-weight="700">ZED Link 1.4.0-L4T36.4.0</text>
+  <text x="250" y="223" text-anchor="middle" fill="#64748b" font-size="10">GMSL2 Driver &amp; Deserializer Interface</text>
+
+  <!-- Arrow -->
+  <text x="250" y="246" text-anchor="middle" fill="#334155" font-size="14">&#9660;</text>
+
+  <!-- Layer 2: JetPack -->
+  <rect x="60" y="250" width="380" height="48" rx="8" fill="#7c3aed" opacity="0.12" stroke="#8b5cf6" stroke-width="1"/>
+  <text x="250" y="271" text-anchor="middle" fill="#a78bfa" font-size="13" font-weight="700">JetPack 6.2.1 (L4T 36.4.0)</text>
+  <text x="250" y="288" text-anchor="middle" fill="#64748b" font-size="10">CUDA 12.6, TensorRT, Linux Kernel, I2C Bus</text>
+
+  <!-- Arrow -->
+  <text x="250" y="311" text-anchor="middle" fill="#334155" font-size="14">&#9660;</text>
+
+  <!-- Layer 1: Hardware -->
+  <rect x="60" y="315" width="380" height="48" rx="8" fill="#475569" opacity="0.2" stroke="#64748b" stroke-width="1"/>
+  <text x="250" y="336" text-anchor="middle" fill="#cbd5e1" font-size="13" font-weight="700">Waveshare Orin NX (22-pin CSI)</text>
+  <text x="250" y="353" text-anchor="middle" fill="#64748b" font-size="10">GMSL2 Deserializer &#8594; I2C Bus 9 &#8594; ZED X Mini</text>
+</svg>
