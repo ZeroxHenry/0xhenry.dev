@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
+          lfs: true
 
       - name: Nightly tech research
         uses: anthropics/claude-code-action@v1
@@ -28,8 +28,8 @@ jobs:
             the human owner can review in the morning.
 
             Steps:
-            1. Read content/posts/ to understand what topics are already covered
-            2. Read data/radar/2026-q2.json to know current radar blips
+            1. Read packages/website/content/en/study/ and packages/website/content/ko/study/ to understand what topics are already covered
+            2. Read packages/website/content/radar/blips/ to know current radar blips
             3. Think about what tech news from the last 24-48 hours would be
                interesting for a developer audience (AI tools, cloud updates,
                new frameworks, security incidents, developer productivity)
