@@ -17,9 +17,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
+          lfs: true
 
-      - name: Generate content with Claude Code
+      - name: Generate content with AI
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -38,12 +38,12 @@ jobs:
             - Write like a real person, not an AI. Include specific details, opinions, and occasional humor.
 
             Research a trending AI/dev-tools topic from the last 48 hours.
-            Create a markdown file in content/posts/ with:
-            - Filename: YYYY-MM-DD-slug.md (use today's date)
-            - YAML frontmatter matching existing post format
+            Create a markdown file in packages/website/content/en/study/ with:
+            - Filename: slug.md (kebab-case, no date prefix)
+            - YAML frontmatter: title, date (YYYY-MM-DD), draft: true, tags, description, author: Henry
             - 800-1500 words, SEO-friendly but natural
             - Practical developer angle
-            - Related Articles section linking ONLY to posts that actually exist in content/posts/
+            - Related Articles section linking ONLY to posts that actually exist in packages/website/content/en/study/
 
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v6

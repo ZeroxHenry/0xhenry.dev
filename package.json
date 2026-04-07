@@ -1,36 +1,10 @@
 {
-  "name": "next-tmp",
-  "version": "0.1.0",
+  "name": "0xhenry-monorepo",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "prisma generate && next build",
-    "start": "next start",
-    "lint": "eslint",
-    "postinstall": "prisma generate",
-    "db:push": "prisma db push"
-  },
-  "dependencies": {
-    "@auth/prisma-adapter": "^2.11.1",
-    "@prisma/client": "^6.19.3",
-    "gray-matter": "^4.0.3",
-    "next": "16.2.2",
-    "next-auth": "^5.0.0-beta.30",
-    "react": "19.2.4",
-    "react-dom": "19.2.4",
-    "remark": "^15.0.1",
-    "remark-gfm": "^4.0.1",
-    "remark-html": "^16.0.1"
-  },
-  "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.2.2",
-    "prisma": "^6.19.3",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "dev": "pnpm --filter @0xhenry/website dev",
+    "build": "pnpm --filter @0xhenry/website build",
+    "start": "pnpm --filter @0xhenry/website start",
+    "lint": "pnpm --filter @0xhenry/website lint"
   }
 }

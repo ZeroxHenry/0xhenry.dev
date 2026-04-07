@@ -26,7 +26,7 @@ This site runs a 24/7 AI automation pipeline:
 
 Role division:
 - **Antigravity (Gemini)**: Design polish, content quality, visual improvements, YouTube assets
-- **Claude Code**: Architecture, workflows, data, feature implementation
+- **AI Assistant**: Architecture, workflows, data, feature implementation
 - **Human**: Final approval, merge, business decisions
 
 ---

@@ -15,9 +15,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
+          lfs: true
 
-      - name: Generate content briefs with Claude Code
+      - name: Generate content briefs with AI
         uses: anthropics/claude-code-action@v1
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -29,7 +29,8 @@ jobs:
             - 참고 소스 3개
             - 관련 Tech Radar 블립
 
-            /data/briefs/ 디렉토리에 YYYY-MM-DD-brief.yaml 형식으로 YAML 파일을 저장하고 PR을 만들어.
+            data/briefs/ 디렉토리에 YYYY-MM-DD-brief.yaml 형식으로 YAML 파일을 저장하고 PR을 만들어.
+            (디렉토리가 없으면 생성해.)
 
             YAML 구조 예시:
             ```yaml

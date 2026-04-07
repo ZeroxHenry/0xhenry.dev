@@ -15,7 +15,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: true
+          lfs: true
           fetch-depth: 0
 
       - name: AI Review
@@ -23,25 +23,24 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           prompt: |
-            You are the PR reviewer for 0xhenry.dev (Hugo + PaperMod).
+            You are the PR reviewer for 0xhenry.dev (Next.js + Tailwind CSS monorepo).
+            The website code lives in packages/website/.
             Review this PR and add a comment with your findings.
 
             Check for:
-            1. Hugo build compatibility (frontmatter format, template syntax)
-            2. Content quality (if .md files changed):
+            1. Content quality (if .md files in packages/website/content/ changed):
                - Spelling/grammar issues
                - Missing frontmatter fields (title, date, description, tags)
                - Description over 160 characters
                - AI-generated feel (generic phrases, robotic tone)
-            3. Code quality (if .js/.css/.html changed):
-               - Syntax errors
+            2. Code quality (if .ts/.tsx/.css files changed):
+               - TypeScript errors or type safety issues
                - Mobile responsiveness concerns
                - Accessibility issues
-               - PaperMod theme compatibility
-            4. Data integrity (if .json files changed):
-               - Valid JSON structure
-               - Radar blip schema compliance
-               - data/ and static/data/ sync
+               - Next.js App Router best practices
+            3. Radar blip integrity (if content/radar/blips/ changed):
+               - Valid frontmatter schema (title, date, ring, quadrant, moved, description)
+               - Ring values: Adopt, Trial, Assess, Hold
 
             Format your review as:
 

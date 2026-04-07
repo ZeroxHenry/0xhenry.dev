@@ -4,3 +4,5 @@ dist/
 .DS_Store
 .gstack/
 tsconfig.tsbuildinfo
+.env
+.env.local
