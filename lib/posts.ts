@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import matter from 'gray-matter';
 import { remark } from 'remark';
+import remarkGfm from 'remark-gfm';
 import html from 'remark-html';
 import type { Locale } from './i18n';
 
@@ -62,7 +63,7 @@ export async function getPost(lang: Locale, slug: string): Promise<Post | null> 
 
   const file = fs.readFileSync(filePath, 'utf-8');
   const { data, content } = matter(file);
-  const result = await remark().use(html, { sanitize: false }).process(content);
+  const result = await remark().use(remarkGfm).use(html, { sanitize: false }).process(content);
 
   return {
     slug,
