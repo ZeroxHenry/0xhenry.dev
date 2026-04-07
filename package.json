@@ -1,6 +1,7 @@
 {
   "name": "0xhenry-monorepo",
   "private": true,
+  "packageManager": "pnpm@10.33.0",
   "scripts": {
     "dev": "pnpm --filter @0xhenry/website dev",
     "build": "pnpm --filter @0xhenry/website build",
