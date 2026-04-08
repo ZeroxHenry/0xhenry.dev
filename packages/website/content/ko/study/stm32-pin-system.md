@@ -9,7 +9,7 @@ categories: ["STM32 로봇 보드 개발"]
 ---
 
 ![LQFP-100 핀아웃](/images/study/stm32/lqfp100-pinout.png)
-*STM32H743VITx LQFP-100 핀아웃 다이어그램 — Gemini로 생성 필요*
+*STM32H743VITx LQFP-100 핀아웃 다이어그램*
 
 
 ### 2.1 물리적 핀 vs GPIO 포트
@@ -112,7 +112,7 @@ LQFP-100 패키지에서 물리적 핀 번호와 GPIO 이름의 매핑 (STM32H74
 | 65 | PC8 | TIM8_CH3, SDMMC1_D0 | AF3(TIM8) |
 | 66 | PC9 | TIM8_CH4, SDMMC1_D1 | AF3(TIM8) |
 | 67 | PC10 | USART3_TX, SPI3_SCK | AF7(USART3) |
-| 78 | PC11 | USART3_RX, SPI3_MISO | AF7(USART3) |
+| 79 | PC11 | USART3_RX, SPI3_MISO | AF7(USART3) |
 | 80 | PC12 | SPI3_MOSI, UART5_TX | AF6(SPI3) |
 | 7 | PC13 | RTC_TAMP, WKUP | 범용 GPIO |
 | 82 | PD0 | FDCAN1_RX, FMC_D2 | AF9(FDCAN1) |

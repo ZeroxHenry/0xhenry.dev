@@ -9,7 +9,7 @@ categories: ["STM32 Robot Board Development"]
 ---
 
 ![LQFP-100 Pinout](/images/study/stm32/lqfp100-pinout.png)
-*STM32H743VITx LQFP-100 pinout diagram — needs to be generated with Gemini*
+*STM32H743VITx LQFP-100 pinout diagram*
 
 
 ### 2.1 Physical Pins vs. GPIO Ports
@@ -112,7 +112,7 @@ Mapping between physical pin numbers and GPIO names for the STM32H743VITx (LQFP-
 | 65 | PC8 | TIM8_CH3, SDMMC1_D0 | AF3(TIM8) |
 | 66 | PC9 | TIM8_CH4, SDMMC1_D1 | AF3(TIM8) |
 | 67 | PC10 | USART3_TX, SPI3_SCK | AF7(USART3) |
-| 78 | PC11 | USART3_RX, SPI3_MISO | AF7(USART3) |
+| 79 | PC11 | USART3_RX, SPI3_MISO | AF7(USART3) |
 | 80 | PC12 | SPI3_MOSI, UART5_TX | AF6(SPI3) |
 | 7 | PC13 | RTC_TAMP, WKUP | General-purpose GPIO |
 | 82 | PD0 | FDCAN1_RX, FMC_D2 | AF9(FDCAN1) |

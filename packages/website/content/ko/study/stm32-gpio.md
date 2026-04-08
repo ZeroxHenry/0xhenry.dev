@@ -8,10 +8,8 @@ author: "Henry"
 categories: ["STM32 로봇 보드 개발"]
 ---
 
-## GPIO 설정 상세
-
 ![GPIO 4가지 모드](/images/study/stm32/gpio-modes.png)
-*GPIO Input/Output/AF/Analog 모드 비교 — Gemini로 생성 필요*
+*GPIO Input/Output/AF/Analog 모드 비교*
 
 
 ### 4.1 GPIO 4가지 모드

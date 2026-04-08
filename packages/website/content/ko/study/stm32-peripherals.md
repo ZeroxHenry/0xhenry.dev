@@ -11,7 +11,7 @@ categories: ["STM32 로봇 보드 개발"]
 ## 로봇에 필요한 핵심 페리페럴
 
 ![CAN 버스 토폴로지](/images/study/stm32/can-topology.png)
-*CAN 버스 통신 구조 — Gemini로 생성 필요*
+*CAN 버스 통신 구조*
 
 
 ### 5.1 FDCAN (모터 CAN 통신)
@@ -252,11 +252,11 @@ STM32로 전환 시에도 SPI 통신 유지.
    - Data Size: **8 bit**
    - First Bit: **MSB First**
    - Prescaler: **16** (APB2 120MHz / 16 = 7.5 MHz)
-   - Clock Polarity (CPOL): **Low** (모드 0 또는 8에 맞춤)
-   - Clock Phase (CPHA): **1 Edge** (모드 0) 또는 **2 Edge** (모드 8)
+   - Clock Polarity (CPOL): **Low** (모드 0에 맞춤)
+   - Clock Phase (CPHA): **1 Edge** (모드 0) 또는 **2 Edge** (모드 1)
    - NSS: **Software** (CS를 GPIO로 직접 제어)
 
-> **CPOL/CPHA 모드**: 현재 Teensy의 SPI 모드 8에 맞춰야 한다.
+> **CPOL/CPHA 모드**: Coms MCU의 SPI 설정 (CPOL/CPHA)에 맞춰야 한다.
 > SPI Mode 0 = CPOL:0 CPHA:0, Mode 1 = CPOL:0 CPHA:1,
 > Mode 2 = CPOL:1 CPHA:0, Mode 3 = CPOL:1 CPHA:1
 

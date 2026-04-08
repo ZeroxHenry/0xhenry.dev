@@ -11,7 +11,7 @@ categories: ["STM32 Robot Board Development"]
 ## Robot Board Pin Mapping Strategy
 
 ![Teensy → STM32 Pin Mapping](/images/study/stm32/pin-mapping.png)
-*Pin mapping comparison between Teensy 4.1 and STM32H743 — to be generated with Gemini*
+*Pin mapping comparison between Teensy 4.1 and STM32H743*
 
 
 ### 7.1 Pin Assignment Principles

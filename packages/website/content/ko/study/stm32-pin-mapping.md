@@ -11,7 +11,7 @@ categories: ["STM32 로봇 보드 개발"]
 ## 로봇 보드 핀 매핑 전략
 
 ![Teensy → STM32 핀 매핑](/images/study/stm32/pin-mapping.png)
-*Teensy 4.1에서 STM32H743으로의 핀 매핑 비교도 — Gemini로 생성 필요*
+*Teensy 4.1에서 STM32H743으로의 핀 매핑 비교도*
 
 
 ### 7.1 핀 배치 원칙
