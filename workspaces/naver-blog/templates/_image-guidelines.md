@@ -54,8 +54,40 @@
 - 파일명: `{post-id}-{순번}.jpg` (예: `rag-explained-1.jpg`)
 - 메타데이터: 포스트 .md frontmatter의 images 배열에 기록
 
+## 이미지 조달 방식 (비용 0원)
+
+### 1. Unsplash/Pexels 직접 다운로드 (Claude가 Chrome으로)
+- 사이트 접속 → 검색 → 다운로드 버튼 클릭
+- API 키 불필요, 계정 불필요
+- 일반 배경/개념 이미지에 적합
+
+### 2. Gemini AI 이미지 생성 (사용자가 직접)
+- Claude가 한국어 Gemini 프롬프트 작성
+- 사용자가 Gemini 무료 티어로 생성
+- generated/images/YYYY-MM/ 에 저장
+- 커스텀 도식, 개념 설명 이미지에 적합
+
+### 3. 스크린샷 (Claude가 Chrome으로)
+- 서비스/도구 리뷰 시 해당 사이트 캡처
+- chrome 자동화로 직접 촬영
+
+### 포스트 작성 시 이미지 명세서 포함
+각 포스트 .md 파일에 필요한 이미지 명세:
+```
+images_needed:
+  - position: "도입부 아래"
+    description: "AI가 문서를 검색하는 모습 일러스트"
+    source: "gemini"  # unsplash | gemini | screenshot
+    prompt: "AI 로봇이 책장에서 책을 꺼내는 미니멀한 일러스트, 파란색 톤, 16:9"
+  - position: "핵심 내용 1 아래"
+    description: "RAG 아키텍처 다이어그램"
+    source: "gemini"
+    prompt: "RAG 시스템 플로우차트, 검색→생성 과정, 깔끔한 인포그래픽 스타일"
+```
+
 ## 저작권 / 크레딧
 - Unsplash: 크레딧 불필요 (권장사항일 뿐)
 - Pexels: 크레딧 불필요
+- Gemini 생성: 저작권 문제 없음 (본인 생성)
 - 절대 사용 금지: Google 이미지 검색에서 가져온 이미지
 - 공식 발표 이미지: 출처 명시 필요 (예: "출처: OpenAI 공식 블로그")
