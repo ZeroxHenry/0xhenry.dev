@@ -103,7 +103,7 @@ export default function Nav({ lang }: { lang: Locale }) {
                 <path d="m21 21-4.35-4.35" />
               </svg>
               <kbd className="hidden sm:inline-flex text-[10px] font-mono text-gray-400 bg-gray-100 dark:bg-gray-800 px-1.5 py-0.5 rounded">
-                {typeof navigator !== 'undefined' && /Mac/.test(navigator.userAgent) ? '\u2318K' : 'Ctrl+K'}
+                \u2318K
               </kbd>
             </button>
 
@@ -149,7 +149,7 @@ export default function Nav({ lang }: { lang: Locale }) {
                 href={`/${lang}/login`}
                 className="text-sm font-medium text-gray-600 dark:text-gray-400 hover:text-[var(--accent)] transition-colors"
               >
-                {lang === 'ko' ? '로그인' : 'Sign In'}
+                {lang === 'ko' ? '\ub85c\uadf8\uc778' : 'Sign In'}
               </Link>
             )}
 
