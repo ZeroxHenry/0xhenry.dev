@@ -1,10 +1,25 @@
 {
   "stats": {
-    "total_generated": 0,
+    "total_generated": 1,
     "total_published": 0,
     "adpost_target": 50,
     "blog_url": "https://blog.naver.com/0xhenry",
-    "last_session": null
+    "last_session": "2026-04-08"
   },
-  "posts": []
+  "posts": [
+    {
+      "id": "2026-04-08-rag-explained",
+      "title": "RAG란? AI가 검색해서 답하는 기술 (쉽게 설명)",
+      "category": "AI 용어 사전",
+      "status": "draft",
+      "generated_at": "2026-04-08T20:00:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": ["AI용어", "RAG", "인공지능", "AI기초", "검색증강생성", "LLM", "ChatGPT", "AI검색"],
+      "char_count": 1950,
+      "image_count": 3,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-08-rag-explained.md"
+    }
+  ]
 }
