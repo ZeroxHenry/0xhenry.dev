@@ -42,6 +42,7 @@ The STM32H743VITx is a high-performance microcontroller built around the ARM Cor
 | **Package** | LQFP-100 | 100-pin, 14x14mm |
 | **Flash** | 2 MB | Dual-bank |
 | **Total RAM** | 1 MB | See breakdown below |
+| **ITCM** | 64 KB | Instruction-only (0 wait state) |
 | **DTCM** | 128 KB | Fastest RAM (0 wait-state) |
 | **AXI SRAM** | 512 KB | General-purpose, large capacity |
 | **SRAM1** | 128 KB | D2 domain |

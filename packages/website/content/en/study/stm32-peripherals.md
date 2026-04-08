@@ -11,7 +11,7 @@ categories: ["STM32 Robot Board Development"]
 ## Essential Peripherals for Robotics
 
 ![CAN Bus Topology](/images/study/stm32/can-topology.png)
-*CAN bus communication topology — needs Gemini generation*
+*CAN bus communication topology*
 
 
 ### 5.1 FDCAN (Motor CAN Communication)
@@ -251,11 +251,11 @@ This SPI link is preserved when migrating to STM32.
    - Data Size: **8 bit**
    - First Bit: **MSB First**
    - Prescaler: **16** (APB2 120 MHz / 16 = 7.5 MHz)
-   - Clock Polarity (CPOL): **Low** (match Mode 0 or Mode 8)
-   - Clock Phase (CPHA): **1 Edge** (Mode 0) or **2 Edge** (Mode 8)
+   - Clock Polarity (CPOL): **Low** (match the Coms MCU's SPI configuration (CPOL/CPHA))
+   - Clock Phase (CPHA): **1 Edge** (Mode 0) or **2 Edge** (Mode 3)
    - NSS: **Software** (CS controlled directly via GPIO)
 
-> **CPOL/CPHA modes**: Must match the current Teensy's SPI Mode 8.
+> **CPOL/CPHA modes**: Must match the Coms MCU's SPI configuration (CPOL/CPHA).
 > SPI Mode 0 = CPOL:0 CPHA:0, Mode 1 = CPOL:0 CPHA:1,
 > Mode 2 = CPOL:1 CPHA:0, Mode 3 = CPOL:1 CPHA:1
 

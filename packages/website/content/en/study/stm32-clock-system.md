@@ -8,10 +8,8 @@ author: "Henry"
 categories: ["STM32 Robot Board Development"]
 ---
 
-## Clock System
-
 ![Clock Tree](/images/study/stm32/clock-tree.png)
-*HSE → PLL → SYSCLK clock tree — to be generated with Gemini*
+*HSE → PLL → SYSCLK clock tree*
 
 
 ### 3.1 Clock Sources

@@ -11,8 +11,7 @@ categories: ["STM32 Robot Board Development"]
 ## Board Bringup
 
 ![Board Bringup Process](/images/study/stm32/bringup-flow.png)
-*Board bringup 9-step flowchart — to be generated with Gemini*
- (Board Bring-up) Process
+*Board bringup 9-step flowchart*
 
 After building the board, this is the process of testing each peripheral one by one to verify correct operation.
 **Never test everything at once** — if something breaks, you won't be able to find the cause.
@@ -205,7 +204,7 @@ After all individual tests pass, run everything simultaneously:
 
 ```c
 /* 500Hz control loop (using TIM6 interrupt) */
-// CubeMX: TIM6, Prescaler=239, Period=999 → 240MHz/(240*1000) = 1kHz
+// CubeMX: TIM6, Prescaler=239, Period=1999 → 240MHz/(240*2000) = 500Hz
 // Use a 500Hz counter in the interrupt
 
 volatile uint8_t control_loop_flag = 0;
@@ -309,7 +308,7 @@ while (1)
 
 ---
 
-> **Last updated**: 2026-04-05
+> **Last updated**: 2026-04-06
 > **Target chip**: STM32H743VITx (LQFP-100)
 > **Project**: AR_Walker (walking assist robot exoskeleton)
 

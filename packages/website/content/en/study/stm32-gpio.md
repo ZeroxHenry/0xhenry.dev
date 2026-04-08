@@ -8,10 +8,8 @@ author: "Henry"
 categories: ["STM32 Robot Board Development"]
 ---
 
-## GPIO Configuration Details
-
 ![GPIO 4 Modes](/images/study/stm32/gpio-modes.png)
-*GPIO Input/Output/AF/Analog mode comparison — to be generated with Gemini*
+*GPIO Input/Output/AF/Analog mode comparison*
 
 
 ### 4.1 The Four GPIO Modes
