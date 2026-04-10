@@ -134,43 +134,18 @@ content/radar/blips/[slug].md
 
 ---
 
-## 6. GitHub Actions → Gemma 4.0 전환 가이드
+## 6. GitHub Actions 전환 가이드
 
 현재 모든 워크플로우가 `anthropics/claude-code-action@v1`을 사용.
-Gemma 4.0으로 전환하려면:
+Gemma 4.0이 Antigravity를 통해 웹 + GitHub 접근 가능하므로, 대부분 로컬 Gemma 세션에서 직접 대체 가능.
 
-### 방법 A: Ollama API 직접 호출 (권장)
-```yaml
-# .github/workflows/auto-content.yml 예시 변경
-- name: Generate content with local AI
-  run: |
-    curl -s http://localhost:11434/v1/chat/completions \
-      -H "Content-Type: application/json" \
-      -d '{
-        "model": "gemma4:e4b",
-        "messages": [{"role": "user", "content": "...프롬프트..."}],
-        "temperature": 0.1,
-        "max_tokens": 4096
-      }'
-```
-**주의**: GitHub Actions 러너에서 localhost Ollama에 접근 불가.
-→ Self-hosted runner 필요 또는 외부 Ollama 서버 설정 필요.
+### 전환 전략: Gemma 4.0 Antigravity 세션에서 직접 실행
 
-### 방법 B: 로컬 cron 스크립트로 대체 (현실적)
-```bash
-# 로컬 Mac에서 cron으로 실행
-# scripts/local-auto-content.sh
-#!/bin/bash
-cd /Users/chobyeongjun/0xhenry.dev
-ollama run gemma4:e4b < scripts/content-prompt.txt > generated-post.md
-git add . && git commit -m "글 추가" && git push
+GitHub Actions의 역할을 Gemma 4.0 로컬 세션이 대체:
 ```
-
-### 방법 C: 수동 실행 (가장 단순)
-```
-1. 로컬에서 Gemma 4.0 세션 시작
-2. 글 작성 프롬프트 입력
-3. 결과를 content/에 저장
+1. 웹 검색으로 뉴스/트렌드 수집 (nightly-research 대체)
+2. 글 작성 (auto-content 대체)
+3. 기존 글 리뷰 (pr-auto-review 부분 대체)
 4. git commit + push → Vercel 자동 배포
 ```
 
@@ -178,24 +153,29 @@ git add . && git commit -m "글 추가" && git push
 
 | 워크플로우 | 전환 방법 | 우선순위 |
 |---|---|---|
-| auto-content.yml | 방법 C (수동) | 높음 |
-| nightly-research.yml | 방법 B (로컬 cron) 또는 폐지 | 낮음 |
-| content-brief.yml | 방법 B (로컬 cron) 또는 폐지 | 낮음 |
-| daily-briefing.yml | 유지 (Claude API) 또는 폐지 | 낮음 |
-| pr-auto-review.yml | 유지 (Claude API) | 중간 |
-| radar-update.yml | 방법 C (수동, 분기별) | 낮음 |
+| auto-content.yml | Gemma 세션에서 직접 글 작성 + push | 높음 |
+| nightly-research.yml | Gemma 세션에서 웹 검색 + research YAML 생성 | 중간 |
+| content-brief.yml | Gemma 세션에서 주간 브리프 생성 | 중간 |
+| daily-briefing.yml | Gemma 세션에서 git log 기반 브리핑 생성 | 낮음 |
+| pr-auto-review.yml | 유지 (Claude API) 또는 Gemma로 PR diff 리뷰 | 낮음 |
+| radar-update.yml | Gemma 세션에서 분기별 웹 리서치 + blip 업데이트 | 낮음 |
+
+### 기존 GitHub Actions 처리
+- 즉시 비활성화할 필요 없음 — 병행 운영 가능
+- Gemma 세션으로 충분히 대체되면 하나씩 disable
+- `pr-auto-review.yml`은 Claude API 유지가 가장 효율적 (PR 이벤트 트리거)
 
 ---
 
 ## 7. Gemma 4.0 전용 워크플로우
 
-### 제약 사항
-| Claude Code에서 가능했던 것 | Gemma 4.0 대안 |
+### 환경 (Antigravity 연동)
+| 기능 | 상태 |
 |---|---|
-| WebSearch로 트렌드 리서치 | 사용자가 주제/소스 제공 |
-| GitHub Actions 자동 실행 | 로컬 수동 실행 |
-| 자동 PR 생성 | 수동 git commit + push |
-| 긴 출력 (수천 토큰) | 4096 토큰 제한, 분할 작성 |
+| 웹 검색 (트렌드 리서치) | 가능 |
+| GitHub (commit/push/PR) | 가능 |
+| 파일 읽기/쓰기 | 가능 |
+| 최대 출력 | 4096 토큰 — EN/KO 별도 세션 권장 |
 
 ### 세션 시작 루틴
 ```
@@ -207,18 +187,18 @@ git add . && git commit -m "글 추가" && git push
 
 ### 포스트 작성 프로세스
 ```
-1. 주제 결정 (사용자 제공 또는 research YAML 참고)
+1. 주제 결정 (웹 검색으로 트렌드 파악 또는 research YAML 참고)
 2. 기존 관련 포스트 읽기 (스타일 참조)
 3. EN 포스트 작성 → content/en/study/[slug].md
 4. KO 포스트 작성 → content/ko/study/[slug].md
 5. 이미지가 필요하면 public/images/study/[topic]/ 에 명세
-6. git add + commit + push
-7. Vercel이 자동 배포
+6. git add + commit + push (GitHub 접근 가능)
+7. Vercel이 main push 감지 → 자동 배포
 ```
 
 ### 4096 토큰 제한 대응
 800-1500 단어 포스트는 약 1000-2000 토큰. EN + KO 합치면 최대 4000 토큰.
-→ **EN과 KO를 별도 세션에서 작성 권장**
+→ **EN과 KO를 별도 턴에서 작성 권장**
 
 ---
 

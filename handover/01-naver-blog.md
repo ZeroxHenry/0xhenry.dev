@@ -111,13 +111,14 @@ workspaces/naver-blog/
 
 ## 6. Gemma 4.0 전용 워크플로우
 
-### 제약 사항
-| Claude Code에서 가능했던 것 | Gemma 4.0 대안 |
+### 환경 (Antigravity 연동)
+| 기능 | 상태 |
 |---|---|
-| WebSearch로 실시간 뉴스 검색 | 사용자가 뉴스 URL/내용을 직접 제공 |
-| claude-in-chrome으로 네이버 발행 | 사용자가 수동 발행 (글 복붙) |
-| GitHub Actions (anthropic API) | Ollama API로 교체 또는 수동 |
-| 4096+ 토큰 출력 | 2000자 글 = 약 3000 토큰, 충분 |
+| 웹 검색 (뉴스 수집) | 가능 — Antigravity 웹 접근으로 실시간 뉴스 검색 |
+| GitHub (commit/push) | 가능 — git 명령어 직접 실행 |
+| 파일 읽기/쓰기 | 가능 |
+| 네이버 블로그 발행 | 불가 — 브라우저 자동화 없음, 사용자 수동 발행 필요 |
+| 최대 출력 | 4096 토큰 — 2000자 글은 약 3000 토큰이므로 충분 |
 
 ### 세션 시작 루틴
 ```
@@ -129,13 +130,13 @@ workspaces/naver-blog/
 
 ### 글 생성 프로세스
 ```
-1. topic-backlog.md에서 미완료 주제 선택
+1. topic-backlog.md에서 미완료 주제 선택 (또는 웹 검색으로 뉴스 주제 확보)
 2. 해당 카테고리 템플릿 로드
 3. 템플릿 구조대로 글 작성
 4. generated/YYYY-MM/YYYY-MM-DD-{slug}.md 로 저장
 5. index.json에 새 항목 추가 (status: "draft")
 6. topic-backlog.md에 체크표시 + 날짜
-7. git add + commit + push
+7. git add + commit + push (GitHub 접근 가능)
 ```
 
 ### index.json 항목 형식
@@ -156,37 +157,35 @@ workspaces/naver-blog/
 }
 ```
 
-### 발행 프로세스 (사용자 수동)
-Gemma 4.0은 브라우저 제어가 불가하므로:
-1. Gemma가 글 생성 → status를 "ready"로 변경
+### 발행 프로세스
+브라우저 자동화는 불가하므로 발행만 사용자 수동:
+1. Gemma가 글 생성 → status를 "ready"로 변경 → git commit + push
 2. 사용자가 generated/ 에서 파일 열기
 3. 네이버 블로그 글쓰기에 복붙
-4. 발행 후 사용자가 index.json의 status를 "published"로, naver_url 업데이트
+4. 발행 후 Gemma에게 "발행 완료, URL은 [URL]" 전달
+5. Gemma가 index.json의 status를 "published"로, naver_url 업데이트 → commit + push
 
 ---
 
-## 7. 뉴스 수집 대안
+## 7. 뉴스 수집 워크플로우
 
-Gemma 4.0은 인터넷 접속이 안 되므로 뉴스 기반 글 작성 시:
+Antigravity 웹 접근으로 실시간 뉴스 검색 가능.
 
-### 방법 A: 사용자가 뉴스 피드 제공
+### 뉴스 기반 글 작성 프로세스
 ```
-사용자 → "오늘 뉴스: [URL 또는 기사 내용 붙여넣기]"
-Gemma → 기사 내용 기반으로 블로그 글 작성
+1. research/news-sources.md의 Tier 1-2 소스 웹 검색
+2. 가장 임팩트 있는 소식 1-2개 선택
+3. index.json과 중복 체크
+4. 한국 독자 관점에서 관심도 높은 주제 우선
+5. 해당 카테고리 템플릿으로 글 작성
 ```
 
-### 방법 B: 용어사전/활용법 우선 작성
-뉴스 불필요한 카테고리를 먼저 소화:
+### 용어사전/활용법 병행 전략
+뉴스와 무관하게 작성 가능한 카테고리도 병행:
 - AI 용어 사전 8편 남음 (LLM, 파인튜닝, 프롬프트 엔지니어링 등)
 - AI 활용법 10편 대기
 - Evergreen 5편 대기
-→ 이것만으로도 23편. 뉴스 없이 절반 가까이 채울 수 있음.
-
-### 방법 C: RSS 피드를 로컬 파일로
-```bash
-# cron으로 매일 뉴스 요약을 로컬 파일에 저장하는 스크립트 구축 가능
-# research/daily-feed/YYYY-MM-DD.txt
-```
+→ 이것만으로도 23편. 뉴스 글과 병행하면 50편 목표 빠르게 달성 가능.
 
 ---
 
