@@ -53,7 +53,7 @@ export function getAllPosts(lang: Locale): Post[] {
         readingTime: calcReadingTime(content, lang),
       };
     })
-    .filter((p) => p.date)
+    .filter((p) => p.date && p.date <= new Date().toISOString().split('T')[0])
     .sort((a, b) => b.date.localeCompare(a.date));
 }
 
@@ -65,10 +65,15 @@ export async function getPost(lang: Locale, slug: string): Promise<Post | null> 
   const { data, content } = matter(file);
   const result = await remark().use(remarkGfm).use(html, { sanitize: false }).process(content);
 
+  const postDate = data.date ? new Date(data.date).toISOString().split('T')[0] : '';
+  const today = new Date().toISOString().split('T')[0];
+  
+  if (postDate > today) return null;
+
   return {
     slug,
     title: data.title || slug,
-    date: data.date ? new Date(data.date).toISOString().split('T')[0] : '',
+    date: postDate,
     description: data.description,
     tags: data.tags,
     youtube: data.youtube,

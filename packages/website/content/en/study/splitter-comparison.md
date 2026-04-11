@@ -1,6 +1,6 @@
 ---
 title: "Recursive Splitter vs. Token Splitter: Which One Should You Use?"
-date: 2026-04-12
+date: 2026-04-13
 draft: false
 tags: ["Chunking", "LangChain", "NLP", "Tokens"]
 description: "A practical comparison between character-based splitting and token-based splitting for RAG systems."

@@ -1,6 +1,6 @@
 ---
 title: "Semantic Chunking: Let the AI Decide Where to Split"
-date: 2026-04-12
+date: 2026-04-14
 draft: false
 tags: ["Semantic-Chunking", "Embeddings", "RAG", "Optimization"]
 description: "Going beyond mechanical splitting: How semantic chunking uses AI to ensure your data slices are conceptually perfect."
