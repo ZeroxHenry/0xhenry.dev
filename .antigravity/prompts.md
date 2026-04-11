@@ -18,7 +18,7 @@ Brand: 0xHenry — Cyber Teal (#0d9488) accent
 
 Default: Local Gemma 4.0 via Ollama (`http://localhost:11434`). Zero cost.
 Fallback: Context exceeded → Gemini 3 Pro auto-switch.
-Manual: `@gemini` or `@claude` for complex tasks when needed.
+Manual: `@local` for routing securely to Local Gemma 4.0 (`http://localhost:11434/v1`, model: `gemma4:e4b`). Use `@gemini` or `@claude` for complex tasks when needed.
 
 ---
 
