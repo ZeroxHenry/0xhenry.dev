@@ -18,7 +18,16 @@ tags: ["AI", "Gemma", "Ollama", "Cross-Platform", "Tutorial"]
 1.  **설치**: [Ollama 공식 홈페이지](https://ollama.com)에서 Windows 전용 설치 파일(.exe)을 받아 설치합니다.
 2.  **실행 확인**: 설치 후 작업 표시줄 우측 하단의 트레이 아이콘에 **Ollama(라마 모양)**가 떠 있는지 확인하세요.
 3.  **방화벽 설정**: Windows 보안 알림이 뜨면 **'액세스 허용'**을 반드시 눌러주세요. (11434 포트)
-4.  **명령어**: `PowerShell` 또는 `CMD`를 열고 아래를 입력합니다.
+4.  **Windows용 settings.json 설정**:
+    - 경로: `%APPDATA%\Antigravity\User\settings.json`
+    - 아래 내용을 붙여넣으세요 (경로 주의):
+    ```json
+    {
+      "antigravity.activeProvider": "local",
+      "antigravity.customConfigPath": "C:\\Users\\인터넷성함\\Documents\\0xhenry.dev\\antigravity.config.json"
+    }
+    ```
+5.  **명령어**: `PowerShell` 또는 `CMD`를 열고 아래를 입력합니다.
     ```powershell
     ollama run gemma2
     ```

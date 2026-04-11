@@ -12,8 +12,8 @@
   },
   "defaultModel": "local",
   "fallback": {
-    "enabled": true,
-    "model": "claude-opus-4-6",
-    "trigger": "context_exceeded"
+    "enabled": false,
+    "model": "local",
+    "trigger": "never"
   }
 }
