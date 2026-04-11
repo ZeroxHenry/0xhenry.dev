@@ -1,6 +1,6 @@
 ---
 title: "청킹(Chunking) 전략: RAG의 성능을 결정짓는 데이터 분할의 기술"
-date: 2026-04-13
+date: 2026-04-11
 draft: false
 tags: ["청킹", "RAG", "데이터전처리", "LangChain"]
 description: "RAG 시스템의 검색 정확도를 높이기 위해 문서를 어떻게 적절히 나누어야 하는지 상세히 설명합니다."

@@ -1,6 +1,6 @@
 ---
 title: "Chunking Strategies: Why Slicing Data Matters for RAG"
-date: 2026-04-13
+date: 2026-04-11
 draft: false
 tags: ["Chunking", "RAG", "Data-Preprocessing", "LangChain"]
 description: "How to properly segment your documents to improve the retrieval accuracy of your RAG system."

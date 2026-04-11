@@ -1,6 +1,6 @@
 ---
 title: "Recursive Splitter vs. Token Splitter: 나에게 맞는 도구는?"
-date: 2026-04-13
+date: 2026-04-11
 draft: false
 tags: ["청킹", "LangChain", "NLP", "토큰"]
 description: "RAG 시스템에서 글자 수 기반 분할과 토큰 기반 분할 중 어떤 방식을 선택해야 하는지 상세히 비교합니다."

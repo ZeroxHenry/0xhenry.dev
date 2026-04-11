@@ -1,6 +1,6 @@
 ---
 title: "의미론적 청킹(Semantic Chunking): AI가 직접 어디서 자를지 결정하는 법"
-date: 2026-04-14
+date: 2026-04-11
 draft: false
 tags: ["의미론적청킹", "임베딩", "RAG", "최적화"]
 description: "기계적인 분할을 넘어, AI가 문맥을 파악해 개념적으로 완벽한 조각을 만드는 의미론적 청킹에 대해 알아봅니다."

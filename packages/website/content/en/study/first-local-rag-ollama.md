@@ -1,6 +1,6 @@
 ---
 title: "Building Your First Local RAG with Python & Ollama"
-date: 2026-04-12
+date: 2026-04-11
 draft: false
 tags: ["Python", "Ollama", "ChromaDB", "Tutorial"]
 description: "A practical step-by-step guide to setting up a fully local RAG system on your machine using Python and Ollama."

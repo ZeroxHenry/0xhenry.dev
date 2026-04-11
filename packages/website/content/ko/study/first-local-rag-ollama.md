@@ -1,6 +1,6 @@
 ---
 title: "Ollama와 Python으로 구축하는 생애 첫 로컬 RAG"
-date: 2026-04-12
+date: 2026-04-11
 draft: false
 tags: ["Python", "Ollama", "ChromaDB", "튜토리얼"]
 description: "Python과 Ollama를 사용하여 자신의 컴퓨터에서 완전히 작동하는 로컬 RAG 시스템을 구축하는 단계별 가이드입니다."

@@ -1,6 +1,6 @@
 ---
 title: "Understanding Vector Embeddings: The Math of Meaning"
-date: 2026-04-12
+date: 2026-04-11
 draft: false
 tags: ["Embeddings", "NLP", "Machine-Learning", "RAG"]
 description: "A conceptual guide to how computers represent human language as numbers and how they find similarities."
