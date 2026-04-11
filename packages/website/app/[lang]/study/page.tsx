@@ -13,8 +13,8 @@ export default async function StudyPage({ params }: { params: Promise<{ lang: st
   const labels = t[locale];
   const posts = getAllPosts(locale);
 
-  const hwPosts = posts.filter((p) => p.category === 'hw');
-  const otherPosts = posts.filter((p) => p.category !== 'hw');
+  const hwPosts = posts.filter((p) => p.category?.startsWith('hw'));
+  const otherPosts = posts.filter((p) => !p.category?.startsWith('hw'));
 
   const renderPost = (post: Post) => (
     <Link 
@@ -24,7 +24,7 @@ export default async function StudyPage({ params }: { params: Promise<{ lang: st
     >
       <div className="flex-1">
         <div className="flex items-center gap-2 mb-1">
-          {post.category === 'hw' && (
+          {post.category?.startsWith('hw') && (
             <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-indigo-500/10 text-indigo-500 uppercase tracking-tight">HW</span>
           )}
           <h2 className="text-lg font-bold group-hover:text-[var(--accent)] transition-colors line-clamp-1">{post.title}</h2>
