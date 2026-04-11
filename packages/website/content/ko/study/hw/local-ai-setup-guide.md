@@ -36,8 +36,21 @@ tags: ["AI", "Gemma", "Ollama", "Cross-Platform", "Tutorial"]
 
 5. **최종 확인**: `PowerShell` 또는 `CMD`(명령 프롬프트)를 열고 아래를 입력하여 모델을 내려받습니다.
 
+      "antigravity.customConfigPath": "C:\\Users\\사용자이름\\Documents\\0xhenry.dev\\antigravity.config.json",
+      "models": {
+        "local": {
+          "provider": "openai-compatible",
+          "baseUrl": "http://127.0.0.1:11434/v1",
+          "model": "gemma2",
+          "apiKey": "ollama"
+        }
+      }
+    }
+    ```
+
+5. **최종 확인**: `PowerShell` 또는 `CMD`(명령 프롬프트)에서 모델을 설치합니다.
     ```powershell
-    ollama run gemma2
+    ollama pull gemma2
     ```
 
 ### 🍎 Mac (개발자들의 선호 환경)
@@ -48,7 +61,7 @@ tags: ["AI", "Gemma", "Ollama", "Cross-Platform", "Tutorial"]
 3. **명령어**: `Terminal`을 열고 아래를 입력하세요.
 
     ```zsh
-    ollama run gemma2
+    ollama pull gemma2
     ```
 
 ### 🐧 Linux (서버 및 고성능 환경)
@@ -65,26 +78,33 @@ tags: ["AI", "Gemma", "Ollama", "Cross-Platform", "Tutorial"]
 3. **명령어**:
 
     ```bash
-    ollama run gemma2
+    ollama pull gemma2
     ```
 
 ---
 
-## 2. 공통 핵심: 기본(Default) 모델 설정
+## 2. 공통 핵심: 기본(Default) 모델 설정 (`antigravity.config.json`)
 
-매번 `@local` 태그를 쓰기 번거롭다면, 다음 설정 파일을 수정하여 로컬 AI를 기본 답변자로 지정하세요.
+매번 `@local` 태그를 쓰기 번거롭다면, 프로젝트 루트에 있는 **`antigravity.config.json`** 파일을 앱 사양에 맞춰 정확히 수정해야 합니다. (오타 하나라도 있으면 작동하지 않습니다.)
 
-### Antigravity 설정 (`antigravity.config.json`)
-
+### ✅ 검증된 설정 형식
 ```json
 {
-  "active_provider": "local",
-  "providers": {
+  "models": {
     "local": {
-      "type": "ollama",
-      "endpoint": "http://localhost:11434",
-      "model": "gemma2"
+      "provider": "openai-compatible",
+      "baseUrl": "http://localhost:11434/v1",
+      "model": "gemma2",
+      "apiKey": "ollama",
+      "temperature": 0.1,
+      "contextWindow": 128000
     }
+  },
+  "defaultModel": "local",
+  "fallback": {
+    "enabled": false,
+    "model": "local",
+    "trigger": "never"
   }
 }
 ```
@@ -93,22 +113,16 @@ tags: ["AI", "Gemma", "Ollama", "Cross-Platform", "Tutorial"]
 
 ## 3. 플랫폼별 트러블슈팅 (Q&A)
 
+> **Q. 연결 에러 (Connection Error)가 발생해요!**
+> - **A**: `baseUrl`에 `http://`가 포함되어 있는지, 그리고 끝에 `/v1`이 붙어 있는지 확인하세요. 또한 Ollama 웹사이트에서 최신 버전으로 업데이트했는지 확인이 필요합니다.
+
 > **Q. Windows에서 AI가 너무 느려요!**
->
-> - **A**: 그래픽카드(NVIDIA) 드라이버를 최신으로 업데이트하세요. Ollama는 CUDA를 통해 연산 속도를 획기적으로 높입니다.
-
-> **Q. Mac에서 '확인된 개발자가 아니어서 열 수 없습니다'라고 떠요.**
->
-> - **A**: `설정 > 개인정보 보호 및 보안`에서 '확인 없이 열기'를 클릭해 주세요.
-
-> **Q. Linux에서 포트 충돌이 발생합니다.**
->
-> - **A**: `OLLAMA_HOST` 환경 변수를 사용하여 포트를 변경할 수 있습니다. (기본값 11434)
+> - **A**: 그래픽카드(NVIDIA) 드라이브를 최신으로 업데이트하세요. 속도가 비약적으로 향상됩니다. 만약 내장 그래픽을 사용 중이라면 `gemma2:2b` 같이 가벼운 모델을 권장합니다.
 
 ---
 
 ## 마무리하며
 
-이제 어떤 OS를 사용하시든 프라이빗한 로컬 AI 환경을 구축하실 수 있습니다. 로컬 AI는 단순히 편리함을 넘어 보안과 자유를 제공합니다. 오늘 바로 여러분의 터미널에서 최신 모델을 깨워보세요!
+이제 수정된 가이드를 통해 실제 작동하는 환경을 구축하실 수 있을 것입니다. 플랫폼별 미묘한 설정 차이를 완벽히 반영했으니, 지금 바로 자신의 PC에서 프라이빗한 개발 환경을 만끽해 보세요!
 
 **Henry — Robot Education Founder**
