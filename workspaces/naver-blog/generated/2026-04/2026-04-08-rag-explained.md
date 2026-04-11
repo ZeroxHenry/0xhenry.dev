@@ -3,7 +3,7 @@ id: 2026-04-08-rag-explained
 title: "RAG란? AI가 검색해서 답하는 기술 (쉽게 설명)"
 category: AI 용어 사전
 tags: [AI용어, RAG, 인공지능, AI기초, 검색증강생성, LLM, ChatGPT, AI검색]
-status: draft
+status: ready
 char_count: 1950
 images_needed:
   - position: "도입부 아래"
