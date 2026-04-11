@@ -1,0 +1,39 @@
+{
+  "workbench.editor.untitled.hint": "hidden",
+  "cmake.configureOnOpen": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "models": {
+    "local": {
+      "provider": "openai-compatible",
+      "baseUrl": "http://127.0.0.1:11434/v1",
+      "model": "gemma4:e4b",
+      "apiKey": "ollama"
+    }
+  },
+  "code-runner.runInTerminal": true,
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 9,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 2,
+  "typescript.locale": "en",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "git.ignoreRebaseWarning": true,
+  "git.allowForcePush": true,
+  "C_Cpp.default.compilerPath": "/usr/bin/clang++",
+  "workbench.colorTheme": "Tokyo Night",
+  "RainbowBrackets.depreciation-notice": false,
+  "cmake.showOptionsMovedNotification": false,
+  "vsintellicode.python.completionsEnabled": false,
+  "vim.useCtrlKeys": false,
+  "git.openRepositoryInParentFolders": "always",
+  "json.schemaDownload.enable": true,
+  "claudeCode.preferredLocation": "panel",
+  "python.languageServer": "Default",
+  "gitlens.ai.modelOptions.temperature": 0.2,
+  "gitlens.ai.vscode.model": "",
+  "antigravity.activeProvider": "local",
+  "antigravity.customConfigPath": "/Users/chobyeongjun/0xhenry.dev/antigravity.config.json"
+}
