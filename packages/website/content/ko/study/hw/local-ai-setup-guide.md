@@ -30,7 +30,6 @@ tags: ["AI", "Gemma-4.0", "Ollama", "Cross-Platform", "Tutorial"]
     ```json
     {
       "antigravity.activeProvider": "local",
-      "antigravity.customConfigPath": "C:\\Users\\사용자이름\\Documents\\0xhenry.dev\\antigravity.config.json",
       "models": {
         "local": {
           "provider": "openai-compatible",
@@ -41,7 +40,6 @@ tags: ["AI", "Gemma-4.0", "Ollama", "Cross-Platform", "Tutorial"]
       }
     }
     ```
-   - **주의**: `사용자이름` 부분은 본인의 PC 사용자 폴더 이름으로 꼭 바꿔주세요!
 
 5. **최종 확인**: `PowerShell` 또는 `CMD`(명령 프롬프트)에서 모델을 설치합니다.
     ```powershell
