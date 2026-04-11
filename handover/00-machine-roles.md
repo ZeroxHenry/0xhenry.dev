@@ -157,93 +157,44 @@ workspaces/naver-blog/generated/*.md (검수 후 수정)
 
 ---
 
-## 3. RTX 5090 — 서버급 (연구 + 최고 품질 콘텐츠)
+## 3. RTX 5090 — 학습 전용 (콘텐츠 생산 제외)
 
-### 왜 이 역할?
-- 최고 성능 GPU = 학습(fine-tuning) + 대형 모델 구동 가능
-- PaperBanana 구현이 주 목적
-- 학습 외 유휴 시간에 최고 품질 콘텐츠 생산 가능
-
-### 담당 작업
-
-| 작업 | 세부 | 빈도 | 우선순위 |
-|---|---|---|---|
-| **PaperBanana 구현** | 논문 → Gemma4.0 기반 구현 | 주력 | 1순위 |
-| **모델 파인튜닝** | 글쓰기 스타일 학습 (선택) | 필요 시 | 2순위 |
-| **연구 콘텐츠** | 논문 리뷰 → 블로그 포스트 변환 | 학습 유휴 시 | 3순위 |
-| **최종 품질 게이트** | 발행 전 전체 글 최종 검수 | 주 1회 | 4순위 |
-
-### 유휴 시간 자동화 시나리오 (학습 미실행 시)
-```
-[GPU 유휴 감지]
-  → PaperBanana 관련 논문 구현 작업 이어서
-  → 구현 중 발견한 인사이트 → 기술 블로그 포스트로 변환
-  → content/en/study/ + content/ko/study/ 에 저장
-  → git commit + push
-```
-
-### 세션 프롬프트
-
-#### 논문 → 블로그 변환
-```
-[논문 내용/URL 제공]
-이 논문의 핵심 아이디어를 개발자가 이해할 수 있도록
-기술 블로그 포스트로 작성해.
-실제 구현 관점에서, 코드 예시 포함.
-EN: content/en/study/[slug].md
-KO: content/ko/study/[slug].md
-완료 후 git commit + push.
-```
-
-#### 전체 품질 검수 (주 1회)
-```
-packages/website/content/en/study/ 전체 포스트를 읽어.
-workspaces/naver-blog/generated/ 에서 status가 "ready"인 글을 읽어.
-AI 느낌 문장, 사실 오류, 스타일 불일치를 수정해.
-수정 사항 요약을 data/review/YYYY-MM-DD.md 로 남겨.
-완료 후 git commit + push.
-```
-
-### 출력 위치
-```
-packages/website/content/en/study/*.md (논문→블로그)
-packages/website/content/ko/study/*.md (논문→블로그)
-data/review/*.md (검수 리포트)
-PaperBanana 관련: 별도 레포 또는 디렉토리
-```
+### 역할
+- **PaperBanana 구현** + **모델 학습(fine-tuning)** 전용
+- GPU를 학습에 집중 투입, 콘텐츠 생산에는 사용하지 않음
+- 품질 검수와 콘텐츠 생산은 MAC + RTX 5060 Ti 2대가 전담
 
 ---
 
-## 워크플로우: 3대 머신 협업
+## 워크플로우: MAC + RTX 5060 Ti 2대 협업
 
 ```
-     MAC (E4B)                    RTX 5060 Ti (26B)              RTX 5090
-     ─────────                    ────────────────               ────────
-     │                            │                              │
-     ├─ 네이버 초안 3편 생성       │                              │
-     ├─ git push ──────────────→  ├─ pull                        │
-     │                            ├─ 초안 검수 + 수정             │
-     │                            ├─ status → "ready"            │
-     │                            ├─ 기술 블로그 EN+KO 작성       │
-     │                            ├─ YouTube 스크립트 작성        │
-     │                            ├─ git push ─────────────────→ ├─ pull
-     │                            │                              ├─ 최종 품질 검수
-     │                            │                              ├─ 연구 콘텐츠 생성
-     │                            │                              ├─ git push
-     │                            │                              │
-     ↓                            ↓                              ↓
-  사용자: 네이버 발행 (복붙)    Vercel 자동 배포               PaperBanana
+     MAC (E4B)                    RTX 5060 Ti (26B)
+     ─────────                    ────────────────
+     │                            │
+     ├─ 네이버 초안 3-5편 생성     │
+     ├─ git push ──────────────→  ├─ pull
+     │                            ├─ 초안 검수 + 수정
+     │                            ├─ status → "ready"
+     │                            ├─ 기술 블로그 EN+KO 작성
+     │                            ├─ YouTube 스크립트 작성
+     │                            ├─ git push
+     │                            │
+     ↓                            ↓
+  사용자: 네이버 발행 (복붙)    Vercel 자동 배포
 ```
+
+**RTX 5090은 학습 전용 — 콘텐츠 파이프라인에 포함하지 않음.**
 
 ### 핵심 규칙
 1. **같은 파일을 동시에 수정하지 않음** — 각 머신의 출력 디렉토리가 분리됨
 2. **git pull 먼저, push 나중** — 충돌 방지
 3. **index.json은 MAC이 주 관리** — 네이버 블로그 트래킹의 single source of truth
-4. **검수는 상위 모델이 담당** — E4B 초안 → 26B 검수 → 5090 최종 게이트
+4. **검수는 26B가 담당** — E4B 초안 → 26B 검수 후 "ready" 처리
 
 ---
 
-## 주간 목표 (3대 합산)
+## 주간 목표 (MAC + RTX 5060 Ti)
 
 | 콘텐츠 | 편수/주 | 담당 |
 |---|---|---|
@@ -252,8 +203,6 @@ PaperBanana 관련: 별도 레포 또는 디렉토리
 | 기술 블로그 (EN+KO) | 1-2편 | RTX 5060 Ti |
 | YouTube 스크립트 | 1편 | RTX 5060 Ti |
 | 주간 AI 브리핑 | 1편 | RTX 5060 Ti |
-| 연구/논문 콘텐츠 | 0-1편 | RTX 5090 |
-| 품질 검수 | 1회 | RTX 5090 |
 
 ### 50편 달성 예상
 - MAC이 주 7-10편 초안 → RTX 5060 Ti가 검수

@@ -19,13 +19,13 @@
 | 02 | [YouTube](02-youtube.md) | 영상 스크립트, 썸네일, 채널 에셋 (초기 단계) |
 | 03 | [기술 블로그](03-tech-blog.md) | 전공자 경험/공부 공유, 0xhenry.dev (9편 발행 중) |
 
-## 3대 머신 역할 요약
+## 머신 역할 요약
 
 | 머신 | 모델 | 역할 | 주 산출물 |
 |---|---|---|---|
 | MAC | gemma4:e4b (12B) | 네이버 블로그 초안 대량 생산 | naver-blog/generated/ |
 | RTX 5060 Ti | gemma4:26b | 기술 블로그 + YouTube + 초안 검수 | website/content/ + youtube/ |
-| RTX 5090 | 서버급 | PaperBanana + 연구 콘텐츠 + 최종 검수 | 논문→블로그 + 품질 게이트 |
+| RTX 5090 | — | 학습 전용 (콘텐츠 생산 제외) | PaperBanana |
 
 ## Gemma 4.0 환경 (Antigravity 연동)
 
