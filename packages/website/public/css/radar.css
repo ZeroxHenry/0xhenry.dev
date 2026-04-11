@@ -1,0 +1,59 @@
+/* ========================================
+   TechBlips Radar — Styles
+   ======================================== */
+
+.radar-container {
+  display: grid;
+  grid-template-columns: 1fr 320px;
+  gap: 2rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+@media (max-width: 860px) {
+  .radar-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+#tech-radar {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.radar-svg {
+  width: 100%;
+  height: auto;
+  user-select: none;
+}
+
+.radar-tooltip {
+  position: absolute;
+  z-index: 1000;
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+  display: none;
+  font-family: inherit;
+  pointer-events: none;
+}
+
+.dark .radar-tooltip {
+  background: #0f172a;
+  border-color: #1e293b;
+  color: white;
+}
+
+.quadrant-label {
+  font-family: inherit;
+  letter-spacing: 0.05em;
+}
+
+.radar-ring-label {
+  font-family: inherit;
+  pointer-events: none;
+}

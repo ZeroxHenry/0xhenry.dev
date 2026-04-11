@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState, useEffect, useCallback, useRef } from 'react';
-import { useSession } from 'next-auth/react';
+import { useSession, signOut } from 'next-auth/react';
 import type { Locale } from '@/lib/i18n';
 import { t } from '@/lib/i18n';
 import SearchModal from './SearchModal';
@@ -127,23 +127,31 @@ export default function Nav({ lang }: { lang: Locale }) {
 
             {/* Auth: Sign In / User avatar */}
             {session?.user ? (
-              <Link
-                href={`/${lang}/dashboard`}
-                className="shrink-0"
-                aria-label="Dashboard"
-              >
-                {session.user.image ? (
-                  <img
-                    src={session.user.image}
-                    alt=""
-                    className="w-8 h-8 rounded-full ring-2 ring-transparent hover:ring-[var(--accent)] transition-all"
-                  />
-                ) : (
-                  <div className="w-8 h-8 rounded-full bg-[var(--accent)] flex items-center justify-center text-white text-xs font-bold">
-                    {session.user.name?.charAt(0)?.toUpperCase() ?? '?'}
-                  </div>
-                )}
-              </Link>
+              <div className="flex items-center gap-3">
+                <Link
+                  href={`/${lang}/dashboard`}
+                  className="shrink-0"
+                  aria-label="Dashboard"
+                >
+                  {session.user.image ? (
+                    <img
+                      src={session.user.image}
+                      alt=""
+                      className="w-8 h-8 rounded-full ring-2 ring-transparent hover:ring-[var(--accent)] transition-all outline-none"
+                    />
+                  ) : (
+                    <div className="w-8 h-8 rounded-full bg-[var(--accent)] flex items-center justify-center text-white text-xs font-bold outline-none">
+                      {session.user.name?.charAt(0)?.toUpperCase() ?? '?'}
+                    </div>
+                  )}
+                </Link>
+                <button
+                  onClick={() => signOut()}
+                  className="text-xs font-bold text-gray-400 hover:text-red-500 transition-colors uppercase tracking-wider"
+                >
+                  {labels.logout}
+                </button>
+              </div>
             ) : (
               <Link
                 href={`/${lang}/login`}
@@ -227,6 +235,14 @@ export default function Nav({ lang }: { lang: Locale }) {
                 )}
               </button>
             </div>
+            {session?.user && (
+              <button
+                onClick={() => signOut()}
+                className="text-sm font-bold text-gray-400 hover:text-red-500 transition-colors text-left pt-2 border-t border-gray-200 dark:border-gray-800"
+              >
+                {labels.logout}
+              </button>
+            )}
           </div>
         </div>
       </nav>
