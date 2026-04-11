@@ -8,10 +8,8 @@ author: "Henry"
 categories: ["STM32 로봇 보드 개발"]
 ---
 
-## 클럭 시스템
-
 ![클럭 트리](/images/study/stm32/clock-tree.png)
-*HSE → PLL → SYSCLK 클럭 트리 — Gemini로 생성 필요*
+*HSE → PLL → SYSCLK 클럭 트리*
 
 
 ### 3.1 클럭 소스

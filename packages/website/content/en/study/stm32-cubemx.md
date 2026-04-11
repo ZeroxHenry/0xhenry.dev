@@ -11,7 +11,7 @@ categories: ["STM32 Robot Board Development"]
 ## STM32CubeMX Setup Walkthrough
 
 ![CubeMX Pinout View](/images/study/stm32/cubemx-pinout.png)
-*CubeMX pinout view — screenshot or Gemini generation needed*
+*CubeMX pinout view*
 
 
 CubeMX is a tool that lets you configure STM32 pin assignments, clocks, and peripherals through a GUI and automatically generates the initialization code. It is built into STM32CubeIDE.
@@ -161,7 +161,7 @@ void my_init(void) { }        // ✅ safe!
 > **Best practice**: Create separate `.c` files under `Core/Src/` for your own code.
 > Examples: `motor_control.c`, `sensor_read.c`, `can_protocol.c`
 > → CubeMX never touches these files, so they are 100% safe.
-> (See the "Managing Auto-Generated and User Code" section in [README.md](README.md) for details.)
+> (See the "Managing Auto-Generated and User Code" section in README.md for details.)
 
 ---
 

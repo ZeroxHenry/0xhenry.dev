@@ -11,8 +11,7 @@ categories: ["STM32 로봇 보드 개발"]
 ## 보드 브링업
 
 ![보드 브링업 프로세스](/images/study/stm32/bringup-flow.png)
-*보드 브링업 9단계 플로차트 — Gemini로 생성 필요*
- (Board Bring-up) 프로세스
+*보드 브링업 9단계 플로차트*
 
 보드를 제작한 후, 페리페럴을 하나씩 테스트하며 정상 동작을 확인하는 과정이다.
 **절대 모든 것을 한 번에 테스트하지 마라** — 문제 발생 시 원인을 찾을 수 없다.
@@ -203,7 +202,7 @@ __HAL_TIM_SET_COMPARE(&htim1, TIM_CHANNEL_1, 750);  // 75%
 
 ```c
 /* 500Hz 제어 루프 (TIM6 인터럽트 사용) */
-// CubeMX: TIM6, Prescaler=239, Period=999 → 240MHz/(240*1000) = 1kHz
+// CubeMX: TIM6, Prescaler=239, Period=1999 → 240MHz/(240*2000) = 500Hz
 // 인터럽트에서 500Hz 카운터 사용
 
 volatile uint8_t control_loop_flag = 0;
@@ -307,7 +306,7 @@ while (1)
 
 ---
 
-> **최종 업데이트**: 2026-04-05
+> **최종 업데이트**: 2026-04-06
 > **작성 기준 칩**: STM32H743VITx (LQFP-100)
 > **프로젝트**: AR_Walker (보행 보조 로봇 외골격)
 
