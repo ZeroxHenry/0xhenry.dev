@@ -24,6 +24,8 @@ export const t = {
     studyLog: 'Robot Study',
     studyLogDesc: 'Breaking down complex robotics for the next generation of builders.',
     logout: 'Logout',
+    categoryHw: 'Hardware',
+    categoryOther: 'Others',
   },
   ko: {
     home: '홈',
@@ -46,5 +48,7 @@ export const t = {
     studyLog: '로봇 스터디',
     studyLogDesc: '차세대 로봇 빌더들을 위한 깊이 있는 기술 아카이브.',
     logout: '로그아웃',
+    categoryHw: '하드웨어',
+    categoryOther: '기타 스터디',
   },
 } as const;

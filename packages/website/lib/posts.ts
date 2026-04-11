@@ -9,6 +9,7 @@ import type { Locale } from './i18n';
 export interface Post {
   slug: string;
   title: string;
+  category?: string;
   date: string;
   description?: string;
   tags?: string[];
@@ -30,20 +31,44 @@ function calcReadingTime(text: string, lang: Locale): number {
 const contentDir = (lang: Locale) =>
   path.join(process.cwd(), 'content', lang, 'study');
 
+/**
+ * Recursively find all markdown files in a directory.
+ * Returns absolute paths.
+ */
+function getMarkdownFiles(dir: string): string[] {
+  if (!fs.existsSync(dir)) return [];
+  let files: string[] = [];
+  const items = fs.readdirSync(dir, { withFileTypes: true });
+
+  for (const item of items) {
+    const fullPath = path.join(dir, item.name);
+    if (item.isDirectory()) {
+      files = [...files, ...getMarkdownFiles(fullPath)];
+    } else if (item.name.endsWith('.md')) {
+      files.push(fullPath);
+    }
+  }
+  return files;
+}
+
 export function getAllPosts(lang: Locale): Post[] {
   const dir = contentDir(lang);
-  if (!fs.existsSync(dir)) return [];
+  const files = getMarkdownFiles(dir);
 
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith('.md'))
-    .map((filename) => {
+  return files
+    .map((filePath) => {
+      const filename = path.basename(filePath);
       const slug = filename.replace(/\.md$/, '');
-      const file = fs.readFileSync(path.join(dir, filename), 'utf-8');
-      const { data, content } = matter(file);
+      const relativeDirPath = path.dirname(path.relative(dir, filePath));
+      const category = relativeDirPath === '.' ? undefined : relativeDirPath;
+
+      const fileContent = fs.readFileSync(filePath, 'utf-8');
+      const { data, content } = matter(fileContent);
+
       return {
         slug,
         title: data.title || slug,
+        category: data.category || category,
         date: data.date ? new Date(data.date).toISOString().split('T')[0] : '',
         description: data.description,
         tags: data.tags,
@@ -58,16 +83,23 @@ export function getAllPosts(lang: Locale): Post[] {
 }
 
 export async function getPost(lang: Locale, slug: string): Promise<Post | null> {
-  const filePath = path.join(contentDir(lang), `${slug}.md`);
-  if (!fs.existsSync(filePath)) return null;
+  const dir = contentDir(lang);
+  const files = getMarkdownFiles(dir);
+  const filePath = files.find((f) => path.basename(f) === `${slug}.md`);
 
-  const file = fs.readFileSync(filePath, 'utf-8');
-  const { data, content } = matter(file);
+  if (!filePath) return null;
+
+  const fileContent = fs.readFileSync(filePath, 'utf-8');
+  const { data, content } = matter(fileContent);
   const result = await remark().use(remarkGfm).use(html, { sanitize: false }).process(content);
+
+  const relativeDirPath = path.dirname(path.relative(dir, filePath));
+  const category = relativeDirPath === '.' ? undefined : relativeDirPath;
 
   return {
     slug,
     title: data.title || slug,
+    category: data.category || category,
     date: data.date ? new Date(data.date).toISOString().split('T')[0] : '',
     description: data.description,
     tags: data.tags,
@@ -80,9 +112,6 @@ export async function getPost(lang: Locale, slug: string): Promise<Post | null> 
 
 export function getAllSlugs(lang: Locale): string[] {
   const dir = contentDir(lang);
-  if (!fs.existsSync(dir)) return [];
-  return fs
-    .readdirSync(dir)
-    .filter((f) => f.endsWith('.md'))
-    .map((f) => f.replace(/\.md$/, ''));
+  const files = getMarkdownFiles(dir);
+  return files.map((f) => path.basename(f).replace(/\.md$/, ''));
 }
