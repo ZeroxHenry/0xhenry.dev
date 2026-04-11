@@ -12,8 +12,8 @@
   },
   "defaultModel": "local",
   "fallback": {
-    "enabled": false,
-    "model": "local",
-    "trigger": "never"
+    "enabled": true,
+    "model": "gemini-3-pro",
+    "trigger": "context_exceeded"
   }
 }
