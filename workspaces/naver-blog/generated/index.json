@@ -1,6 +1,6 @@
 {
   "stats": {
-    "total_generated": 1,
+    "total_generated": 56,
     "total_published": 0,
     "adpost_target": 50,
     "blog_url": "https://blog.naver.com/0xhenry",
@@ -15,11 +15,1089 @@
       "generated_at": "2026-04-08T20:00:00+09:00",
       "published_at": null,
       "naver_url": null,
-      "tags": ["AI용어", "RAG", "인공지능", "AI기초", "검색증강생성", "LLM", "ChatGPT", "AI검색"],
+      "tags": [
+        "AI용어",
+        "RAG",
+        "인공지능",
+        "AI기초",
+        "검색증강생성",
+        "LLM",
+        "ChatGPT",
+        "AI검색"
+      ],
       "char_count": 1950,
       "image_count": 3,
       "images_ready": false,
       "file": "generated/2026-04/2026-04-08-rag-explained.md"
+    },
+    {
+      "id": "2026-04-11-cursor-ai-코드-에디터-리뷰",
+      "title": "Cursor AI 코드 에디터 리뷰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T21:59:57+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4458,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-cursor-ai-코드-에디터-리뷰.md"
+    },
+    {
+      "id": "2026-04-11-perplexity-ai-vs-chatgpt-검색-비교",
+      "title": "Perplexity AI vs ChatGPT 검색 비교",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:02:47+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4504,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-perplexity-ai-vs-chatgpt-검색-비교.md"
+    },
+    {
+      "id": "2026-04-11-midjourney-v7-이미지-생성-리뷰",
+      "title": "Midjourney v7 이미지 생성 리뷰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:05:37+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4309,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-midjourney-v7-이미지-생성-리뷰.md"
+    },
+    {
+      "id": "2026-04-11-notion-ai-활용-후기",
+      "title": "Notion AI 활용 후기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:08:23+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4210,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-notion-ai-활용-후기.md"
+    },
+    {
+      "id": "2026-04-11-elevenlabs-음성-복제-리뷰",
+      "title": "ElevenLabs 음성 복제 리뷰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:12:05+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 3901,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-elevenlabs-음성-복제-리뷰.md"
+    },
+    {
+      "id": "2026-04-11-suno-ai-음악-만들기-리뷰",
+      "title": "Suno AI 음악 만들기 리뷰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:16:09+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4638,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-suno-ai-음악-만들기-리뷰.md"
+    },
+    {
+      "id": "2026-04-11-gamma-ai-프레젠테이션-리뷰",
+      "title": "Gamma AI 프레젠테이션 리뷰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:19:20+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4559,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-gamma-ai-프레젠테이션-리뷰.md"
+    },
+    {
+      "id": "2026-04-11-runway-gen-3-영상-생성-리뷰",
+      "title": "Runway Gen-3 영상 생성 리뷰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:22:47+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4764,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-runway-gen-3-영상-생성-리뷰.md"
+    },
+    {
+      "id": "2026-04-11-v0-by-vercel--ai로-웹-ui-만들기",
+      "title": "v0 by Vercel — AI로 웹 UI 만들기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:26:02+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4215,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-v0-by-vercel--ai로-웹-ui-만들기.md"
+    },
+    {
+      "id": "2026-04-11-클로드로-코드-리뷰-받기",
+      "title": "클로드로 코드 리뷰 받기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:39:13+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4612,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-클로드로-코드-리뷰-받기.md"
+    },
+    {
+      "id": "2026-04-11-ai-번역-도구-비교-deepl-vs-papago-vs",
+      "title": "AI 번역 도구 비교 (DeepL vs Papago vs ChatGPT)",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:41:38+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4433,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-ai-번역-도구-비교-deepl-vs-papago-vs.md"
+    },
+    {
+      "id": "2026-04-11-ai로-블로그-글-쓰기-워크플로우",
+      "title": "AI로 블로그 글 쓰기 워크플로우",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:43:57+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 3942,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-ai로-블로그-글-쓰기-워크플로우.md"
+    },
+    {
+      "id": "2026-04-11-stable-diffusion으로-나만의-캐릭터-만들기",
+      "title": "Stable Diffusion으로 나만의 캐릭터 만들기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:46:27+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4561,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-stable-diffusion으로-나만의-캐릭터-만들기.md"
+    },
+    {
+      "id": "2026-04-11-ai-회의록-자동-정리-도구-비교",
+      "title": "AI 회의록 자동 정리 도구 비교",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:49:10+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4222,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-ai-회의록-자동-정리-도구-비교.md"
+    },
+    {
+      "id": "2026-04-11-chatgpt-플러그인-활용-가이드",
+      "title": "ChatGPT 플러그인 활용 가이드",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:51:29+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4201,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-chatgpt-플러그인-활용-가이드.md"
+    },
+    {
+      "id": "2026-04-11-ai로-엑셀스프레드시트-자동화하기",
+      "title": "AI로 엑셀/스프레드시트 자동화하기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:53:50+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4260,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-ai로-엑셀스프레드시트-자동화하기.md"
+    },
+    {
+      "id": "2026-04-11-무료-ai-도구-모음-2026",
+      "title": "무료 AI 도구 모음 2026",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:56:22+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4130,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-무료-ai-도구-모음-2026.md"
+    },
+    {
+      "id": "2026-04-11-2026-04-week-2-48-14",
+      "title": "2026-04 Week 2 (4/8-14)",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:58:55+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 3864,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-2026-04-week-2-48-14.md"
+    },
+    {
+      "id": "2026-04-11-2026-04-week-3-415-21",
+      "title": "2026-04 Week 3 (4/15-21)",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:01:30+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 5261,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-2026-04-week-3-415-21.md"
+    },
+    {
+      "id": "2026-04-11-2026-04-week-4-422-28",
+      "title": "2026-04 Week 4 (4/22-28)",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:03:43+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4374,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-2026-04-week-4-422-28.md"
+    },
+    {
+      "id": "2026-04-11-2026-05-week-1-429-55",
+      "title": "2026-05 Week 1 (4/29-5/5)",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:06:25+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4677,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-2026-05-week-1-429-55.md"
+    },
+    {
+      "id": "2026-04-11-2026-05-week-2-56-12",
+      "title": "2026-05 Week 2 (5/6-12)",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:08:59+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 3834,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-2026-05-week-2-56-12.md"
+    },
+    {
+      "id": "2026-04-11-2026-05-week-3-513-19",
+      "title": "2026-05 Week 3 (5/13-19)",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:11:45+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4459,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-2026-05-week-3-513-19.md"
+    },
+    {
+      "id": "2026-04-11-ai가-내-직업을-대체할까--직업별-분석",
+      "title": "AI가 내 직업을 대체할까? — 직업별 분석",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:14:45+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4827,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-ai가-내-직업을-대체할까--직업별-분석.md"
+    },
+    {
+      "id": "2026-04-11-ai-초보자-입문-가이드-2026",
+      "title": "AI 초보자 입문 가이드 2026",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:17:21+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4453,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-ai-초보자-입문-가이드-2026.md"
+    },
+    {
+      "id": "2026-04-11-무료-ai-도구-top-10-2026년-기준",
+      "title": "무료 AI 도구 TOP 10 (2026년 기준)",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:21:06+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4853,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-무료-ai-도구-top-10-2026년-기준.md"
+    },
+    {
+      "id": "2026-04-11-ai-윤리--알아야-할-것들",
+      "title": "AI 윤리 — 알아야 할 것들",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:23:59+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4847,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-ai-윤리--알아야-할-것들.md"
+    },
+    {
+      "id": "2026-04-11-gpt-vs-claude-vs-gemini--3대-ai",
+      "title": "GPT vs Claude vs Gemini — 3대 AI 비교",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:27:45+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4353,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-gpt-vs-claude-vs-gemini--3대-ai.md"
+    },
+    {
+      "id": "2026-04-11-노년층을-위한-ai-스마트폰-기본-활용법",
+      "title": "노년층을 위한 AI 스마트폰 기본 활용법",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:31:14+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4162,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-노년층을-위한-ai-스마트폰-기본-활용법.md"
+    },
+    {
+      "id": "2026-04-11-카카오톡-ai-대화-요약번역-기능-100-활용하기",
+      "title": "카카오톡 AI 대화 요약/번역 기능 100% 활용하기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:34:15+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4251,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-카카오톡-ai-대화-요약번역-기능-100-활용하기.md"
+    },
+    {
+      "id": "2026-04-11-구글-검색-대신-챗gpt를-써야-하는-3가지-상황",
+      "title": "구글 검색 대신 챗GPT를 써야 하는 3가지 상황",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:37:25+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4239,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-구글-검색-대신-챗gpt를-써야-하는-3가지-상황.md"
+    },
+    {
+      "id": "2026-04-11-ai로-냉장고-파먹기-나만의-레시피-만들기",
+      "title": "AI로 냉장고 파먹기: 나만의 레시피 만들기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:40:42+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4508,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-ai로-냉장고-파먹기-나만의-레시피-만들기.md"
+    },
+    {
+      "id": "2026-04-11-한국인-맞춤-네이버-클로바x-완벽-가이드",
+      "title": "한국인 맞춤! 네이버 클로바X 완벽 가이드",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:44:12+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4862,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-한국인-맞춤-네이버-클로바x-완벽-가이드.md"
+    },
+    {
+      "id": "2026-04-11-사진에서-배경-지우기-무료-ai-도구-활용법",
+      "title": "사진에서 배경 지우기, 무료 AI 도구 활용법",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:47:12+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 3624,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-사진에서-배경-지우기-무료-ai-도구-활용법.md"
+    },
+    {
+      "id": "2026-04-11-무료-ai로-흐릿한-옛날-가족-사진-복원하기",
+      "title": "무료 AI로 흐릿한 옛날 가족 사진 복원하기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:51:10+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4764,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-무료-ai로-흐릿한-옛날-가족-사진-복원하기.md"
+    },
+    {
+      "id": "2026-04-11-인공지능-시대에-알아두면-좋을-저작권-상식",
+      "title": "인공지능 시대에 알아두면 좋을 저작권 상식",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:54:25+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4727,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-인공지능-시대에-알아두면-좋을-저작권-상식.md"
+    },
+    {
+      "id": "2026-04-11-스마트폰갤럭시아이폰-내장-ai-기능-5가지-숨겨진-꿀팁",
+      "title": "스마트폰(갤럭시/아이폰) 내장 AI 기능 5가지 숨겨진 꿀팁",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:57:11+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4575,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-스마트폰갤럭시아이폰-내장-ai-기능-5가지-숨겨진-꿀팁.md"
+    },
+    {
+      "id": "2026-04-12-ai로-나만의-블로그유튜브-로고-무료로-만드는-법",
+      "title": "AI로 나만의 블로그/유튜브 로고 무료로 만드는 법",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T00:00:06+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4332,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-12-ai로-나만의-블로그유튜브-로고-무료로-만드는-법.md"
+    },
+    {
+      "id": "2026-04-12-해외여행-필수품-사진-번역-ai-제대로-활용하기",
+      "title": "해외여행 필수품! 사진 번역 AI 제대로 활용하기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T00:02:52+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 3559,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-12-해외여행-필수품-사진-번역-ai-제대로-활용하기.md"
+    },
+    {
+      "id": "2026-04-12-llm-대규모-언어-모델",
+      "title": "LLM (대규모 언어 모델)",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:32:28+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-llm-대규모-언어-모델"
+    },
+    {
+      "id": "2026-04-12-파인튜닝",
+      "title": "파인튜닝",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:35:25+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-파인튜닝"
+    },
+    {
+      "id": "2026-04-12-프롬프트-엔지니어링",
+      "title": "프롬프트 엔지니어링",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:38:41+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-프롬프트-엔지니어링"
+    },
+    {
+      "id": "2026-04-12-할루시네이션",
+      "title": "할루시네이션",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:41:27+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-할루시네이션"
+    },
+    {
+      "id": "2026-04-12-토큰",
+      "title": "토큰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:44:02+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-토큰"
+    },
+    {
+      "id": "2026-04-12-멀티모달-ai",
+      "title": "멀티모달 AI",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:46:17+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-멀티모달-ai"
+    },
+    {
+      "id": "2026-04-12-오픈소스-ai-vs-클로즈드-ai",
+      "title": "오픈소스 AI vs 클로즈드 AI",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:48:43+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-오픈소스-ai-vs-클로즈드-ai"
+    },
+    {
+      "id": "2026-04-12-ai-api",
+      "title": "AI API",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:51:13+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-ai-api"
+    },
+    {
+      "id": "2026-04-12-claude-code-사용기--터미널에서-코딩하는-ai",
+      "title": "Claude Code 사용기 — 터미널에서 코딩하는 AI",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:53:48+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-claude-code-사용기--터미널에서-코딩하는-ai"
+    },
+    {
+      "id": "2026-04-12-chatgpt로-이력서-쓰는-법",
+      "title": "ChatGPT로 이력서 쓰는 법",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:56:04+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-chatgpt로-이력서-쓰는-법"
+    },
+    {
+      "id": "2026-04-12-ai로-유튜브-썸네일-만들기",
+      "title": "AI로 유튜브 썸네일 만들기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:58:20+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-ai로-유튜브-썸네일-만들기"
+    },
+    {
+      "id": "2026-04-12-학생과-직장인을-위한-대용량-pdf-문서-요약-ai-비",
+      "title": "학생과 직장인을 위한 대용량 PDF 문서 요약 AI 비교",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T11:00:42+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-학생과-직장인을-위한-대용량-pdf-문서-요약-ai-비"
+    },
+    {
+      "id": "2026-04-12-내-목소리를-텍스트로-무료-ai-음성-인식-도구-추천",
+      "title": "내 목소리를 텍스트로? 무료 AI 음성 인식 도구 추천",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T11:02:59+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-내-목소리를-텍스트로-무료-ai-음성-인식-도구-추천"
+    },
+    {
+      "id": "2026-04-13-claude-mythos-ai-hacking",
+      "title": "AI가 스스로 해킹을 했다고? — 클로드 Mythos 사태, 한국어로 제대로 정리",
+      "category": "AI 뉴스",
+      "status": "draft",
+      "generated_at": "2026-04-13T01:10:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI보안",
+        "Anthropic",
+        "클로드Mythos",
+        "사이버보안",
+        "ProjectGlasswing",
+        "인공지능위험",
+        "해킹AI",
+        "AI뉴스",
+        "제로데이"
+      ],
+      "char_count": 2100,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-claude-mythos-ai-hacking"
+    },
+    {
+      "id": "2026-04-13-ai-copyright-real-cases",
+      "title": "AI로 만든 이미지·글, 저작권 걸릴 수 있습니다 — 실제 소송 사례로 정리",
+      "category": "AI 뉴스",
+      "status": "draft",
+      "generated_at": "2026-04-13T01:10:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI저작권",
+        "미드저니저작권",
+        "생성AI법률",
+        "저작권법",
+        "AI이미지저작권",
+        "Midjourney",
+        "StabilityAI",
+        "인공지능저작권",
+        "AI법률"
+      ],
+      "char_count": 2000,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-ai-copyright-real-cases"
+    },
+    {
+      "id": "2026-04-13-sora-shutdown-platform-risk",
+      "title": "OpenAI가 Sora를 종료했습니다 — 내가 쓰는 AI 서비스는 괜찮을까요",
+      "category": "AI 뉴스",
+      "status": "draft",
+      "generated_at": "2026-04-13T01:10:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "Sora종료",
+        "OpenAI",
+        "AI플랫폼리스크",
+        "AI서비스종료",
+        "플랫폼리스크",
+        "AI활용",
+        "인공지능",
+        "ChatGPT",
+        "AI뉴스2026"
+      ],
+      "char_count": 1800,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-sora-shutdown-platform-risk"
+    },
+    {
+      "id": "2026-04-13-imf-ai-financial-security-warning",
+      "title": "IMF가 AI 때문에 '금융 시스템이 위험하다'고 경고했습니다",
+      "category": "AI 뉴스",
+      "status": "draft",
+      "generated_at": "2026-04-13T08:23:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "IMF경고",
+        "AI금융보안",
+        "AI사이버공격",
+        "AntropicMythos",
+        "금융보안",
+        "인공지능위험",
+        "사이버보안",
+        "AI뉴스",
+        "글로벌AI"
+      ],
+      "char_count": 1950,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-imf-ai-financial-security-warning"
+    },
+    {
+      "id": "2026-04-13-ai-hospital-recording-lawsuit",
+      "title": "AI가 진료실 대화를 며 녹음했다고? — 미국 병원 집단 소송 사태",
+      "category": "AI 뉴스",
+      "status": "draft",
+      "generated_at": "2026-04-13T08:23:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI의료",
+        "진료실AI",
+        "개인정보AI",
+        "의료AI소송",
+        "AbridgeAI",
+        "AI프라이버시",
+        "의료개인정보",
+        "인공지능의료",
+        "AI뉴스"
+      ],
+      "char_count": 1800,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-ai-hospital-recording-lawsuit"
     }
   ]
 }
