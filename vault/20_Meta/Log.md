@@ -2,6 +2,19 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-14] A-11 + O-08 완성 (야간 세션 11 - No Nap 모드 40% 임박)
+
+### 기술블로그 완성 (KO + EN)
+- ✅ A-11: `agentic-ai-legal-liability.md` — "AI 에이전트의 법적 책임은 누구에게 있는가 — 책임 소송 가이드"
+  - 2026년 기준 AI 제조물 책임 vs 과실 책임 분석. 금융 사고, 명예훼손, 저작권 침해 리스크와 엔지니어의 방어 전략(Logging, HITL) 정리.
+- ✅ O-09: `evaluation-driven-development.md` — "Evaluation-Driven Development — AI를 코드처럼 테스트하라"
+  - 직감에 의존하는 프롬프트 엔지니어링을 넘어, 수치와 데이터로 증명하는 EDD 방법론.
+  - 골든 데이터셋, LLM-as-a-Judge 지표 설계, 자동화된 배치 평가 파이프라인 구축 가이드.
+
+### Vault 및 플랜 업데이트
+- **Status**: No Nap 모드 광폭 질주 중. 31/78 (40%) 달성.
+- 신규 포스트 4개(KO/EN) `vault/00_Raw/` 동기화 완료.
+
 ## [2026-04-14] A-10 + O-08 완성 (야간 세션 10 - No Nap 모드 지속)
 
 ### 기술블로그 완성 (KO + EN)
