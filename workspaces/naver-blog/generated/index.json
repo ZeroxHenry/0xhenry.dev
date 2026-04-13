@@ -11,7 +11,7 @@
       "id": "2026-04-08-rag-explained",
       "title": "RAG란? AI가 검색해서 답하는 기술 (쉽게 설명)",
       "category": "AI 용어 사전",
-      "status": "draft",
+      "status": "ready",
       "generated_at": "2026-04-08T20:00:00+09:00",
       "published_at": null,
       "naver_url": null,
@@ -28,13 +28,36 @@
       "char_count": 1950,
       "image_count": 3,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-08-rag-explained.md"
+      "folder": "generated/posts/2026-04-08-rag-explained"
+    },
+    {
+      "id": "2026-04-10-agentic-ai",
+      "title": "에이전트 AI란? 알아서 일하는 똑똑한 동료를 만나는 법",
+      "category": "AI 용어 사전",
+      "status": "ready",
+      "generated_at": "2026-04-10T11:00:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "에이전트AI",
+        "AgenticAI",
+        "인공지능",
+        "AI트렌드",
+        "자율형AI",
+        "ClaudeCode",
+        "ChatGPT",
+        "0xHenry"
+      ],
+      "char_count": 2000,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-10-agentic-ai"
     },
     {
       "id": "2026-04-11-cursor-ai-코드-에디터-리뷰",
       "title": "Cursor AI 코드 에디터 리뷰",
       "category": "AI/Tech",
-      "status": "draft",
+      "status": "ready",
       "generated_at": "2026-04-11T21:59:57+09:00",
       "published_at": null,
       "naver_url": null,
@@ -47,7 +70,7 @@
       "char_count": 4458,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-cursor-ai-코드-에디터-리뷰.md"
+      "folder": "generated/posts/2026-04-11-cursor-ai-코드-에디터-리뷰"
     },
     {
       "id": "2026-04-11-perplexity-ai-vs-chatgpt-검색-비교",
@@ -983,7 +1006,7 @@
       "id": "2026-04-13-claude-mythos-ai-hacking",
       "title": "AI가 스스로 해킹을 했다고? — 클로드 Mythos 사태, 한국어로 제대로 정리",
       "category": "AI 뉴스",
-      "status": "draft",
+      "status": "ready",
       "generated_at": "2026-04-13T01:10:00+09:00",
       "published_at": null,
       "naver_url": null,
@@ -1007,7 +1030,7 @@
       "id": "2026-04-13-ai-copyright-real-cases",
       "title": "AI로 만든 이미지·글, 저작권 걸릴 수 있습니다 — 실제 소송 사례로 정리",
       "category": "AI 뉴스",
-      "status": "draft",
+      "status": "ready",
       "generated_at": "2026-04-13T01:10:00+09:00",
       "published_at": null,
       "naver_url": null,
@@ -1031,7 +1054,7 @@
       "id": "2026-04-13-sora-shutdown-platform-risk",
       "title": "OpenAI가 Sora를 종료했습니다 — 내가 쓰는 AI 서비스는 괜찮을까요",
       "category": "AI 뉴스",
-      "status": "draft",
+      "status": "ready",
       "generated_at": "2026-04-13T01:10:00+09:00",
       "published_at": null,
       "naver_url": null,
@@ -1046,7 +1069,7 @@
         "ChatGPT",
         "AI뉴스2026"
       ],
-      "char_count": 1800,
+      "char_count": 2000,
       "image_count": 0,
       "images_ready": false,
       "folder": "generated/posts/2026-04-13-sora-shutdown-platform-risk"
@@ -1055,7 +1078,7 @@
       "id": "2026-04-13-imf-ai-financial-security-warning",
       "title": "IMF가 AI 때문에 '금융 시스템이 위험하다'고 경고했습니다",
       "category": "AI 뉴스",
-      "status": "draft",
+      "status": "ready",
       "generated_at": "2026-04-13T08:23:00+09:00",
       "published_at": null,
       "naver_url": null,
@@ -1070,7 +1093,7 @@
         "AI뉴스",
         "글로벌AI"
       ],
-      "char_count": 1950,
+      "char_count": 1900,
       "image_count": 0,
       "images_ready": false,
       "folder": "generated/posts/2026-04-13-imf-ai-financial-security-warning"
@@ -1079,7 +1102,7 @@
       "id": "2026-04-13-ai-hospital-recording-lawsuit",
       "title": "AI가 진료실 대화를 며 녹음했다고? — 미국 병원 집단 소송 사태",
       "category": "AI 뉴스",
-      "status": "draft",
+      "status": "ready",
       "generated_at": "2026-04-13T08:23:00+09:00",
       "published_at": null,
       "naver_url": null,
@@ -1094,10 +1117,55 @@
         "인공지능의료",
         "AI뉴스"
       ],
-      "char_count": 1800,
+      "char_count": 2000,
       "image_count": 0,
       "images_ready": false,
       "folder": "generated/posts/2026-04-13-ai-hospital-recording-lawsuit"
+    },
+    {
+      "id": "2026-04-13-context-engineering",
+      "title": "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리",
+      "category": "AI 용어 사전",
+      "status": "ready",
+      "generated_at": "2026-04-13T01:00:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "컨텍스트엔지니어링",
+        "프롬프트엔지니어링",
+        "AI트렌드",
+        "LLM",
+        "AI용어",
+        "인공지능",
+        "AI개발",
+        "ChatGPT활용"
+      ],
+      "char_count": 2100,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-context-engineering"
+    },
+    {
+      "id": "2026-04-13-mcp-security",
+      "title": "AI 연결 표준 MCP에 보안 구멍이 있다?",
+      "category": "AI 보안",
+      "status": "ready",
+      "generated_at": "2026-04-13T10:00:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI보안",
+        "MCP",
+        "에이전트보안",
+        "ClaudeCode",
+        "보안취약점",
+        "인공지능",
+        "0xHenry"
+      ],
+      "char_count": 2200,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-mcp-security"
     }
   ]
 }

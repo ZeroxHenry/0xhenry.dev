@@ -1,3 +1,19 @@
+---
+id: 2026-04-13-ai-copyright-real-cases
+title: "\"AI 이미지는 저작권 없다?\" — 2026년 최신 소송으로 본 진짜 위험과 기회 (0xHenry 칼럼)"
+category: AI 뉴스
+tags: [AI저작권, 미드저니저작권, 생성AI법률, 저작권법, AI이미지저작권, Midjourney, StabilityAI, 인공지능저작권, AI법률, 0xHenry]
+status: ready
+char_count: 2200
+images_needed:
+  - position: "도입부 아래"
+    description: "AI 저작권 분쟁 상징 이미지"
+    source: "gemini"
+    prompt: "Judge's gavel next to a glowing AI robot head, digital law documents, courtroom aesthetic, minimalist flat illustration, 16:9"
+    file: "images/2026-04/ai-copyright-1.png"
+generated_at: "2026-04-13T10:00:00+09:00"
+---
+
 # "AI 이미지는 저작권 없다?" — 2026년 최신 소송으로 본 진짜 위험과 기회 (0xHenry 칼럼)
 
 *2026년 4월 13일*
