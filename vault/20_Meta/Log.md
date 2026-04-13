@@ -2,6 +2,19 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-13] A-05 + O-03 완성 (야간 세션 5)
+
+### 기술블로그 완성 (KO + EN)
+- ✅ A-05: `agent-infinite-loop-prevention.md` — "AI 에이전트의 무한 루프 — 비용 폭탄 방지 설계"
+  - 자율 에이전트의 API 비용 폭주를 막기 위한 3단계 레이어(Max Iterations, Token Budget, Loop Detection) 설계.
+- ✅ O-03: `llm-api-cost-breakdown.md` — "GPT API 비용 계산서 공개 — 3개월 프로덕션 실제 청구 내역"
+  - 실서비스 유료 사용자 MAU 1,500명 기반의 모델별 비용 비중 및 누적 청구 금액 공개.
+  - 프롬프트 다이어트, 캐싱, 모델 라우팅을 통한 비용 최적화 전략 공유.
+
+### Vault 및 플랜 업데이트
+- 신규 포스트 4개(KO/EN) `vault/00_Raw/` 동기화 완료.
+- `tech-blog-plan.md` 업데이트: 19/78 완성 (24% 달성).
+
 ## [2026-04-13] C-07 + S-04 완성 (야간 세션 4)
 
 ### 기술블로그 완성 (KO + EN)

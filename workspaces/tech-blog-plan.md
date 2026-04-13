@@ -62,7 +62,7 @@
 | A-02 | **내 AI 에이전트가 서서히 멍청해졌다 — LLM Drift 감지법** | `llm-agent-drift-detection.md` | ✅ |
 | A-03 | **에이전트에게 Ctrl+Z를 — Saga 패턴으로 롤백 구현하기** | `agent-saga-rollback.md` | ✅ |
 | A-04 | **도구 호출 실패를 "성공했다"고 우기는 AI — Truthy Text 문제** | `agent-truthy-text-failure.md` | ✅ |
-| A-05 | **AI 에이전트의 무한 루프 — 비용 폭탄 방지 설계** | `agent-infinite-loop-prevention.md` | ⬜ |
+| A-05 | **AI 에이전트의 무한 루프 — 비용 폭탄 방지 설계** | `agent-infinite-loop-prevention.md` | ✅ |
 | A-06 | **에이전트 트레이싱: 복잡한 멀티스텝 오류를 추적하는 법** | `agent-distributed-tracing.md` | ⬜ |
 | A-07 | **Human-in-the-Loop의 진짜 구현법 — 단순 승인버튼이 아니다** | `human-in-the-loop-design.md` | ⬜ |
 | A-08 | **멀티 에이전트 충돌: 두 에이전트가 같은 DB를 동시에 수정할 때** | `multi-agent-conflict.md` | ⬜ |
@@ -98,7 +98,7 @@
 |---|------|--------|------|
 | O-01 | **HTTP 200인데 비즈니스가 망가졌다 — AI 품질 KPI 설계** | `llm-quality-kpi.md` | ✅ |
 | O-02 | **Groundedness, Faithfulness, Relevance — RAG 평가 지표 실전** | `rag-evaluation-metrics.md` | ✅ |
-| O-03 | **GPT API 비용 계산서 공개: 3개월 프로덕션 실제 청구 내역** | `llm-api-cost-breakdown.md` | ⬜ |
+| O-03 | **GPT API 비용 계산서 공개: 3개월 프로덕션 실제 청구 내역** | `llm-api-cost-breakdown.md` | ✅ |
 | O-04 | **AI Sprawl 감사: 우리 회사 AI 인프라에 얼마나 낭비하고 있는가** | `ai-sprawl-audit.md` | ⬜ |
 | O-05 | **Shadow 환경에서 LLM 성능 검증하기 — Silent Test 패턴** | `llm-shadow-testing.md` | ⬜ |
 | O-06 | **Confidence-Based 라우팅: 싸고 작은 모델과 비싸고 큰 모델을 동시에** | `confidence-based-routing.md` | ⬜ |
@@ -188,14 +188,14 @@
 | 챕터 | 주제 수 | 완성 | 남은 것 |
 |------|---------|------|---------|
 | C. Context & Memory | 10 | 6 | 4 |
-| A. 에이전트 신뢰성 | 12 | 4 | 8 |
+| A. 에이전트 신뢰성 | 12 | 5 | 7 |
 | S. MCP & 보안 | 8 | 4 | 4 |
-| O. LLMOps | 10 | 2 | 8 |
+| O. LLMOps | 10 | 3 | 7 |
 | R. RAG 심화 | 10 | 1 | 9 |
 | E. Edge AI | 12 | 0 | 12 |
 | P. 커리어 & 관점 | 8 | 0 | 8 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **17** | **61** |
+| **합계** | **78** | **19** | **59** |
 
 ---
 
