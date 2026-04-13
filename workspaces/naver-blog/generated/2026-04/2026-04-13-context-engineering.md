@@ -26,7 +26,7 @@ generated_at: "2026-04-13T01:00:00+09:00"
 
 프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리
 
-[이미지 1: AI에게 어떤 정보를 보여줄지 설계하는 모습]
+![AI의 RAM을 설계하는 엔지니어](../images/2026-04/context-engineering-1.png)
 
 요즘 해외 AI 개발자 커뮤니티에서 이런 말이 돌고 있어요. "프롬프트 엔지니어링을 잘하는 것만으론 부족하다." 그럼 이제 뭘 잘해야 할까요?
 
@@ -44,7 +44,7 @@ generated_at: "2026-04-13T01:00:00+09:00"
 
 ## Context Engineering이 뭔데?
 
-[이미지 2: 프롬프트 엔지니어링 vs Context Engineering 비교]
+![프롬프트 엔지니어링 vs Context Engineering 비교](../images/2026-04/context-engineering-2.png)
 
 이걸 이해하는 가장 쉬운 비유가 있어요.
 
@@ -63,7 +63,7 @@ Context Engineering은 바로 이 **"RAM 관리"**예요. AI에게 보여줄 정
 
 ## 왜 지금 이게 중요한가요?
 
-[이미지 3: AI 운영 체제처럼 RAM을 관리하는 개념 도식]
+![CPU(LLM) + RAM(Context Window) 구조](../images/2026-04/context-engineering-3.png)
 
 실제로 AI 서비스를 만들어보면 이런 일이 생겨요. 처음엔 AI가 잘 답하다가, 어느 순간부터 대화가 이상해져요. Anthropic(Claude 만든 회사)의 연구에 따르면, 컨텍스트가 너무 많아지면 AI가 맨 앞과 맨 뒤 내용만 집중하고 중간은 무시하는 경향이 있다고 해요.
 

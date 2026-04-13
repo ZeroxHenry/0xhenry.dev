@@ -134,6 +134,131 @@
           "file": "images/2026-04/cursor-ai-3.png"
         }
       ]
+    },
+    {
+      "post_id": "2026-04-13-ai-copyright-real-cases",
+      "title": "AI 저작권 실제 소송 사례 정리",
+      "file": "workspaces/naver-blog/generated/posts/2026-04-13-ai-copyright-real-cases/post.md",
+      "images": [
+        {
+          "position": "hero",
+          "description": "법정에서의 AI 저작권 분쟁 상징 이미지",
+          "prompt": "Minimalist flat illustration of a friendly robot standing in a modern courtroom, a judge's gavel on the desk, documents titled 'Copyright Lawsuit' visible. Warm wood and soft blue tones, clean background, wide margins, 16:9, Trending on Behance",
+          "file": "images/2026-04/ai-copyright-1.png"
+        },
+        {
+          "position": "comparison",
+          "description": "원본 이미지 vs AI 변형 이미지 대비",
+          "prompt": "Side-by-side comparison: Left side 'Original Photo' with a watermark, Right side 'AI Modified' showing the same photo but with AI filters and slight changes. A red question mark between them. Clean flat design, soft pastel colors, 16:9",
+          "file": "images/2026-04/ai-copyright-2.png"
+        },
+        {
+          "position": "guide",
+          "description": "AI 이미지에 사람이 수정을 더해 저작권을 확보하는 개념",
+          "prompt": "A human hand using a digital brush to add creative details and strokes over an AI-generated character illustration. Sparkles appearing where the hand touches. Concept of 'Human Creative Input'. Soft pastel colors, clean and approachable style, 16:9",
+          "file": "images/2026-04/ai-copyright-3.png"
+        }
+      ]
+    },
+    {
+      "post_id": "2026-04-13-ai-hospital-recording-lawsuit",
+      "title": "미국 병원 AI 녹음 집단 소송 사태",
+      "file": "workspaces/naver-blog/generated/posts/2026-04-13-ai-hospital-recording-lawsuit/post.md",
+      "images": [
+        {
+          "position": "hero",
+          "description": "의료 프라이버시와 AI 기록 상징 이미지",
+          "prompt": "A high-tech stethoscope resting on a digital tablet showing a glowing recording icon and AI waves. Hospital setting but minimalist and clean. Tension between medical care and privacy. Soft teal and white color palette, subject centered, 16:9, Trending on Behance",
+          "file": "images/2026-04/ai-hospital-1.png"
+        },
+        {
+          "position": "explanation",
+          "description": "진료실 대화가 동의 없이 AI로 전송되는 모습",
+          "prompt": "Doctor and patient talking in a modern office, while a subtle glowing stream of speech bubbles flows into a server box labeled 'AI Recording'. One speech bubble has a lock icon. Flat illustration, clean icons, warm lighting, 16:9",
+          "file": "images/2026-04/ai-hospital-2.png"
+        },
+        {
+          "position": "guide",
+          "description": "투명한 동의 절차의 중요성",
+          "prompt": "Patient holding a digital device with a large green checkmark button that says 'I Consent to AI Recording'. Friendly robot doctor pointing at the button. Clear, safe, and transparent feeling. Soft pastel backgrounds, minimalist flat design, 16:9",
+          "file": "images/2026-04/ai-hospital-3.png"
+        }
+      ]
+    },
+    {
+      "post_id": "2026-04-13-claude-mythos-ai-hacking",
+      "title": "클로드 Mythos AI 해킹 사태 정리",
+      "file": "workspaces/naver-blog/generated/posts/2026-04-13-claude-mythos-ai-hacking/post.md",
+      "images": [
+        {
+          "position": "hero",
+          "description": "스스로 해킹하는 AI Mythos 상징 이미지",
+          "prompt": "Stylized robot (Claude character) using glowing holographic keys to unlock a complex digital floating safe. Thousands of lines of code flowing in the background. Concept of 'AI finding Zero-day'. Navy and electric blue theme with bright highlights, 16:9, Trending on Behance",
+          "file": "images/2026-04/claude-hacking-1.png"
+        },
+        {
+          "position": "project",
+          "description": "Project Glasswing 기업 보안 동맹",
+          "prompt": "Multiple giant tech company logos (Apple, Google, MS, Amazon symbols) arranged in a circle forming a large protective glass-like shield over a digital city. Soft lighting, professional and secure atmosphere, clean flat design, 16:9",
+          "file": "images/2026-04/claude-hacking-2.png"
+        },
+        {
+          "position": "security",
+          "description": "AI로 시스템 취약점을 찾고 막는 모습",
+          "prompt": "A friendly robot engineer scanning a wall of digital blocks. It finds one glowing red cracked block and replaces it with a solid blue secure block. Concept of self-healing security. Tech illustration style, clean background, 16:9",
+          "file": "images/2026-04/claude-hacking-3.png"
+        }
+      ]
+    },
+    {
+      "post_id": "2026-04-13-imf-ai-financial-security-warning",
+      "title": "IMF AI 금융 시스템 위험 경고",
+      "file": "workspaces/naver-blog/generated/posts/2026-04-13-imf-ai-financial-security-warning/post.md",
+      "images": [
+        {
+          "position": "hero",
+          "description": "글로벌 금융과 AI 위협 상징 이미지",
+          "prompt": "A world map with IMF building in the center, red digital waves spreading out across global bank networks. Warning signs appearing in various cities. Dramatic but clean technical illustration, red and gold accents on blue background, 16:9, Trending on Behance",
+          "file": "images/2026-04/imf-warning-1.png"
+        },
+        {
+          "position": "threat",
+          "description": "은행 시스템을 동시에 공격하는 AI 위협",
+          "prompt": "A digital octopus with glowing binary code arms reaching into multiple bank vault icons at the same time. Fast movement and scale emphasized. Comparison between a single human hacker vs a massive AI attack. Flat illustration, 16:9",
+          "file": "images/2026-04/imf-warning-2.png"
+        },
+        {
+          "position": "defense",
+          "description": "금융 보안 수칙 (2차 인증 등)",
+          "prompt": "A smartphone showing a 2-factor authentication (OTP) screen with a green shield protection icon. Personal piggy bank sitting safely behind the phone. Warm and reassuring colors, clean minimalist design, 16:9",
+          "file": "images/2026-04/imf-warning-3.png"
+        }
+      ]
+    },
+    {
+      "post_id": "2026-04-13-sora-shutdown-platform-risk",
+      "title": "OpenAI Sora 종료와 플랫폼 리스크",
+      "file": "workspaces/naver-blog/generated/posts/2026-04-13-sora-shutdown-platform-risk/post.md",
+      "images": [
+        {
+          "position": "hero",
+          "description": "Sora 서비스 종료 상징 이미지",
+          "prompt": "A film strip with a cute robot face on it, slowly fading or disintegrating into digital dust. Robot looking a bit surprised. Warm sunset colors, sense of an era ending. Minimalist flat illustration, subject centered, 16:9, Trending on Behance",
+          "file": "images/2026-04/sora-shutdown-1.png"
+        },
+        {
+          "position": "risk",
+          "description": "단일 AI 플랫폼 의존의 위험성",
+          "prompt": "A table with only one leg (labeled 'Target AI Service') wobbling dangerously while supporting a heavy computer setup. A person looking worried. Concept of 'Single Point of Failure'. Flat illustration, 16:9",
+          "file": "images/2026-04/sora-shutdown-2.png"
+        },
+        {
+          "position": "strategy",
+          "description": "멀티 AI 플랫폼 및 로컬 백업 전략",
+          "prompt": "A professional desk with three different glowing AI icons (ChatGPT, Claude, Gemini) and a hardware external drive for backup. A person sitting confidently with these options. 'Multi-platform Strategy' concept. Clean colors, 16:9",
+          "file": "images/2026-04/sora-shutdown-3.png"
+        }
+      ]
     }
   ]
 }
