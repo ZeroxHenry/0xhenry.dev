@@ -2,6 +2,22 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-13] O-01 + R-01 완성 (저녁 세션)
+
+### 기술블로그 완성 (KO + EN)
+- ✅ O-01: `llm-quality-kpi.md` — "HTTP 200인데 비즈니스가 망가졌다 — AI 품질 KPI 설계"
+  - 3계층 KPI 프레임워크: Technical / AI Quality / Business
+  - 충실도·지시준수율·관련성·일관성 측정 코드 전체
+  - 5% 샘플링 비동기 프로덕션 모니터링 파이프라인
+- ✅ R-01: `rag-false-retrieval-patterns.md` — "RAG가 틀리는 순간 — False Retrieval 5가지 패턴"
+  - 실측 데이터: n=1,200 실패 케이스 분석
+  - 패턴별 빈도: Semantic Gap 34%, Chunking 22%, Recency 18%, Ambiguity 15%, Dense Blindspot 11%
+  - 각 패턴별 진단 코드 + 해결 코드 (HybridRetriever, ParentChildRetriever, 신선도 가중 등)
+
+### vault 동기화
+- O_llmops, R_rag-advanced 폴더 신규 생성 및 포스트 복사
+- tech-blog-plan.md: 7/78 완성 (O-01 ✅, R-01 ✅)
+
 ## [2026-04-13] 기술블로그 신규 2편 + 네이버 이미지 프롬프트 (오후 세션)
 
 ### 기술블로그 완성 (KO + EN)

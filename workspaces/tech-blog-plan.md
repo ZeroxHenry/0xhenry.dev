@@ -96,7 +96,7 @@
 
 | # | 제목 | 파일명 | 상태 |
 |---|------|--------|------|
-| O-01 | **HTTP 200인데 비즈니스가 망가졌다 — AI 품질 KPI 설계** | `llm-quality-kpi.md` | ⬜ |
+| O-01 | **HTTP 200인데 비즈니스가 망가졌다 — AI 품질 KPI 설계** | `llm-quality-kpi.md` | ✅ |
 | O-02 | **Groundedness, Faithfulness, Relevance — RAG 평가 지표 실전** | `rag-evaluation-metrics.md` | ⬜ |
 | O-03 | **GPT API 비용 계산서 공개: 3개월 프로덕션 실제 청구 내역** | `llm-api-cost-breakdown.md` | ⬜ |
 | O-04 | **AI Sprawl 감사: 우리 회사 AI 인프라에 얼마나 낭비하고 있는가** | `ai-sprawl-audit.md` | ⬜ |
@@ -115,7 +115,7 @@
 
 | # | 제목 | 파일명 | 상태 |
 |---|------|--------|------|
-| R-01 | **RAG가 틀리는 순간 — False Retrieval 5가지 패턴과 수치** | `rag-false-retrieval-patterns.md` | ⬜ |
+| R-01 | **RAG가 틀리는 순간 — False Retrieval 5가지 패턴과 수치** | `rag-false-retrieval-patterns.md` | ✅ |
 | R-02 | **Hybrid Search 실측 비교: BM25 vs Dense vs 조합의 실제 점수** | `hybrid-search-benchmark.md` | ⬜ |
 | R-03 | **GraphRAG가 일반 RAG를 이기는 유일한 상황** | `graphrag-vs-rag-conditions.md` | ⬜ |
 | R-04 | **청킹 전략 실험 결과: 어떤 방식이 실제로 검색 정확도를 높이는가** | `chunking-strategy-experiment.md` | ⬜ |
@@ -190,12 +190,12 @@
 | C. Context & Memory | 10 | 2 | 8 |
 | A. 에이전트 신뢰성 | 12 | 2 | 10 |
 | S. MCP & 보안 | 8 | 1 | 7 |
-| O. LLMOps | 10 | 0 | 10 |
-| R. RAG 심화 | 10 | 0 | 10 |
+| O. LLMOps | 10 | 1 | 9 |
+| R. RAG 심화 | 10 | 1 | 9 |
 | E. Edge AI | 12 | 0 | 12 |
 | P. 커리어 & 관점 | 8 | 0 | 8 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **5** | **73** |
+| **합계** | **78** | **7** | **71** |
 
 ---
 
