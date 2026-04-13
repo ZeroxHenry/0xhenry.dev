@@ -155,10 +155,10 @@
 
 | # | 제목 | 파일명 | 상태 |
 |---|------|--------|------|
-| P-01 | **2026년, AI가 가져간 주니어 개발자의 업무 목록** | `junior-dev-tasks-ai-took.md` | ⬜ |
-| P-02 | **"AI 엔지니어"가 되려면 무엇을 알아야 하는가 — 현실적인 로드맵** | `ai-engineer-roadmap-2026.md` | ⬜ |
-| P-03 | **Claude Code vs Cursor: 6개월 실사용 후 솔직한 비교** | `claude-code-vs-cursor.md` | ⬜ |
-| P-04 | **AI로 월 100만원 버는 것이 가능한가? 솔직한 숫자 계산** | `ai-side-income-calculation.md` | ⬜ |
+| P-01 | **AI 에이전트 시대의 개발자 생존 전략: 코딩 너머의 가치** | `career-strategy-beyond-coding.md` | ✅ |
+| P-02 | **주니어 개발자를 위한 AI 활용 가이드: 도구에 의존할 것인가, 도구를 지배할 것인가** | `junior-ai-guide.md` | ✅ |
+| P-03 | **기술 블로그가 포트폴리오를 대체할 수 있을까?** | `tech-blog-vs-portfolio.md` | ✅ |
+| P-04 | **1인 개발자의 AI 에이전트 군단 구축기** | `solo-developer-ai-army.md` | ✅ |
 | P-05 | **나는 왜 Fine-tuning 대신 RAG를 선택했는가 — 실제 결정 과정** | `why-i-chose-rag-not-finetuning.md` | ⬜ |
 | P-06 | **Sandwich 아키텍처: LLM을 이용하되 LLM에 의존하지 않는 설계** | `sandwich-architecture-llm.md` | ⬜ |
 | P-07 | **AI 스타트업 코드베이스 해부 — 실제로 어떻게 구조가 짜여 있는가** | `ai-startup-codebase-anatomy.md` | ⬜ |
@@ -193,9 +193,9 @@
 | O. LLMOps | 10 | 10 | 0 |
 | R. RAG 심화 | 10 | 10 | 0 |
 | E. Edge AI | 12 | 12 | 0 |
-| P. 커리어 & 관점 | 8 | 0 | 8 |
+| P. 커리어 & 관점 | 8 | 4 | 4 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **62** | **16** |
+| **합계** | **78** | **66** | **12** |
 
 ---
 
