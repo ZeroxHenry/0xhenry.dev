@@ -2,6 +2,35 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-13] 기술블로그 신규 2편 + 네이버 이미지 프롬프트 (오후 세션)
+
+### 기술블로그 완성 (KO + EN)
+- ✅ C-03: `dynamic-context-assembly.md` — "AI의 RAM 관리법: 동적 컨텍스트 조립 패턴 5가지"
+  - 5가지 패턴: Slot-based, Token Budget, Priority Queue, Lazy Loading, Tiered Assembly
+  - 실측 수치: 토큰 -91.6%, 비용 $1,840→$156/월, 응답속도 -57%
+  - KO: `packages/website/content/ko/study/C_context-memory/dynamic-context-assembly.md`
+  - EN: `packages/website/content/en/study/C_context-memory/dynamic-context-assembly.md`
+- ✅ A-02: `llm-agent-drift-detection.md` — "내 AI 에이전트가 서서히 멍청해졌다 — LLM Drift 감지법"
+  - 4가지 Drift 유형: 데이터/개념/모델/컨텍스트 드리프트
+  - 완전한 DriftMonitor, DriftDetectionPipeline, DriftDiagnostics 클래스 포함
+  - 모델 버전 고정 전략 + 알림 설정 가이드
+  - KO: `packages/website/content/ko/study/A_agent-reliability/llm-agent-drift-detection.md`
+  - EN: `packages/website/content/en/study/A_agent-reliability/llm-agent-drift-detection.md`
+
+### A-1: 네이버 블로그 이미지 프롬프트 5편 생성
+- `workspaces/naver-blog/generated/pending_images.json` 생성
+- 포스트별 3장, JSON-AI 포맷, 네이버 스타일 (파스텔, 미니멀, 16:9)
+- 포함 포스트:
+  1. 2026-04-08-rag-explained (오픈북 비유, RAG 플로우)
+  2. 2026-04-10-agentic-ai (에이전트 vs 챗봇, 사용사례)
+  3. 2026-04-13-context-engineering (CPU/RAM 비유, 비교)
+  4. 2026-04-13-mcp-security (보안 경각심, 방어법)
+  5. 2026-04-11-cursor-ai (생산성 비교, 기능 소개)
+
+### Vault 동기화
+- 신규 포스트 4개 → vault/00_Raw/0xhenry-dev/ko, en 복사 완료
+- tech-blog-plan.md 상태 업데이트: 5/78 완성 (C-03 ✅, A-02 ✅)
+
 ## [2026-04-13] 콘텐츠 파이프라인 전면 구축 (Windows 세션)
 
 ### 전략 & 시장조사

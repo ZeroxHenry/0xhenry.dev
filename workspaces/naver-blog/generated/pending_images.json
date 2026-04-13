@@ -1,5 +1,139 @@
 {
-  "generated_at": "2026-04-13T09:15:00+09:00",
-  "note": "이 파일은 A-1 명령 실행 시 자동으로 채워집니다.",
-  "pending": []
+  "generated_at": "2026-04-13T17:57:00+09:00",
+  "style_base": {
+    "naver": "Minimalist flat illustration, friendly and approachable, soft pastel background, subject centered, wide margins, 16:9 aspect ratio, Trending on Behance",
+    "json_ai": {
+      "style": "Minimalist flat illustration, friendly and approachable",
+      "background": "Soft pastel or clean white",
+      "composition": "Wide margins, Subject centered, 16:9 aspect ratio",
+      "technical": "OctaneRender, High detail, Trending on Behance"
+    }
+  },
+  "pending": [
+    {
+      "post_id": "2026-04-08-rag-explained",
+      "title": "RAG란? AI가 검색해서 답하는 기술 (쉽게 설명)",
+      "file": "workspaces/naver-blog/generated/posts/2026-04-08-rag-explained/post.md",
+      "images": [
+        {
+          "position": "hero",
+          "description": "AI가 책장에서 책을 꺼내 읽는 모습 — 도입부 비유 이미지",
+          "prompt": "Cute friendly robot standing in front of a giant warm library bookshelf, carefully pulling out a glowing book to read. Cozy library atmosphere with warm amber and cream colors. Minimalist flat illustration style, soft pastel background, subject centered with wide margins, 16:9 aspect ratio, clean and friendly design, Trending on Behance",
+          "file": "images/2026-04/rag-explained-1.png"
+        },
+        {
+          "position": "comparison",
+          "description": "클로즈드북(일반 AI) vs 오픈북(RAG AI) 시험 비유",
+          "prompt": "Side-by-side illustration: LEFT side shows a stressed student at a desk with empty desk surface, speech bubble says '모르는 내용은 지어낼게요' (will make up what I don't know). RIGHT side shows a relaxed happy student with glowing reference books open, speech bubble says '책에서 정확히 찾아볼게요' (let me look it up accurately). Simple flat character design, warm pastel colors, wide margins, 16:9, clean comparison layout",
+          "file": "images/2026-04/rag-explained-2.png"
+        },
+        {
+          "position": "diagram",
+          "description": "RAG 시스템 3단계 플로우 다이어그램 (검색 → 생성)",
+          "prompt": "Simple clean infographic showing RAG flow: Step 1 사용자 질문 (person icon asking question) → Step 2 문서 검색 (magnifying glass searching database) → Step 3 AI 답변 생성 (robot generating answer with reference). Korean labels. Soft blue and green color scheme, rounded icons, clean diagram style, white background, wide margins, 16:9",
+          "file": "images/2026-04/rag-explained-3.png"
+        }
+      ]
+    },
+    {
+      "post_id": "2026-04-10-agentic-ai",
+      "title": "에이전트 AI란? 알아서 일하는 똑똑한 동료를 만나는 법",
+      "file": "workspaces/naver-blog/generated/posts/2026-04-10-agentic-ai/post.md",
+      "images": [
+        {
+          "position": "hero",
+          "description": "스스로 계획을 세우고 일하는 AI 에이전트 메인 이미지",
+          "prompt": "Friendly robot colleague sitting at a desk surrounded by floating task bubbles and tools: search icon, calendar, document, email. Robot looks confident and capable, planning board visible with task list checked off. Warm and professional illustration, mint and sky-blue color palette, minimalist flat design, subject centered, wide margins, 16:9, Trending on Behance",
+          "file": "images/2026-04/agentic-ai-1.png"
+        },
+        {
+          "position": "comparison",
+          "description": "일반 AI(질문-답변) vs 에이전트 AI(목표-실행) 비교",
+          "prompt": "Two-panel comparison illustration: LEFT 'Traditional AI' shows simple Q→A arrow, person asks question, AI responds. Single step, one-directional. Label says '질문-답변만'. RIGHT 'Agent AI' shows robot breaking down a goal into multiple steps, using tools, checking results, adapting. Multiple loops and arrows. Label says '목표→계획→실행→검토'. Flat illustration, warm pastel colors, 16:9",
+          "file": "images/2026-04/agentic-ai-2.png"
+        },
+        {
+          "position": "use-cases",
+          "description": "에이전트 AI 실생활 활용 사례 3가지",
+          "prompt": "Three icon cards in a row with rounded corners: Card 1 (blue) 코딩 에이전트 - robot typing code with Claude Code logo. Card 2 (green) 리서치 에이전트 - robot reading stacks of documents. Card 3 (purple) 스마트 로봇 - cute home robot watering plants. Each card has Korean label and friendly icon. Clean flat design, pastel backgrounds, 16:9",
+          "file": "images/2026-04/agentic-ai-3.png"
+        }
+      ]
+    },
+    {
+      "post_id": "2026-04-13-context-engineering",
+      "title": "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리",
+      "file": "workspaces/naver-blog/generated/2026-04/2026-04-13-context-engineering.md",
+      "images": [
+        {
+          "position": "hero",
+          "description": "AI의 RAM을 설계하는 엔지니어 — CPU/RAM 비유 히어로 이미지",
+          "prompt": "Engineer-character carefully arranging glowing information blocks into a clean RAM module labeled 'Context Window'. Blocks labeled: 지시사항, 대화이력, 검색결과, 도구목록. Some dirty/cluttered blocks being filtered out (grayed out). Tech illustration style, blue-purple gradient accents, clean background, wide margins, 16:9, Trending on Behance",
+          "file": "images/2026-04/context-engineering-1.png"
+        },
+        {
+          "position": "comparison",
+          "description": "프롬프트 엔지니어링 vs Context Engineering 대비 인포그래픽",
+          "prompt": "Left-right comparison with clean divider: LEFT side '프롬프트 엔지니어링' shows person with pen and thought bubble '어떻게 질문하지?', warm orange tones. RIGHT side 'Context Engineering' shows architect character with blueprint designing information flow, cool blue tones. Labels: '질문 방식 최적화' vs '정보 환경 설계'. Minimalist flat illustration, 16:9",
+          "file": "images/2026-04/context-engineering-2.png"
+        },
+        {
+          "position": "concept",
+          "description": "CPU(LLM) + RAM(Context Window) 컴퓨터 구조 다이어그램",
+          "prompt": "Clean computer architecture diagram: Large CPU chip labeled 'LLM (AI 두뇌)' on the left, RAM modules on the right labeled 'Context Window (AI 작업 공간)'. Inside RAM: small clean blocks vs. cluttered messy blocks comparison. Korean labels. Navy background with bright green/blue highlights, tech diagram style, 16:9",
+          "file": "images/2026-04/context-engineering-3.png"
+        }
+      ]
+    },
+    {
+      "post_id": "2026-04-13-mcp-security",
+      "title": "AI 연결 표준 MCP에 보안 구멍이 있다?",
+      "file": "workspaces/naver-blog/generated/2026-04/2026-04-13-mcp-security.md",
+      "images": [
+        {
+          "position": "hero",
+          "description": "MCP 보안 위협 — 히어로 경각심 유발 이미지",
+          "prompt": "AI robot assistant confidently using a tool (magnifying glass icon), but hidden behind the tool description text (shown as fine print) there is a glowing red warning: 'HIDDEN MALICIOUS CODE'. Robot doesn't see the danger. Warning shield icon with exclamation mark floating above. Dramatic but friendly illustration style, red warning accents on blue theme, wide margins, 16:9",
+          "file": "images/2026-04/mcp-security-1.png"
+        },
+        {
+          "position": "explanation",
+          "description": "MCP가 AI에게 도구를 주는 방식 — 구조 설명 이미지",
+          "prompt": "Simple illustration: Center is 'AI 에이전트' (robot icon). Left side shows 'MCP 서버' (server box) sending labeled tool cards: 검색, 이메일, 파일읽기. Right side shows 'AI가 도구 사용' (robot using selected tool). Clean flow diagram, friendly icons, blue and mint color scheme, Korean labels, clean white background, 16:9",
+          "file": "images/2026-04/mcp-security-2.png"
+        },
+        {
+          "position": "defense",
+          "description": "3가지 방어 방법 — 안전한 MCP 사용 가이드",
+          "prompt": "Three shield icons in a row with Korean labels: Shield 1 (blue) '신뢰할 수 있는 MCP만 사용' with verified checkmark. Shield 2 (green) '민감 정보 주의' with lock icon. Shield 3 (orange) '이상한 행동 모니터링' with eye/alert icon. Clean card design, soft pastel backgrounds, security concept illustrated simply and accessibly, 16:9",
+          "file": "images/2026-04/mcp-security-3.png"
+        }
+      ]
+    },
+    {
+      "post_id": "2026-04-11-cursor-ai",
+      "title": "Cursor AI 코드 에디터 리뷰",
+      "file": "workspaces/naver-blog/generated/2026-04/2026-04-11-cursor-ai-코드-에디터-리뷰.md",
+      "images": [
+        {
+          "position": "hero",
+          "description": "Cursor AI로 코딩하는 개발자 — 생산성 향상 이미지",
+          "prompt": "Developer at desk with split screen: LEFT shows traditional coding (slow, lots of typing, stressed expression). RIGHT shows Cursor AI coding (fast, AI suggestions appearing as ghost text, relaxed happy expression). Speed lines showing the difference. Sleek tech illustration, dark navy and bright accent colors, wide margins, 16:9, Trending on Behance",
+          "file": "images/2026-04/cursor-ai-1.png"
+        },
+        {
+          "position": "features",
+          "description": "Cursor AI 핵심 기능 3가지 소개",
+          "prompt": "Three feature cards with icons: Card 1 (blue) 'Tab 자동완성' - keyboard with AI spark. Card 2 (purple) 'Ctrl+K 인라인 수정' - code block with magic wand. Card 3 (green) 'Ctrl+L 코드베이스 대화' - chat bubble over file tree. Professional but approachable design, dark background with bright accents, 16:9",
+          "file": "images/2026-04/cursor-ai-2.png"
+        },
+        {
+          "position": "verdict",
+          "description": "장단점 정리 — 추천/비추천 대상",
+          "prompt": "Simple pros/cons visual: Left column (green checkmarks): '매일 코딩하는 개발자', '반복 작업 많은 분', '생산성 극대화 원하는 분'. Right column (orange X marks): '코딩 배우는 초보', '잦은 변경에 민감한 분', '보안 규정 엄격한 환경'. Clean two-column layout, friendly icons, pastel background, 16:9",
+          "file": "images/2026-04/cursor-ai-3.png"
+        }
+      ]
+    }
+  ]
 }
