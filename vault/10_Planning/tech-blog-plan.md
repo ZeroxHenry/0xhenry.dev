@@ -134,10 +134,10 @@
 
 | # | 제목 | 파일명 | 상태 |
 |---|------|--------|------|
-| E-01 | **STM32에서 AI를? TinyML로 제스처 인식 실전 구현** | `stm32-tinyml-gesture.md` | ⬜ |
-| E-02 | **STM32 + Edge Impulse: 마이크로컨트롤러에 ML 모델 올리기** | `stm32-edge-impulse.md` | ⬜ |
-| E-03 | **Jetson Orin vs Raspberry Pi 5: 엣지 AI 실측 벤치마크** | `jetson-vs-rpi5-benchmark.md` | ⬜ |
-| E-04 | **5W 이하에서 LLM 추론: 저전력 엣지 AI의 현실** | `low-power-llm-inference.md` | ⬜ |
+| E-01 | **STM32에서 AI를? TinyML로 제스처 인식 실전 구현** | `stm32-tinyml-gesture.md` | ✅ |
+| E-02 | **STM32 + Edge Impulse: 마이크로컨트롤러에 ML 모델 올리기** | `stm32-edge-impulse.md` | ✅ |
+| E-03 | **Jetson Orin vs Raspberry Pi 5: 엣지 AI 실측 벤치마크** | `jetson-vs-rpi5-benchmark.md` | ✅ |
+| E-04 | **5W 이하에서 LLM 추론: 저전력 엣지 AI의 현실** | `low-power-llm-inference.md` | ✅ |
 | E-05 | **GGUF vs EXL2 vs AWQ: 양자화 포맷 실제 성능 비교 (같은 모델, 다른 결과)** | `quantization-format-benchmark.md` | ⬜ |
 | E-06 | **Raspberry Pi 5로 로컬 LLM: 실제 토큰/초 속도 측정 결과** | `rpi5-llm-speed-test.md` | ⬜ |
 | E-07 | **ROS 2 + AI 에이전트: 로봇의 두뇌를 LLM으로 교체한 실험** | `ros2-llm-agent.md` | ⬜ |
@@ -192,10 +192,10 @@
 | S. MCP & 보안 | 8 | 8 | 0 |
 | O. LLMOps | 10 | 10 | 0 |
 | R. RAG 심화 | 10 | 10 | 0 |
-| E. Edge AI | 12 | 0 | 12 |
+| E. Edge AI | 12 | 4 | 8 |
 | P. 커리어 & 관점 | 8 | 0 | 8 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **50** | **28** |
+| **합계** | **78** | **54** | **24** |
 
 ---
 
