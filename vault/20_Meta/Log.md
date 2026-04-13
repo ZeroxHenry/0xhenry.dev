@@ -2,6 +2,20 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-13] A-03 + O-02 완성 (야간 세션)
+
+### 기술블로그 완성 (KO + EN)
+- ✅ A-03: `agent-saga-rollback.md` — "에이전트에게 Ctrl+Z를 — Saga 패턴으로 롤백 구현하기"
+  - 분산 시스템의 Saga 패턴을 AI 에이전트의 사이드 이펙트 처리에 대입.
+  - Python SagaManager 구현체 및 보상 트랜잭션(Compensating Transaction) 개념 설명.
+- ✅ O-02: `rag-evaluation-metrics.md` — "Groundedness, Faithfulness, Relevance — RAG 평가 지표 실전"
+  - RAG Triad(충실도, 답변 관련성, 컨텍스트 관련성) 상세 해부.
+  - LLM-as-a-Judge 기반의 자동 평가 소스 코드 및 벤치마크 예시 포함.
+
+### Vault 및 플랜 업데이트
+- 신규 포스트 4개(KO/EN) `vault/00_Raw/` 동기화 완료.
+- `tech-blog-plan.md` 업데이트: 11/78 완성 (14% 달성).
+
 ## [2026-04-13] O-01 + R-01 완성 (저녁 세션)
 
 ### 기술블로그 완성 (KO + EN)
