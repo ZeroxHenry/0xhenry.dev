@@ -1,0 +1,710 @@
+1:"$Sreact.fragment"
+2:I[95772,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js"],""]
+3:I[61839,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js"],"default"]
+4:I[41630,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js","/_next/static/chunks/0k_6wg_8m8pt3.js"],"default"]
+5:I[67022,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js"],"default"]
+6:I[3134,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js","/_next/static/chunks/0j.4u96-16gse.js","/_next/static/chunks/0~i14~xm6f2np.js"],""]
+7:I[61839,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js"],"LoadingBoundaryProvider"]
+a:I[84309,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js"],"OutletBoundary"]
+b:"$Sreact.suspense"
+e:I[84309,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js"],"ViewportBoundary"]
+10:I[84309,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js"],"MetadataBoundary"]
+12:I[61930,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js"],"default",1]
+:HL["/_next/static/chunks/09915p7kwin0t.css","style"]
+0:{"P":null,"c":["","en","study","stm32-peripherals"],"q":"","i":false,"f":[[["",{"children":[["lang","en","d",null],{"children":["study",{"children":[["slug","stm32-peripherals","d",null],{"children":["__PAGE__",{}]},"$undefined","$undefined",4]},"$undefined","$undefined",8]},"$undefined","$undefined",12]},"$undefined","$undefined",24],[["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/09915p7kwin0t.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/0hm1~db~o32ab.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/11cggpb33wwo3.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","suppressHydrationWarning":true,"children":[["$","head",null,{"children":["$","$L2",null,{"id":"theme-init","strategy":"beforeInteractive","children":"\n          (function() {\n            var t = localStorage.getItem('theme');\n            if (t === 'dark' || (!t && window.matchMedia('(prefers-color-scheme: dark)').matches)) {\n              document.documentElement.classList.add('dark');\n            }\n          })();\n        "}]}],["$","body",null,{"className":"min-h-screen flex flex-col bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-100","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$4","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/_next/static/chunks/0k_6wg_8m8pt3.js","async":true}]],"template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","div",null,{"className":"flex min-h-screen flex-col items-center justify-center px-4 text-center","children":[["$","h1",null,{"className":"text-9xl font-extrabold tracking-tight","style":{"color":"var(--accent)"},"children":"404"}],["$","p",null,{"className":"mt-4 text-xl text-gray-600 dark:text-gray-400","children":"Page not found"}],["$","p",null,{"className":"mt-2 text-gray-500 dark:text-gray-500","children":"The page you are looking for does not exist or has been moved."}],["$","$L6",null,{"href":"/en","className":"mt-8 inline-block rounded-lg px-6 py-3 font-medium text-white transition-opacity hover:opacity-90","style":{"backgroundColor":"var(--accent)"},"children":"Go Home"}]]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]]}]]}],{"children":[["$","$L7",null,{"loading":[["$","div","l",{"className":"flex min-h-screen items-center justify-center","children":["$","div",null,{"className":"h-10 w-10 animate-spin rounded-full border-4 border-current border-t-transparent","style":{"color":"var(--accent)"},"role":"status","aria-label":"Loading"}]}],[],[]],"children":["$","$1","c",{"children":[[["$","script","script-0",{"src":"/_next/static/chunks/0j.4u96-16gse.js","async":true,"nonce":"$undefined"}]],"$L8"]}]}],{"children":[["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}],{"children":[["$","$L7",null,{"loading":[["$","div","l",{"className":"flex min-h-screen items-center justify-center","children":["$","div",null,{"className":"h-10 w-10 animate-spin rounded-full border-4 border-current border-t-transparent","style":{"color":"var(--accent)"},"role":"status","aria-label":"Loading"}]}],[],[]],"children":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]}],{"children":[["$","$1","c",{"children":["$L9",[["$","script","script-0",{"src":"/_next/static/chunks/0~i14~xm6f2np.js","async":true,"nonce":"$undefined"}]],["$","$La",null,{"children":["$","$b",null,{"name":"Next.MetadataOutlet","children":"$@c"}]}]]}],{},null,false,null]},null,false,"$@d"]},null,false,"$@d"]},null,false,null]},null,false,null],["$","$1","h",{"children":[null,["$","$Le",null,{"children":"$Lf"}],["$","div",null,{"hidden":true,"children":["$","$L10",null,{"children":["$","$b",null,{"name":"Next.Metadata","children":"$L11"}]}]}],null]}],false]],"m":"$undefined","G":["$12",[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/09915p7kwin0t.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]]],"S":true,"h":null,"s":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"FVh-8WO-W0sG-ZqA-HZ3K"}
+13:[]
+d:"$W13"
+14:I[79825,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js","/_next/static/chunks/0j.4u96-16gse.js"],"default"]
+15:I[20605,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js","/_next/static/chunks/0j.4u96-16gse.js"],"default"]
+8:["$","$L14",null,{"children":[["$","$L15",null,{"lang":"en"}],["$","main",null,{"className":"flex-1","children":["$","$L3",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]}],["$","footer",null,{"className":"border-t border-gray-200 dark:border-gray-800 py-8 text-center text-sm text-gray-500","children":["$","div",null,{"className":"max-w-5xl mx-auto px-5","children":["© ",2026," 0xHenry. Built by Henry."]}]}]]}]
+16:T4cd1,<h2>Essential Peripherals for Robotics</h2>
+<p><img src="/images/study/stm32/can-topology.png" alt="CAN Bus Topology">
+<em>CAN bus communication topology</em></p>
+<h3>5.1 FDCAN (Motor CAN Communication)</h3>
+<p>The T-Motor units (AK60, AK70, AK80) in AR_Walker communicate over a CAN bus.
+The STM32H7 supports FDCAN (Flexible Data-rate CAN), which is backward-compatible with both classic CAN 2.0 and CAN FD.</p>
+<h4>CAN vs CAN FD Comparison</h4>
+<table>
+<thead>
+<tr>
+<th>Item</th>
+<th>CAN 2.0</th>
+<th>CAN FD</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Data length</td>
+<td>Up to 8 bytes</td>
+<td>Up to 64 bytes</td>
+</tr>
+<tr>
+<td>Bit rate</td>
+<td>Up to 1 Mbps</td>
+<td>Nominal 1 Mbps + Data up to 8 Mbps</td>
+</tr>
+<tr>
+<td>Current motor usage</td>
+<td><strong>CAN 2.0</strong></td>
+<td>(expandable in the future)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>AR_Walker's T-Motor uses CAN 2.0 (1 Mbps, 8 bytes).
+The FDCAN peripheral is backward-compatible and can operate in CAN 2.0 mode.</p>
+</blockquote>
+<h4>FDCAN Pin Options (LQFP-100)</h4>
+<table>
+<thead>
+<tr>
+<th>Peripheral</th>
+<th>TX Pin Options</th>
+<th>RX Pin Options</th>
+<th>AF</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>FDCAN1</strong></td>
+<td>PD1, PA12, PB9</td>
+<td>PD0, PA11, PB8</td>
+<td><strong>AF9</strong></td>
+</tr>
+<tr>
+<td><strong>FDCAN2</strong></td>
+<td>PB13, PB6</td>
+<td>PB5, PB12</td>
+<td><strong>AF9</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Recommended AR_Walker mapping:</strong></p>
+<ul>
+<li>FDCAN1: <strong>PD1</strong> (TX), <strong>PD0</strong> (RX) → AF9</li>
+<li>Rationale: Placing on Port D avoids conflicts with the ADC/SPI pins on Port A</li>
+</ul>
+<h4>CubeMX Configuration</h4>
+<ol>
+<li>Connectivity → FDCAN1 → Enable</li>
+<li>Parameter Settings:
+<ul>
+<li>Frame Format: <strong>Classic</strong> (CAN 2.0 mode)</li>
+<li>Mode: <strong>Normal</strong> (loopback is for testing only)</li>
+<li>Nominal Prescaler: <strong>3</strong></li>
+<li>Nominal Time Seg1: <strong>13</strong></li>
+<li>Nominal Time Seg2: <strong>2</strong></li>
+<li>Nominal Sync Jump Width: <strong>1</strong></li>
+<li>→ Nominal Bit Rate = <strong>APB1_CLK / (Prescaler * (1 + Seg1 + Seg2))</strong></li>
+<li>→ 120MHz / (3 * (1+13+2)) = 120/48 = <strong>2.5 Mbps</strong>... → needs adjustment</li>
+<li>Prescaler: <strong>10</strong>, Seg1: <strong>5</strong>, Seg2: <strong>6</strong> → 120/(10*(1+5+6)) = <strong>1 Mbps</strong></li>
+</ul>
+</li>
+</ol>
+<h4>HAL Code Example</h4>
+<pre><code class="language-c">/* FDCAN initialization — auto-generated by CubeMX */
+FDCAN_HandleTypeDef hfdcan1;
+
+/* USER CODE BEGIN: filter setup + start */
+void FDCAN1_Start(void)
+{
+    FDCAN_FilterTypeDef filter;
+    filter.IdType       = FDCAN_STANDARD_ID;
+    filter.FilterIndex  = 0;
+    filter.FilterType   = FDCAN_FILTER_MASK;
+    filter.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;
+    filter.FilterID1    = 0x000;    // accept all IDs
+    filter.FilterID2    = 0x000;    // mask: ignore all bits (= accept everything)
+    HAL_FDCAN_ConfigFilter(&#x26;hfdcan1, &#x26;filter);
+
+    // Enable FIFO0 receive interrupt
+    HAL_FDCAN_ActivateNotification(&#x26;hfdcan1, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0);
+
+    // Start CAN
+    HAL_FDCAN_Start(&#x26;hfdcan1);
+}
+
+/* CAN message transmit — send motor command */
+void CAN_SendMotorCommand(uint16_t motor_id, float torque)
+{
+    FDCAN_TxHeaderTypeDef tx_header;
+    uint8_t tx_data[8];
+
+    tx_header.Identifier          = motor_id;       // e.g. 0x01 (motor ID)
+    tx_header.IdType              = FDCAN_STANDARD_ID;
+    tx_header.TxFrameType         = FDCAN_DATA_FRAME;
+    tx_header.DataLength          = FDCAN_DLC_BYTES_8;
+    tx_header.ErrorStateIndicator = FDCAN_ESI_ACTIVE;
+    tx_header.BitRateSwitch       = FDCAN_BRS_OFF;  // CAN 2.0 mode
+    tx_header.FDFormat            = FDCAN_CLASSIC_CAN;
+    tx_header.TxEventFifoControl  = FDCAN_NO_TX_EVENTS;
+    tx_header.MessageMarker       = 0;
+
+    // Encode torque value into CAN data (per motor protocol)
+    // T-Motor AK series CAN protocol:
+    // [pos(15:8)] [pos(7:0)] [vel(11:4)] [vel(3:0)|kp(11:8)]
+    // [kp(7:0)] [kd(11:4)] [kd(3:0)|torque(11:8)] [torque(7:0)]
+    encode_motor_command(tx_data, 0.0f, 0.0f, 0.0f, 0.0f, torque);
+
+    HAL_FDCAN_AddMessageToTxFifoQ(&#x26;hfdcan1, &#x26;tx_header, tx_data);
+}
+
+/* CAN receive callback — handle motor response */
+void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
+{
+    FDCAN_RxHeaderTypeDef rx_header;
+    uint8_t rx_data[8];
+
+    if (HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &#x26;rx_header, rx_data) == HAL_OK)
+    {
+        uint16_t motor_id = rx_header.Identifier;
+        // Parse motor response: position, velocity, current
+        float position, velocity, current;
+        decode_motor_response(rx_data, &#x26;position, &#x26;velocity, &#x26;current);
+
+        // Store in ExoData struct
+        update_motor_data(motor_id, position, velocity, current);
+    }
+}
+</code></pre>
+<blockquote>
+<p>🔧 <strong>Hardware note</strong>: The CAN bus requires a <strong>CAN transceiver IC</strong> (e.g., MCP2562, SN65HVD230).
+MCU FDCAN TX/RX pins → transceiver → CAN_H/CAN_L differential signals → motors.
+<strong>120 Ω termination resistors</strong> are required at both ends of the bus.</p>
+</blockquote>
+<hr>
+<h3>5.2 UART/USART (IMU Communication)</h3>
+<p>AR_Walker's IMU sends data over UART serial. On the current Teensy it uses Serial4 (RX4 = pin 16).</p>
+<h4>UART Pin Options (commonly used on LQFP-100)</h4>
+<table>
+<thead>
+<tr>
+<th>Peripheral</th>
+<th>TX Pin</th>
+<th>RX Pin</th>
+<th>AF</th>
+<th>Bus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>USART1</strong></td>
+<td>PA9, PB6</td>
+<td>PA10, PB7</td>
+<td>AF7</td>
+<td>APB2</td>
+</tr>
+<tr>
+<td><strong>USART2</strong></td>
+<td>PA2, PD5</td>
+<td>PA3, PD6</td>
+<td>AF7</td>
+<td>APB1</td>
+</tr>
+<tr>
+<td><strong>USART3</strong></td>
+<td>PB10, PC10, PD8</td>
+<td>PB11, PC11, PD9</td>
+<td>AF7</td>
+<td>APB1</td>
+</tr>
+<tr>
+<td><strong>USART6</strong></td>
+<td>PC6</td>
+<td>PC7</td>
+<td>AF7</td>
+<td>APB2</td>
+</tr>
+<tr>
+<td><strong>UART4</strong></td>
+<td>PA0, PC10</td>
+<td>PA1, PC11</td>
+<td>AF8</td>
+<td>APB1</td>
+</tr>
+<tr>
+<td><strong>UART5</strong></td>
+<td>PC12</td>
+<td>PD2</td>
+<td>AF8/AF14</td>
+<td>APB1</td>
+</tr>
+<tr>
+<td><strong>UART7</strong></td>
+<td>PE8</td>
+<td>PE7</td>
+<td>AF7</td>
+<td>APB1</td>
+</tr>
+<tr>
+<td><strong>UART8</strong></td>
+<td>PE1</td>
+<td>PE0</td>
+<td>AF8</td>
+<td>APB1</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Recommended AR_Walker IMU mapping:</strong></p>
+<ul>
+<li>UART4: <strong>PA1</strong> (RX) → AF8 (TX not needed, RX only)</li>
+<li>Or USART3: <strong>PD9</strong> (RX), PD8 (TX) → AF7</li>
+</ul>
+<blockquote>
+<p>💡 <strong>USART vs UART</strong>: USART supports synchronous mode (clock-synchronized); UART is asynchronous only.
+IMU communication is asynchronous, so either works.</p>
+</blockquote>
+<h4>CubeMX Configuration</h4>
+<ol>
+<li>Connectivity → UART4 (or whichever UART you prefer) → Enable</li>
+<li>Mode: <strong>Asynchronous</strong></li>
+<li>Parameter Settings:
+<ul>
+<li>Baud Rate: <strong>115200</strong> (or match the IMU spec)</li>
+<li>Word Length: <strong>8 Bits</strong></li>
+<li>Stop Bits: <strong>1</strong></li>
+<li>Parity: <strong>None</strong></li>
+<li>Over Sampling: <strong>16</strong></li>
+</ul>
+</li>
+</ol>
+<h4>HAL Code Example</h4>
+<pre><code class="language-c">UART_HandleTypeDef huart4;
+
+/* === Efficient DMA receive (recommended) === */
+
+uint8_t imu_rx_buffer[24];  // sized to the IMU packet
+
+void IMU_StartReceive(void)
+{
+    // Start circular DMA receive — does not block the CPU
+    HAL_UARTEx_ReceiveToIdle_DMA(&#x26;huart4, imu_rx_buffer, sizeof(imu_rx_buffer));
+    __HAL_DMA_DISABLE_IT(huart4.hdmarx, DMA_IT_HT);  // disable Half-Transfer interrupt
+}
+
+/* Callback on DMA complete or idle line detection */
+void HAL_UARTEx_RxEventCallback(UART_HandleTypeDef *huart, uint16_t Size)
+{
+    if (huart == &#x26;huart4)
+    {
+        // Parse IMU data
+        parse_imu_data(imu_rx_buffer, Size);
+
+        // Restart for next receive
+        HAL_UARTEx_ReceiveToIdle_DMA(&#x26;huart4, imu_rx_buffer, sizeof(imu_rx_buffer));
+        __HAL_DMA_DISABLE_IT(huart4.hdmarx, DMA_IT_HT);
+    }
+}
+
+/* === Simple polling (for debugging) === */
+void IMU_ReadPolling(void)
+{
+    uint8_t byte;
+    if (HAL_UART_Receive(&#x26;huart4, &#x26;byte, 1, 1) == HAL_OK)
+    {
+        // process one byte at a time
+        process_imu_byte(byte);
+    }
+}
+
+/* === Debug UART output (printf redirect) === */
+// When using USART3 for debug output:
+int _write(int file, char *ptr, int len)
+{
+    HAL_UART_Transmit(&#x26;huart3, (uint8_t *)ptr, len, HAL_MAX_DELAY);
+    return len;
+}
+// After this, printf("Hello STM32!\n"); outputs over serial
+</code></pre>
+<blockquote>
+<p>💡 <strong>Why DMA receive matters</strong>: If the IMU sends data at 500 Hz, a polling approach can create timing conflicts with the control loop (also 500 Hz).
+With DMA, data is received in the background without CPU involvement, so the control loop is unaffected.</p>
+</blockquote>
+<hr>
+<h3>5.3 SPI (MCU-to-MCU Communication)</h3>
+<p>AR_Walker currently uses SPI between the Teensy 4.1 (Logic MCU) and the Arduino Nano 33 BLE (Coms MCU).
+This SPI link is preserved when migrating to STM32.</p>
+<h4>SPI Pin Options</h4>
+<table>
+<thead>
+<tr>
+<th>Peripheral</th>
+<th>SCK</th>
+<th>MOSI</th>
+<th>MISO</th>
+<th>NSS</th>
+<th>AF</th>
+<th>Bus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>SPI1</strong></td>
+<td>PA5, PB3</td>
+<td>PA7, PB5</td>
+<td>PA6, PB4</td>
+<td>PA4, PA15</td>
+<td>AF5</td>
+<td>APB2</td>
+</tr>
+<tr>
+<td><strong>SPI2</strong></td>
+<td>PB10, PB13</td>
+<td>PB15, PC3</td>
+<td>PB14, PC2</td>
+<td>PB12, PB4</td>
+<td>AF5</td>
+<td>APB1</td>
+</tr>
+<tr>
+<td><strong>SPI3</strong></td>
+<td>PB3, PC10</td>
+<td>PB5, PC12</td>
+<td>PB4, PC11</td>
+<td>PA4, PA15</td>
+<td>AF6</td>
+<td>APB1</td>
+</tr>
+<tr>
+<td><strong>SPI4</strong></td>
+<td>PE2, PE12</td>
+<td>PE6, PE14</td>
+<td>PE5, PE13</td>
+<td>PE4, PE11</td>
+<td>AF5</td>
+<td>APB2</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Recommended AR_Walker mapping:</strong></p>
+<ul>
+<li>SPI1 (Master):
+<ul>
+<li>SCK: <strong>PA5</strong> (AF5)</li>
+<li>MOSI: <strong>PA7</strong> (AF5)</li>
+<li>MISO: <strong>PA6</strong> (AF5)</li>
+<li>CS: <strong>PA4</strong> (GPIO, software-controlled)</li>
+<li>IRQ: <strong>PC13</strong> (GPIO interrupt input)</li>
+</ul>
+</li>
+</ul>
+<h4>CubeMX Configuration</h4>
+<ol>
+<li>Connectivity → SPI1 → Enable</li>
+<li>Mode: <strong>Full-Duplex Master</strong></li>
+<li>Parameter Settings:
+<ul>
+<li>Data Size: <strong>8 bit</strong></li>
+<li>First Bit: <strong>MSB First</strong></li>
+<li>Prescaler: <strong>16</strong> (APB2 120 MHz / 16 = 7.5 MHz)</li>
+<li>Clock Polarity (CPOL): <strong>Low</strong> (match the Coms MCU's SPI configuration (CPOL/CPHA))</li>
+<li>Clock Phase (CPHA): <strong>1 Edge</strong> (Mode 0) or <strong>2 Edge</strong> (Mode 3)</li>
+<li>NSS: <strong>Software</strong> (CS controlled directly via GPIO)</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><strong>CPOL/CPHA modes</strong>: Must match the Coms MCU's SPI configuration (CPOL/CPHA).
+SPI Mode 0 = CPOL:0 CPHA:0, Mode 1 = CPOL:0 CPHA:1,
+Mode 2 = CPOL:1 CPHA:0, Mode 3 = CPOL:1 CPHA:1</p>
+</blockquote>
+<h4>HAL Code Example</h4>
+<pre><code class="language-c">SPI_HandleTypeDef hspi1;
+
+/* SPI transmit/receive (blocking) */
+void SPI_TransmitReceive(uint8_t *tx_data, uint8_t *rx_data, uint16_t size)
+{
+    // CS LOW (begin transaction)
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+
+    HAL_SPI_TransmitReceive(&#x26;hspi1, tx_data, rx_data, size, 100);
+
+    // CS HIGH (end transaction)
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+}
+
+/* SPI DMA transmit/receive (non-blocking, recommended) */
+void SPI_TransmitReceive_DMA(uint8_t *tx_data, uint8_t *rx_data, uint16_t size)
+{
+    HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_RESET);
+    HAL_SPI_TransmitReceive_DMA(&#x26;hspi1, tx_data, rx_data, size);
+}
+
+void HAL_SPI_TxRxCpltCallback(SPI_HandleTypeDef *hspi)
+{
+    if (hspi == &#x26;hspi1)
+    {
+        HAL_GPIO_WritePin(GPIOA, GPIO_PIN_4, GPIO_PIN_SET);
+        // Process received data
+        process_coms_mcu_data();
+    }
+}
+</code></pre>
+<hr>
+<h3>5.4 ADC (Torque Sensors, Angle Sensors)</h3>
+<p>AR_Walker's load cells (torque sensors) and angle sensors output analog voltages.
+The STM32H7 ADC supports up to 16-bit resolution (the current Teensy uses 12-bit).</p>
+<h4>ADC Channel and Pin Mapping</h4>
+<table>
+<thead>
+<tr>
+<th>ADC</th>
+<th>Channel</th>
+<th>Pin</th>
+<th>Usage (AR_Walker)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ADC1</td>
+<td>IN0</td>
+<td>PA0</td>
+<td>Torque sensor Left (currently A16)</td>
+</tr>
+<tr>
+<td>ADC1</td>
+<td>IN1</td>
+<td>PA1</td>
+<td>Maxon current Left</td>
+</tr>
+<tr>
+<td>ADC1</td>
+<td>IN2</td>
+<td>PA2</td>
+<td>Maxon current Right</td>
+</tr>
+<tr>
+<td>ADC1</td>
+<td>IN6</td>
+<td>PA6</td>
+<td>Torque sensor Right (currently A6)</td>
+</tr>
+<tr>
+<td>ADC1</td>
+<td>IN12</td>
+<td>PC2</td>
+<td>Angle sensor Right (currently A12)</td>
+</tr>
+<tr>
+<td>ADC1</td>
+<td>IN13</td>
+<td>PC3</td>
+<td>Angle sensor Left (currently A13)</td>
+</tr>
+<tr>
+<td>ADC1</td>
+<td>IN14</td>
+<td>PC4</td>
+<td>(spare)</td>
+</tr>
+<tr>
+<td>ADC1</td>
+<td>IN15</td>
+<td>PC5</td>
+<td>(spare)</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>⚠️ <strong>Caution</strong>: If PA6 is used for ADC, it cannot be used as SPI1_MISO.
+In that case, remap SPI1_MISO to PB4, or move the torque sensor to a different ADC channel (e.g., PC4).
+→ This conflict is resolved in Chapter 7 on pin mapping strategy.</p>
+</blockquote>
+<h4>CubeMX Configuration</h4>
+<ol>
+<li>Analog → ADC1 → Enable</li>
+<li>Check the required channels: IN0, IN6, IN12, IN13, etc.</li>
+<li>Parameter Settings:
+<ul>
+<li>Clock Prescaler: <strong>Asynchronous clock mode divided by 4</strong></li>
+<li>Resolution: <strong>12 bit</strong> (same as Teensy) or <strong>16 bit</strong> (higher precision)</li>
+<li>Scan Conversion Mode: <strong>Enable</strong> (sequentially convert multiple channels)</li>
+<li>Continuous Conversion Mode: <strong>Enable</strong> (keep converting)</li>
+<li>DMA Continuous Requests: <strong>Enable</strong></li>
+<li>Number of Conversions: <strong>4</strong> (number of channels in use)</li>
+</ul>
+</li>
+<li>DMA Settings → ADC1 → Add DMA Stream → Mode: Circular</li>
+</ol>
+<h4>HAL Code Example</h4>
+<pre><code class="language-c">ADC_HandleTypeDef hadc1;
+DMA_HandleTypeDef hdma_adc1;
+
+// DMA receive buffer (4 channels × value)
+// Must be placed in D2 SRAM for DMA access!
+__attribute__((section(".RAM_D2")))
+volatile uint16_t adc_values[4];
+// [0]=torque L, [1]=torque R, [2]=angle R, [3]=angle L
+
+/* Start ADC + DMA */
+void ADC_Start(void)
+{
+    HAL_ADC_Start_DMA(&#x26;hadc1, (uint32_t *)adc_values, 4);
+    // adc_values[] is now updated automatically
+}
+
+/* Read ADC value (callable at any time) */
+float get_torque_left_voltage(void)
+{
+    // 12-bit ADC: 0–4095 → 0–3.3 V
+    return (float)adc_values[0] * 3.3f / 4096.0f;
+}
+
+float get_torque_left_Nm(void)
+{
+    float voltage = get_torque_left_voltage();
+    // Apply load cell calibration
+    // From Config.h: AI_CNT_TO_V = 3.3 / 4096
+    return (voltage - bias) * sensitivity;
+}
+
+/* ADC conversion complete callback (auto-called when using DMA) */
+void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc)
+{
+    if (hadc == &#x26;hadc1)
+    {
+        // New ADC data is ready
+        // DMA Circular mode restarts conversion automatically
+    }
+}
+</code></pre>
+<blockquote>
+<p><strong>Important: DMA buffer placement</strong>
+On the STM32H7, DMA1/2 can only access <strong>SRAM in the D2 domain</strong>.
+Placing a DMA buffer in AXI SRAM or DTCM will not work!
+Add a <code>.RAM_D2</code> section to the linker script and use <code>__attribute__((section(".RAM_D2")))</code> to place the buffer there.</p>
+</blockquote>
+<hr>
+<h3>5.5 PWM / Timer (Motor Control Signal)</h3>
+<p>The Maxon motor driver accepts a PWM signal for speed/torque commands.
+What the current Teensy does with <code>analogWrite()</code> is replicated here using STM32 timers.</p>
+<h4>Timer Types</h4>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Timer</th>
+<th>Features</th>
+<th>PWM Channels</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Advanced</strong></td>
+<td>TIM1, TIM8</td>
+<td>Dead-time, break function</td>
+<td>4 channels each</td>
+</tr>
+<tr>
+<td><strong>General Purpose (32-bit)</strong></td>
+<td>TIM2, TIM5</td>
+<td>32-bit counter</td>
+<td>4 channels each</td>
+</tr>
+<tr>
+<td><strong>General Purpose (16-bit)</strong></td>
+<td>TIM3, TIM4</td>
+<td>General use</td>
+<td>4 channels each</td>
+</tr>
+<tr>
+<td><strong>General Purpose (1-ch)</strong></td>
+<td>TIM15, TIM16, TIM17</td>
+<td>Single channel</td>
+<td>1–2 channels each</td>
+</tr>
+<tr>
+<td><strong>Basic</strong></td>
+<td>TIM6, TIM7</td>
+<td>No PWM; for interrupts/DAC triggers</td>
+<td>None</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Recommended AR_Walker mapping:</strong></p>
+<ul>
+<li>Maxon PWM Left: <strong>TIM1_CH1</strong> → <strong>PE9</strong> (AF1)</li>
+<li>Maxon PWM Right: <strong>TIM1_CH2</strong> → <strong>PE11</strong> (AF1)</li>
+<li>TIM1 is an Advanced timer, well-suited for precise PWM output</li>
+</ul>
+<h4>CubeMX Configuration</h4>
+<ol>
+<li>Timers → TIM1 → Channel 1: <strong>PWM Generation CH1</strong></li>
+<li>Timers → TIM1 → Channel 2: <strong>PWM Generation CH2</strong></li>
+<li>Parameter Settings:
+<ul>
+<li>Prescaler: <strong>239</strong> (timer clock 240 MHz / (239+1) = 1 MHz)</li>
+<li>Counter Period (ARR): <strong>999</strong> (1 MHz / (999+1) = <strong>1 kHz</strong> PWM frequency)</li>
+<li>Pulse (CCR): <strong>500</strong> (50% duty = neutral)</li>
+<li>PWM Mode: <strong>PWM Mode 1</strong></li>
+<li>CH Polarity: <strong>High</strong> (Active High)</li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<p><strong>PWM frequency formula:</strong>
+<code>PWM_freq = Timer_CLK / ((PSC+1) * (ARR+1))</code>
+<code>= 240 MHz / (240 * 1000) = 1 kHz</code></p>
+<p><strong>Duty cycle formula:</strong>
+<code>Duty = CCR / (ARR+1) * 100%</code>
+<code>= 500 / 1000 * 100% = 50%</code> (neutral)</p>
+</blockquote>
+<h4>HAL Code Example</h4>
+<pre><code class="language-c">TIM_HandleTypeDef htim1;
+
+/* Start PWM */
+void Motor_PWM_Start(void)
+{
+    HAL_TIM_PWM_Start(&#x26;htim1, TIM_CHANNEL_1);  // Left motor
+    HAL_TIM_PWM_Start(&#x26;htim1, TIM_CHANNEL_2);  // Right motor
+}
+
+/* Change duty cycle (torque command) */
+void Motor_SetDuty(uint32_t channel, float duty_percent)
+{
+    // duty_percent: 0.0 ~ 100.0
+    uint32_t pulse = (uint32_t)(duty_percent / 100.0f * (htim1.Init.Period + 1));
+    __HAL_TIM_SET_COMPARE(&#x26;htim1, channel, pulse);
+}
+
+/* Maxon motor torque command → PWM conversion */
+void Maxon_SetTorque(float torque_left, float torque_right)
+{
+    // Calculate duty relative to the neutral value from Board.h
+    // Assuming maxon_pwm_neutral_val maps to 50%
+    float duty_left  = 50.0f + torque_left * scale_factor;
+    float duty_right = 50.0f + torque_right * scale_factor;
+
+    // Clamp to safe range
+    duty_left  = fminf(fmaxf(duty_left,  10.0f), 90.0f);
+    duty_right = fminf(fmaxf(duty_right, 10.0f), 90.0f);
+
+    Motor_SetDuty(TIM_CHANNEL_1, duty_left);
+    Motor_SetDuty(TIM_CHANNEL_2, duty_right);
+}
+
+/* Motor stop (safety function) */
+void Motor_Stop(void)
+{
+    // Return to neutral
+    __HAL_TIM_SET_COMPARE(&#x26;htim1, TIM_CHANNEL_1, 500);  // 50%
+    __HAL_TIM_SET_COMPARE(&#x26;htim1, TIM_CHANNEL_2, 500);
+
+    // Stop PWM output
+    HAL_TIM_PWM_Stop(&#x26;htim1, TIM_CHANNEL_1);
+    HAL_TIM_PWM_Stop(&#x26;htim1, TIM_CHANNEL_2);
+}
+</code></pre>
+<hr>
+<p>Previous: <a href="/en/study/stm32-gpio">STM32 GPIO Configuration</a> | Next: <a href="/en/study/stm32-cubemx">STM32CubeMX Practical Setup</a></p>
+9:["$","article",null,{"className":"max-w-3xl mx-auto px-5 py-16","children":[["$","$L6",null,{"href":"/en/study","className":"text-sm text-gray-500 hover:text-[var(--accent)] transition-colors mb-6 inline-block","children":["← ","Back to Study"]}],["$","header",null,{"className":"mb-10","children":[["$","h1",null,{"className":"text-3xl md:text-4xl font-black tracking-tight mb-3","children":"STM32 Essential Peripherals — FDCAN, UART, SPI, ADC, PWM"}],["$","p",null,{"className":"text-lg text-gray-600 dark:text-gray-400 mb-4","children":"Comprehensive guide to STM32 peripherals for robotics: FDCAN, UART, SPI, I2C, ADC, and PWM timers with HAL code examples."}],["$","div",null,{"className":"flex flex-wrap items-center gap-3 text-sm text-gray-500","children":[["$","time",null,{"children":"2026-04-06"}],["$","span",null,{"children":"12 min read"}],["$","span",null,{"children":"by Henry"}],"$undefined"]}],["$","div",null,{"className":"flex flex-wrap gap-2 mt-4","children":[["$","span","stm32",{"className":"px-2.5 py-0.5 bg-[var(--accent)]/10 text-[var(--accent)] rounded-md text-xs font-medium","children":"stm32"}],["$","span","can-bus",{"className":"px-2.5 py-0.5 bg-[var(--accent)]/10 text-[var(--accent)] rounded-md text-xs font-medium","children":"can-bus"}],["$","span","uart",{"className":"px-2.5 py-0.5 bg-[var(--accent)]/10 text-[var(--accent)] rounded-md text-xs font-medium","children":"uart"}],["$","span","spi",{"className":"px-2.5 py-0.5 bg-[var(--accent)]/10 text-[var(--accent)] rounded-md text-xs font-medium","children":"spi"}],["$","span","pwm",{"className":"px-2.5 py-0.5 bg-[var(--accent)]/10 text-[var(--accent)] rounded-md text-xs font-medium","children":"pwm"}]]}]]}],"$undefined",["$","div",null,{"className":"prose","dangerouslySetInnerHTML":{"__html":"$16"}}],"$L17","$L18","$L19"]}]
+1a:I[46610,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js","/_next/static/chunks/0j.4u96-16gse.js","/_next/static/chunks/0~i14~xm6f2np.js"],"Image"]
+1b:I[41696,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js","/_next/static/chunks/0j.4u96-16gse.js","/_next/static/chunks/0~i14~xm6f2np.js"],"default"]
+1c:I[58380,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js","/_next/static/chunks/0j.4u96-16gse.js","/_next/static/chunks/0~i14~xm6f2np.js"],"default"]
+17:["$","div",null,{"className":"my-12 p-8 rounded-3xl bg-gradient-to-br from-indigo-50/50 via-white to-amber-50/30 dark:from-indigo-950/20 dark:via-gray-900 dark:to-amber-950/10 border border-indigo-100/50 dark:border-indigo-900/30 shadow-xl shadow-indigo-500/5","children":["$","div",null,{"className":"flex flex-col md:flex-row items-center gap-8","children":[["$","div",null,{"className":"relative group","children":[["$","div",null,{"className":"absolute -inset-1 bg-gradient-to-r from-indigo-500 to-blue-500 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"}],["$","div",null,{"className":"relative w-24 h-24 rounded-full overflow-hidden border-2 border-white dark:border-gray-800 shadow-sm","children":["$","$L1a",null,{"src":"/favicon.svg","alt":"Henry","fill":true,"className":"object-cover"}]}]]}],["$","div",null,{"className":"flex-1 text-center md:text-left","children":[["$","h3",null,{"className":"text-xl font-black text-gray-900 dark:text-gray-100 mb-2 tracking-tight","children":"Henry — Robot Education Founder"}],["$","p",null,{"className":"text-gray-600 dark:text-gray-400 text-base leading-relaxed mb-4 max-w-xl","children":"Engineer dedicated to democratizing robot education for everyone. From hardware bring-up to AI integration, I document real learning."}],["$","div",null,{"className":"flex justify-center md:justify-start","children":["$","span",null,{"className":"inline-flex items-center text-sm font-bold text-indigo-600 dark:text-indigo-400 group cursor-pointer","children":["Follow the journey",["$","svg",null,{"className":"w-4 h-4 ml-1 transform group-hover:translate-x-1 transition-transform","fill":"none","viewBox":"0 0 24 24","stroke":"currentColor","children":["$","path",null,{"strokeLinecap":"round","strokeLinejoin":"round","strokeWidth":2,"d":"M9 5l7 7-7 7"}]}]]}]}]]}]]}]}]
+18:["$","div",null,{"className":"mt-10 pt-6 border-t border-gray-200 dark:border-gray-800","children":["$","$L1b",null,{"title":"STM32 Essential Peripherals — FDCAN, UART, SPI, ADC, PWM","slug":"stm32-peripherals","lang":"en"}]}]
+19:["$","div",null,{"className":"mt-12","children":["$","$L1c",null,{"slug":"stm32-peripherals","lang":"en"}]}]
+f:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+1d:I[52108,["/_next/static/chunks/0hm1~db~o32ab.js","/_next/static/chunks/11cggpb33wwo3.js"],"IconMark"]
+c:null
+11:[["$","title","0",{"children":"Henry — Robot Education Founder"}],["$","meta","1",{"name":"description","content":"Democratizing robot education for everyone. From AI vision to biomechanical modeling, breaking down complex engineering."}],["$","link","2",{"rel":"alternate","type":"application/rss+xml","href":"https://0xhenry.dev/feed.xml","title":"0xHenry RSS (EN)"}],["$","link","3",{"rel":"alternate","type":"application/rss+xml","href":"https://0xhenry.dev/ko/feed.xml","title":"0xHenry RSS (KO)"}],["$","meta","4",{"property":"og:title","content":"Henry — Robot Education Founder"}],["$","meta","5",{"property":"og:description","content":"Democratizing robotics for everyone. Insight-driven engineering logs from a robot education pioneer."}],["$","meta","6",{"property":"og:url","content":"https://0xhenry.dev"}],["$","meta","7",{"property":"og:site_name","content":"Henry — Robot Education Founder"}],["$","meta","8",{"property":"og:image","content":"https://0xhenry.dev/og-default.png"}],["$","meta","9",{"property":"og:image:width","content":"1200"}],["$","meta","10",{"property":"og:image:height","content":"630"}],["$","meta","11",{"property":"og:image:alt","content":"0xHenry - Engineer Study"}],["$","meta","12",{"property":"og:type","content":"website"}],["$","meta","13",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","14",{"name":"twitter:title","content":"0xHenry"}],["$","meta","15",{"name":"twitter:description","content":"Engineer Study — learning real tech from scratch."}],["$","meta","16",{"name":"twitter:image","content":"https://0xhenry.dev/og-default.png"}],["$","link","17",{"rel":"icon","href":"/favicon.ico?favicon.0x3dzn~oxb6tn.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L1d","18",{}]]

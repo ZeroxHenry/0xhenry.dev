@@ -1,0 +1,3 @@
+module.exports=[20756,a=>{"use strict";var b=a.i(46239);a.s(["default",0,function(){return(0,b.jsx)("div",{className:"flex min-h-screen items-center justify-center",children:(0,b.jsx)("div",{className:"h-10 w-10 animate-spin rounded-full border-4 border-current border-t-transparent",style:{color:"var(--accent)"},role:"status","aria-label":"Loading"})})}])},91402,a=>{a.n(a.i(20756))}];
+
+//# sourceMappingURL=0xhenry_dev_packages_website_app_%5Blang%5D_study_%5Bslug%5D_loading_tsx_0fxoeat._.js.map

@@ -1,0 +1,2 @@
+:HL["/_next/static/chunks/09915p7kwin0t.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":24,"slots":{"children":{"name":"lang","param":{"type":"d","key":"en","siblings":null},"prefetchHints":12,"slots":{"children":{"name":"study","param":null,"prefetchHints":8,"slots":{"children":{"name":"slug","param":{"type":"d","key":"stm32-clock-system","siblings":null},"prefetchHints":4,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"FVh-8WO-W0sG-ZqA-HZ3K"}

@@ -1,3 +1,16 @@
+# Obsidian: Ephemeral/Personal Data
 .obsidian/workspace.json
-.obsidian/plugins/
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+
+# If you use git for sync, you might want to exclude local-only appearance settings
+# .obsidian/appearance.json
+
+# Sync & Temp
+.trash/
 .DS_Store
+*.sync-conflict-*
+
+# Plugins are large but essential for "one-click" restoration. 
+# They are ignored in Git to keep repo light, but will be included in our ZIP backup.
+.obsidian/plugins/

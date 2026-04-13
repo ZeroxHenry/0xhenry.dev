@@ -1,10 +1,9 @@
 node_modules/
 .next/
-dist/
+backups/vault/*.zip
+workspaces/naver-blog/image_bridge/input/*
+!workspaces/naver-blog/image_bridge/input/.gitkeep
 .DS_Store
-.gstack/
-tsconfig.tsbuildinfo
-.env
-.env.local
-.env.production.local
-.vercel
+*.log
+dist/
+build/

@@ -1,0 +1,22 @@
+{
+  "/[lang]/about/page": "/[lang]/about",
+  "/[lang]/dashboard/page": "/[lang]/dashboard",
+  "/[lang]/login/page": "/[lang]/login",
+  "/[lang]/page": "/[lang]",
+  "/[lang]/radar/page": "/[lang]/radar",
+  "/[lang]/study/[slug]/page": "/[lang]/study/[slug]",
+  "/[lang]/study/page": "/[lang]/study",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
+  "/api/bookmarks/route": "/api/bookmarks",
+  "/api/comments/route": "/api/comments",
+  "/api/debug/route": "/api/debug",
+  "/api/search/route": "/api/search",
+  "/favicon.ico/route": "/favicon.ico",
+  "/feed.xml/route": "/feed.xml",
+  "/ko/feed.xml/route": "/ko/feed.xml",
+  "/page": "/",
+  "/robots.txt/route": "/robots.txt",
+  "/sitemap.xml/route": "/sitemap.xml"
+}

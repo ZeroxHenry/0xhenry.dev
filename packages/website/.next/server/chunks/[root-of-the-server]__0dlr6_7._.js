@@ -1,0 +1,3 @@
+module.exports=[34551,(e,s,r)=>{s.exports=e.x("@prisma/client-ec60de16cd9fbc12",()=>require("@prisma/client-ec60de16cd9fbc12"))},95665,e=>{"use strict";var s=e.i(34551);!process.env.DATABASE_URL&&process.env.STORAGE_URL&&(process.env.DATABASE_URL=process.env.STORAGE_URL);let r=globalThis.prisma||new s.PrismaClient;e.s(["prisma",0,r])}];
+
+//# sourceMappingURL=%5Broot-of-the-server%5D__0dlr6_7._.js.map

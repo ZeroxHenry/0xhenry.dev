@@ -1,0 +1,244 @@
+{
+  "queue": [
+    {
+      "post_id": "2026-04-08-rag-explained",
+      "title": "RAG란? AI가 검색해서 답하는 기술 (쉽게 설명)",
+      "position": "hero",
+      "prompt": "Cute friendly robot standing in front of a giant warm library bookshelf, carefully pulling out a glowing book to read. Cozy library atmosphere with warm amber and cream colors. Minimalist flat illustration style, soft pastel background, subject centered with wide margins, 16:9 aspect ratio, clean and friendly design, Trending on Behance",
+      "target_path": "images/2026-04/rag-explained-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-08-rag-explained",
+      "title": "RAG란? AI가 검색해서 답하는 기술 (쉽게 설명)",
+      "position": "comparison",
+      "prompt": "Side-by-side illustration: LEFT side shows a stressed student at a desk with empty desk surface, speech bubble says '모르는 내용은 지어낼게요' (will make up what I don't know). RIGHT side shows a relaxed happy student with glowing reference books open, speech bubble says '책에서 정확히 찾아볼게요' (let me look it up accurately). Simple flat character design, warm pastel colors, wide margins, 16:9, clean comparison layout",
+      "target_path": "images/2026-04/rag-explained-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-08-rag-explained",
+      "title": "RAG란? AI가 검색해서 답하는 기술 (쉽게 설명)",
+      "position": "diagram",
+      "prompt": "Simple clean infographic showing RAG flow: Step 1 사용자 질문 (person icon asking question) → Step 2 문서 검색 (magnifying glass searching database) → Step 3 AI 답변 생성 (robot generating answer with reference). Korean labels. Soft blue and green color scheme, rounded icons, clean diagram style, white background, wide margins, 16:9",
+      "target_path": "images/2026-04/rag-explained-3.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-10-agentic-ai",
+      "title": "에이전트 AI란? 알아서 일하는 똑똑한 동료를 만나는 법",
+      "position": "hero",
+      "prompt": "Friendly robot colleague sitting at a desk surrounded by floating task bubbles and tools: search icon, calendar, document, email. Robot looks confident and capable, planning board visible with task list checked off. Warm and professional illustration, mint and sky-blue color palette, minimalist flat design, subject centered, wide margins, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/agentic-ai-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-10-agentic-ai",
+      "title": "에이전트 AI란? 알아서 일하는 똑똑한 동료를 만나는 법",
+      "position": "comparison",
+      "prompt": "Two-panel comparison illustration: LEFT 'Traditional AI' shows simple Q→A arrow, person asks question, AI responds. Single step, one-directional. Label says '질문-답변만'. RIGHT 'Agent AI' shows robot breaking down a goal into multiple steps, using tools, checking results, adapting. Multiple loops and arrows. Label says '목표→계획→실행→검토'. Flat illustration, warm pastel colors, 16:9",
+      "target_path": "images/2026-04/agentic-ai-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-10-agentic-ai",
+      "title": "에이전트 AI란? 알아서 일하는 똑똑한 동료를 만나는 법",
+      "position": "use-cases",
+      "prompt": "Three icon cards in a row with rounded corners: Card 1 (blue) 코딩 에이전트 - robot typing code with Claude Code logo. Card 2 (green) 리서치 에이전트 - robot reading stacks of documents. Card 3 (purple) 스마트 로봇 - cute home robot watering plants. Each card has Korean label and friendly icon. Clean flat design, pastel backgrounds, 16:9",
+      "target_path": "images/2026-04/agentic-ai-3.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-context-engineering",
+      "title": "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리",
+      "position": "hero",
+      "prompt": "Engineer-character carefully arranging glowing information blocks into a clean RAM module labeled 'Context Window'. Blocks labeled: 지시사항, 대화이력, 검색결과, 도구목록. Some dirty/cluttered blocks being filtered out (grayed out). Tech illustration style, blue-purple gradient accents, clean background, wide margins, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/context-engineering-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-context-engineering",
+      "title": "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리",
+      "position": "comparison",
+      "prompt": "Left-right comparison with clean divider: LEFT side '프롬프트 엔지니어링' shows person with pen and thought bubble '어떻게 질문하지?', warm orange tones. RIGHT side 'Context Engineering' shows architect character with blueprint designing information flow, cool blue tones. Labels: '질문 방식 최적화' vs '정보 환경 설계'. Minimalist flat illustration, 16:9",
+      "target_path": "images/2026-04/context-engineering-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-context-engineering",
+      "title": "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리",
+      "position": "concept",
+      "prompt": "Clean computer architecture diagram: Large CPU chip labeled 'LLM (AI 두뇌)' on the left, RAM modules on the right labeled 'Context Window (AI 작업 공간)'. Inside RAM: small clean blocks vs. cluttered messy blocks comparison. Korean labels. Navy background with bright green/blue highlights, tech diagram style, 16:9",
+      "target_path": "images/2026-04/context-engineering-3.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-mcp-security",
+      "title": "AI 연결 표준 MCP에 보안 구멍이 있다?",
+      "position": "hero",
+      "prompt": "AI robot assistant confidently using a tool (magnifying glass icon), but hidden behind the tool description text (shown as fine print) there is a glowing red warning: 'HIDDEN MALICIOUS CODE'. Robot doesn't see the danger. Warning shield icon with exclamation mark floating above. Dramatic but friendly illustration style, red warning accents on blue theme, wide margins, 16:9",
+      "target_path": "images/2026-04/mcp-security-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-mcp-security",
+      "title": "AI 연결 표준 MCP에 보안 구멍이 있다?",
+      "position": "explanation",
+      "prompt": "Simple illustration: Center is 'AI 에이전트' (robot icon). Left side shows 'MCP 서버' (server box) sending labeled tool cards: 검색, 이메일, 파일읽기. Right side shows 'AI가 도구 사용' (robot using selected tool). Clean flow diagram, friendly icons, blue and mint color scheme, Korean labels, clean white background, 16:9",
+      "target_path": "images/2026-04/mcp-security-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-mcp-security",
+      "title": "AI 연결 표준 MCP에 보안 구멍이 있다?",
+      "position": "defense",
+      "prompt": "Three shield icons in a row with Korean labels: Shield 1 (blue) '신뢰할 수 있는 MCP만 사용' with verified checkmark. Shield 2 (green) '민감 정보 주의' with lock icon. Shield 3 (orange) '이상한 행동 모니터링' with eye/alert icon. Clean card design, soft pastel backgrounds, security concept illustrated simply and accessibly, 16:9",
+      "target_path": "images/2026-04/mcp-security-3.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-11-cursor-ai",
+      "title": "Cursor AI 코드 에디터 리뷰",
+      "position": "hero",
+      "prompt": "Developer at desk with split screen: LEFT shows traditional coding (slow, lots of typing, stressed expression). RIGHT shows Cursor AI coding (fast, AI suggestions appearing as ghost text, relaxed happy expression). Speed lines showing the difference. Sleek tech illustration, dark navy and bright accent colors, wide margins, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/cursor-ai-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-11-cursor-ai",
+      "title": "Cursor AI 코드 에디터 리뷰",
+      "position": "features",
+      "prompt": "Three feature cards with icons: Card 1 (blue) 'Tab 자동완성' - keyboard with AI spark. Card 2 (purple) 'Ctrl+K 인라인 수정' - code block with magic wand. Card 3 (green) 'Ctrl+L 코드베이스 대화' - chat bubble over file tree. Professional but approachable design, dark background with bright accents, 16:9",
+      "target_path": "images/2026-04/cursor-ai-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-11-cursor-ai",
+      "title": "Cursor AI 코드 에디터 리뷰",
+      "position": "verdict",
+      "prompt": "Simple pros/cons visual: Left column (green checkmarks): '매일 코딩하는 개발자', '반복 작업 많은 분', '생산성 극대화 원하는 분'. Right column (orange X marks): '코딩 배우는 초보', '잦은 변경에 민감한 분', '보안 규정 엄격한 환경'. Clean two-column layout, friendly icons, pastel background, 16:9",
+      "target_path": "images/2026-04/cursor-ai-3.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-ai-copyright-real-cases",
+      "title": "AI 저작권 실제 소송 사례 정리",
+      "position": "hero",
+      "prompt": "Minimalist flat illustration of a friendly robot standing in a modern courtroom, a judge's gavel on the desk, documents titled 'Copyright Lawsuit' visible. Warm wood and soft blue tones, clean background, wide margins, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/ai-copyright-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-ai-copyright-real-cases",
+      "title": "AI 저작권 실제 소송 사례 정리",
+      "position": "comparison",
+      "prompt": "Side-by-side comparison: Left side 'Original Photo' with a watermark, Right side 'AI Modified' showing the same photo but with AI filters and slight changes. A red question mark between them. Clean flat design, soft pastel colors, 16:9",
+      "target_path": "images/2026-04/ai-copyright-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-ai-copyright-real-cases",
+      "title": "AI 저작권 실제 소송 사례 정리",
+      "position": "guide",
+      "prompt": "A human hand using a digital brush to add creative details and strokes over an AI-generated character illustration. Sparkles appearing where the hand touches. Concept of 'Human Creative Input'. Soft pastel colors, clean and approachable style, 16:9",
+      "target_path": "images/2026-04/ai-copyright-3.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-ai-hospital-recording-lawsuit",
+      "title": "미국 병원 AI 녹음 집단 소송 사태",
+      "position": "hero",
+      "prompt": "A high-tech stethoscope resting on a digital tablet showing a glowing recording icon and AI waves. Hospital setting but minimalist and clean. Tension between medical care and privacy. Soft teal and white color palette, subject centered, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/ai-hospital-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-ai-hospital-recording-lawsuit",
+      "title": "미국 병원 AI 녹음 집단 소송 사태",
+      "position": "explanation",
+      "prompt": "Doctor and patient talking in a modern office, while a subtle glowing stream of speech bubbles flows into a server box labeled 'AI Recording'. One speech bubble has a lock icon. Flat illustration, clean icons, warm lighting, 16:9",
+      "target_path": "images/2026-04/ai-hospital-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-ai-hospital-recording-lawsuit",
+      "title": "미국 병원 AI 녹음 집단 소송 사태",
+      "position": "guide",
+      "prompt": "Patient holding a digital device with a large green checkmark button that says 'I Consent to AI Recording'. Friendly robot doctor pointing at the button. Clear, safe, and transparent feeling. Soft pastel backgrounds, minimalist flat design, 16:9",
+      "target_path": "images/2026-04/ai-hospital-3.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-claude-mythos-ai-hacking",
+      "title": "클로드 Mythos AI 해킹 사태 정리",
+      "position": "hero",
+      "prompt": "Stylized robot (Claude character) using glowing holographic keys to unlock a complex digital floating safe. Thousands of lines of code flowing in the background. Concept of 'AI finding Zero-day'. Navy and electric blue theme with bright highlights, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/claude-hacking-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-claude-mythos-ai-hacking",
+      "title": "클로드 Mythos AI 해킹 사태 정리",
+      "position": "project",
+      "prompt": "Multiple giant tech company logos (Apple, Google, MS, Amazon symbols) arranged in a circle forming a large protective glass-like shield over a digital city. Soft lighting, professional and secure atmosphere, clean flat design, 16:9",
+      "target_path": "images/2026-04/claude-hacking-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-claude-mythos-ai-hacking",
+      "title": "클로드 Mythos AI 해킹 사태 정리",
+      "position": "security",
+      "prompt": "A friendly robot engineer scanning a wall of digital blocks. It finds one glowing red cracked block and replaces it with a solid blue secure block. Concept of self-healing security. Tech illustration style, clean background, 16:9",
+      "target_path": "images/2026-04/claude-hacking-3.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-imf-ai-financial-security-warning",
+      "title": "IMF AI 금융 시스템 위험 경고",
+      "position": "hero",
+      "prompt": "A world map with IMF building in the center, red digital waves spreading out across global bank networks. Warning signs appearing in various cities. Dramatic but clean technical illustration, red and gold accents on blue background, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/imf-warning-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-imf-ai-financial-security-warning",
+      "title": "IMF AI 금융 시스템 위험 경고",
+      "position": "threat",
+      "prompt": "A digital octopus with glowing binary code arms reaching into multiple bank vault icons at the same time. Fast movement and scale emphasized. Comparison between a single human hacker vs a massive AI attack. Flat illustration, 16:9",
+      "target_path": "images/2026-04/imf-warning-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-imf-ai-financial-security-warning",
+      "title": "IMF AI 금융 시스템 위험 경고",
+      "position": "defense",
+      "prompt": "A smartphone showing a 2-factor authentication (OTP) screen with a green shield protection icon. Personal piggy bank sitting safely behind the phone. Warm and reassuring colors, clean minimalist design, 16:9",
+      "target_path": "images/2026-04/imf-warning-3.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-sora-shutdown-platform-risk",
+      "title": "OpenAI Sora 종료와 플랫폼 리스크",
+      "position": "hero",
+      "prompt": "A film strip with a cute robot face on it, slowly fading or disintegrating into digital dust. Robot looking a bit surprised. Warm sunset colors, sense of an era ending. Minimalist flat illustration, subject centered, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/sora-shutdown-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-sora-shutdown-platform-risk",
+      "title": "OpenAI Sora 종료와 플랫폼 리스크",
+      "position": "risk",
+      "prompt": "A table with only one leg (labeled 'Target AI Service') wobbling dangerously while supporting a heavy computer setup. A person looking worried. Concept of 'Single Point of Failure'. Flat illustration, 16:9",
+      "target_path": "images/2026-04/sora-shutdown-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-sora-shutdown-platform-risk",
+      "title": "OpenAI Sora 종료와 플랫폼 리스크",
+      "position": "strategy",
+      "prompt": "A professional desk with three different glowing AI icons (ChatGPT, Claude, Gemini) and a hardware external drive for backup. A person sitting confidently with these options. 'Multi-platform Strategy' concept. Clean colors, 16:9",
+      "target_path": "images/2026-04/sora-shutdown-3.png",
+      "status": "pending"
+    }
+  ]
+}

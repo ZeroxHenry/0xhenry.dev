@@ -1,0 +1,22 @@
+{
+  "/[lang]/about/page": "app/[lang]/about/page.js",
+  "/[lang]/dashboard/page": "app/[lang]/dashboard/page.js",
+  "/[lang]/login/page": "app/[lang]/login/page.js",
+  "/[lang]/page": "app/[lang]/page.js",
+  "/[lang]/radar/page": "app/[lang]/radar/page.js",
+  "/[lang]/study/[slug]/page": "app/[lang]/study/[slug]/page.js",
+  "/[lang]/study/page": "app/[lang]/study/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/api/bookmarks/route": "app/api/bookmarks/route.js",
+  "/api/comments/route": "app/api/comments/route.js",
+  "/api/debug/route": "app/api/debug/route.js",
+  "/api/search/route": "app/api/search/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/feed.xml/route": "app/feed.xml/route.js",
+  "/ko/feed.xml/route": "app/ko/feed.xml/route.js",
+  "/page": "app/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js"
+}
