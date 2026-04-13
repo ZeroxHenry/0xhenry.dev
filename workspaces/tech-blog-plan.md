@@ -116,10 +116,10 @@
 | # | 제목 | 파일명 | 상태 |
 |---|------|--------|------|
 | R-01 | **RAG가 틀리는 순간 — False Retrieval 5가지 패턴과 수치** | `rag-false-retrieval-patterns.md` | ✅ |
-| R-02 | **Hybrid Search 실측 비교: BM25 vs Dense vs 조합의 실제 점수** | `hybrid-search-benchmark.md` | ⬜ |
-| R-03 | **GraphRAG가 일반 RAG를 이기는 유일한 상황** | `graphrag-vs-rag-conditions.md` | ⬜ |
-| R-04 | **청킹 전략 실험 결과: 어떤 방식이 실제로 검색 정확도를 높이는가** | `chunking-strategy-experiment.md` | ⬜ |
-| R-05 | **법률 계약서 RAG 구축기 — 도메인 특화 RAG의 현실** | `legal-rag-case-study.md` | ⬜ |
+| R-02 | **Hybrid Search 실측 비교: BM25 vs Dense vs 조합의 실제 점수** | `hybrid-search-benchmark.md` | ✅ |
+| R-03 | **GraphRAG가 일반 RAG를 이기는 유일한 상황** | `graphrag-vs-rag-conditions.md` | ✅ |
+| R-04 | **청킹 전략 실험 결과: 어떤 방식이 실제로 검색 정확도를 높이는가** | `chunking-strategy-experiment.md` | ✅ |
+| R-05 | **법률 계약서 RAG 구축기 — 도메인 특화 RAG의 현실** | `legal-rag-case-study.md` | ✅ |
 | R-06 | **Colbert & Late Interaction: Dense 검색의 다음 단계** | `colbert-late-interaction.md` | ⬜ |
 | R-07 | **멀티모달 RAG: 이미지와 텍스트를 함께 검색하는 파이프라인** | `multimodal-rag-pipeline.md` | ⬜ |
 | R-08 | **Re-ranking 없이 RAG 정확도 올리기 — Query Transformation 전략** | `query-transformation-rag.md` | ⬜ |
@@ -191,11 +191,11 @@
 | A. 에이전트 신뢰성 | 12 | 12 | 0 |
 | S. MCP & 보안 | 8 | 8 | 0 |
 | O. LLMOps | 10 | 10 | 0 |
-| R. RAG 심화 | 10 | 1 | 9 |
+| R. RAG 심화 | 10 | 5 | 5 |
 | E. Edge AI | 12 | 0 | 12 |
 | P. 커리어 & 관점 | 8 | 0 | 8 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **41** | **37** |
+| **합계** | **78** | **45** | **33** |
 
 ---
 

@@ -2,6 +2,23 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-14] Chapter R - Batch 1 완성 (야간 세션 15 - No Nap 모드 57% 달성) 🚀🚀🚀
+
+### 기술블로그 신규 완성 (KO + EN)
+- ✅ R-02: `hybrid-search-benchmark.md` — "Hybrid Search 실측 비교 — BM25 vs Dense vs 조합의 실제 점수"
+  - 키워드(BM25)와 의미(Vector) 검색의 시너지 실측 및 RRF 알고리즘 활용 가이드.
+- ✅ R-03: `graphrag-vs-rag-conditions.md` — "GraphRAG가 일반 RAG를 이기는 유일한 상황"
+  - 전역 요약, 멀티홉 추론, 노이즈 대응 등 GraphRAG가 절대적 우위를 점하는 유즈케이스 정의.
+- ✅ R-04: `chunking-strategy-experiment.md` — "청킹 전략 실험 결과 — 어떤 방식이 실제로 검색 정확도를 높이는가"
+  - Fixed, Overlap, Recursive, Semantic 청킹 방식별 Recall@5 성능 벤치마크 및 가이드.
+- ✅ R-05: `legal-rag-case-study.md` — "법률 계약서 RAG 구축기 — 도메인 특화 RAG의 현실"
+  - 레이아웃 인식 OCR, 법률 특화 임베딩, 계층적 검색 시스템 구축을 통한 고정밀 RAG 구현 사례.
+
+### Vault 및 플랜 업데이트
+- **Status**: No Nap 모드 한계 돌파 중. 45/78 (57%) 달성.
+- 신규 포스트 8개(KO/EN) `vault/00_Raw/` 동기화 완료.
+- `tech-blog-plan.md`: Chapter R 50% 지점 도달.
+
 ## [2026-04-14] Chapter S '완전 정복' (야간 세션 14 - No Nap 모드 52% 달성) 🚀🚀
 
 ### 🏆 챕터 완료 보고
