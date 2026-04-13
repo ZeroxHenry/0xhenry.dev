@@ -44,7 +44,7 @@
 | C-03 | **AI의 RAM 관리법: 동적 컨텍스트 조립 패턴 5가지** | `dynamic-context-assembly.md` | ✅ |
 | C-04 | **MemGPT를 넘어: 직접 구현하는 계층형 메모리 시스템** | `tiered-memory-system.md` | ✅ |
 | C-05 | **대화 이력이 독이 되는 순간 — 요약 압축 알고리즘 비교** | `conversation-compression.md` | ✅ |
-| C-06 | **지식 그래프 + 벡터 DB: 두 가지를 함께 써야 하는 이유** | `knowledge-graph-vector-hybrid.md` | ⬜ |
+| C-06 | **지식 그래프 + 벡터 DB: 두 가지를 함께 써야 하는 이유** | `knowledge-graph-vector-hybrid.md` | ✅ |
 | C-07 | **"모른다"고 말하는 AI 만들기 — Confident Hallucination 차단법** | `rag-i-dont-know-trigger.md` | ⬜ |
 | C-08 | **무한 컨텍스트 vs RAG: 100만 토큰 시대에도 RAG가 필요한가** | `infinite-context-vs-rag.md` | ⬜ |
 | C-09 | **멀티 유저 메모리 충돌 — 공유 에이전트에서 기억을 격리하는 법** | `multi-user-memory-isolation.md` | ⬜ |
@@ -61,7 +61,7 @@
 | A-01 | **AI 에이전트가 이메일을 두 번 보낸 이유 — Idempotency 설계** | `agent-idempotency.md` | ✅ |
 | A-02 | **내 AI 에이전트가 서서히 멍청해졌다 — LLM Drift 감지법** | `llm-agent-drift-detection.md` | ✅ |
 | A-03 | **에이전트에게 Ctrl+Z를 — Saga 패턴으로 롤백 구현하기** | `agent-saga-rollback.md` | ✅ |
-| A-04 | **도구 호출 실패를 "성공했다"고 우기는 AI — Truthy Text 문제** | `agent-truthy-text-failure.md` | ⬜ |
+| A-04 | **도구 호출 실패를 "성공했다"고 우기는 AI — Truthy Text 문제** | `agent-truthy-text-failure.md` | ✅ |
 | A-05 | **AI 에이전트의 무한 루프 — 비용 폭탄 방지 설계** | `agent-infinite-loop-prevention.md` | ⬜ |
 | A-06 | **에이전트 트레이싱: 복잡한 멀티스텝 오류를 추적하는 법** | `agent-distributed-tracing.md` | ⬜ |
 | A-07 | **Human-in-the-Loop의 진짜 구현법 — 단순 승인버튼이 아니다** | `human-in-the-loop-design.md` | ⬜ |
@@ -187,15 +187,15 @@
 
 | 챕터 | 주제 수 | 완성 | 남은 것 |
 |------|---------|------|---------|
-| C. Context & Memory | 10 | 4 | 6 |
-| A. 에이전트 신뢰성 | 12 | 3 | 9 |
+| C. Context & Memory | 10 | 5 | 5 |
+| A. 에이전트 신뢰성 | 12 | 4 | 8 |
 | S. MCP & 보안 | 8 | 3 | 5 |
 | O. LLMOps | 10 | 2 | 8 |
 | R. RAG 심화 | 10 | 1 | 9 |
 | E. Edge AI | 12 | 0 | 12 |
 | P. 커리어 & 관점 | 8 | 0 | 8 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **13** | **65** |
+| **합계** | **78** | **15** | **63** |
 
 ---
 

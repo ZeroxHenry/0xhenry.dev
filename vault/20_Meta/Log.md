@@ -2,6 +2,20 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-13] C-06 + A-04 완성 (야간 세션 3)
+
+### 기술블로그 완성 (KO + EN)
+- ✅ C-06: `knowledge-graph-vector-hybrid.md` — "지식 그래프 + 벡터 DB: 두 가지를 함께 써야 하는 이유"
+  - 벡터 검색의 맹점(관계 이해 부족)과 GraphRAG의 다단계 추론(Multi-hop) 필요성 강조.
+  - Entity Extraction 및 Hybrid GraphRAG 아키텍처 도입 가이드.
+- ✅ A-04: `agent-truthy-text-failure.md` — "도구 호출 실패를 '성공했다'고 우기는 AI — Truthy Text 문제"
+  - 에러 메시지를 성공으로 오해하는 AI의 낙관적 편향(Optimism) 분석.
+  - Error Wrapper, Self-Reflection, Structured Observation 3단계 해결책 제시.
+
+### Vault 및 플랜 업데이트
+- 신규 포스트 4개(KO/EN) `vault/00_Raw/` 동기화 완료.
+- `tech-blog-plan.md` 업데이트: 15/78 완성 (19% 달성).
+
 ## [2026-04-13] C-05 + S-03 완성 (야간 세션 2)
 
 ### 기술블로그 완성 (KO + EN)
