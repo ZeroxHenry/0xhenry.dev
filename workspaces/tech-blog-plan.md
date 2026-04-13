@@ -82,10 +82,10 @@
 | S-01 | **MCP 보안 구멍: Tool Poisoning 공격 시뮬레이션** | `mcp-tool-poisoning.md` | ✅ |
 | M-01 | **GPT-4o vs Claude 3.5 Sonnet: 에이전트 개발을 위한 끝판왕 비교** | `gpt4o-vs-claude35-sonnet.md` | ✅ |
 | M-02 | **Llama-3.1의 충격: 오픈 소스가 클로즈드 모델을 따라잡은 순간** | `llama31-impact.md` | ✅ |
-| M-03 | **Gemini 1.5 Pro의 100만 컨텍스트 활용법** | `gemini15pro-context.md` | ✅ |
-| M-04 | **Groq: LPUs가 바꾼 LLM 추론 속도의 혁명** | `groq-speed-revolution.md` | ✅ |
-| S-06 | **AI 게이트웨이 패턴: PII 스크러빙, RBAC, 감사 로그를 한 곳에** | `ai-gateway-pattern.md` | ✅ |
-| S-07 | **RAG 데이터 오염 공격 — 벡터 DB를 독살하는 법과 방어** | `rag-data-poisoning.md` | ✅ |
+| M-05 | **Mistral Large 2: 유럽의 자존심, 다국어 모델의 정점** | `mistral-large-2.md` | ✅ |
+| M-06 | **DeepSeek: 가성비 추론 모델의 반란** | `deepseek-revolution.md` | ✅ |
+| M-07 | **o1-preview: 추론(Reasoning) 모델이 바꾼 CoT의 미래** | `o1-preview-reasoning.md` | ✅ |
+| M-08 | **2027년 AI 로드맵: 에이전트 시대의 주인공은 누가 될 것인가?** | `ai-roadmap-2027.md` | ✅ |
 | S-08 | **Linux Foundation이 MCP를 인수한 의미 — AI 표준 전쟁의 현재** | `mcp-linux-foundation-governance.md` | ✅ |
 
 ---
@@ -194,8 +194,8 @@
 | R. RAG 심화 | 10 | 10 | 0 |
 | E. Edge AI | 12 | 12 | 0 |
 | P. 커리어 & 관점 | 8 | 8 | 0 |
-| M. 최신 모델 | 8 | 4 | 4 |
-| **합계** | **78** | **74** | **4** |
+| M. 최신 모델 | 8 | 8 | 0 |
+| **합계** | **78** | **78** | **0** |
 
 ---
 
