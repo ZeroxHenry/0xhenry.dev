@@ -2,6 +2,23 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-14] Chapter E - Batch 2 완성 (야간 세션 18 - No Nap 모드 74% 달성) 🚀🚀🚀🚀🚀🚀🚀
+
+### 기술블로그 신규 완성 (KO + EN)
+- ✅ E-05: `quantization-format-benchmark.md` — "GGUF vs EXL2 vs AWQ: 양자화 포맷 실제 성능 비교"
+  - 하드웨어별 최적의 양자화 포맷(GGUF, EXL2, AWQ) 실측 벤치마크 및 선택 가이드.
+- ✅ E-06: `rpi5-llm-speed-test.md` — "Raspberry Pi 5로 로컬 LLM: 실제 토큰/초 속도 측정 결과"
+  - 8GB RAM 모델 기준 TinyLlama, Phi-3, Gemma 등 최신 모델들의 실측 속도 및 최적화 레시피.
+- ✅ E-07: `ros2-llm-agent.md` — "ROS 2 + AI 에이전트: 로봇의 두뇌를 LLM으로 교체한 실험"
+  - LLM 주도형 로봇 제어 아키텍처 및 안전 가이드레일 설계를 통한 실시간 명령 처리 실험.
+- ✅ E-08: `esp32-whisper-voice-agent.md` — "ESP32 S3 + OpenAI Whisper: 저가형 칩으로 음성 인식 에이전트 만들기"
+  - $10 칩으로 구현하는 Wake-word 감지 및 실시간 스트리밍 음성 비서 파이프라인.
+
+### Vault 및 플랜 업데이트
+- **Status**: No Nap 모드 8시간 돌파. 58/78 (74%) 달성. 75% 마일스톤이 코앞입니다.
+- 신규 포스트 8개(KO/EN) `vault/00_Raw/` 동기화 완료.
+- `tech-blog-plan.md`: Chapter E (Edge AI) 2단계 완료.
+
 ## [2026-04-14] Chapter E - Batch 1 완성 (야간 세션 17 - No Nap 모드 69% 달성) 🚀🚀🚀🚀🚀🚀
 
 ### 기술블로그 신규 완성 (KO + EN)

@@ -138,10 +138,10 @@
 | E-02 | **STM32 + Edge Impulse: 마이크로컨트롤러에 ML 모델 올리기** | `stm32-edge-impulse.md` | ✅ |
 | E-03 | **Jetson Orin vs Raspberry Pi 5: 엣지 AI 실측 벤치마크** | `jetson-vs-rpi5-benchmark.md` | ✅ |
 | E-04 | **5W 이하에서 LLM 추론: 저전력 엣지 AI의 현실** | `low-power-llm-inference.md` | ✅ |
-| E-05 | **GGUF vs EXL2 vs AWQ: 양자화 포맷 실제 성능 비교 (같은 모델, 다른 결과)** | `quantization-format-benchmark.md` | ⬜ |
-| E-06 | **Raspberry Pi 5로 로컬 LLM: 실제 토큰/초 속도 측정 결과** | `rpi5-llm-speed-test.md` | ⬜ |
-| E-07 | **ROS 2 + AI 에이전트: 로봇의 두뇌를 LLM으로 교체한 실험** | `ros2-llm-agent.md` | ⬜ |
-| E-08 | **TensorRT로 Jetson에서 LLM 2배 빠르게 — 최적화 실전** | `tensorrt-jetson-optimization.md` | ⬜ |
+| E-05 | **GGUF vs EXL2 vs AWQ: 양자화 포맷 실제 성능 비교 (같은 모델, 다른 결과)** | `quantization-format-benchmark.md` | ✅ |
+| E-06 | **Raspberry Pi 5로 로컬 LLM: 실제 토큰/초 속도 측정 결과** | `rpi5-llm-speed-test.md` | ✅ |
+| E-07 | **ROS 2 + AI 에이전트: 로봇의 두뇌를 LLM으로 교체한 실험** | `ros2-llm-agent.md` | ✅ |
+| E-08 | **ESP32 S3 + OpenAI Whisper: 저가형 칩으로 음성 인식 에이전트 만들기** | `esp32-whisper-voice-agent.md` | ✅ |
 | E-09 | **On-Device RAG: 스마트폰에서 인터넷 없이 RAG 돌리기** | `on-device-rag-mobile.md` | ⬜ |
 | E-10 | **Federated Learning 실전: 데이터를 공유하지 않고 모델 학습하기** | `federated-learning-implementation.md` | ⬜ |
 | E-11 | **WebGPU로 브라우저에서 LLM 추론: 2026년 실측과 한계** | `webgpu-llm-browser.md` | ⬜ |
@@ -192,10 +192,10 @@
 | S. MCP & 보안 | 8 | 8 | 0 |
 | O. LLMOps | 10 | 10 | 0 |
 | R. RAG 심화 | 10 | 10 | 0 |
-| E. Edge AI | 12 | 4 | 8 |
+| E. Edge AI | 12 | 8 | 4 |
 | P. 커리어 & 관점 | 8 | 0 | 8 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **54** | **24** |
+| **합계** | **78** | **58** | **20** |
 
 ---
 

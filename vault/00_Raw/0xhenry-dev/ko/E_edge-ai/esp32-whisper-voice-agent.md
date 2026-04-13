@@ -1,0 +1,65 @@
+---
+title: "ESP32 S3 + OpenAI Whisper: 저가형 칩으로 음성 인식 에이전트 만들기"
+date: 2026-04-14
+draft: false
+tags: ["ESP32", "Whisper", "음성인식", "IoT", "AI에이전트", "저가형AI"]
+description: "단돈 10달러짜리 ESP32 칩으로 나만의 '자비스'를 만들 수 있을까요? 임베디드 오디오 처리 기술과 Whisper API를 결합하여 소리로 조절하는 스마트홈 에이전트를 구현하는 과정을 담았습니다."
+author: "Henry"
+categories: ["Edge AI"]
+series: ["Edge AI & 임베디드 시리즈"]
+series_order: 8
+images_needed:
+  - position: "hero"
+    prompt: "A tiny black chip (ESP32) sitting next to a glowing sound wave. A lightbulb in the background is turning on. Dark mode #0d1117, orange and yellow glowing accents, 16:9"
+    file: "images/E/esp32-whisper-voice-agent-hero.png"
+  - position: "diagram"
+    prompt: "Flow: Mic -> ESP32 (Opus Encoding) -> WiFi -> Whisper API -> LLM -> Control Command. 16:9"
+    file: "images/E/voice-agent-pipeline.png"
+---
+
+이 글은 **Edge AI & 임베디드 시리즈**의 마지막 편(8편)입니다.
+→ 7편: [ROS 2 + AI 에이전트: 로봇의 두뇌를 LLM으로 교체한 실험](/ko/study/E_edge-ai/ros2-llm-agent)
+
+---
+
+비싼 아이폰이나 스마트 스피커 없이도, 우리 주변의 흔한 **ESP32** 칩 하나로 음성 비서를 만들 수 있다면 어떨까요? 
+
+오늘은 2.4GHz Wi-Fi와 오디오 능력을 갖춘 **ESP32-S3** 보드를 활용해, 사용자의 목소리를 알아듣고 동작하는 초소형 음성 인식 에이전트를 구축하는 실전 노하우를 공유합니다.
+
+---
+
+### 1. 왜 ESP32-S3인가?
+
+ESP32-S3는 기존 모델보다 훨씬 강력한 **AI 가속 지시어(Vector instructions)**를 포함하고 있습니다. 덕분에 실시간으로 오디오 데이터를 압축하거나, 간단한 키워드 감지(Wake-word detection)를 하기에 안성맞춤입니다.
+
+---
+
+### 2. 전체 파이프라인
+
+1. **Wake-word**: "자비스" 혹은 "에이전트"라는 소리가 들릴 때까지 ESP32는 대기합니다. (보드 내 로컬 처리)
+2. **Audio Stream**: 키워드가 감지되면 마이크로 들어오는 음성을 **Opus** 혹은 **ADPCM**으로 압축하여 서버로 쏩니다.
+3. **Whisper API**: 서버(클라우드 혹은 사내 서버)에서 OpenAI의 **Whisper** 모델이 음성을 텍스트로 변환합니다.
+4. **Command Execution**: 텍스트를 LLM이 해석하고, 다시 ESP32에게 "불 꺼" 같은 명령을 전송합니다.
+
+---
+
+### 3. 실전 팁: 레이턴시(Latency) 줄이기
+
+음성 비서에서 가장 중요한 건 속도입니다. ESP32에서 녹음이 끝난 뒤 파일을 보내는 게 아니라, **실시간 스트리밍(Streaming)** 방식으로 데이터를 보내야 합니다. Whisper의 `streaming` 모드를 활용하면 사용자가 말을 끝내자마자 거의 동시에 답변이 시작됩니다.
+
+---
+
+### 4. Henry의 활용 제안: "화면 없는 인터페이스"
+
+버튼도 화면도 없는 작은 전등이나 선풍기에 이 칩 하나만 있으면, 여러분의 목소리만으로 세상을 바꿀 수 있습니다. 프라이버시가 걱정된다면 6편에서 다룬 [라즈베리 파이 로컬 LLM](/ko/study/E_edge-ai/rpi5-llm-speed-test) 서버와 연동하여 외부 유출 없는 폐쇄형 음성 비서를 구축해 보세요.
+
+---
+
+### 챕터 완료 결론
+
+이로써 **Edge AI & 임베디드** 시리즈를 마칩니다. STM32부터 ESP32, Jetson까지, 우리는 하드웨어의 한계를 AI로 극복하는 긴 여정을 지나왔습니다. 이제 지능은 거대한 클라우드를 넘어, 우리 주변 모든 사물들의 '평범한 속성'이 될 것입니다.
+
+---
+
+**다음 시리즈 예고:** [커리어 & 관점 — AI 에이전트 시대의 생존 전략]
+(E/R/A/S/O 챕터 완전 정복!)
