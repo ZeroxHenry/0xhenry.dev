@@ -1,84 +1,175 @@
+# 프롬프트 엔지니어링은 죽었다 — Context Engineering이 AI의 새 패러다임인 이유
+
 ---
-id: 2026-04-13-context-engineering
-title: "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리"
-category: AI 용어 사전
-tags: [컨텍스트엔지니어링, 프롬프트엔지니어링, AI트렌드, LLM, AI용어, 인공지능, AI개발, ChatGPT활용]
-status: ready
-char_count: 2100
-images_needed:
-  - position: "도입부 아래"
-    description: "AI에게 어떤 정보를 보여줄지 설계하는 모습"
-    source: "gemini"
-    prompt: "엔지니어가 컴퓨터 화면에서 AI의 '기억 창고(RAM)'를 설계하는 모습, 정보 블록들을 퍼즐처럼 맞추고 있음, 깔끔한 테크 일러스트 스타일, 블루-퍼플 그라데이션, 16:9"
-    file: "images/2026-04/context-engineering-1.jpg"
-  - position: "비교 설명 섹션"
-    description: "프롬프트 엔지니어링 vs Context Engineering 비교"
-    source: "gemini"
-    prompt: "왼쪽은 질문을 잘 쓰는 사람(펜과 종이), 오른쪽은 정보 환경 전체를 설계하는 아키텍트(블루프린트), 미니멀 인포그래픽, 따뜻한 오렌지vs차가운 블루 대비, 16:9"
-    file: "images/2026-04/context-engineering-2.jpg"
-  - position: "마무리 섹션"
-    description: "AI 운영 체제처럼 RAM을 관리하는 개념 도식"
-    source: "gemini"
-    prompt: "컴퓨터 구조도: CPU(LLM)와 RAM(Context Window) 관계를 보여주는 깔끔한 다이어그램, 테크 인포그래픽 스타일, 진한 네이비 배경에 형광 초록/파랑 텍스트, 16:9"
-    file: "images/2026-04/context-engineering-3.jpg"
-generated_at: "2026-04-13T01:00:00+09:00"
+# 🚀 0xHenry 기술 리포트
+# 본 포스트는 엔지니어 Henry의 기술 블로그(0xhenry.dev)에서 발행된 고품질 기술 콘텐츠를 네이버 블로그 환경에 맞게 재구성한 리포트입니다.
 ---
 
-프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리
 
-![AI의 RAM을 설계하는 엔지니어](../images/2026-04/context-engineering-1.png)
+저는 GPT-4o를 프로덕션 환경에서 약 4개월 동안 운영한 적이 있습니다. 그러다 이상한 걸 발견했습니다.
 
-요즘 해외 AI 개발자 커뮤니티에서 이런 말이 돌고 있어요. "프롬프트 엔지니어링을 잘하는 것만으론 부족하다." 그럼 이제 뭘 잘해야 할까요?
+시스템 초반에는 AI가 꽤 잘 답변했습니다. 그런데 대화가 길어지면 길어질수록 — 그러니까 컨텍스트가 쌓이면 쌓일수록 — AI가 **오히려 더 멍청해지고** 있었습니다. 질문에 엉뚱한 대답을 하거나, 앞서 말한 내용을 무시하거나, 가이드라인을 슬쩍 어기기 시작했어요.
 
-2026년, AI 엔지니어링에서 가장 뜨거운 새 키워드가 등장했습니다. 바로 **Context Engineering(컨텍스트 엔지니어링)**이에요.
+처음엔 프롬프트 문제라고 생각했습니다. 며칠 동안 문장을 다듬고, 순서를 바꾸고, 예시를 추가했습니다. 하지만 별 효과가 없었습니다.
 
-솔직히 처음 이 말 들었을 때 저도 "또 새 유행어야?" 했는데, 알고 보니 핵심이 있더라고요.
+원인은 프롬프트가 아니었습니다. 문제는 **컨텍스트**(Context) 자체였습니다.
 
-## 프롬프트 엔지니어링, 한계가 있었다?
+---
 
-프롬프트 엔지니어링은 AI에게 **"어떻게 질문하냐"**를 연구하는 기술이에요. 더 정확한 질문, 더 구조화된 지시문을 쓰면 더 좋은 답이 나온다는 거죠.
+### 프롬프트 엔지니어링의 한계
 
-그런데 실제로 AI를 오래 써본 분들이라면 이런 경험 있지 않으세요? 대화가 길어지면 길어질수록 AI가 점점 이상한 답을 내놓기 시작하는 거요. 앞에서 한 말을 무시하거나, 엉뚱한 소리를 한다거나...
+2023~2024년, "프롬프트 엔지니어링"은 가장 핫한 기술이었습니다. AI에게 더 똑똑하게 질문하는 법을 익히면 더 좋은 답을 얻을 수 있다고 했죠. 실제로 효과도 있었습니다.
 
-그게 바로 **컨텍스트 문제**예요. 질문 방식의 문제가 아니라, AI가 보고 있는 "정보 창고"가 지저분해진 거거든요.
+하지만 2026년인 지금, 이 접근법에는 근본적인 한계가 있다는 게 드러났습니다.
 
-## Context Engineering이 뭔데?
+프롬프트 엔지니어링은 **"AI에게 무엇을 말할까"**를 고민합니다. 반면 실제 프로덕션 AI 시스템의 실패 원인 대부분은 말하는 방식이 아니라 **"AI가 무엇을 보고 있느냐"**에서 비롯됩니다.
 
-![프롬프트 엔지니어링 vs Context Engineering 비교](../images/2026-04/context-engineering-2.png)
+AI의 답변 품질을 결정하는 건 지시문(prompt)이 아니라, 그 AI가 그 순간 처리하는 **전체 정보의 질과 구조**입니다.
 
-이걸 이해하는 가장 쉬운 비유가 있어요.
+---
 
-**AI가 CPU라면, 컨텍스트 창(Context Window)은 RAM**이에요.
+### Context Engineering이란 무엇인가?
 
-컴퓨터가 작업할 때 RAM에 필요한 데이터를 올려두잖아요. RAM이 너무 많은 쓰레기 데이터로 가득 차면 속도가 느려지고 오류가 나죠.
+**Context Engineering**은 LLM이 추론하는 순간 "보게 되는" 전체 정보 환경을 체계적으로 설계하는 기술입니다.
 
-AI도 마찬가지예요. 대화 이력, 검색 결과, AI에게 내린 지시가 뒤섞여서 컨텍스트 창에 잔뜩 쌓이면, AI가 제대로 된 판단을 못 해요.
+Anthropic의 정의를 빌리면:
 
-Context Engineering은 바로 이 **"RAM 관리"**예요. AI에게 보여줄 정보를 얼마나 깔끔하고 정확하게 구성하느냐가 핵심이에요.
+> "The practice of curating, structuring, and managing the entire set of data — instructions, history, retrieved documents, tool outputs, and user metadata — that the model sees during inference."
 
-- ❌ 프롬프트 엔지니어링: "AI에게 어떻게 말하지?"
-- ✅ Context Engineering: "AI가 무엇을 보고 있도록 설계하지?"
+쉽게 말해, 좋은 비유가 있습니다.
 
-개발자들 사이에서는 "이제 대형 언어 모델을 얼마나 잘 다루느냐보다, 그 모델이 보는 '정보 환경'을 얼마나 잘 설계하느냐가 더 중요해졌다"라고 말해요.
+> **LLM이 CPU라면, Context Window는 RAM입니다.**
 
-### 🤖 0xHenry의 인사이트: 로봇의 RAM은 늘 부족합니다
+당신은 이제 단순히 질문을 쓰는 사람이 아닙니다. **AI가 사용할 RAM의 내용물을 설계하는 운영 체제**가 되어야 합니다.
 
-로봇을 개발할 때 쓰는 **NVIDIA Jetson** 같은 엣지 디바이스들은 서버급 GPU에 비해 메모리가 턱없이 부족해요. 모든 라이다(Lidar) 데이터와 센서 로그를 AI에게 다 넘겨줄 수는 없죠. 
+---
 
-Context Engineering은 로봇에게 **"지금 가장 중요한 정보만 골라서 기억하게 만드는 필터"**와 같습니다. 어떤 정보를 버리고 어떤 정보를 남길지 결정하는 이 설계 기술이야말로, 실생활에서 움직이는 로봇 AI의 성능을 결정짓는 핵심 역량이 될 것입니다.
+### Context Rot: 컨텍스트가 길어지면 AI가 멍청해지는 이유
 
-## 왜 지금 이게 중요한가요?
+연구자들이 "Lost in the Middle"이라고 부르는 현상이 있습니다.
 
-![CPU(LLM) + RAM(Context Window) 구조](../images/2026-04/context-engineering-3.png)
+LLM은 입력 데이터의 **앞부분**과 **끝부분**에 집중하는 경향이 있습니다. 중간에 있는 정보는 상대적으로 무시됩니다. 컨텍스트 윈도우가 1백만 토큰으로 늘어났다고 해서 이 문제가 사라지지 않습니다.
 
-실제로 AI 서비스를 만들어보면 이런 일이 생겨요. 처음엔 AI가 잘 답하다가, 어느 순간부터 대화가 이상해져요. Anthropic(Claude 만든 회사)의 연구에 따르면, 컨텍스트가 너무 많아지면 AI가 맨 앞과 맨 뒤 내용만 집중하고 중간은 무시하는 경향이 있다고 해요.
+오히려 더 심해집니다.
 
-이걸 "Lost in the Middle" 문제라고 부르는데, 컨텍스트 창이 100만 토큰으로 늘어나도 이 문제는 사라지지 않아요. 오히려 더 심해질 수 있고요.
+컨텍스트를 쌓아두는 것 자체가 문제가 됩니다. 오래된 대화 이력, 불필요한 도구 설명, 중복된 지시문이 컨텍스트를 오염시킵니다. 저는 이걸 **Context Rot(컨텍스트 썩음 현상)**이라고 부릅니다.
 
-결론적으로, 2026년 AI 개발의 핵심은 **더 좋은 질문을 쓰는 것**보다 **AI가 보는 정보를 더 잘 선별하고 구조화하는 것**으로 이동했어요.
+```
+[잘못된 방식]
+System Prompt (2,000 tokens)
++ 지난 20턴 대화 이력 (8,000 tokens)
++ 검색된 문서 10개 전문 (15,000 tokens)
++ 도구 설명 전체 (3,000 tokens)
+= 28,000 tokens → AI 성능 저하 시작
+```
 
-비개발자 분들도 이 개념을 알아두면 좋은 이유가 있어요. AI 챗봇이랑 대화할 때도 불필요한 얘기를 길게 늘어놓기보다, 지금 이 질문에 필요한 정보만 딱 정리해서 주는 습관이 훨씬 좋은 답을 받는 비결이거든요.
+```
+[Context Engineering 방식]
+System Prompt (압축, 500 tokens)
++ 최근 3턴 대화 이력 (요약 포함, 1,200 tokens)
++ 이 질문에 관련된 문서 2개만 선별 (3,000 tokens)
++ 이 작업에 필요한 도구 2개만 (400 tokens)
+= 5,100 tokens → 정확도, 속도 모두 향상
+```
 
-여러분은 AI를 쓸 때 맥락을 어떻게 정리하고 있으신가요? 댓글로 나눠주세요!
+---
 
-#컨텍스트엔지니어링 #프롬프트엔지니어링 #AI트렌드 #LLM #AI용어 #인공지능 #AI개발 #ChatGPT활용
+### Context Engineering의 핵심 기법 4가지
+
+#### 1. 동적 컨텍스트 조립 (Dynamic Assembly)
+
+매 LLM 호출 전에 컨텍스트를 **새로 조립**합니다. 정적인 시스템 프롬프트에 모든 것을 넣어두는 방식은 이제 구식입니다.
+
+```python
+def build_context(user_query: str, conversation_history: list) -> str:
+    # 이 쿼리에 관련된 문서만 검색
+    relevant_docs = retriever.search(user_query, top_k=2)
+    
+    # 대화 이력은 최근 3턴만 + 나머지는 요약으로 압축
+    compressed_history = compress_history(conversation_history, keep_last=3)
+    
+    # 이 작업에 필요한 도구만 선택 (전체 도구 목록 X)
+    relevant_tools = tool_router.select(user_query)
+    
+    return assemble_prompt(
+        instructions=CORE_INSTRUCTIONS,  # 핵심 지시 최소화
+        history=compressed_history,
+        docs=relevant_docs,
+        tools=relevant_tools
+    )
+```
+
+#### 2. 컨텍스트 압축 (Context Compression)
+
+대화 이력이 길어지면, 오래된 부분을 요약으로 대체합니다.
+
+```python
+def compress_history(history: list, keep_last: int = 3) -> dict:
+    if len(history) <= keep_last:
+        return {"recent": history, "summary": None}
+    
+    old_turns = history[:-keep_last]
+    recent_turns = history[-keep_last:]
+    
+    # 오래된 대화를 LLM으로 요약
+    summary = summarizer.run(old_turns)
+    
+    return {
+        "summary": summary,  # "사용자는 결제 오류를 문의했고, 환불 처리가 완료됨"
+        "recent": recent_turns
+    }
+```
+
+#### 3. 도구 라우팅 (Tool Routing)
+
+모든 도구 설명을 항상 컨텍스트에 넣지 마세요. 쿼리를 분석하여 **이 작업에 필요한 도구만** 골라줍니다.
+
+```python
+# 나쁜 방식: 50개 도구 설명을 항상 포함
+context = f"{ALL_50_TOOLS_DESCRIPTION}\n\nUser: {query}"
+
+# 좋은 방식: 관련 도구 2-3개만 선택
+relevant_tools = tool_router.classify_and_select(query, max_tools=3)
+context = f"{relevant_tools}\n\nUser: {query}"
+```
+
+#### 4. 컨텍스트 격리 (Context Isolation)
+
+멀티 에이전트 시스템에서는 에이전트별로 컨텍스트를 **격리**합니다. 한 에이전트의 오염된 컨텍스트가 다른 에이전트로 전파되는 것을 막습니다.
+
+```python
+# 검색 에이전트와 작성 에이전트의 컨텍스트를 분리
+search_agent_context = ContextWindow(max_tokens=4000)  # 검색 결과만
+writer_agent_context = ContextWindow(max_tokens=8000)  # 구조화된 정보만
+
+# 두 컨텍스트는 절대 직접 병합하지 않음
+# 대신 검색 에이전트의 "요약 결과"만 작성 에이전트에게 전달
+```
+
+---
+
+### 프롬프트 엔지니어링 vs Context Engineering
+
+| 항목 | 프롬프트 엔지니어링 | Context Engineering |
+|------|-------------------|---------------------|
+| **관심사** | 지시문 작성 방식 | 전체 정보 환경 설계 |
+| **범위** | 단일 호출 최적화 | 시스템 수준 아키텍처 |
+| **효과** | 단편적 개선 | 시스템 전반 안정성 향상 |
+| **난이도** | 낮음 | 높음 (아키텍처 사고 필요) |
+| **2026년 가치** | 기본 소양 수준 | 핵심 엔지니어링 역량 |
+
+---
+
+### 결론: 이제 무엇을 준비해야 하는가?
+
+2026년 AI 엔지니어링에서는 "프롬프트를 잘 쓰는 사람"이 아니라, **"AI가 최적의 판단을 내릴 수 있도록 정보 환경을 설계하는 사람"**이 가치를 인정받습니다.
+
+당신의 AI 시스템이 자꾸 이상한 답변을 낸다면, 프롬프트를 다시 쓰기 전에 이 질문부터 해보세요.
+
+> **"지금 이 AI는 무엇을 보고 있는가?"**
+
+컨텍스트를 설계하세요. 그것이 2026년의 AI 엔지니어링입니다.
+
+---
+
+**다음 주제:** [LLM이 "멍청해지는" 이유: Context Rot 현상 완전 해부](/ko/study/context-rot-lost-in-middle)

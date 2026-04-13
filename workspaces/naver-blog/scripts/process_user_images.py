@@ -4,7 +4,8 @@ import shutil
 from PIL import Image
 
 # Path Configuration
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+# Script is in workspaces/naver-blog/scripts/ -> 4 levels up to reach root (0xhenry.dev)
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 BRIDGE_DIR = os.path.join(BASE_DIR, 'workspaces/naver-blog/image_bridge')
 INPUT_DIR = os.path.join(BRIDGE_DIR, 'input')
 TASKS_FILE = os.path.join(BRIDGE_DIR, 'tasks.json')

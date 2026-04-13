@@ -1,12 +1,179 @@
 {
   "stats": {
-    "total_generated": 56,
+    "total_generated": 240,
     "total_published": 0,
     "adpost_target": 50,
     "blog_url": "https://blog.naver.com/0xhenry",
     "last_session": "2026-04-08"
   },
   "posts": [
+    {
+      "id": "2026-04-05-zed-x-mini-jetson-setup",
+      "title": "ZED X Mini + Jetson Orin NX: 30일간의 삽질 기록",
+      "category": "AI/Tech",
+      "status": "ready",
+      "generated_at": "2026-04-05T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "jetson",
+        "zed-camera",
+        "robotics",
+        "gmsl2",
+        "stereolabs"
+      ],
+      "char_count": 5718,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-05-zed-x-mini-jetson-setup",
+      "scheduled_at": "2026-04-15T08:27:00+09:00"
+    },
+    {
+      "id": "2026-04-06-stm32-architecture",
+      "title": "STM32 아키텍처 기초 — Cortex-M7, 메모리, 버스 완전 정리",
+      "category": "STM32 로봇 보드 개발",
+      "status": "ready",
+      "generated_at": "2026-04-06T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "stm32",
+        "arm-cortex-m7",
+        "embedded"
+      ],
+      "char_count": 2154,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-06-stm32-architecture",
+      "scheduled_at": "2026-04-15T13:29:00+09:00"
+    },
+    {
+      "id": "2026-04-06-stm32-bringup",
+      "title": "STM32 보드 브링업 — 처음 전원 넣기부터 동작 확인까지",
+      "category": "STM32 로봇 보드 개발",
+      "status": "ready",
+      "generated_at": "2026-04-06T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "stm32",
+        "bringup",
+        "hal",
+        "debugging"
+      ],
+      "char_count": 9020,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-06-stm32-bringup",
+      "scheduled_at": "2026-04-15T20:58:00+09:00"
+    },
+    {
+      "id": "2026-04-06-stm32-clock-system",
+      "title": "STM32 클럭 시스템 — HSE, PLL, 클럭 트리 설정 가이드",
+      "category": "STM32 로봇 보드 개발",
+      "status": "ready",
+      "generated_at": "2026-04-06T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "stm32",
+        "clock-tree",
+        "cubemx"
+      ],
+      "char_count": 3691,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-06-stm32-clock-system",
+      "scheduled_at": "2026-04-16T08:18:00+09:00"
+    },
+    {
+      "id": "2026-04-06-stm32-cubemx",
+      "title": "STM32CubeMX 실전 설정 — 프로젝트 생성부터 코드 생성까지",
+      "category": "STM32 로봇 보드 개발",
+      "status": "ready",
+      "generated_at": "2026-04-06T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "stm32",
+        "cubemx",
+        "hal"
+      ],
+      "char_count": 4578,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-06-stm32-cubemx",
+      "scheduled_at": "2026-04-16T13:15:00+09:00"
+    },
+    {
+      "id": "2026-04-06-stm32-gpio",
+      "title": "STM32 GPIO 설정 — Push-Pull, Open-Drain, 속도, 풀업/풀다운",
+      "category": "STM32 로봇 보드 개발",
+      "status": "ready",
+      "generated_at": "2026-04-06T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "stm32",
+        "gpio",
+        "embedded"
+      ],
+      "char_count": 4453,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-06-stm32-gpio",
+      "scheduled_at": "2026-04-16T20:59:00+09:00"
+    },
+    {
+      "id": "2026-04-06-stm32-peripherals",
+      "title": "STM32 핵심 페리페럴 — FDCAN, UART, SPI, ADC, PWM 총정리",
+      "category": "STM32 로봇 보드 개발",
+      "status": "ready",
+      "generated_at": "2026-04-06T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "stm32",
+        "can-bus",
+        "uart",
+        "spi",
+        "pwm"
+      ],
+      "char_count": 13075,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-06-stm32-peripherals",
+      "scheduled_at": "2026-04-17T08:39:00+09:00"
+    },
+    {
+      "id": "2026-04-06-stm32-pin-mapping",
+      "title": "STM32 로봇 보드 핀 매핑 전략 — Teensy에서 STM32로",
+      "category": "STM32 로봇 보드 개발",
+      "status": "ready",
+      "generated_at": "2026-04-06T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "stm32",
+        "pin-mapping",
+        "robotics"
+      ],
+      "char_count": 4622,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-06-stm32-pin-mapping",
+      "scheduled_at": "2026-04-17T13:27:00+09:00"
+    },
+    {
+      "id": "2026-04-06-stm32-pin-system",
+      "title": "STM32 핀 시스템 완전 정복 — AF, GPIO 포트, 핀맵",
+      "category": "STM32 로봇 보드 개발",
+      "status": "ready",
+      "generated_at": "2026-04-06T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "stm32",
+        "gpio",
+        "pin-mapping"
+      ],
+      "char_count": 8582,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-06-stm32-pin-system",
+      "scheduled_at": "2026-04-17T20:46:00+09:00"
+    },
     {
       "id": "2026-04-08-rag-explained",
       "title": "RAG란? AI가 검색해서 답하는 기술 (쉽게 설명)",
@@ -28,7 +195,8 @@
       "char_count": 1950,
       "image_count": 3,
       "images_ready": false,
-      "folder": "generated/posts/2026-04-08-rag-explained"
+      "folder": "generated/posts/2026-04-08-rag-explained",
+      "scheduled_at": "2026-04-18T08:17:00+09:00"
     },
     {
       "id": "2026-04-10-agentic-ai",
@@ -51,330 +219,8 @@
       "char_count": 2000,
       "image_count": 3,
       "images_ready": false,
-      "folder": "generated/posts/2026-04-10-agentic-ai"
-    },
-    {
-      "id": "2026-04-11-cursor-ai-코드-에디터-리뷰",
-      "title": "Cursor AI 코드 에디터 리뷰",
-      "category": "AI/Tech",
-      "status": "ready",
-      "generated_at": "2026-04-11T21:59:57+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4458,
-      "image_count": 2,
-      "images_ready": false,
-      "folder": "generated/posts/2026-04-11-cursor-ai-코드-에디터-리뷰"
-    },
-    {
-      "id": "2026-04-11-perplexity-ai-vs-chatgpt-검색-비교",
-      "title": "Perplexity AI vs ChatGPT 검색 비교",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:02:47+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4504,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-perplexity-ai-vs-chatgpt-검색-비교.md"
-    },
-    {
-      "id": "2026-04-11-midjourney-v7-이미지-생성-리뷰",
-      "title": "Midjourney v7 이미지 생성 리뷰",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:05:37+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4309,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-midjourney-v7-이미지-생성-리뷰.md"
-    },
-    {
-      "id": "2026-04-11-notion-ai-활용-후기",
-      "title": "Notion AI 활용 후기",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:08:23+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4210,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-notion-ai-활용-후기.md"
-    },
-    {
-      "id": "2026-04-11-elevenlabs-음성-복제-리뷰",
-      "title": "ElevenLabs 음성 복제 리뷰",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:12:05+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 3901,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-elevenlabs-음성-복제-리뷰.md"
-    },
-    {
-      "id": "2026-04-11-suno-ai-음악-만들기-리뷰",
-      "title": "Suno AI 음악 만들기 리뷰",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:16:09+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4638,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-suno-ai-음악-만들기-리뷰.md"
-    },
-    {
-      "id": "2026-04-11-gamma-ai-프레젠테이션-리뷰",
-      "title": "Gamma AI 프레젠테이션 리뷰",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:19:20+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4559,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-gamma-ai-프레젠테이션-리뷰.md"
-    },
-    {
-      "id": "2026-04-11-runway-gen-3-영상-생성-리뷰",
-      "title": "Runway Gen-3 영상 생성 리뷰",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:22:47+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4764,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-runway-gen-3-영상-생성-리뷰.md"
-    },
-    {
-      "id": "2026-04-11-v0-by-vercel--ai로-웹-ui-만들기",
-      "title": "v0 by Vercel — AI로 웹 UI 만들기",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:26:02+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4215,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-v0-by-vercel--ai로-웹-ui-만들기.md"
-    },
-    {
-      "id": "2026-04-11-클로드로-코드-리뷰-받기",
-      "title": "클로드로 코드 리뷰 받기",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:39:13+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4612,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-클로드로-코드-리뷰-받기.md"
-    },
-    {
-      "id": "2026-04-11-ai-번역-도구-비교-deepl-vs-papago-vs",
-      "title": "AI 번역 도구 비교 (DeepL vs Papago vs ChatGPT)",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:41:38+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4433,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-ai-번역-도구-비교-deepl-vs-papago-vs.md"
-    },
-    {
-      "id": "2026-04-11-ai로-블로그-글-쓰기-워크플로우",
-      "title": "AI로 블로그 글 쓰기 워크플로우",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:43:57+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 3942,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-ai로-블로그-글-쓰기-워크플로우.md"
-    },
-    {
-      "id": "2026-04-11-stable-diffusion으로-나만의-캐릭터-만들기",
-      "title": "Stable Diffusion으로 나만의 캐릭터 만들기",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:46:27+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4561,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-stable-diffusion으로-나만의-캐릭터-만들기.md"
-    },
-    {
-      "id": "2026-04-11-ai-회의록-자동-정리-도구-비교",
-      "title": "AI 회의록 자동 정리 도구 비교",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:49:10+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4222,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-ai-회의록-자동-정리-도구-비교.md"
-    },
-    {
-      "id": "2026-04-11-chatgpt-플러그인-활용-가이드",
-      "title": "ChatGPT 플러그인 활용 가이드",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:51:29+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4201,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-chatgpt-플러그인-활용-가이드.md"
-    },
-    {
-      "id": "2026-04-11-ai로-엑셀스프레드시트-자동화하기",
-      "title": "AI로 엑셀/스프레드시트 자동화하기",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:53:50+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4260,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-ai로-엑셀스프레드시트-자동화하기.md"
-    },
-    {
-      "id": "2026-04-11-무료-ai-도구-모음-2026",
-      "title": "무료 AI 도구 모음 2026",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T22:56:22+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4130,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-무료-ai-도구-모음-2026.md"
+      "folder": "generated/posts/2026-04-10-agentic-ai",
+      "scheduled_at": "2026-04-18T13:29:00+09:00"
     },
     {
       "id": "2026-04-11-2026-04-week-2-48-14",
@@ -393,7 +239,8 @@
       "char_count": 3864,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-2026-04-week-2-48-14.md"
+      "file": "generated/2026-04/2026-04-11-2026-04-week-2-48-14.md",
+      "scheduled_at": "2026-04-18T20:35:00+09:00"
     },
     {
       "id": "2026-04-11-2026-04-week-3-415-21",
@@ -412,7 +259,8 @@
       "char_count": 5261,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-2026-04-week-3-415-21.md"
+      "file": "generated/2026-04/2026-04-11-2026-04-week-3-415-21.md",
+      "scheduled_at": "2026-04-19T08:28:00+09:00"
     },
     {
       "id": "2026-04-11-2026-04-week-4-422-28",
@@ -431,7 +279,8 @@
       "char_count": 4374,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-2026-04-week-4-422-28.md"
+      "file": "generated/2026-04/2026-04-11-2026-04-week-4-422-28.md",
+      "scheduled_at": "2026-04-19T13:04:00+09:00"
     },
     {
       "id": "2026-04-11-2026-05-week-1-429-55",
@@ -450,7 +299,8 @@
       "char_count": 4677,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-2026-05-week-1-429-55.md"
+      "file": "generated/2026-04/2026-04-11-2026-05-week-1-429-55.md",
+      "scheduled_at": "2026-04-19T20:33:00+09:00"
     },
     {
       "id": "2026-04-11-2026-05-week-2-56-12",
@@ -469,7 +319,8 @@
       "char_count": 3834,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-2026-05-week-2-56-12.md"
+      "file": "generated/2026-04/2026-04-11-2026-05-week-2-56-12.md",
+      "scheduled_at": "2026-04-20T08:24:00+09:00"
     },
     {
       "id": "2026-04-11-2026-05-week-3-513-19",
@@ -488,14 +339,35 @@
       "char_count": 4459,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-2026-05-week-3-513-19.md"
+      "file": "generated/2026-04/2026-04-11-2026-05-week-3-513-19.md",
+      "scheduled_at": "2026-04-20T13:14:00+09:00"
     },
     {
-      "id": "2026-04-11-ai가-내-직업을-대체할까--직업별-분석",
-      "title": "AI가 내 직업을 대체할까? — 직업별 분석",
+      "id": "2026-04-11-advanced-prompt-engineering-rag",
+      "title": "고급 프롬프트 엔지니어링: RAG 답변의 정교한 조종",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "프롬프트엔지니어링",
+        "RAG",
+        "퓨샷",
+        "시스템지시어",
+        "프롬프트최적화"
+      ],
+      "char_count": 1600,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-advanced-prompt-engineering-rag",
+      "scheduled_at": "2026-04-20T20:42:00+09:00"
+    },
+    {
+      "id": "2026-04-11-ai-번역-도구-비교-deepl-vs-papago-vs",
+      "title": "AI 번역 도구 비교 (DeepL vs Papago vs ChatGPT)",
       "category": "AI/Tech",
       "status": "draft",
-      "generated_at": "2026-04-11T23:14:45+09:00",
+      "generated_at": "2026-04-11T22:41:38+09:00",
       "published_at": null,
       "naver_url": null,
       "tags": [
@@ -504,48 +376,11 @@
         "트렌드",
         "꿀팁"
       ],
-      "char_count": 4827,
+      "char_count": 4433,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-ai가-내-직업을-대체할까--직업별-분석.md"
-    },
-    {
-      "id": "2026-04-11-ai-초보자-입문-가이드-2026",
-      "title": "AI 초보자 입문 가이드 2026",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T23:17:21+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4453,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-ai-초보자-입문-가이드-2026.md"
-    },
-    {
-      "id": "2026-04-11-무료-ai-도구-top-10-2026년-기준",
-      "title": "무료 AI 도구 TOP 10 (2026년 기준)",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T23:21:06+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4853,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-무료-ai-도구-top-10-2026년-기준.md"
+      "file": "generated/2026-04/2026-04-11-ai-번역-도구-비교-deepl-vs-papago-vs.md",
+      "scheduled_at": "2026-04-21T08:44:00+09:00"
     },
     {
       "id": "2026-04-11-ai-윤리--알아야-할-것들",
@@ -564,14 +399,15 @@
       "char_count": 4847,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-ai-윤리--알아야-할-것들.md"
+      "file": "generated/2026-04/2026-04-11-ai-윤리--알아야-할-것들.md",
+      "scheduled_at": "2026-04-21T13:04:00+09:00"
     },
     {
-      "id": "2026-04-11-gpt-vs-claude-vs-gemini--3대-ai",
-      "title": "GPT vs Claude vs Gemini — 3대 AI 비교",
+      "id": "2026-04-11-ai-초보자-입문-가이드-2026",
+      "title": "AI 초보자 입문 가이드 2026",
       "category": "AI/Tech",
       "status": "draft",
-      "generated_at": "2026-04-11T23:27:45+09:00",
+      "generated_at": "2026-04-11T23:17:21+09:00",
       "published_at": null,
       "naver_url": null,
       "tags": [
@@ -580,17 +416,18 @@
         "트렌드",
         "꿀팁"
       ],
-      "char_count": 4353,
+      "char_count": 4453,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-gpt-vs-claude-vs-gemini--3대-ai.md"
+      "file": "generated/2026-04/2026-04-11-ai-초보자-입문-가이드-2026.md",
+      "scheduled_at": "2026-04-21T20:52:00+09:00"
     },
     {
-      "id": "2026-04-11-노년층을-위한-ai-스마트폰-기본-활용법",
-      "title": "노년층을 위한 AI 스마트폰 기본 활용법",
+      "id": "2026-04-11-ai-회의록-자동-정리-도구-비교",
+      "title": "AI 회의록 자동 정리 도구 비교",
       "category": "AI/Tech",
       "status": "draft",
-      "generated_at": "2026-04-11T23:31:14+09:00",
+      "generated_at": "2026-04-11T22:49:10+09:00",
       "published_at": null,
       "naver_url": null,
       "tags": [
@@ -599,17 +436,18 @@
         "트렌드",
         "꿀팁"
       ],
-      "char_count": 4162,
+      "char_count": 4222,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-노년층을-위한-ai-스마트폰-기본-활용법.md"
+      "file": "generated/2026-04/2026-04-11-ai-회의록-자동-정리-도구-비교.md",
+      "scheduled_at": "2026-04-22T08:34:00+09:00"
     },
     {
-      "id": "2026-04-11-카카오톡-ai-대화-요약번역-기능-100-활용하기",
-      "title": "카카오톡 AI 대화 요약/번역 기능 100% 활용하기",
+      "id": "2026-04-11-ai가-내-직업을-대체할까--직업별-분석",
+      "title": "AI가 내 직업을 대체할까? — 직업별 분석",
       "category": "AI/Tech",
       "status": "draft",
-      "generated_at": "2026-04-11T23:34:15+09:00",
+      "generated_at": "2026-04-11T23:14:45+09:00",
       "published_at": null,
       "naver_url": null,
       "tags": [
@@ -618,29 +456,11 @@
         "트렌드",
         "꿀팁"
       ],
-      "char_count": 4251,
+      "char_count": 4827,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-카카오톡-ai-대화-요약번역-기능-100-활용하기.md"
-    },
-    {
-      "id": "2026-04-11-구글-검색-대신-챗gpt를-써야-하는-3가지-상황",
-      "title": "구글 검색 대신 챗GPT를 써야 하는 3가지 상황",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-11T23:37:25+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "char_count": 4239,
-      "image_count": 2,
-      "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-구글-검색-대신-챗gpt를-써야-하는-3가지-상황.md"
+      "file": "generated/2026-04/2026-04-11-ai가-내-직업을-대체할까--직업별-분석.md",
+      "scheduled_at": "2026-04-22T13:21:00+09:00"
     },
     {
       "id": "2026-04-11-ai로-냉장고-파먹기-나만의-레시피-만들기",
@@ -659,14 +479,15 @@
       "char_count": 4508,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-ai로-냉장고-파먹기-나만의-레시피-만들기.md"
+      "file": "generated/2026-04/2026-04-11-ai로-냉장고-파먹기-나만의-레시피-만들기.md",
+      "scheduled_at": "2026-04-22T20:53:00+09:00"
     },
     {
-      "id": "2026-04-11-한국인-맞춤-네이버-클로바x-완벽-가이드",
-      "title": "한국인 맞춤! 네이버 클로바X 완벽 가이드",
+      "id": "2026-04-11-ai로-블로그-글-쓰기-워크플로우",
+      "title": "AI로 블로그 글 쓰기 워크플로우",
       "category": "AI/Tech",
       "status": "draft",
-      "generated_at": "2026-04-11T23:44:12+09:00",
+      "generated_at": "2026-04-11T22:43:57+09:00",
       "published_at": null,
       "naver_url": null,
       "tags": [
@@ -675,17 +496,18 @@
         "트렌드",
         "꿀팁"
       ],
-      "char_count": 4862,
+      "char_count": 3942,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-한국인-맞춤-네이버-클로바x-완벽-가이드.md"
+      "file": "generated/2026-04/2026-04-11-ai로-블로그-글-쓰기-워크플로우.md",
+      "scheduled_at": "2026-04-23T08:25:00+09:00"
     },
     {
-      "id": "2026-04-11-사진에서-배경-지우기-무료-ai-도구-활용법",
-      "title": "사진에서 배경 지우기, 무료 AI 도구 활용법",
+      "id": "2026-04-11-ai로-엑셀스프레드시트-자동화하기",
+      "title": "AI로 엑셀/스프레드시트 자동화하기",
       "category": "AI/Tech",
       "status": "draft",
-      "generated_at": "2026-04-11T23:47:12+09:00",
+      "generated_at": "2026-04-11T22:53:50+09:00",
       "published_at": null,
       "naver_url": null,
       "tags": [
@@ -694,10 +516,783 @@
         "트렌드",
         "꿀팁"
       ],
-      "char_count": 3624,
+      "char_count": 4260,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-사진에서-배경-지우기-무료-ai-도구-활용법.md"
+      "file": "generated/2026-04/2026-04-11-ai로-엑셀스프레드시트-자동화하기.md",
+      "scheduled_at": "2026-04-23T13:04:00+09:00"
+    },
+    {
+      "id": "2026-04-11-chatgpt-플러그인-활용-가이드",
+      "title": "ChatGPT 플러그인 활용 가이드",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:51:29+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4201,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-chatgpt-플러그인-활용-가이드.md",
+      "scheduled_at": "2026-04-23T20:51:00+09:00"
+    },
+    {
+      "id": "2026-04-11-chunking-strategies-deep-dive",
+      "title": "청킹(Chunking) 전략: RAG의 성능을 결정짓는 데이터 분할의 기술",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "청킹",
+        "RAG",
+        "데이터전처리",
+        "LangChain"
+      ],
+      "char_count": 1922,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-chunking-strategies-deep-dive",
+      "scheduled_at": "2026-04-24T08:26:00+09:00"
+    },
+    {
+      "id": "2026-04-11-code-rag",
+      "title": "코드 RAG: 당신의 레포지토리를 이해하는 AI 비서 만들기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "코드RAG",
+        "구문분석",
+        "GitHub인덱싱",
+        "LLM에이전트",
+        "개발생산성"
+      ],
+      "char_count": 1684,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-code-rag",
+      "scheduled_at": "2026-04-24T13:07:00+09:00"
+    },
+    {
+      "id": "2026-04-11-contextual-compression",
+      "title": "컨텍스트 압축(Contextual Compression): 노이즈 속에서 핵심만 추출하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LangChain",
+        "RAG",
+        "압축",
+        "효율성",
+        "비용최적화"
+      ],
+      "char_count": 1877,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-contextual-compression",
+      "scheduled_at": "2026-04-24T20:41:00+09:00"
+    },
+    {
+      "id": "2026-04-11-cross-encoders-reranking",
+      "title": "크로스 인코더: 프로급 RAG 정확도를 위한 최후의 퍼즐",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "리랭킹",
+        "크로스인코더",
+        "바이인코더",
+        "자연어처리",
+        "검색"
+      ],
+      "char_count": 2042,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-cross-encoders-reranking",
+      "scheduled_at": "2026-04-25T08:27:00+09:00"
+    },
+    {
+      "id": "2026-04-11-cursor-ai-코드-에디터-리뷰",
+      "title": "Cursor AI 코드 에디터 리뷰",
+      "category": "AI/Tech",
+      "status": "ready",
+      "generated_at": "2026-04-11T21:59:57+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4458,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-cursor-ai-코드-에디터-리뷰",
+      "scheduled_at": "2026-04-25T13:00:00+09:00"
+    },
+    {
+      "id": "2026-04-11-elevenlabs-음성-복제-리뷰",
+      "title": "ElevenLabs 음성 복제 리뷰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:12:05+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 3901,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-elevenlabs-음성-복제-리뷰.md",
+      "scheduled_at": "2026-04-25T20:39:00+09:00"
+    },
+    {
+      "id": "2026-04-11-enterprise-vector-dbs",
+      "title": "Weaviate & Milvus: 엔터프라이즈를 위한 대규모 RAG 확장",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Weaviate",
+        "Milvus",
+        "엔터프라이즈",
+        "벡터DB",
+        "확장성"
+      ],
+      "char_count": 2002,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-enterprise-vector-dbs",
+      "scheduled_at": "2026-04-26T08:29:00+09:00"
+    },
+    {
+      "id": "2026-04-11-evaluating-rag-ragas",
+      "title": "RAG 평가: RAGAS를 이용한 답변의 정확도 측정",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "평가",
+        "RAGAS",
+        "RAG지표",
+        "신뢰성",
+        "관련성"
+      ],
+      "char_count": 1968,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-evaluating-rag-ragas",
+      "scheduled_at": "2026-04-26T13:13:00+09:00"
+    },
+    {
+      "id": "2026-04-11-faiss-tutorial",
+      "title": "고성능 검색을 위한 FAISS 활용 가이드: 대규모 데이터 처리 비결",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "FAISS",
+        "메타데이터",
+        "최적화",
+        "벡터검색"
+      ],
+      "char_count": 1978,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-faiss-tutorial",
+      "scheduled_at": "2026-04-26T20:48:00+09:00"
+    },
+    {
+      "id": "2026-04-11-first-local-rag-ollama",
+      "title": "Ollama와 Python으로 구축하는 생애 첫 로컬 RAG",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Python",
+        "Ollama",
+        "ChromaDB",
+        "튜토리얼"
+      ],
+      "char_count": 2493,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-first-local-rag-ollama",
+      "scheduled_at": "2026-04-27T08:43:00+09:00"
+    },
+    {
+      "id": "2026-04-11-gamma-ai-프레젠테이션-리뷰",
+      "title": "Gamma AI 프레젠테이션 리뷰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:19:20+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4559,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-gamma-ai-프레젠테이션-리뷰.md",
+      "scheduled_at": "2026-04-27T13:26:00+09:00"
+    },
+    {
+      "id": "2026-04-11-gpt-vs-claude-vs-gemini--3대-ai",
+      "title": "GPT vs Claude vs Gemini — 3대 AI 비교",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:27:45+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4353,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-gpt-vs-claude-vs-gemini--3대-ai.md",
+      "scheduled_at": "2026-04-27T20:50:00+09:00"
+    },
+    {
+      "id": "2026-04-11-graph-rag-explained",
+      "title": "GraphRAG: 지식 그래프로 데이터 간의 연결 고리 찾기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "GraphRAG",
+        "지식그래프",
+        "Neo4j",
+        "마이크로소프트연구소",
+        "RAG",
+        "고급검색"
+      ],
+      "char_count": 1604,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-graph-rag-explained",
+      "scheduled_at": "2026-04-28T08:45:00+09:00"
+    },
+    {
+      "id": "2026-04-11-handling-pdf-tables",
+      "title": "PDF 표(Table) 처리: 텍스트 분할기만으로는 RAG가 실패하는 이유",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "PDF파싱",
+        "표처리",
+        "비정형데이터",
+        "RAG",
+        "고급검색"
+      ],
+      "char_count": 1747,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-handling-pdf-tables",
+      "scheduled_at": "2026-04-28T13:15:00+09:00"
+    },
+    {
+      "id": "2026-04-11-hybrid-search-explained",
+      "title": "하이브리드 검색: 키워드 정밀도와 AI 지능의 결합",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "하이브리드검색",
+        "BM25",
+        "벡터검색",
+        "RAG",
+        "최적화"
+      ],
+      "char_count": 1819,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-hybrid-search-explained",
+      "scheduled_at": "2026-04-28T20:32:00+09:00"
+    },
+    {
+      "id": "2026-04-11-intro-to-chromadb",
+      "title": "ChromaDB 소개: 우리를 위한 첫 번째 로컬 벡터 저장소",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "ChromaDB",
+        "벡터DB",
+        "Python",
+        "로컬AI"
+      ],
+      "char_count": 1842,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-intro-to-chromadb",
+      "scheduled_at": "2026-04-29T08:41:00+09:00"
+    },
+    {
+      "id": "2026-04-11-local-vs-cloud-rag",
+      "title": "로컬 RAG vs. 클라우드 RAG: 나에게 맞는 방식은?",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "RAG",
+        "개인정보보호",
+        "보안",
+        "비용최적화"
+      ],
+      "char_count": 2135,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-local-vs-cloud-rag",
+      "scheduled_at": "2026-04-29T13:04:00+09:00"
+    },
+    {
+      "id": "2026-04-11-midjourney-v7-이미지-생성-리뷰",
+      "title": "Midjourney v7 이미지 생성 리뷰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:05:37+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4309,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-midjourney-v7-이미지-생성-리뷰.md",
+      "scheduled_at": "2026-04-29T20:34:00+09:00"
+    },
+    {
+      "id": "2026-04-11-monitoring-langsmith",
+      "title": "RAG 모니터링: LangSmith를 활용한 실시간 가시성 확보",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LangSmith",
+        "모니터링",
+        "가시성",
+        "디버깅",
+        "RAG"
+      ],
+      "char_count": 1703,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-monitoring-langsmith",
+      "scheduled_at": "2026-04-30T08:35:00+09:00"
+    },
+    {
+      "id": "2026-04-11-multi-query-retrieval",
+      "title": "다중 쿼리 검색(Multi-Query Retrieval): 질문의 의도를 넓혀 최적의 답을 찾는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LangChain",
+        "RAG",
+        "다중쿼리검색",
+        "쿼리재작성",
+        "최적화"
+      ],
+      "char_count": 1760,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-multi-query-retrieval",
+      "scheduled_at": "2026-04-30T13:10:00+09:00"
+    },
+    {
+      "id": "2026-04-11-notion-ai-활용-후기",
+      "title": "Notion AI 활용 후기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:08:23+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4210,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-notion-ai-활용-후기.md",
+      "scheduled_at": "2026-04-30T20:44:00+09:00"
+    },
+    {
+      "id": "2026-04-11-ocr-for-rag",
+      "title": "OCR for RAG: 스캔된 문서와 이미지 속 지식 깨우기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "OCR",
+        "Tesseract",
+        "PaddleOCR",
+        "Vision-LLM",
+        "RAG",
+        "데이터추출"
+      ],
+      "char_count": 1784,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-ocr-for-rag",
+      "scheduled_at": "2026-05-01T08:39:00+09:00"
+    },
+    {
+      "id": "2026-04-11-parent-document-retrieval",
+      "title": "부모 문서 검색(Parent Document Retrieval): 정밀도와 문맥을 동시에 잡는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LangChain",
+        "RAG",
+        "부모문서검색",
+        "아키텍처",
+        "최적화"
+      ],
+      "char_count": 2133,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-parent-document-retrieval",
+      "scheduled_at": "2026-05-01T13:15:00+09:00"
+    },
+    {
+      "id": "2026-04-11-perplexity-ai-vs-chatgpt-검색-비교",
+      "title": "Perplexity AI vs ChatGPT 검색 비교",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:02:47+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4504,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-perplexity-ai-vs-chatgpt-검색-비교.md",
+      "scheduled_at": "2026-05-01T20:35:00+09:00"
+    },
+    {
+      "id": "2026-04-11-pgvector-tutorial",
+      "title": "PGVector: 가장 신뢰받는 PostgreSQL에 AI의 숨결 불어넣기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "PostgreSQL",
+        "PGVector",
+        "데이터베이스",
+        "벡터검색"
+      ],
+      "char_count": 1674,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-pgvector-tutorial",
+      "scheduled_at": "2026-05-02T08:33:00+09:00"
+    },
+    {
+      "id": "2026-04-11-rag-explained",
+      "title": "RAG란 무엇인가? 할루시네이션부터 '오픈북 AI'까지 완벽 정리",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "RAG",
+        "LLM",
+        "AI전략",
+        "아키텍처"
+      ],
+      "char_count": 2042,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-rag-explained",
+      "scheduled_at": "2026-05-02T13:00:00+09:00"
+    },
+    {
+      "id": "2026-04-11-runway-gen-3-영상-생성-리뷰",
+      "title": "Runway Gen-3 영상 생성 리뷰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:22:47+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4764,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-runway-gen-3-영상-생성-리뷰.md",
+      "scheduled_at": "2026-05-02T20:39:00+09:00"
+    },
+    {
+      "id": "2026-04-11-self-query-retrievers",
+      "title": "셀프 쿼리 검색(Self-Querying Retrievers): AI가 스스로 필터를 적용하는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LangChain",
+        "RAG",
+        "셀프쿼리",
+        "메타데이터",
+        "최적화"
+      ],
+      "char_count": 1892,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-self-query-retrievers",
+      "scheduled_at": "2026-05-03T08:20:00+09:00"
+    },
+    {
+      "id": "2026-04-11-semantic-chunking",
+      "title": "의미론적 청킹(Semantic Chunking): AI가 직접 어디서 자를지 결정하는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "의미론적청킹",
+        "임베딩",
+        "RAG",
+        "최적화"
+      ],
+      "char_count": 1617,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-semantic-chunking",
+      "scheduled_at": "2026-05-03T13:25:00+09:00"
+    },
+    {
+      "id": "2026-04-11-splitter-comparison",
+      "title": "Recursive Splitter vs. Token Splitter: 나에게 맞는 도구는?",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "청킹",
+        "LangChain",
+        "NLP",
+        "토큰"
+      ],
+      "char_count": 1909,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-splitter-comparison",
+      "scheduled_at": "2026-05-03T20:47:00+09:00"
+    },
+    {
+      "id": "2026-04-11-stable-diffusion으로-나만의-캐릭터-만들기",
+      "title": "Stable Diffusion으로 나만의 캐릭터 만들기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:46:27+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4561,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-stable-diffusion으로-나만의-캐릭터-만들기.md",
+      "scheduled_at": "2026-05-04T08:15:00+09:00"
+    },
+    {
+      "id": "2026-04-11-suno-ai-음악-만들기-리뷰",
+      "title": "Suno AI 음악 만들기 리뷰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:16:09+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4638,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-suno-ai-음악-만들기-리뷰.md",
+      "scheduled_at": "2026-05-04T13:11:00+09:00"
+    },
+    {
+      "id": "2026-04-11-v0-by-vercel--ai로-웹-ui-만들기",
+      "title": "v0 by Vercel — AI로 웹 UI 만들기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:26:02+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4215,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-v0-by-vercel--ai로-웹-ui-만들기.md",
+      "scheduled_at": "2026-05-04T20:52:00+09:00"
+    },
+    {
+      "id": "2026-04-11-vector-embeddings-explained",
+      "title": "벡터 임베딩의 이해: 의미를 숫자로 바꾸는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-11T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "임베딩",
+        "자연어처리",
+        "머신러닝",
+        "RAG"
+      ],
+      "char_count": 1826,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-11-vector-embeddings-explained",
+      "scheduled_at": "2026-05-05T08:37:00+09:00"
+    },
+    {
+      "id": "2026-04-11-구글-검색-대신-챗gpt를-써야-하는-3가지-상황",
+      "title": "구글 검색 대신 챗GPT를 써야 하는 3가지 상황",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:37:25+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4239,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-구글-검색-대신-챗gpt를-써야-하는-3가지-상황.md",
+      "scheduled_at": "2026-05-05T13:28:00+09:00"
+    },
+    {
+      "id": "2026-04-11-노년층을-위한-ai-스마트폰-기본-활용법",
+      "title": "노년층을 위한 AI 스마트폰 기본 활용법",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:31:14+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4162,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-노년층을-위한-ai-스마트폰-기본-활용법.md",
+      "scheduled_at": "2026-05-05T20:30:00+09:00"
+    },
+    {
+      "id": "2026-04-11-무료-ai-도구-top-10-2026년-기준",
+      "title": "무료 AI 도구 TOP 10 (2026년 기준)",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:21:06+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4853,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-무료-ai-도구-top-10-2026년-기준.md",
+      "scheduled_at": "2026-05-06T08:41:00+09:00"
+    },
+    {
+      "id": "2026-04-11-무료-ai-도구-모음-2026",
+      "title": "무료 AI 도구 모음 2026",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:56:22+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4130,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-무료-ai-도구-모음-2026.md",
+      "scheduled_at": "2026-05-06T13:18:00+09:00"
     },
     {
       "id": "2026-04-11-무료-ai로-흐릿한-옛날-가족-사진-복원하기",
@@ -716,14 +1311,15 @@
       "char_count": 4764,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-무료-ai로-흐릿한-옛날-가족-사진-복원하기.md"
+      "file": "generated/2026-04/2026-04-11-무료-ai로-흐릿한-옛날-가족-사진-복원하기.md",
+      "scheduled_at": "2026-05-06T20:30:00+09:00"
     },
     {
-      "id": "2026-04-11-인공지능-시대에-알아두면-좋을-저작권-상식",
-      "title": "인공지능 시대에 알아두면 좋을 저작권 상식",
+      "id": "2026-04-11-사진에서-배경-지우기-무료-ai-도구-활용법",
+      "title": "사진에서 배경 지우기, 무료 AI 도구 활용법",
       "category": "AI/Tech",
       "status": "draft",
-      "generated_at": "2026-04-11T23:54:25+09:00",
+      "generated_at": "2026-04-11T23:47:12+09:00",
       "published_at": null,
       "naver_url": null,
       "tags": [
@@ -732,10 +1328,11 @@
         "트렌드",
         "꿀팁"
       ],
-      "char_count": 4727,
+      "char_count": 3624,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-인공지능-시대에-알아두면-좋을-저작권-상식.md"
+      "file": "generated/2026-04/2026-04-11-사진에서-배경-지우기-무료-ai-도구-활용법.md",
+      "scheduled_at": "2026-05-07T08:35:00+09:00"
     },
     {
       "id": "2026-04-11-스마트폰갤럭시아이폰-내장-ai-기능-5가지-숨겨진-꿀팁",
@@ -754,7 +1351,272 @@
       "char_count": 4575,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-11-스마트폰갤럭시아이폰-내장-ai-기능-5가지-숨겨진-꿀팁.md"
+      "file": "generated/2026-04/2026-04-11-스마트폰갤럭시아이폰-내장-ai-기능-5가지-숨겨진-꿀팁.md",
+      "scheduled_at": "2026-05-07T13:28:00+09:00"
+    },
+    {
+      "id": "2026-04-11-인공지능-시대에-알아두면-좋을-저작권-상식",
+      "title": "인공지능 시대에 알아두면 좋을 저작권 상식",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:54:25+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4727,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-인공지능-시대에-알아두면-좋을-저작권-상식.md",
+      "scheduled_at": "2026-05-07T20:31:00+09:00"
+    },
+    {
+      "id": "2026-04-11-카카오톡-ai-대화-요약번역-기능-100-활용하기",
+      "title": "카카오톡 AI 대화 요약/번역 기능 100% 활용하기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:34:15+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4251,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-카카오톡-ai-대화-요약번역-기능-100-활용하기.md",
+      "scheduled_at": "2026-05-08T08:18:00+09:00"
+    },
+    {
+      "id": "2026-04-11-클로드로-코드-리뷰-받기",
+      "title": "클로드로 코드 리뷰 받기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T22:39:13+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4612,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-클로드로-코드-리뷰-받기.md",
+      "scheduled_at": "2026-05-08T13:28:00+09:00"
+    },
+    {
+      "id": "2026-04-11-한국인-맞춤-네이버-클로바x-완벽-가이드",
+      "title": "한국인 맞춤! 네이버 클로바X 완벽 가이드",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-11T23:44:12+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "char_count": 4862,
+      "image_count": 2,
+      "images_ready": false,
+      "file": "generated/2026-04/2026-04-11-한국인-맞춤-네이버-클로바x-완벽-가이드.md",
+      "scheduled_at": "2026-05-08T20:57:00+09:00"
+    },
+    {
+      "id": "2026-04-12-agentic-devops-intro",
+      "title": "에이전틱 DevOps: 자율 운영 인프라의 시대",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "에이전틱DevOps",
+        "Kubernetes",
+        "SRE",
+        "클라우드엔지니어링",
+        "IaC",
+        "자동화"
+      ],
+      "char_count": 1812,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-agentic-devops-intro",
+      "scheduled_at": "2026-05-09T08:42:00+09:00"
+    },
+    {
+      "id": "2026-04-12-ai-agents-intro",
+      "title": "AI 에이전트란 무엇인가? 에이전틱 워크플로우의 시대",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI에이전트",
+        "에이전틱워크플로우",
+        "자동화",
+        "자율성",
+        "AI의미래"
+      ],
+      "char_count": 1550,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-ai-agents-intro",
+      "scheduled_at": "2026-05-09T13:20:00+09:00"
+    },
+    {
+      "id": "2026-04-12-ai-api",
+      "title": "AI API",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:51:13+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-ai-api",
+      "scheduled_at": "2026-05-09T20:54:00+09:00"
+    },
+    {
+      "id": "2026-04-12-ai-documentation-sync",
+      "title": "AI 문서화: 코드와 README를 자동으로 동기화하는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "문서화",
+        "README",
+        "AI소프트웨어엔지니어링",
+        "자동화",
+        "기술문서작성",
+        "GitHubActions"
+      ],
+      "char_count": 1540,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-ai-documentation-sync",
+      "scheduled_at": "2026-05-10T08:31:00+09:00"
+    },
+    {
+      "id": "2026-04-12-ai-driven-accessibility",
+      "title": "AI 기반 접근성: 명도 대비와 ARIA 속성 자동 수정하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "접근성",
+        "a11y",
+        "프론트엔드",
+        "AI에이전트",
+        "ARIA",
+        "웹디자인"
+      ],
+      "char_count": 1907,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-ai-driven-accessibility",
+      "scheduled_at": "2026-05-10T13:14:00+09:00"
+    },
+    {
+      "id": "2026-04-12-ai-in-figma-design",
+      "title": "Figma 속의 AI: 프롬프트에서 프로토타입까지 단 몇 초 만에",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Figma",
+        "UI디자인",
+        "AI디자인",
+        "프로토타이핑",
+        "디자인시스템",
+        "프론트엔드"
+      ],
+      "char_count": 2117,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-ai-in-figma-design",
+      "scheduled_at": "2026-05-10T20:59:00+09:00"
+    },
+    {
+      "id": "2026-04-12-ai-log-analysis",
+      "title": "AI 로그 분석: 10TB의 데이터 속에서 원인 찾기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "로그분석",
+        "ELK스택",
+        "Splunk",
+        "이상감지",
+        "관측성",
+        "빅데이터"
+      ],
+      "char_count": 1667,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-ai-log-analysis",
+      "scheduled_at": "2026-05-11T08:27:00+09:00"
+    },
+    {
+      "id": "2026-04-12-ai-pr-reviews",
+      "title": "AI 기반 PR 리뷰: 당신의 새로운 가상 수석 엔지니어",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "PR리뷰",
+        "CI-CD",
+        "코드품질",
+        "AI소프트웨어엔지니어링",
+        "GitHubActions",
+        "자동화테스트"
+      ],
+      "char_count": 1668,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-ai-pr-reviews",
+      "scheduled_at": "2026-05-11T13:02:00+09:00"
+    },
+    {
+      "id": "2026-04-12-ai-tdd-workflow",
+      "title": "AI 기반 TDD: 에이전트와 함께 테스트를 먼저 작성하는 워크플로우",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "TDD",
+        "유닛테스트",
+        "AI소프트웨어엔지니어링",
+        "코딩에이전트",
+        "코드품질",
+        "소프트웨어신뢰성"
+      ],
+      "char_count": 1539,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-ai-tdd-workflow",
+      "scheduled_at": "2026-05-11T20:39:00+09:00"
     },
     {
       "id": "2026-04-12-ai로-나만의-블로그유튜브-로고-무료로-만드는-법",
@@ -773,7 +1635,1488 @@
       "char_count": 4332,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-12-ai로-나만의-블로그유튜브-로고-무료로-만드는-법.md"
+      "file": "generated/2026-04/2026-04-12-ai로-나만의-블로그유튜브-로고-무료로-만드는-법.md",
+      "scheduled_at": "2026-05-12T08:43:00+09:00"
+    },
+    {
+      "id": "2026-04-12-ai로-유튜브-썸네일-만들기",
+      "title": "AI로 유튜브 썸네일 만들기",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:58:20+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-ai로-유튜브-썸네일-만들기",
+      "scheduled_at": "2026-05-12T13:05:00+09:00"
+    },
+    {
+      "id": "2026-04-12-audio-rag-podcasts",
+      "title": "오디오 RAG: 팟캐스트와 회의록 속 정보를 검색하는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "오디오RAG",
+        "Whisper",
+        "전사",
+        "벡터검색",
+        "정보추출",
+        "AI엔지니어링"
+      ],
+      "char_count": 1589,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-audio-rag-podcasts",
+      "scheduled_at": "2026-05-12T20:41:00+09:00"
+    },
+    {
+      "id": "2026-04-12-automated-incident-response",
+      "title": "자동화된 장애 대응: 에이전트가 운영 버그를 해결하는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "장애대응",
+        "SRE",
+        "관측성",
+        "AI에이전트",
+        "온콜",
+        "DevOps"
+      ],
+      "char_count": 1673,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-automated-incident-response",
+      "scheduled_at": "2026-05-13T08:43:00+09:00"
+    },
+    {
+      "id": "2026-04-12-automated-refactoring-agents",
+      "title": "자동화된 리팩토링: AI로 기술 부채 해결하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "리팩토링",
+        "기술부채",
+        "코딩에이전트",
+        "AI소프트웨어엔지니어링",
+        "코드품질",
+        "클린코드"
+      ],
+      "char_count": 1781,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-automated-refactoring-agents",
+      "scheduled_at": "2026-05-13T13:01:00+09:00"
+    },
+    {
+      "id": "2026-04-12-autonomous-scaling-predictive",
+      "title": "자율적 확장: 트래픽이 몰리기 전에 미리 예측하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "오토스케일링",
+        "클라우드운영",
+        "Kubernetes",
+        "HPA",
+        "예측분석",
+        "DevOps"
+      ],
+      "char_count": 1545,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-autonomous-scaling-predictive",
+      "scheduled_at": "2026-05-13T20:47:00+09:00"
+    },
+    {
+      "id": "2026-04-12-captioning-blip2",
+      "title": "BLIP-2: 수백만 장의 이미지에 자동으로 설명 달기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "BLIP-2",
+        "이미지캡셔닝",
+        "멀티모달",
+        "비전인코더",
+        "HuggingFace",
+        "AI시스템"
+      ],
+      "char_count": 1586,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-captioning-blip2",
+      "scheduled_at": "2026-05-14T08:18:00+09:00"
+    },
+    {
+      "id": "2026-04-12-chaining-vs-agentic",
+      "title": "프롬프트 체이닝 vs. 에이전틱 워크플로우: 더 신뢰할 수 있는 방식은?",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "아키텍처",
+        "프롬프트체이닝",
+        "에이전틱워크플로우",
+        "신뢰성",
+        "AI엔지니어링"
+      ],
+      "char_count": 1741,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-chaining-vs-agentic",
+      "scheduled_at": "2026-05-14T13:00:00+09:00"
+    },
+    {
+      "id": "2026-04-12-chaos-engineering-ai",
+      "title": "카오스 엔지니어링: AI 에이전트로 시스템 탄력성 자동 테스트하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "카오스엔지니어링",
+        "탄력성테스트",
+        "AI에이전트",
+        "SRE",
+        "클라우드운영",
+        "결함주입"
+      ],
+      "char_count": 1715,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-chaos-engineering-ai",
+      "scheduled_at": "2026-05-14T20:33:00+09:00"
+    },
+    {
+      "id": "2026-04-12-chatgpt로-이력서-쓰는-법",
+      "title": "ChatGPT로 이력서 쓰는 법",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:56:04+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-chatgpt로-이력서-쓰는-법",
+      "scheduled_at": "2026-05-15T08:25:00+09:00"
+    },
+    {
+      "id": "2026-04-12-claude-code-사용기--터미널에서-코딩하는-ai",
+      "title": "Claude Code 사용기 — 터미널에서 코딩하는 AI",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:53:48+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-claude-code-사용기--터미널에서-코딩하는-ai",
+      "scheduled_at": "2026-05-15T13:03:00+09:00"
+    },
+    {
+      "id": "2026-04-12-client-side-ai-browser",
+      "title": "클라이언트 사이드 AI: 브라우저 안에서 가벼운 모델 실행하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "클라이언트사이드AI",
+        "WebGPU",
+        "WebAssembly",
+        "WASM",
+        "MediaPipe",
+        "프론트엔드",
+        "프라이버시"
+      ],
+      "char_count": 2347,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-client-side-ai-browser",
+      "scheduled_at": "2026-05-15T20:36:00+09:00"
+    },
+    {
+      "id": "2026-04-12-clip-explained",
+      "title": "CLIP: AI가 이미지와 단어를 연결하는 방법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "CLIP",
+        "OpenAI",
+        "멀티모달",
+        "임베딩",
+        "컴퓨터비전",
+        "이미지검색"
+      ],
+      "char_count": 1535,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-clip-explained",
+      "scheduled_at": "2026-05-16T08:39:00+09:00"
+    },
+    {
+      "id": "2026-04-12-cloud-security-ai",
+      "title": "클라우드 보안 에이전트: 실시간으로 취약점 찾기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "클라우드보안",
+        "DevSecOps",
+        "AI에이전트",
+        "취약점스캐닝",
+        "제로트러스트",
+        "AWS",
+        "GCP"
+      ],
+      "char_count": 1782,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-cloud-security-ai",
+      "scheduled_at": "2026-05-16T13:14:00+09:00"
+    },
+    {
+      "id": "2026-04-12-coding-agents-intro",
+      "title": "코딩 에이전트: AI 소프트웨어 엔지니어의 시대",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "코딩에이전트",
+        "AI소프트웨어엔지니어링",
+        "자율코딩",
+        "Cursor",
+        "Devin",
+        "소프트웨어개발"
+      ],
+      "char_count": 1741,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-coding-agents-intro",
+      "scheduled_at": "2026-05-16T20:47:00+09:00"
+    },
+    {
+      "id": "2026-04-12-context-window-limits-llm",
+      "title": "컨텍스트 윈도우의 한계: 왜 데이터베이스 전체를 LLM에게 먹일 수 없을까?",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLM",
+        "컨텍스트윈도우",
+        "어텐션메커니즘",
+        "AI엔지니어링",
+        "트랜스포머",
+        "하드웨어"
+      ],
+      "char_count": 2261,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-context-window-limits-llm",
+      "scheduled_at": "2026-05-17T08:39:00+09:00"
+    },
+    {
+      "id": "2026-04-12-continuous-learning-agent-updates",
+      "title": "지속적 학습: 파인튜닝 없이 에이전트의 지식 업데이트하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "지속적학습",
+        "RAG",
+        "파인튜닝",
+        "AI에이전트",
+        "메모리",
+        "VectorDB"
+      ],
+      "char_count": 2308,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-continuous-learning-agent-updates",
+      "scheduled_at": "2026-05-17T13:20:00+09:00"
+    },
+    {
+      "id": "2026-04-12-conversational-interfaces-chat",
+      "title": "대화형 인터페이스: 서식을 채팅으로 교체하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "대화형UI",
+        "챗봇",
+        "UX디자인",
+        "웹폼",
+        "AI에이전트",
+        "프론트엔드"
+      ],
+      "char_count": 2090,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-conversational-interfaces-chat",
+      "scheduled_at": "2026-05-17T20:53:00+09:00"
+    },
+    {
+      "id": "2026-04-12-crewai-vs-autogpt",
+      "title": "CrewAI vs AutoGPT: 당신에게 맞는 에이전트 프레임워크는?",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "CrewAI",
+        "AutoGPT",
+        "AI에이전트",
+        "다중에이전트시스템",
+        "프레임워크비교"
+      ],
+      "char_count": 2022,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-crewai-vs-autogpt",
+      "scheduled_at": "2026-05-18T08:20:00+09:00"
+    },
+    {
+      "id": "2026-04-12-cursor-ide-lessons",
+      "title": "AI 우선 IDE: Cursor 혁명이 남긴 교훈들",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Cursor",
+        "AI-IDE",
+        "소프트웨어엔지니어링",
+        "DX",
+        "개발자도구",
+        "LLM통합"
+      ],
+      "char_count": 1806,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-cursor-ide-lessons",
+      "scheduled_at": "2026-05-18T13:27:00+09:00"
+    },
+    {
+      "id": "2026-04-12-data-poisoning-rag-corruption",
+      "title": "데이터 포이즈닝: RAG 지식 기반이 무너질 때",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI보안",
+        "데이터포이즈닝",
+        "RAG",
+        "VectorDB",
+        "사이버보안",
+        "LLM"
+      ],
+      "char_count": 2935,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-data-poisoning-rag-corruption",
+      "scheduled_at": "2026-05-18T20:34:00+09:00"
+    },
+    {
+      "id": "2026-04-12-designing-ux-stateful-ai-agents",
+      "title": "상태 유지형 AI 에이전트를 위한 UX 디자인하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "UX디자인",
+        "상태유지에이전트",
+        "메모리",
+        "투명성",
+        "프론트엔드",
+        "AI엔지니어링"
+      ],
+      "char_count": 2506,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-designing-ux-stateful-ai-agents",
+      "scheduled_at": "2026-05-19T08:45:00+09:00"
+    },
+    {
+      "id": "2026-04-12-devin-vs-opendevin",
+      "title": "Devin vs. OpenDevin: 자율 코딩의 현재와 미래",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Devin",
+        "OpenDevin",
+        "자율코딩",
+        "AI소프트웨어엔지니어링",
+        "SWE-bench",
+        "미래의업무"
+      ],
+      "char_count": 1863,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-devin-vs-opendevin",
+      "scheduled_at": "2026-05-19T13:17:00+09:00"
+    },
+    {
+      "id": "2026-04-12-finetuning-vs-rag",
+      "title": "파인튜닝 vs. RAG: 데이터 전략의 선택 기준",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "파인튜닝",
+        "RAG",
+        "LLM아키텍처",
+        "데이터전략",
+        "AI개발"
+      ],
+      "char_count": 1993,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-finetuning-vs-rag",
+      "scheduled_at": "2026-05-19T20:45:00+09:00"
+    },
+    {
+      "id": "2026-04-12-frontend-developer-ai-future",
+      "title": "프론트엔드 개발자의 미래: AI 시대의 역할 구상하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "프론트엔드",
+        "미래의업무",
+        "AI엔지니어링",
+        "Vercel",
+        "React",
+        "UX디자인"
+      ],
+      "char_count": 2056,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-frontend-developer-ai-future",
+      "scheduled_at": "2026-05-20T08:43:00+09:00"
+    },
+    {
+      "id": "2026-04-12-future-of-programming-natural-language",
+      "title": "코드의 미래: 자연어가 프로그래밍 언어가 될 때",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "프로그래밍의미래",
+        "자연어",
+        "로우코드",
+        "AI소프트웨어엔지니어링",
+        "의도기반코딩",
+        "기술트렌드"
+      ],
+      "char_count": 1582,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-future-of-programming-natural-language",
+      "scheduled_at": "2026-05-20T13:08:00+09:00"
+    },
+    {
+      "id": "2026-04-12-generative-ui-intro",
+      "title": "생성형 UI 서론: 정적인 컴포넌트를 넘어서",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "생성형UI",
+        "React",
+        "프론트엔드",
+        "AI기반UI",
+        "동적인터페이스",
+        "Vercel"
+      ],
+      "char_count": 1777,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-generative-ui-intro",
+      "scheduled_at": "2026-05-20T20:33:00+09:00"
+    },
+    {
+      "id": "2026-04-12-iac-ai-terraform",
+      "title": "AI를 활용한 코드형 인프라 (IaC): 에이전트와 함께 Terraform 작성하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "IaC",
+        "Terraform",
+        "클라우드보안",
+        "인프라엔지니어링",
+        "AWS",
+        "GoogleCloud",
+        "AI에이전트"
+      ],
+      "char_count": 1672,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-iac-ai-terraform",
+      "scheduled_at": "2026-05-21T08:27:00+09:00"
+    },
+    {
+      "id": "2026-04-12-infinite-context-models-vs-retrieval",
+      "title": "무한 컨텍스트 모델 vs RAG (검색 증강 생성)",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "무한컨텍스트",
+        "RAG",
+        "LLM",
+        "메모리",
+        "AI아키텍처",
+        "Gemini"
+      ],
+      "char_count": 2657,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-infinite-context-models-vs-retrieval",
+      "scheduled_at": "2026-05-21T13:06:00+09:00"
+    },
+    {
+      "id": "2026-04-12-knowledge-graphs-relational-memory",
+      "title": "지식 그래프: LLM에게 관계형 메모리 부여하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "지식그래프",
+        "Neo4j",
+        "Graph-RAG",
+        "LLM",
+        "메모리",
+        "AI엔지니어링"
+      ],
+      "char_count": 2467,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-knowledge-graphs-relational-memory",
+      "scheduled_at": "2026-05-21T20:42:00+09:00"
+    },
+    {
+      "id": "2026-04-12-kubernetes-ai-management",
+      "title": "Kubernetes & AI: 자연어로 클러스터 관리하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Kubernetes",
+        "K8s",
+        "자연어처리",
+        "AI운영",
+        "DevOps",
+        "컨테이너오케스트레이션"
+      ],
+      "char_count": 1964,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-kubernetes-ai-management",
+      "scheduled_at": "2026-05-22T08:34:00+09:00"
+    },
+    {
+      "id": "2026-04-12-langgraph-intro",
+      "title": "LangGraph: 복잡한 에이전트 워크플로우 오케스트레이션",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LangGraph",
+        "LangChain",
+        "상태머신",
+        "AI에이전트",
+        "그래프아키텍처"
+      ],
+      "char_count": 1966,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-langgraph-intro",
+      "scheduled_at": "2026-05-22T13:02:00+09:00"
+    },
+    {
+      "id": "2026-04-12-llm-long-term-memory-intro",
+      "title": "장기 기억(Long-Term Memory): LLM의 건망증 문제 해결하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLM",
+        "메모리",
+        "상태유지에이전트",
+        "AI엔지니어링",
+        "컨텍스트윈도우",
+        "RAG"
+      ],
+      "char_count": 2129,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-llm-long-term-memory-intro",
+      "scheduled_at": "2026-05-22T20:49:00+09:00"
+    },
+    {
+      "id": "2026-04-12-llm-대규모-언어-모델",
+      "title": "LLM (대규모 언어 모델)",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:32:28+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-llm-대규모-언어-모델",
+      "scheduled_at": "2026-05-23T08:28:00+09:00"
+    },
+    {
+      "id": "2026-04-12-local-finetuning-unsloth",
+      "title": "로컬 파인튜닝: Unsloth로 내 GPU에서 직접 모델 학습시키기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "파인튜닝",
+        "Unsloth",
+        "LoRA",
+        "QLoRA",
+        "로컬AI",
+        "GPU학습"
+      ],
+      "char_count": 1568,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-local-finetuning-unsloth",
+      "scheduled_at": "2026-05-23T13:17:00+09:00"
+    },
+    {
+      "id": "2026-04-12-local-rag-security",
+      "title": "로컬 RAG 보안: 당신의 소중한 데이터를 보호하는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "보안",
+        "개인정보보호",
+        "로컬RAG",
+        "데이터보호",
+        "AI거버넌스"
+      ],
+      "char_count": 1727,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-local-rag-security",
+      "scheduled_at": "2026-05-23T20:59:00+09:00"
+    },
+    {
+      "id": "2026-04-12-memgpt-tiered-memory-agents",
+      "title": "MemGPT 아키텍처: 에이전트를 위한 계층형 메모리 관리",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "MemGPT",
+        "LLM",
+        "메모리관리",
+        "AI에이전트",
+        "운영체제",
+        "컨텍스트윈도우"
+      ],
+      "char_count": 2476,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-memgpt-tiered-memory-agents",
+      "scheduled_at": "2026-05-24T08:41:00+09:00"
+    },
+    {
+      "id": "2026-04-12-micro-animations-ai-css",
+      "title": "AI와 마이크로 애니메이션: CSS 트랜지션을 손쉽게 생성하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "CSS",
+        "마이크로애니메이션",
+        "Framer-Motion",
+        "프론트엔드",
+        "생성형UI",
+        "UX디자인"
+      ],
+      "char_count": 2201,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-micro-animations-ai-css",
+      "scheduled_at": "2026-05-24T13:16:00+09:00"
+    },
+    {
+      "id": "2026-04-12-moe-architecture-explained",
+      "title": "MoE 아키텍처: GPT-4와 Grok-1의 성능 비결",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "MoE",
+        "Mixture-of-Experts",
+        "아키텍처",
+        "효율성",
+        "스파스모델",
+        "추론최적화"
+      ],
+      "char_count": 1670,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-moe-architecture-explained",
+      "scheduled_at": "2026-05-24T20:58:00+09:00"
+    },
+    {
+      "id": "2026-04-12-multi-agent-orchestration",
+      "title": "다중 에이전트 오케스트레이션: 가상 회사 설계하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "다중 에이전트",
+        "오케스트레이션",
+        "CrewAI",
+        "LangGraph",
+        "AI팀"
+      ],
+      "char_count": 1691,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-multi-agent-orchestration",
+      "scheduled_at": "2026-05-25T08:31:00+09:00"
+    },
+    {
+      "id": "2026-04-12-multi-agent-video",
+      "title": "다중 에이전트 비디오 분석: 지능형 보안의 미래",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "다중에이전트",
+        "비디오AI",
+        "보안",
+        "실시간분석",
+        "엣지컴퓨팅",
+        "AI시스템"
+      ],
+      "char_count": 1562,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-multi-agent-video",
+      "scheduled_at": "2026-05-25T13:10:00+09:00"
+    },
+    {
+      "id": "2026-04-12-multi-cloud-orchestration-agents",
+      "title": "에이전트를 활용한 멀티 클라우드 오케스트레이션: AWS, GCP, Azure를 하나로 묶기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "멀티클라우드",
+        "AWS",
+        "GCP",
+        "Azure",
+        "클라우드오케스트레이션",
+        "AI에이전트",
+        "FinOps"
+      ],
+      "char_count": 2008,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-multi-cloud-orchestration-agents",
+      "scheduled_at": "2026-05-25T20:41:00+09:00"
+    },
+    {
+      "id": "2026-04-12-multi-user-conflict-resolution-memory",
+      "title": "다중 사용자 기억 충돌: AI 메모리에서 발생하는 의견 대립 해결하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI메모리",
+        "멀티에이전트",
+        "충돌해결",
+        "지식그래프",
+        "데이터거버넌스",
+        "LLM"
+      ],
+      "char_count": 2646,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-multi-user-conflict-resolution-memory",
+      "scheduled_at": "2026-05-26T08:30:00+09:00"
+    },
+    {
+      "id": "2026-04-12-multimodal-ai-intro",
+      "title": "멀티모달 AI 입문: 보고, 듣고, 생각하는 인공지능",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "멀티모달AI",
+        "비전LLM",
+        "오디오AI",
+        "CLIP",
+        "이미지이해",
+        "AI의미래"
+      ],
+      "char_count": 1732,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-multimodal-ai-intro",
+      "scheduled_at": "2026-05-26T13:24:00+09:00"
+    },
+    {
+      "id": "2026-04-12-multimodal-rag-images",
+      "title": "멀티모달 RAG: 언어로 이미지를 검색하는 시스템 구축",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "RAG",
+        "멀티모달",
+        "CLIP",
+        "벡터데이터베이스",
+        "이미지검색",
+        "AI엔지니어링"
+      ],
+      "char_count": 1580,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-multimodal-rag-images",
+      "scheduled_at": "2026-05-26T20:51:00+09:00"
+    },
+    {
+      "id": "2026-04-12-personalized-ux-intent",
+      "title": "개인화된 UX: 사용자의 의도에 맞게 적응하는 인터페이스",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "개인화",
+        "UX디자인",
+        "적응형UI",
+        "생성형UI",
+        "AI에이전트",
+        "프론트엔드"
+      ],
+      "char_count": 2191,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-personalized-ux-intent",
+      "scheduled_at": "2026-05-27T08:16:00+09:00"
+    },
+    {
+      "id": "2026-04-12-post-ops-world",
+      "title": "포스트-옵스(Post-Ops)의 세계: 인프라가 스스로를 관리할 때 일어나는 일",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "포스트옵스",
+        "NoOps",
+        "에이전틱DevOps",
+        "미래의업무",
+        "AI운영",
+        "플랫폼엔지니어링"
+      ],
+      "char_count": 2050,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-post-ops-world",
+      "scheduled_at": "2026-05-27T13:06:00+09:00"
+    },
+    {
+      "id": "2026-04-12-privacy-and-memory-ai-forgetting",
+      "title": "프라이버시와 메모리: 사용자 데이터를 완벽하게 '잊어버리는' 기술",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "프라이버시",
+        "데이터삭제",
+        "GDPR",
+        "잊힐권리",
+        "AI메모리",
+        "보안"
+      ],
+      "char_count": 2777,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-privacy-and-memory-ai-forgetting",
+      "scheduled_at": "2026-05-27T20:50:00+09:00"
+    },
+    {
+      "id": "2026-04-12-prompt-injection-agent-manipulation",
+      "title": "프롬프트 인젝션과 에이전트 해킹 방어하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI보안",
+        "프롬프트인젝션",
+        "에이전트조작",
+        "LLM",
+        "사이버보안",
+        "OWASP"
+      ],
+      "char_count": 2868,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-prompt-injection-agent-manipulation",
+      "scheduled_at": "2026-05-28T08:28:00+09:00"
+    },
+    {
+      "id": "2026-04-12-quantization-gguf-exl2",
+      "title": "모델 양자화: 거대 모델을 작은 GPU에 구겨 넣는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "양자화",
+        "GGUF",
+        "EXL2",
+        "Ollama",
+        "거대언어모델",
+        "추론최적화"
+      ],
+      "char_count": 1689,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-quantization-gguf-exl2",
+      "scheduled_at": "2026-05-28T13:03:00+09:00"
+    },
+    {
+      "id": "2026-04-12-react-pattern-agents",
+      "title": "ReAct 패턴: 에이전트가 생각하고 행동하는 방식",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "ReAct",
+        "AI에이전트",
+        "프롬프팅",
+        "추론",
+        "생각의사슬"
+      ],
+      "char_count": 1795,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-react-pattern-agents",
+      "scheduled_at": "2026-05-28T20:53:00+09:00"
+    },
+    {
+      "id": "2026-04-12-repo-context-indexing",
+      "title": "저장소 수준의 컨텍스트: AI가 프로젝트 전체를 이해하는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "컨텍스트색인",
+        "RAG",
+        "임베딩",
+        "Tree-Sitter",
+        "코딩에이전트",
+        "AI시스템"
+      ],
+      "char_count": 1691,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-repo-context-indexing",
+      "scheduled_at": "2026-05-29T08:24:00+09:00"
+    },
+    {
+      "id": "2026-04-12-sandbox-constraints-ai-agents",
+      "title": "샌드박스 제약: 에이전트의 파괴적 행동을 원천 봉쇄하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI보안",
+        "샌드박스",
+        "Docker",
+        "gVisor",
+        "에이전틱AI",
+        "사이버보안"
+      ],
+      "char_count": 2279,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-sandbox-constraints-ai-agents",
+      "scheduled_at": "2026-05-29T13:15:00+09:00"
+    },
+    {
+      "id": "2026-04-12-self-correction-agents",
+      "title": "자기 교정 루프(Self-Correction Loops): 스스로 실수를 바로잡는 에이전트",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "자기교정",
+        "AI에이전트",
+        "LangGraph",
+        "고도화",
+        "에이전틱워크플로우"
+      ],
+      "char_count": 1818,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-self-correction-agents",
+      "scheduled_at": "2026-05-29T20:53:00+09:00"
+    },
+    {
+      "id": "2026-04-12-speculative-decoding",
+      "title": "추측성 디코딩: 미래를 예측하여 2배 빠른 AI 만들기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "추측성디코딩",
+        "로컬AI",
+        "속도최적화",
+        "LLM추론",
+        "효율성"
+      ],
+      "char_count": 1623,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-speculative-decoding",
+      "scheduled_at": "2026-05-30T08:35:00+09:00"
+    },
+    {
+      "id": "2026-04-12-supervisor-pattern-agents",
+      "title": "관리자 패턴(Supervisor Pattern): AI 인력 지휘하기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "관리자패턴",
+        "계층적에이전트",
+        "LangGraph",
+        "AI관리",
+        "다중에이전트"
+      ],
+      "char_count": 1798,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-supervisor-pattern-agents",
+      "scheduled_at": "2026-05-30T13:15:00+09:00"
+    },
+    {
+      "id": "2026-04-12-swe-bench-explained",
+      "title": "SWE-bench: AI의 코딩 실력을 측정하는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "SWE-bench",
+        "AI벤치마크",
+        "소프트웨어엔지니어링",
+        "평가",
+        "코딩에이전트",
+        "GitHub이슈"
+      ],
+      "char_count": 1708,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-swe-bench-explained",
+      "scheduled_at": "2026-05-30T20:43:00+09:00"
+    },
+    {
+      "id": "2026-04-12-tool-use-functions",
+      "title": "도구 사용: AI 에이전트에게 '손'을 달아주는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "도구사용",
+        "함수호출",
+        "OpenAI함수",
+        "LangChain도구",
+        "API연동"
+      ],
+      "char_count": 1874,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-tool-use-functions",
+      "scheduled_at": "2026-05-31T08:31:00+09:00"
+    },
+    {
+      "id": "2026-04-12-tts-agents",
+      "title": "텍스트 음성 변환 (TTS): AI 에이전트에게 자연스러운 목소리 입히기",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "TTS",
+        "음성합성",
+        "AI목소리",
+        "ElevenLabs",
+        "GPT-SoVITS",
+        "Ollama",
+        "AI에이전트"
+      ],
+      "char_count": 1486,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-tts-agents",
+      "scheduled_at": "2026-05-31T13:22:00+09:00"
+    },
+    {
+      "id": "2026-04-12-ui-function-of-state",
+      "title": "함수로서의 UI: LLM이 인터페이스를 반환하는 원리",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "생성형UI",
+        "React",
+        "상태관리",
+        "LLM",
+        "Vercel-AI-SDK",
+        "프론트엔드아키텍처"
+      ],
+      "char_count": 2222,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-ui-function-of-state",
+      "scheduled_at": "2026-05-31T20:35:00+09:00"
+    },
+    {
+      "id": "2026-04-12-v0-dev-design-systems",
+      "title": "v0.dev와 AI 생성 디자인 시스템의 부상",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "v0.dev",
+        "디자인시스템",
+        "TailwindCSS",
+        "React",
+        "프론트엔드엔지니어링",
+        "Vercel"
+      ],
+      "char_count": 1860,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-v0-dev-design-systems",
+      "scheduled_at": "2026-06-01T08:38:00+09:00"
+    },
+    {
+      "id": "2026-04-12-vector-databases-hippocampus",
+      "title": "벡터 데이터베이스, LLM의 해마가 되다",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "VectorDB",
+        "임베딩",
+        "LLM",
+        "메모리",
+        "Pinecone",
+        "Milvus",
+        "AI아키텍처"
+      ],
+      "char_count": 2251,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-vector-databases-hippocampus",
+      "scheduled_at": "2026-06-01T13:26:00+09:00"
+    },
+    {
+      "id": "2026-04-12-video-ai-cases",
+      "title": "비디오 AI의 실무 활용 사례: 움직이는 세상을 분석하는 기술",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "비디오AI",
+        "컴퓨터비전",
+        "움직임분석",
+        "보안",
+        "콘텐츠제작",
+        "AI엔지니어링"
+      ],
+      "char_count": 1467,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-video-ai-cases",
+      "scheduled_at": "2026-06-01T20:36:00+09:00"
+    },
+    {
+      "id": "2026-04-12-vllm-deployment",
+      "title": "vLLM: 프라이빗 AI를 위한 고성능 모델 서빙 전문 도구",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "vLLM",
+        "추론",
+        "서빙",
+        "GPU최적화",
+        "배포",
+        "프라이빗AI"
+      ],
+      "char_count": 1682,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-vllm-deployment",
+      "scheduled_at": "2026-06-02T08:38:00+09:00"
+    },
+    {
+      "id": "2026-04-12-vqa-llava",
+      "title": "LLaVA: 내 이미지와 무료로 대화하는 법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLaVA",
+        "VQA",
+        "멀티모달",
+        "오픈소스",
+        "시각추론",
+        "로컬AI"
+      ],
+      "char_count": 1565,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-vqa-llava",
+      "scheduled_at": "2026-06-02T13:11:00+09:00"
+    },
+    {
+      "id": "2026-04-12-whisper-diarization",
+      "title": "Whisper와 화자 분리: 누가, 언제, 무엇을 말했나?",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-12T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Whisper",
+        "화자분리",
+        "음성처리",
+        "AI엔지니어링",
+        "Pyannote",
+        "전사"
+      ],
+      "char_count": 1570,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-12-whisper-diarization",
+      "scheduled_at": "2026-06-02T20:47:00+09:00"
+    },
+    {
+      "id": "2026-04-12-내-목소리를-텍스트로-무료-ai-음성-인식-도구-추천",
+      "title": "내 목소리를 텍스트로? 무료 AI 음성 인식 도구 추천",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T11:02:59+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-내-목소리를-텍스트로-무료-ai-음성-인식-도구-추천",
+      "scheduled_at": "2026-06-03T08:20:00+09:00"
+    },
+    {
+      "id": "2026-04-12-멀티모달-ai",
+      "title": "멀티모달 AI",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:46:17+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-멀티모달-ai",
+      "scheduled_at": "2026-06-03T13:23:00+09:00"
+    },
+    {
+      "id": "2026-04-12-오픈소스-ai-vs-클로즈드-ai",
+      "title": "오픈소스 AI vs 클로즈드 AI",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:48:43+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-오픈소스-ai-vs-클로즈드-ai",
+      "scheduled_at": "2026-06-03T20:43:00+09:00"
+    },
+    {
+      "id": "2026-04-12-토큰",
+      "title": "토큰",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:44:02+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-토큰",
+      "scheduled_at": "2026-06-04T08:18:00+09:00"
+    },
+    {
+      "id": "2026-04-12-파인튜닝",
+      "title": "파인튜닝",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:35:25+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-파인튜닝",
+      "scheduled_at": "2026-06-04T13:04:00+09:00"
+    },
+    {
+      "id": "2026-04-12-프롬프트-엔지니어링",
+      "title": "프롬프트 엔지니어링",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:38:41+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-프롬프트-엔지니어링",
+      "scheduled_at": "2026-06-04T20:48:00+09:00"
+    },
+    {
+      "id": "2026-04-12-학생과-직장인을-위한-대용량-pdf-문서-요약-ai-비",
+      "title": "학생과 직장인을 위한 대용량 PDF 문서 요약 AI 비교",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T11:00:42+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-학생과-직장인을-위한-대용량-pdf-문서-요약-ai-비",
+      "scheduled_at": "2026-06-05T08:31:00+09:00"
+    },
+    {
+      "id": "2026-04-12-할루시네이션",
+      "title": "할루시네이션",
+      "category": "AI/Tech",
+      "status": "draft",
+      "generated_at": "2026-04-12T10:41:27+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI",
+        "인공지능",
+        "트렌드",
+        "꿀팁"
+      ],
+      "folder": "generated/posts/2026-04-12-할루시네이션",
+      "scheduled_at": "2026-06-05T13:01:00+09:00"
     },
     {
       "id": "2026-04-12-해외여행-필수품-사진-번역-ai-제대로-활용하기",
@@ -792,239 +3135,91 @@
       "char_count": 3559,
       "image_count": 2,
       "images_ready": false,
-      "file": "generated/2026-04/2026-04-12-해외여행-필수품-사진-번역-ai-제대로-활용하기.md"
+      "file": "generated/2026-04/2026-04-12-해외여행-필수품-사진-번역-ai-제대로-활용하기.md",
+      "scheduled_at": "2026-06-05T20:54:00+09:00"
     },
     {
-      "id": "2026-04-12-llm-대규모-언어-모델",
-      "title": "LLM (대규모 언어 모델)",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T10:32:28+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-llm-대규모-언어-모델"
-    },
-    {
-      "id": "2026-04-12-파인튜닝",
-      "title": "파인튜닝",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T10:35:25+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-파인튜닝"
-    },
-    {
-      "id": "2026-04-12-프롬프트-엔지니어링",
-      "title": "프롬프트 엔지니어링",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T10:38:41+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-프롬프트-엔지니어링"
-    },
-    {
-      "id": "2026-04-12-할루시네이션",
-      "title": "할루시네이션",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T10:41:27+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-할루시네이션"
-    },
-    {
-      "id": "2026-04-12-토큰",
-      "title": "토큰",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T10:44:02+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-토큰"
-    },
-    {
-      "id": "2026-04-12-멀티모달-ai",
-      "title": "멀티모달 AI",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T10:46:17+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-멀티모달-ai"
-    },
-    {
-      "id": "2026-04-12-오픈소스-ai-vs-클로즈드-ai",
-      "title": "오픈소스 AI vs 클로즈드 AI",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T10:48:43+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-오픈소스-ai-vs-클로즈드-ai"
-    },
-    {
-      "id": "2026-04-12-ai-api",
-      "title": "AI API",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T10:51:13+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-ai-api"
-    },
-    {
-      "id": "2026-04-12-claude-code-사용기--터미널에서-코딩하는-ai",
-      "title": "Claude Code 사용기 — 터미널에서 코딩하는 AI",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T10:53:48+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-claude-code-사용기--터미널에서-코딩하는-ai"
-    },
-    {
-      "id": "2026-04-12-chatgpt로-이력서-쓰는-법",
-      "title": "ChatGPT로 이력서 쓰는 법",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T10:56:04+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-chatgpt로-이력서-쓰는-법"
-    },
-    {
-      "id": "2026-04-12-ai로-유튜브-썸네일-만들기",
-      "title": "AI로 유튜브 썸네일 만들기",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T10:58:20+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-ai로-유튜브-썸네일-만들기"
-    },
-    {
-      "id": "2026-04-12-학생과-직장인을-위한-대용량-pdf-문서-요약-ai-비",
-      "title": "학생과 직장인을 위한 대용량 PDF 문서 요약 AI 비교",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T11:00:42+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-학생과-직장인을-위한-대용량-pdf-문서-요약-ai-비"
-    },
-    {
-      "id": "2026-04-12-내-목소리를-텍스트로-무료-ai-음성-인식-도구-추천",
-      "title": "내 목소리를 텍스트로? 무료 AI 음성 인식 도구 추천",
-      "category": "AI/Tech",
-      "status": "draft",
-      "generated_at": "2026-04-12T11:02:59+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "AI",
-        "인공지능",
-        "트렌드",
-        "꿀팁"
-      ],
-      "folder": "generated/posts/2026-04-12-내-목소리를-텍스트로-무료-ai-음성-인식-도구-추천"
-    },
-    {
-      "id": "2026-04-13-claude-mythos-ai-hacking",
-      "title": "AI가 스스로 해킹을 했다고? — 클로드 Mythos 사태, 한국어로 제대로 정리",
-      "category": "AI 뉴스",
+      "id": "2026-04-13-agent-idempotency",
+      "title": "AI 에이전트가 이메일을 두 번 보낸 이유 — Idempotency 설계의 모든 것",
+      "category": "AI 엔지니어링",
       "status": "ready",
-      "generated_at": "2026-04-13T01:10:00+09:00",
+      "generated_at": "2026-04-13T09:00:00+09:00",
       "published_at": null,
-      "naver_url": null,
       "tags": [
-        "AI보안",
-        "Anthropic",
-        "클로드Mythos",
-        "사이버보안",
-        "ProjectGlasswing",
-        "인공지능위험",
-        "해킹AI",
-        "AI뉴스",
-        "제로데이"
+        "AI에이전트",
+        "Idempotency",
+        "에이전트설계",
+        "분산시스템",
+        "AI아키텍처"
       ],
-      "char_count": 2100,
+      "char_count": 6720,
       "image_count": 0,
       "images_ready": false,
-      "folder": "generated/posts/2026-04-13-claude-mythos-ai-hacking"
+      "folder": "generated/posts/2026-04-13-agent-idempotency",
+      "scheduled_at": "2026-06-06T08:23:00+09:00"
+    },
+    {
+      "id": "2026-04-13-agent-infinite-loop-prevention",
+      "title": "AI 에이전트의 무한 루프 — 비용 폭탄 방지 설계",
+      "category": "에이전트 신뢰성",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 에이전트",
+        "비용최적화",
+        "무한루프",
+        "에이전트보안",
+        "에러핸들링",
+        "LLM"
+      ],
+      "char_count": 2304,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-agent-infinite-loop-prevention",
+      "scheduled_at": "2026-06-06T13:28:00+09:00"
+    },
+    {
+      "id": "2026-04-13-agent-saga-rollback",
+      "title": "에이전트에게 Ctrl+Z를 — Saga 패턴으로 롤백 구현하기",
+      "category": "에이전트 신뢰성",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 에이전트",
+        "Saga 패턴",
+        "롤백",
+        "에이전트 신뢰성",
+        "에러 핸들링",
+        "분산 시스템"
+      ],
+      "char_count": 4710,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-agent-saga-rollback",
+      "scheduled_at": "2026-06-06T20:30:00+09:00"
+    },
+    {
+      "id": "2026-04-13-agent-truthy-text-failure",
+      "title": "도구 호출 실패를 \\\"성공했다\\\"고 우기는 AI — Truthy Text 문제",
+      "category": "에이전트 신뢰성",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 에이전트",
+        "도구호출",
+        "에이전트 신뢰성",
+        "에러 핸들링",
+        "LLM",
+        "Tool Calling"
+      ],
+      "char_count": 2376,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-agent-truthy-text-failure",
+      "scheduled_at": "2026-06-07T08:23:00+09:00"
     },
     {
       "id": "2026-04-13-ai-copyright-real-cases",
@@ -1048,55 +3243,8 @@
       "char_count": 2000,
       "image_count": 0,
       "images_ready": false,
-      "folder": "generated/posts/2026-04-13-ai-copyright-real-cases"
-    },
-    {
-      "id": "2026-04-13-sora-shutdown-platform-risk",
-      "title": "OpenAI가 Sora를 종료했습니다 — 내가 쓰는 AI 서비스는 괜찮을까요",
-      "category": "AI 뉴스",
-      "status": "ready",
-      "generated_at": "2026-04-13T01:10:00+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "Sora종료",
-        "OpenAI",
-        "AI플랫폼리스크",
-        "AI서비스종료",
-        "플랫폼리스크",
-        "AI활용",
-        "인공지능",
-        "ChatGPT",
-        "AI뉴스2026"
-      ],
-      "char_count": 2000,
-      "image_count": 0,
-      "images_ready": false,
-      "folder": "generated/posts/2026-04-13-sora-shutdown-platform-risk"
-    },
-    {
-      "id": "2026-04-13-imf-ai-financial-security-warning",
-      "title": "IMF가 AI 때문에 '금융 시스템이 위험하다'고 경고했습니다",
-      "category": "AI 뉴스",
-      "status": "ready",
-      "generated_at": "2026-04-13T08:23:00+09:00",
-      "published_at": null,
-      "naver_url": null,
-      "tags": [
-        "IMF경고",
-        "AI금융보안",
-        "AI사이버공격",
-        "AntropicMythos",
-        "금융보안",
-        "인공지능위험",
-        "사이버보안",
-        "AI뉴스",
-        "글로벌AI"
-      ],
-      "char_count": 1900,
-      "image_count": 0,
-      "images_ready": false,
-      "folder": "generated/posts/2026-04-13-imf-ai-financial-security-warning"
+      "folder": "generated/posts/2026-04-13-ai-copyright-real-cases",
+      "scheduled_at": "2026-06-07T13:18:00+09:00"
     },
     {
       "id": "2026-04-13-ai-hospital-recording-lawsuit",
@@ -1120,7 +3268,33 @@
       "char_count": 2000,
       "image_count": 0,
       "images_ready": false,
-      "folder": "generated/posts/2026-04-13-ai-hospital-recording-lawsuit"
+      "folder": "generated/posts/2026-04-13-ai-hospital-recording-lawsuit",
+      "scheduled_at": "2026-06-07T20:44:00+09:00"
+    },
+    {
+      "id": "2026-04-13-claude-mythos-ai-hacking",
+      "title": "AI가 스스로 해킹을 했다고? — 클로드 Mythos 사태, 한국어로 제대로 정리",
+      "category": "AI 뉴스",
+      "status": "ready",
+      "generated_at": "2026-04-13T01:10:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "AI보안",
+        "Anthropic",
+        "클로드Mythos",
+        "사이버보안",
+        "ProjectGlasswing",
+        "인공지능위험",
+        "해킹AI",
+        "AI뉴스",
+        "제로데이"
+      ],
+      "char_count": 2100,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-claude-mythos-ai-hacking",
+      "scheduled_at": "2026-06-08T08:19:00+09:00"
     },
     {
       "id": "2026-04-13-context-engineering",
@@ -1143,7 +3317,220 @@
       "char_count": 2100,
       "image_count": 3,
       "images_ready": false,
-      "folder": "generated/posts/2026-04-13-context-engineering"
+      "folder": "generated/posts/2026-04-13-context-engineering",
+      "scheduled_at": "2026-06-08T13:15:00+09:00"
+    },
+    {
+      "id": "2026-04-13-context-rot-lost-in-middle",
+      "title": "LLM이 '멍청해지는' 이유 — Context Rot 현상 완전 해부",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Context Engineering",
+        "Context Rot",
+        "LLM",
+        "Lost in the Middle",
+        "AI아키텍처",
+        "프로덕션AI"
+      ],
+      "char_count": 7961,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-context-rot-lost-in-middle",
+      "scheduled_at": "2026-06-08T20:43:00+09:00"
+    },
+    {
+      "id": "2026-04-13-conversation-compression",
+      "title": "대화 이력이 독이 되는 순간 — 요약 압축 알고리즘 비교",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Context Engineering",
+        "LLM",
+        "Memory Compression",
+        "대화 요약",
+        "비용 최적화",
+        "성능"
+      ],
+      "char_count": 2526,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-conversation-compression",
+      "scheduled_at": "2026-06-09T08:22:00+09:00"
+    },
+    {
+      "id": "2026-04-13-dynamic-context-assembly",
+      "title": "AI의 RAM 관리법 — 동적 컨텍스트 조립 패턴 5가지",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Context Engineering",
+        "Dynamic Assembly",
+        "LLM",
+        "토큰최적화",
+        "AI아키텍처"
+      ],
+      "char_count": 8497,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-dynamic-context-assembly",
+      "scheduled_at": "2026-06-09T13:29:00+09:00"
+    },
+    {
+      "id": "2026-04-13-imf-ai-financial-security-warning",
+      "title": "IMF가 AI 때문에 '금융 시스템이 위험하다'고 경고했습니다",
+      "category": "AI 뉴스",
+      "status": "ready",
+      "generated_at": "2026-04-13T08:23:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "IMF경고",
+        "AI금융보안",
+        "AI사이버공격",
+        "AntropicMythos",
+        "금융보안",
+        "인공지능위험",
+        "사이버보안",
+        "AI뉴스",
+        "글로벌AI"
+      ],
+      "char_count": 1900,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-imf-ai-financial-security-warning",
+      "scheduled_at": "2026-06-09T20:40:00+09:00"
+    },
+    {
+      "id": "2026-04-13-knowledge-graph-vector-hybrid",
+      "title": "지식 그래프 + 벡터 DB — 두 가지를 함께 써야 하는 이유",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "GraphRAG",
+        "지식그래프",
+        "벡터DB",
+        "RAG",
+        "AI아키텍처",
+        "데이터구조"
+      ],
+      "char_count": 2010,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-knowledge-graph-vector-hybrid",
+      "scheduled_at": "2026-06-10T08:30:00+09:00"
+    },
+    {
+      "id": "2026-04-13-llm-agent-drift-detection",
+      "title": "내 AI 에이전트가 서서히 멍청해졌다 — LLM Drift 감지법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLM Drift",
+        "AI 신뢰성",
+        "에이전트 모니터링",
+        "프로덕션AI",
+        "AI 품질관리"
+      ],
+      "char_count": 8494,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-llm-agent-drift-detection",
+      "scheduled_at": "2026-06-10T13:07:00+09:00"
+    },
+    {
+      "id": "2026-04-13-llm-api-cost-breakdown",
+      "title": "GPT API 비용 계산서 공개 — 3개월 프로덕션 실제 청구 내역",
+      "category": "LLMOps",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLM 비용",
+        "OpenAI",
+        "GPT-4o",
+        "OpenRouter",
+        "클라우드비용",
+        "AI비즈니스"
+      ],
+      "char_count": 1844,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-llm-api-cost-breakdown",
+      "scheduled_at": "2026-06-10T20:59:00+09:00"
+    },
+    {
+      "id": "2026-04-13-llm-quality-kpi",
+      "title": "HTTP 200인데 비즈니스가 망가졌다 — AI 품질 KPI 설계법",
+      "category": "LLMOps",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLMOps",
+        "AI품질관리",
+        "KPI설계",
+        "프로덕션AI",
+        "AI모니터링",
+        "Observability"
+      ],
+      "char_count": 7341,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-llm-quality-kpi",
+      "scheduled_at": "2026-06-11T08:45:00+09:00"
+    },
+    {
+      "id": "2026-04-13-mcp-context-bloat",
+      "title": "MCP Context Bloat — 도구가 많을수록 에이전트가 느려지는 이유",
+      "category": "MCP & AI 보안",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "MCP",
+        "AI 성능",
+        "Context Bloat",
+        "에이전트 최적화",
+        "LLM",
+        "Prompt Engineering"
+      ],
+      "char_count": 2291,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-mcp-context-bloat",
+      "scheduled_at": "2026-06-11T13:30:00+09:00"
+    },
+    {
+      "id": "2026-04-13-mcp-oauth21-security",
+      "title": "OAuth 2.1로 MCP 서버를 프로덕션 수준으로 보안화하기",
+      "category": "MCP & AI 보안",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "MCP",
+        "OAuth 2.1",
+        "AI보안",
+        "인증",
+        "API보안",
+        "보안아키텍처"
+      ],
+      "char_count": 3120,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-mcp-oauth21-security",
+      "scheduled_at": "2026-06-11T20:37:00+09:00"
     },
     {
       "id": "2026-04-13-mcp-security",
@@ -1165,7 +3552,1381 @@
       "char_count": 2200,
       "image_count": 3,
       "images_ready": false,
-      "folder": "generated/posts/2026-04-13-mcp-security"
+      "folder": "generated/posts/2026-04-13-mcp-security",
+      "scheduled_at": "2026-06-12T08:24:00+09:00"
+    },
+    {
+      "id": "2026-04-13-mcp-tool-poisoning",
+      "title": "MCP의 보안 구멍: Tool Poisoning 공격이란 무엇이고, 어떻게 막는가",
+      "category": "AI 보안",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "MCP",
+        "AI보안",
+        "Tool Poisoning",
+        "AI에이전트",
+        "사이버보안"
+      ],
+      "char_count": 5461,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-mcp-tool-poisoning",
+      "scheduled_at": "2026-06-12T13:17:00+09:00"
+    },
+    {
+      "id": "2026-04-13-mcp-vs-rest-api",
+      "title": "MCP vs REST API — 언제 MCP를 쓰고 언제 쓰지 말아야 하는가",
+      "category": "MCP & AI 보안",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "MCP",
+        "REST API",
+        "AI프로토콜",
+        "도구호출",
+        "AI인프라",
+        "아키텍처설계"
+      ],
+      "char_count": 6987,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-mcp-vs-rest-api",
+      "scheduled_at": "2026-06-12T20:50:00+09:00"
+    },
+    {
+      "id": "2026-04-13-rag-evaluation-metrics",
+      "title": "Groundedness, Faithfulness, Relevance — RAG 평가 지표 실전",
+      "category": "LLMOps",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "RAG",
+        "LLMOps",
+        "RAG평가",
+        "Groundedness",
+        "Faithfulness",
+        "Relevance",
+        "RAGAS"
+      ],
+      "char_count": 3036,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-rag-evaluation-metrics",
+      "scheduled_at": "2026-06-13T08:41:00+09:00"
+    },
+    {
+      "id": "2026-04-13-rag-false-retrieval-patterns",
+      "title": "RAG가 틀리는 순간 — False Retrieval 5가지 패턴과 실측 수치",
+      "category": "RAG 심화",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "RAG",
+        "False Retrieval",
+        "검색실패",
+        "LLMOps",
+        "RAG심화",
+        "AI품질"
+      ],
+      "char_count": 8776,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-rag-false-retrieval-patterns",
+      "scheduled_at": "2026-06-13T13:01:00+09:00"
+    },
+    {
+      "id": "2026-04-13-rag-i-dont-know-trigger",
+      "title": "\\\"모른다\\\"고 말하는 AI 만들기 — Confident Hallucination 차단법",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "RAG",
+        "할루시네이션",
+        "신뢰성",
+        "프롬프트엔지니어링",
+        "RAG-I-Dont-Know",
+        "AI품질"
+      ],
+      "char_count": 2165,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-rag-i-dont-know-trigger",
+      "scheduled_at": "2026-06-13T20:34:00+09:00"
+    },
+    {
+      "id": "2026-04-13-sora-shutdown-platform-risk",
+      "title": "OpenAI가 Sora를 종료했습니다 — 내가 쓰는 AI 서비스는 괜찮을까요",
+      "category": "AI 뉴스",
+      "status": "ready",
+      "generated_at": "2026-04-13T01:10:00+09:00",
+      "published_at": null,
+      "naver_url": null,
+      "tags": [
+        "Sora종료",
+        "OpenAI",
+        "AI플랫폼리스크",
+        "AI서비스종료",
+        "플랫폼리스크",
+        "AI활용",
+        "인공지능",
+        "ChatGPT",
+        "AI뉴스2026"
+      ],
+      "char_count": 2000,
+      "image_count": 0,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-sora-shutdown-platform-risk",
+      "scheduled_at": "2026-06-14T08:36:00+09:00"
+    },
+    {
+      "id": "2026-04-13-tiered-memory-system",
+      "title": "MemGPT를 넘어 — 직접 구현하는 계층형 메모리 시스템",
+      "category": "AI 엔지니어링",
+      "status": "ready",
+      "generated_at": "2026-04-13T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "메모리시스템",
+        "LLM메모리",
+        "MemGPT",
+        "Context Engineering",
+        "AI아키텍처",
+        "영구메모리"
+      ],
+      "char_count": 11607,
+      "image_count": 3,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-13-tiered-memory-system",
+      "scheduled_at": "2026-06-14T13:27:00+09:00"
+    },
+    {
+      "id": "2026-04-14-agent-cost-breakdown",
+      "title": "에이전트 비용 계산서 — GPT-4o 에이전트 운영 1개월 청구서 공개",
+      "category": "에이전트 신뢰성",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 에이전트",
+        "비용분석",
+        "GPT-4o",
+        "API비용",
+        "에이전트경제학",
+        "에이전트운영"
+      ],
+      "char_count": 1886,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-agent-cost-breakdown",
+      "scheduled_at": "2026-06-14T20:46:00+09:00"
+    },
+    {
+      "id": "2026-04-14-agent-distributed-tracing",
+      "title": "에이전트 트레이싱 — 복잡한 멀티스텝 오류를 추적하는 법",
+      "category": "에이전트 신뢰성",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 에이전트",
+        "Observability",
+        "트레이싱",
+        "LangSmith",
+        "에이전트디버깅",
+        "분산시스템"
+      ],
+      "char_count": 2129,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-agent-distributed-tracing",
+      "scheduled_at": "2026-06-15T08:26:00+09:00"
+    },
+    {
+      "id": "2026-04-14-agentic-ai-legal-liability",
+      "title": "AI 에이전트의 법적 책임은 누구에게 있는가 — 책임 소송 가이드",
+      "category": "에이전트 신뢰성",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 에이전트",
+        "AI법률",
+        "거버넌스",
+        "책임소송",
+        "AI윤리",
+        "프로덕션AI"
+      ],
+      "char_count": 1913,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-agentic-ai-legal-liability",
+      "scheduled_at": "2026-06-15T13:08:00+09:00"
+    },
+    {
+      "id": "2026-04-14-ai-data-lineage",
+      "title": "데이터 계보(Lineage) 추적 — AI가 망했을 때 원인 역추적하는 법",
+      "category": "LLMOps",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLMOps",
+        "데이터계보",
+        "Data Lineage",
+        "RAG디버깅",
+        "AI품질",
+        "거버넌스"
+      ],
+      "char_count": 1928,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-ai-data-lineage",
+      "scheduled_at": "2026-06-15T20:39:00+09:00"
+    },
+    {
+      "id": "2026-04-14-ai-gateway-pattern",
+      "title": "AI 게이트웨이 패턴 — PII 스크러빙, RBAC, 감사 로그를 한 곳에",
+      "category": "MCP & 보안",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI Gateway",
+        "인프라",
+        "보안",
+        "PII",
+        "RBAC",
+        "감사로그",
+        "기업용AI"
+      ],
+      "char_count": 1684,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-ai-gateway-pattern",
+      "scheduled_at": "2026-06-16T08:35:00+09:00"
+    },
+    {
+      "id": "2026-04-14-ai-roadmap-2027",
+      "title": "2027년 AI 로드맵: 에이전트 시대의 주인공은 누가 될 것인가?",
+      "category": "최신 모델",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "미래예측",
+        "AI로드맵",
+        "에이전트시대",
+        "AGI",
+        "기술전망",
+        "헨리의생각"
+      ],
+      "char_count": 1148,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-ai-roadmap-2027",
+      "scheduled_at": "2026-06-16T13:26:00+09:00"
+    },
+    {
+      "id": "2026-04-14-ai-sprawl-audit",
+      "title": "AI Sprawl 감사 — 우리 회사 AI 인프라에 얼마나 낭비하고 있는가",
+      "category": "LLMOps",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLMOps",
+        "AI Sprawl",
+        "비용최적화",
+        "기업용AI",
+        "인프라",
+        "AI거버넌스"
+      ],
+      "char_count": 1837,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-ai-sprawl-audit",
+      "scheduled_at": "2026-06-16T20:45:00+09:00"
+    },
+    {
+      "id": "2026-04-14-ai-startup-codebase-anatomy",
+      "title": "AI 스타트업 코드베이스 해부 — 실제로 어떻게 구조가 짜여 있는가",
+      "category": "커리어 & 관점",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "스타트업",
+        "코드구조",
+        "아키텍처",
+        "OpenSource",
+        "LangChain",
+        "Node.js",
+        "Python"
+      ],
+      "char_count": 1212,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-ai-startup-codebase-anatomy",
+      "scheduled_at": "2026-06-17T08:41:00+09:00"
+    },
+    {
+      "id": "2026-04-14-back-to-basics",
+      "title": "2026년, 우리가 다시 '기본기'로 돌아가야 하는 이유",
+      "category": "커리어 & 관점",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "기본기",
+        "컴퓨터과학",
+        "알고리즘",
+        "네트워킹",
+        "AI시대",
+        "커리어"
+      ],
+      "char_count": 1259,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-back-to-basics",
+      "scheduled_at": "2026-06-17T13:05:00+09:00"
+    },
+    {
+      "id": "2026-04-14-career-strategy-beyond-coding",
+      "title": "AI 에이전트 시대의 개발자 생존 전략: 코딩 너머의 가치",
+      "category": "커리어 & 관점",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "커리어",
+        "AI에이전트",
+        "개발자",
+        "생존전략",
+        "미래예측",
+        "소프트스킬"
+      ],
+      "char_count": 1144,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-career-strategy-beyond-coding",
+      "scheduled_at": "2026-06-17T20:33:00+09:00"
+    },
+    {
+      "id": "2026-04-14-chunking-strategy-experiment",
+      "title": "청킹 전략 실험 결과 — 어떤 방식이 실제로 검색 정확도를 높이는가",
+      "category": "RAG 심화",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "청킹",
+        "Chunking",
+        "RAG",
+        "데이터가공",
+        "LLMOps",
+        "실물실험"
+      ],
+      "char_count": 1625,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-chunking-strategy-experiment",
+      "scheduled_at": "2026-06-18T08:44:00+09:00"
+    },
+    {
+      "id": "2026-04-14-codebase-rag-agent",
+      "title": "코드베이스 RAG — IDE를 대체하는 코드 검색 에이전트 구축",
+      "category": "RAG 심화",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "CodeRAG",
+        "개발자도구",
+        "에이전트",
+        "AST",
+        "소스코드분석",
+        "LlamaIndex"
+      ],
+      "char_count": 1430,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-codebase-rag-agent",
+      "scheduled_at": "2026-06-18T13:05:00+09:00"
+    },
+    {
+      "id": "2026-04-14-colbert-late-interaction",
+      "title": "Colbert & Late Interaction — Dense 검색의 다음 단계",
+      "category": "RAG 심화",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Colbert",
+        "Late Interaction",
+        "RAG",
+        "임베딩",
+        "검색엔진",
+        "AI아키텍처"
+      ],
+      "char_count": 1268,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-colbert-late-interaction",
+      "scheduled_at": "2026-06-18T20:59:00+09:00"
+    },
+    {
+      "id": "2026-04-14-confidence-based-routing",
+      "title": "Confidence-Based 라우팅 — 싸고 작은 모델과 비싸고 큰 모델을 동시에",
+      "category": "LLMOps",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLMOps",
+        "모델라우팅",
+        "비용최적화",
+        "GPT-4o",
+        "GPT-4o-mini",
+        "ConfidenceScore"
+      ],
+      "char_count": 2006,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-confidence-based-routing",
+      "scheduled_at": "2026-06-19T08:18:00+09:00"
+    },
+    {
+      "id": "2026-04-14-deepseek-revolution",
+      "title": "DeepSeek: 가성비 추론 모델의 반란",
+      "category": "최신 모델",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "DeepSeek",
+        "가성비AI",
+        "추론모델",
+        "오픈소스LLM",
+        "에이전트",
+        "모델비교"
+      ],
+      "char_count": 1055,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-deepseek-revolution",
+      "scheduled_at": "2026-06-19T13:26:00+09:00"
+    },
+    {
+      "id": "2026-04-14-edge-vision-agent",
+      "title": "실시간 비디오 분석 에이전트: 엣지에서 비전을 처리하는 법",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Edge Vision",
+        "YOLOv10",
+        "DeepStream",
+        "Jetson",
+        "비디오분석",
+        "AI에이전트"
+      ],
+      "char_count": 1350,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-edge-vision-agent",
+      "scheduled_at": "2026-06-19T20:56:00+09:00"
+    },
+    {
+      "id": "2026-04-14-esp32-whisper-voice-agent",
+      "title": "ESP32 S3 + OpenAI Whisper: 저가형 칩으로 음성 인식 에이전트 만들기",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "ESP32",
+        "Whisper",
+        "음성인식",
+        "IoT",
+        "AI에이전트",
+        "저가형AI"
+      ],
+      "char_count": 1479,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-esp32-whisper-voice-agent",
+      "scheduled_at": "2026-06-20T08:36:00+09:00"
+    },
+    {
+      "id": "2026-04-14-evaluation-driven-development",
+      "title": "Evaluation-Driven Development — AI를 코드처럼 테스트하라",
+      "category": "LLMOps",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLMOps",
+        "EDD",
+        "Evaluation",
+        "테스트자동화",
+        "AI품질",
+        "LangSmith",
+        "RAG평가"
+      ],
+      "char_count": 1820,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-evaluation-driven-development",
+      "scheduled_at": "2026-06-20T13:16:00+09:00"
+    },
+    {
+      "id": "2026-04-14-federated-learning-implementation",
+      "title": "Federated Learning 실전: 데이터를 공유하지 않고 모델 학습하기",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Federated Learning",
+        "연합학습",
+        "개인정보보호",
+        "MLOps",
+        "EdgeAI",
+        "분산학습"
+      ],
+      "char_count": 1322,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-federated-learning-implementation",
+      "scheduled_at": "2026-06-20T20:59:00+09:00"
+    },
+    {
+      "id": "2026-04-14-finetune-rag-prompt-decision",
+      "title": "Fine-tuning vs RAG vs Prompt — 2026년 기준 선택 결정 트리",
+      "category": "LLMOps",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLM아키텍처",
+        "Fine-tuning",
+        "RAG",
+        "Prompt Engineering",
+        "기술스택",
+        "LLMOps"
+      ],
+      "char_count": 1807,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-finetune-rag-prompt-decision",
+      "scheduled_at": "2026-06-21T08:31:00+09:00"
+    },
+    {
+      "id": "2026-04-14-gemini15pro-context",
+      "title": "Gemini 1.5 Pro의 100만 컨텍스트 활용법",
+      "category": "최신 모델",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Gemini 1.5 Pro",
+        "Long Context",
+        "Google AI",
+        "RAG",
+        "비디오분석",
+        "에이전트"
+      ],
+      "char_count": 1144,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-gemini15pro-context",
+      "scheduled_at": "2026-06-21T13:04:00+09:00"
+    },
+    {
+      "id": "2026-04-14-gpt4o-vs-claude35-sonnet",
+      "title": "GPT-4o vs Claude 3.5 Sonnet: 에이전트 개발을 위한 끝판왕 비교",
+      "category": "최신 모델",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "GPT-4o",
+        "Claude 3.5 Sonnet",
+        "에이전트",
+        "LLM",
+        "벤치마크",
+        "모델비교"
+      ],
+      "char_count": 1320,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-gpt4o-vs-claude35-sonnet",
+      "scheduled_at": "2026-06-21T20:39:00+09:00"
+    },
+    {
+      "id": "2026-04-14-graphrag-vs-rag-conditions",
+      "title": "GraphRAG가 일반 RAG를 이기는 유일한 상황",
+      "category": "RAG 심화",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "GraphRAG",
+        "지식그래프",
+        "RAG",
+        "추론",
+        "KnowledgeGraph",
+        "마이크로소프트"
+      ],
+      "char_count": 1452,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-graphrag-vs-rag-conditions",
+      "scheduled_at": "2026-06-22T08:25:00+09:00"
+    },
+    {
+      "id": "2026-04-14-groq-speed-revolution",
+      "title": "Groq: LPUs가 바꾼 LLM 추론 속도의 혁명",
+      "category": "최신 모델",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Groq",
+        "LPU",
+        "LLM속도",
+        "에이전트",
+        "실시간AI",
+        "하드웨어혁신"
+      ],
+      "char_count": 1248,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-groq-speed-revolution",
+      "scheduled_at": "2026-06-22T13:27:00+09:00"
+    },
+    {
+      "id": "2026-04-14-how-llm-memory-actually-works",
+      "title": "AI가 \\\"기억해줘\\\"라고 했을 때 실제로 일어나는 일 — 에이전트 기억의 실체",
+      "category": "Context & Memory",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLM Memory",
+        "Vector Search",
+        "Parameter",
+        "데이터저장",
+        "AI학습",
+        "작동원리"
+      ],
+      "char_count": 1727,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-how-llm-memory-actually-works",
+      "scheduled_at": "2026-06-22T20:52:00+09:00"
+    },
+    {
+      "id": "2026-04-14-human-in-the-loop-design",
+      "title": "Human-in-the-Loop의 진짜 구현법 — 단순 승인 버튼이 아니다",
+      "category": "에이전트 신뢰성",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 에이전트",
+        "HITL",
+        "Human-in-the-loop",
+        "에이전트 설계",
+        "UX",
+        "에이전트 신뢰성"
+      ],
+      "char_count": 2044,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-human-in-the-loop-design",
+      "scheduled_at": "2026-06-23T08:43:00+09:00"
+    },
+    {
+      "id": "2026-04-14-hybrid-search-benchmark",
+      "title": "Hybrid Search 실측 비교 — BM25 vs Dense vs 조합의 실제 점수",
+      "category": "RAG 심화",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "RAG",
+        "Hybrid Search",
+        "BM25",
+        "VectorSearch",
+        "벤치마크",
+        "검색정확도"
+      ],
+      "char_count": 1525,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-hybrid-search-benchmark",
+      "scheduled_at": "2026-06-23T13:05:00+09:00"
+    },
+    {
+      "id": "2026-04-14-infinite-context-vs-rag",
+      "title": "무한 컨텍스트 vs RAG — 100만 토큰 시대에도 RAG가 필요한가",
+      "category": "Context & Memory",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Context Window",
+        "RAG",
+        "Gemini 1.5",
+        "토큰비용",
+        "AI아키텍처",
+        "정보검색"
+      ],
+      "char_count": 1563,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-infinite-context-vs-rag",
+      "scheduled_at": "2026-06-23T20:44:00+09:00"
+    },
+    {
+      "id": "2026-04-14-jetson-vs-rpi5-benchmark",
+      "title": "Jetson Orin vs Raspberry Pi 5: 엣지 AI 실측 벤치마크",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Jetson Orin",
+        "Raspberry Pi 5",
+        "EdgeAI",
+        "벤치마크",
+        "NPU",
+        "성능비교"
+      ],
+      "char_count": 1570,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-jetson-vs-rpi5-benchmark",
+      "scheduled_at": "2026-06-24T08:31:00+09:00"
+    },
+    {
+      "id": "2026-04-14-junior-ai-guide",
+      "title": "주니어 개발자를 위한 AI 활용 가이드: 도구에 의존할 것인가, 도구를 지배할 것인가",
+      "category": "커리어 & 관점",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "주니어개발자",
+        "AI활용",
+        "학습방법론",
+        "커리어",
+        "성장",
+        "코파일럿"
+      ],
+      "char_count": 1173,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-junior-ai-guide",
+      "scheduled_at": "2026-06-24T13:13:00+09:00"
+    },
+    {
+      "id": "2026-04-14-legal-rag-case-study",
+      "title": "법률 계약서 RAG 구축기 — 도메인 특화 RAG의 현실",
+      "category": "RAG 심화",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LegalAI",
+        "RAG",
+        "프로덕션AI",
+        "실패사례",
+        "데이터전처리",
+        "법률AI"
+      ],
+      "char_count": 1441,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-legal-rag-case-study",
+      "scheduled_at": "2026-06-24T20:57:00+09:00"
+    },
+    {
+      "id": "2026-04-14-llama31-impact",
+      "title": "Llama-3.1의 충격: 오픈 소스가 클로즈드 모델을 따라잡은 순간",
+      "category": "최신 모델",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Llama 3.1",
+        "Meta",
+        "오픈소스LLM",
+        "에이전트",
+        "AI민주화",
+        "모델배포"
+      ],
+      "char_count": 1141,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-llama31-impact",
+      "scheduled_at": "2026-06-25T08:34:00+09:00"
+    },
+    {
+      "id": "2026-04-14-llm-shadow-testing",
+      "title": "Shadow 환경에서 LLM 성능 검증하기 — Silent Test 패턴",
+      "category": "LLMOps",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLMOps",
+        "Shadow Deployment",
+        "Silent Testing",
+        "모델업데이트",
+        "LLM성능",
+        "회귀테스트"
+      ],
+      "char_count": 2260,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-llm-shadow-testing",
+      "scheduled_at": "2026-06-25T13:16:00+09:00"
+    },
+    {
+      "id": "2026-04-14-llm-version-drift-production",
+      "title": "LLM 버전 업데이트가 프로덕션을 망치는 방법 — 모델 드리프트 대응",
+      "category": "LLMOps",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "LLMOps",
+        "모델드리프트",
+        "Model Drift",
+        "GPT-4o",
+        "OpenAI",
+        "업데이트방어",
+        "AI안정성"
+      ],
+      "char_count": 1934,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-llm-version-drift-production",
+      "scheduled_at": "2026-06-25T20:33:00+09:00"
+    },
+    {
+      "id": "2026-04-14-low-power-llm-inference",
+      "title": "5W 이하에서 LLM 추론: 저전력 엣지 AI의 현실",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Edge AI",
+        "저전력",
+        "LLM",
+        "SLM",
+        "에너지효율",
+        "임베디드"
+      ],
+      "char_count": 1465,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-low-power-llm-inference",
+      "scheduled_at": "2026-06-26T08:39:00+09:00"
+    },
+    {
+      "id": "2026-04-14-mcp-linux-foundation-governance",
+      "title": "Linux Foundation이 MCP를 인수한 의미 — AI 표준 전쟁의 현재",
+      "category": "MCP & 보안",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "MCP",
+        "Linux Foundation",
+        "오픈소스",
+        "AI표준",
+        "Anthropic",
+        "기술생태계"
+      ],
+      "char_count": 1509,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-mcp-linux-foundation-governance",
+      "scheduled_at": "2026-06-26T13:03:00+09:00"
+    },
+    {
+      "id": "2026-04-14-mistral-large-2",
+      "title": "Mistral Large 2: 유럽의 자존심, 다국어 모델의 정점",
+      "category": "최신 모델",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Mistral Large 2",
+        "Mistral AI",
+        "유럽AI",
+        "다국어모델",
+        "에이전트",
+        "LLM"
+      ],
+      "char_count": 1160,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-mistral-large-2",
+      "scheduled_at": "2026-06-26T20:57:00+09:00"
+    },
+    {
+      "id": "2026-04-14-multi-agent-architecture-choice",
+      "title": "Supervisor 패턴 vs Swarm 패턴 — 멀티 에이전트 아키텍처 선택 기준",
+      "category": "에이전트 신뢰성",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 에이전트",
+        "멀티에이전트",
+        "아키텍처",
+        "LangGraph",
+        "OpenAI Swarm",
+        "에이전트설계"
+      ],
+      "char_count": 1834,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-multi-agent-architecture-choice",
+      "scheduled_at": "2026-06-27T08:39:00+09:00"
+    },
+    {
+      "id": "2026-04-14-multi-agent-conflict",
+      "title": "멀티 에이전트 충돌 — 두 에이전트가 같은 DB를 동시에 수정할 때",
+      "category": "에이전트 신뢰성",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 에이전트",
+        "멀티에이전트",
+        "동시성",
+        "낙관적잠금",
+        "데이터무결성",
+        "에이전트설계"
+      ],
+      "char_count": 2142,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-multi-agent-conflict",
+      "scheduled_at": "2026-06-27T13:19:00+09:00"
+    },
+    {
+      "id": "2026-04-14-multi-user-memory-isolation",
+      "title": "멀티 유저 메모리 충돌 — 공유 에이전트에서 기억을 격리하는 법",
+      "category": "Context & Memory",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 에이전트",
+        "메모리 격리",
+        "멀티유저",
+        "개인정보보호",
+        "VectorDB",
+        "아키텍처"
+      ],
+      "char_count": 1784,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-multi-user-memory-isolation",
+      "scheduled_at": "2026-06-27T20:41:00+09:00"
+    },
+    {
+      "id": "2026-04-14-multimodal-rag-pipeline",
+      "title": "멀티모달 RAG — 이미지와 텍스트를 함께 검색하는 파이프라인",
+      "category": "RAG 심화",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Multimodal",
+        "RAG",
+        "CLIP",
+        "이미지검색",
+        "GPT-4o",
+        "AI아키텍처"
+      ],
+      "char_count": 1261,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-multimodal-rag-pipeline",
+      "scheduled_at": "2026-06-28T08:40:00+09:00"
+    },
+    {
+      "id": "2026-04-14-o1-preview-reasoning",
+      "title": "o1-preview: 추론(Reasoning) 모델이 바꾼 CoT의 미래",
+      "category": "최신 모델",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "o1-preview",
+        "OpenAI",
+        "Reasoning",
+        "CoT",
+        "생각하는AI",
+        "에이전트"
+      ],
+      "char_count": 1122,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-o1-preview-reasoning",
+      "scheduled_at": "2026-06-28T13:20:00+09:00"
+    },
+    {
+      "id": "2026-04-14-on-device-rag-mobile",
+      "title": "On-Device RAG: 스마트폰에서 인터넷 없이 RAG 돌리기",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "On-Device AI",
+        "RAG",
+        "Mobile AI",
+        "LlamaIndex",
+        "Private AI",
+        "EdgeAI"
+      ],
+      "char_count": 1340,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-on-device-rag-mobile",
+      "scheduled_at": "2026-06-28T20:35:00+09:00"
+    },
+    {
+      "id": "2026-04-14-prompt-as-code-versioning",
+      "title": "프롬프트를 코드처럼 관리하라 — Prompt Versioning 시스템 구축",
+      "category": "에이전트 신뢰성",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 에이전트",
+        "Prompt Engineering",
+        "Git",
+        "Versioning",
+        "LLMOps",
+        "프로덕션AI"
+      ],
+      "char_count": 1685,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-prompt-as-code-versioning",
+      "scheduled_at": "2026-06-29T08:26:00+09:00"
+    },
+    {
+      "id": "2026-04-14-prompt-injection-attacks",
+      "title": "프롬프트 인젝션 공격 — 외부 데이터가 AI를 납치하는 방법",
+      "category": "MCP & 보안",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 보안",
+        "Prompt Injection",
+        "보안사고",
+        "에이전트보안",
+        "레드팀",
+        "보안아키텍처"
+      ],
+      "char_count": 1688,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-prompt-injection-attacks",
+      "scheduled_at": "2026-06-29T13:16:00+09:00"
+    },
+    {
+      "id": "2026-04-14-quantization-format-benchmark",
+      "title": "GGUF vs EXL2 vs AWQ: 양자화 포맷 실제 성능 비교 (같은 모델, 다른 결과)",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "양자화",
+        "GGUF",
+        "EXL2",
+        "AWQ",
+        "LLM",
+        "성능비교",
+        "EdgeAI"
+      ],
+      "char_count": 1719,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-quantization-format-benchmark",
+      "scheduled_at": "2026-06-29T20:35:00+09:00"
+    },
+    {
+      "id": "2026-04-14-query-transformation-rag",
+      "title": "Re-ranking 없이 RAG 정확도 올리기 — Query Transformation 전략",
+      "category": "RAG 심화",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Query Transformation",
+        "HyDE",
+        "RAG",
+        "프롬프트엔지니어링",
+        "검색최적화"
+      ],
+      "char_count": 1273,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-query-transformation-rag",
+      "scheduled_at": "2026-06-30T08:45:00+09:00"
+    },
+    {
+      "id": "2026-04-14-rag-caching-strategy",
+      "title": "RAG 시스템의 캐시 전략 — 속도와 비용을 동시에 잡는 법",
+      "category": "RAG 심화",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "RAG",
+        "Caching",
+        "Semantic Cache",
+        "GPTCache",
+        "비용절감",
+        "성능최적화"
+      ],
+      "char_count": 1306,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-rag-caching-strategy",
+      "scheduled_at": "2026-06-30T13:16:00+09:00"
+    },
+    {
+      "id": "2026-04-14-rag-data-poisoning",
+      "title": "RAG 데이터 오염 공격 — 벡터 DB를 독살하는 법과 방어",
+      "category": "MCP & 보안",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "AI 보안",
+        "RAG",
+        "Data Poisoning",
+        "VectorDB",
+        "데이터오염",
+        "보안아키텍처"
+      ],
+      "char_count": 1809,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-rag-data-poisoning",
+      "scheduled_at": "2026-06-30T20:40:00+09:00"
+    },
+    {
+      "id": "2026-04-14-ros2-llm-agent",
+      "title": "ROS 2 + AI 에이전트: 로봇의 두뇌를 LLM으로 교체한 실험",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "ROS2",
+        "로봇공학",
+        "LLM",
+        "AI에이전트",
+        "로보틱스",
+        "제어시스템"
+      ],
+      "char_count": 1321,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-ros2-llm-agent",
+      "scheduled_at": "2026-07-01T08:35:00+09:00"
+    },
+    {
+      "id": "2026-04-14-rpi5-llm-speed-test",
+      "title": "Raspberry Pi 5로 로컬 LLM: 실제 토큰/초 속도 측정 결과",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Raspberry Pi 5",
+        "LLM",
+        "Ollama",
+        "LlamaCP",
+        "벤치마크",
+        "EdgeAI"
+      ],
+      "char_count": 1522,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-rpi5-llm-speed-test",
+      "scheduled_at": "2026-07-01T13:15:00+09:00"
+    },
+    {
+      "id": "2026-04-14-sandwich-architecture-llm",
+      "title": "Sandwich 아키텍처: LLM을 이용하되 LLM에 의존하지 않는 설계",
+      "category": "커리어 & 관점",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Sandwich Architecture",
+        "소프트웨어설계",
+        "LLM",
+        "에이전트",
+        "안정성",
+        "AI아키텍처"
+      ],
+      "char_count": 1206,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-sandwich-architecture-llm",
+      "scheduled_at": "2026-07-01T20:31:00+09:00"
+    },
+    {
+      "id": "2026-04-14-solo-developer-ai-army",
+      "title": "1인 개발자의 AI 에이전트 군단 구축기",
+      "category": "커리어 & 관점",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "1인개발",
+        "AI에이전트",
+        "생산성",
+        "LLM",
+        "에이전틱워크플로우",
+        "커리어"
+      ],
+      "char_count": 1273,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-solo-developer-ai-army",
+      "scheduled_at": "2026-07-02T08:37:00+09:00"
+    },
+    {
+      "id": "2026-04-14-stm32-edge-impulse",
+      "title": "STM32 + Edge Impulse: 마이크로컨트롤러에 ML 모델 올리기",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "Edge Impulse",
+        "STM32",
+        "TinyML",
+        "NoCodeAI",
+        "MLOps",
+        "임베디드"
+      ],
+      "char_count": 1473,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-stm32-edge-impulse",
+      "scheduled_at": "2026-07-02T13:19:00+09:00"
+    },
+    {
+      "id": "2026-04-14-stm32-tinyml-gesture",
+      "title": "STM32에서 AI를? TinyML로 제스처 인식 실전 구현",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "TinyML",
+        "STM32",
+        "EdgeAI",
+        "임베디드",
+        "제스처인식",
+        "MCU"
+      ],
+      "char_count": 1300,
+      "image_count": 2,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-stm32-tinyml-gesture",
+      "scheduled_at": "2026-07-02T20:49:00+09:00"
+    },
+    {
+      "id": "2026-04-14-tech-blog-vs-portfolio",
+      "title": "기술 블로그가 포트폴리오를 대체할 수 있을까?",
+      "category": "커리어 & 관점",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "기술블로그",
+        "포트폴리오",
+        "취업",
+        "이직",
+        "커리어",
+        "브랜딩"
+      ],
+      "char_count": 1062,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-tech-blog-vs-portfolio",
+      "scheduled_at": "2026-07-03T08:15:00+09:00"
+    },
+    {
+      "id": "2026-04-14-webgpu-llm-browser",
+      "title": "WebGPU로 브라우저에서 LLM 추론: 2026년 실측과 한계",
+      "category": "Edge AI",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "WebGPU",
+        "브라우저AI",
+        "JavaScript",
+        "Wasm",
+        "MLC-LLM",
+        "EdgeAI"
+      ],
+      "char_count": 1297,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-webgpu-llm-browser",
+      "scheduled_at": "2026-07-03T13:07:00+09:00"
+    },
+    {
+      "id": "2026-04-14-why-i-chose-rag-not-finetuning",
+      "title": "나는 왜 Fine-tuning 대신 RAG를 선택했는가 — 실제 결정 과정",
+      "category": "커리어 & 관점",
+      "status": "ready",
+      "generated_at": "2026-04-14T09:00:00+09:00",
+      "published_at": null,
+      "tags": [
+        "RAG",
+        "Fine-tuning",
+        "결정적순간",
+        "AI아키텍처",
+        "비용최적화",
+        "LLM"
+      ],
+      "char_count": 1245,
+      "image_count": 1,
+      "images_ready": false,
+      "folder": "generated/posts/2026-04-14-why-i-chose-rag-not-finetuning",
+      "scheduled_at": "2026-07-03T20:48:00+09:00"
     }
   ]
 }
