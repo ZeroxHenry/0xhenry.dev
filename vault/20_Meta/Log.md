@@ -2,6 +2,18 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-13] C-07 + S-04 완성 (야간 세션 4)
+
+### 기술블로그 완성 (KO + EN)
+- ✅ C-07: `rag-i-dont-know-trigger.md` — ""모른다"고 말하는 AI 만들기 — Confident Hallucination 차단법"
+  - RAG 환경에서 AI의 '아는 척'을 방지하기 위한 Relevance Score 컷오프, 네거티브 프롬프트, NLI 검증 실무.
+- ✅ S-04: `mcp-oauth21-security.md` — "OAuth 2.1로 MCP 서버를 프로덕션 수준으로 보안화하기"
+  - SSE 기반 MCP 서버 배포를 위한 PKCE 지원 OAuth 2.1 아키텍처 및 스코프 관리 가이드.
+
+### Vault 및 플랜 업데이트
+- 신규 포스트 4개(KO/EN) `vault/00_Raw/` 동기화 완료.
+- `tech-blog-plan.md` 업데이트: 17/78 완성 (21% 달성).
+
 ## [2026-04-13] C-06 + A-04 완성 (야간 세션 3)
 
 ### 기술블로그 완성 (KO + EN)
