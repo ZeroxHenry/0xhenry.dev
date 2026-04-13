@@ -1,7 +1,5 @@
 {
-  "python.defaultInterpreterPath": "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3.13",
+  "python.defaultInterpreterPath": "/usr/local/bin/python3",
   "python.terminal.activateEnvironment": false,
-  "python.analysis.autoSearchPaths": false,
-  "python.envFile": "",
-  "python.experiments.enabled": false
+  "python.analysis.autoSearchPaths": false
 }

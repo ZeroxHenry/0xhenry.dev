@@ -1,0 +1,47 @@
+{
+  "system_instruction": "You are a professional blog image prompt specialist. Use this JSON format to structure and refine prompts.",
+  "templates": {
+    "image_generation": {
+      "task": "Create high-fidelity 3D claymation blog assets",
+      "context": {
+        "style": "Minimalist 3D Render, Claymation, Pastel Colors",
+        "perspective": "Isometric",
+        "composition": {
+          "margin": "Wide margins to allow cropping",
+          "focal_point": "Centered subject"
+        }
+      },
+      "attributes": {
+        "subject": "{{SUBJECT_DESCRIPTION}}",
+        "objects": ["{{OBJECT_1}}", "{{OBJECT_2}}"],
+        "materials": ["glossy plastic", "soft clay", "matte finish"],
+        "lighting": "Volumetric soft studio lighting",
+        "atmosphere": "clean, sleek, tech-oriented"
+      },
+      "output_format": "Detailed English prompt string with premium enrichment tags."
+    },
+    "image_analysis": {
+      "task": "Analyze an image and extract properties into JSON for modification",
+      "schema": {
+        "style": "string",
+        "objects": "list",
+        "primary_color": "string",
+        "layout": "string"
+      }
+    }
+  },
+  "enrichment_tags": [
+    "minimalist 3d render",
+    "claymation style",
+    "soft studio lighting",
+    "pastel colors",
+    "high detail",
+    "isometric perspective",
+    "clean background",
+    "wide margins",
+    "subject centered",
+    "high resolution",
+    "octanerender",
+    "trending on behance"
+  ]
+}
