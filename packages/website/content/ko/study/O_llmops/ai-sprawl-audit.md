@@ -1,0 +1,89 @@
+---
+title: "AI Sprawl 감사 — 우리 회사 AI 인프라에 얼마나 낭비하고 있는가"
+date: 2026-04-14
+draft: false
+tags: ["LLMOps", "AI Sprawl", "비용최적화", "기업용AI", "인프라", "AI거버넌스"]
+description: "기업 전체에서 여기저기 흩어져 쓰이는 AI 모델과 비용을 제어하지 못하고 있나요? 'AI Sprawl' 현상을 진단하고, 중복 지출을 막는 감사(Audit) 프레임워크를 제안합니다."
+author: "Henry"
+categories: ["LLMOps"]
+series: ["LLMOps 실전"]
+series_order: 4
+images_needed:
+  - position: "hero"
+    prompt: "A chaotic office basement filled with hundreds of small glowing AI icons and server cables tangled like vines. A manager is holding a flashlight, trying to find the source of invisible costs. Dark mode #0d1117, industrial noir aesthetic, 16:9"
+    file: "images/O/ai-sprawl-audit-hero.png"
+  - position: "concept"
+    prompt: "Hierarchy diagram showing Shadow AI: Individual API Keys -> Departmental Subscriptions -> Company-wide Enterprise Plan. Showing how fragmentation leads to 40% waste. 16:9"
+    file: "images/O/ai-sprawl-waste.png"
+---
+
+이 글은 **LLMOps 실전 시리즈** 4편입니다.
+→ 3편: [GPT API 비용 계산서 공개 — 3개월 프로덕션 실제 청구 내역](/ko/study/O_llmops/llm-api-cost-breakdown)
+
+---
+
+클라우드 컴퓨팅 초기 시절, 우리는 'Cloud Sprawl(클라우드 비대화)'로 고생했습니다. 누군가 켜놓고 잊어버린 인스턴스가 돈을 갉아먹는 상황이었죠.
+
+2026년, 이제 우리는 더 교활한 적을 만났습니다. 바로 **AI Sprawl**입니다.
+
+---
+
+### AI Sprawl이란 무엇인가?
+
+기업 내에서 통제되지 않은 채 여기저기 흩어져 사용되는 AI 모델과 인프라를 의미합니다.
+1. 개발팀 A는 OpenAI를 쓰고,
+2. 마케팅팀 B는 똑같은 작업을 위해 Anthropic을 따로 결제하고,
+3. 기획팀 C는 개인용 ChatGPT Plus 계정을 법인카드로 결제해 사용합니다.
+
+조사 결과에 따르면, AI를 적극 도입한 기업의 약 **40%가 중복된 AI API 비용으로 낭비**하고 있습니다.
+
+---
+
+### AI Sprawl 감사(Audit) 체크리스트
+
+우리 회사가 AI Sprawl에 빠졌는지 확인하려면 다음 3가지를 점검해 보세요.
+
+#### 1. API 키의 파편화 (Endpoint Proliferation)
+사내에 사용 중인 전체 AI API 키 목록을 가지고 있습니까? 각 키가 어떤 서비스에서, 누가 사용하고 있는지 트래킹되고 있나요?
+
+#### 2. 모델 오버스펙 (Model Over-provisioning)
+단순한 텍스트 분류 작업에 불필요하게 비싼 GPT-4o를 쓰고 있지는 않나요? (3편의 [비용 분석](/ko/study/O_llmops/llm-api-cost-breakdown)에서 본 것처럼 여기서 가장 큰 낭비가 발생합니다.)
+
+#### 3. 섀도우 AI (Shadow AI)
+IT 부서의 승인 없이 도입된 SaaS AI 도구들이 얼마나 되나요? 이는 비용 문제를 넘어 데이터 유출(PII)의 경로가 됩니다.
+
+---
+
+### 해결책: AI 게이트웨이(AI Gateway) 패턴
+
+이 난장판을 수습하는 가장 효과적인 방법은 **단일 진입점(Single Entry Point)**을 만드는 것입니다.
+
+```
+[내부 앱 1] ──┐
+[내부 앱 2] ──┼──→ [AI 게이트웨이] ──→ [OpenAI / Claude / Local LLM]
+[내부 앱 3] ──┘         (인증, 캐싱, 로깅)
+```
+
+**AI 게이트웨이의 효과:**
+- **통합 청구**: 모든 API 호출을 한 곳에서 모니터링하고 예산을 통제합니다.
+- **캐싱**: 다른 팀원이 보냈던 똑같은 프롬프트를 다시 보내면 API를 호출하지 않고 캐시에서 답을 줍니다. (최대 30% 비용 절감)
+- **거버넌스**: 민감 정보(개인정보)가 포함된 질문은 게이트웨이에서 사전에 차단합니다.
+
+---
+
+### Henry의 제안: "AI 자산 지도" 그리기
+
+감사의 시작은 현재를 파악하는 것입니다.
+- 모든 팀의 AI 사용처를 엑셀에 모으세요.
+- **유스케이스(Use-case)** 기반으로 모델을 재배치하세요. (예: "요약은 소형 모델로 통합")
+- 사용하지 않는 API 엔드포인트를 과감히 제거하세요.
+
+---
+
+### 결론
+
+AI 도입 속도만큼이나 중요한 것이 **AI 거버넌스**입니다. AI Sprawl을 방치하면 혁신의 속도는 느려지고 비용 부담만 커지게 됩니다. 이번 주, 우리 회사의 '보이지 않는 AI 비용'을 먼저 찾아내 보시는 건 어떨까요?
+
+---
+
+**다음 글:** [Shadow 환경에서 LLM 성능 검증하기 — Silent Test 패턴](/ko/study/O_llmops/llm-shadow-testing)
