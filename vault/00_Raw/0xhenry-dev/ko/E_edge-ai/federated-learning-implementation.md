@@ -1,0 +1,59 @@
+---
+title: "Federated Learning 실전: 데이터를 공유하지 않고 모델 학습하기"
+date: 2026-04-14
+draft: false
+tags: ["Federated Learning", "연합학습", "개인정보보호", "MLOps", "EdgeAI", "분산학습"]
+description: "데이터를 한곳에 모으지 않고도 모델을 똑똑하게 만들 수 있을까요? 사용자의 개인정보를 서버로 보내지 않으면서 모델의 가중치만 업데이트하는 '연합 학습'의 작동 원리와 실전 구현법을 다룹니다."
+author: "Henry"
+categories: ["Edge AI"]
+series: ["Edge AI & 임베디드 시리즈"]
+series_order: 10
+images_needed:
+  - position: "hero"
+    prompt: "Multiple small houses (Users) each holding a piece of a puzzle. A central cloud is only receiving a small blueprint of the puzzle, not the pieces themselves. Dark mode #0d1117, 16:9"
+    file: "images/E/federated-learning-implementation-hero.png"
+  - position: "logic"
+    prompt: "FL Workflow: Central Model -> Send to Edges -> Local Train -> Send Gradients -> Aggregate (FedAvg) -> Update Global Model. 16:9"
+    file: "images/E/federated-learning-logic.png"
+---
+
+이 글은 **Edge AI & 임베디드 시리즈** 10편입니다.
+→ 9편: [On-Device RAG: 스마트폰에서 인터넷 없이 RAG 돌리기](/ko/study/E_edge-ai/on-device-rag-mobile)
+
+---
+
+데이터는 현대의 원유라고 하지만, 그 원유를 한곳에 모으는 과정은 날이 갈수록 어려워지고 있습니다. GDPR, 개인정보보호법 때문이죠. 하지만 **연합 학습(Federated Learning)**을 이용하면 데이터를 수집하지 않고도 전 세계 사용자의 지식을 습득할 수 있습니다.
+
+오늘은 "데이터는 로컬에, 학습은 글로벌하게"를 실현하는 연합 학습의 실무 아키텍처를 분석합니다.
+
+---
+
+### 1. 작동 원리: Federated Averaging (FedAvg)
+
+가장 대표적인 알고리즘인 FedAvg의 4단계 프로세스는 다음과 같습니다.
+1. **Selection**: 서버가 학습에 참여할 기기(에이전트)들을 선택합니다.
+2. **Distribution**: 현재의 글로벌 모델 데이터를 각 기기에 전송합니다.
+3. **Local Training**: 각 기기는 **자신의 로컬 데이터**로 모델을 아주 조금 학습시킨 뒤, 바뀐 **가중치(Gradient)**값만 서버로 보냅니다.
+4. **Aggregation**: 서버는 수만 개의 기기로부터 받은 가중치를 평균 내어 글로벌 모델을 업데이트합니다.
+
+---
+
+### 2. 왜 엣지 AI인가?
+
+연합 학습은 기기 자체의 연산력이 필요합니다. 예전에는 스마트폰이 이를 감당하기 힘들었지만, 이제는 NPU가 탑재되면서 밤에 충전 중일 때 유저 몰래(?) 모델을 학습시키는 것이 가능해졌습니다.
+
+---
+
+### 3. 실전 구축 시 주의사항: 보안 공격 가로채기
+
+가중치만 보낸다고 해서 100% 안전한 것은 아닙니다. 역으로 가중치를 분석해서 원본 이미지를 복원하려는 공격(Gradient Leakage)이 존재합니다. 이를 방어하기 위해 **가중치에 노이즈를 섞거나(Differential Privacy)**, 데이터를 암호화한 상태로 연산하는 기법이 함께 쓰입니다.
+
+---
+
+### Henry의 전망: "데이터 주권의 시대"
+
+연합 학습은 의료 데이터처럼 매우 민감한 분야에서 혁명을 일으키고 있습니다. 병원끼리 환자 정보를 공유하지 않고도 최고의 암 진단 AI를 만들 수 있게 된 것이죠. 여러분의 서비스가 데이터 수집의 장벽에 막혀 있다면, 연합 학습이라는 우회로를 진지하게 검토해 보시기 바랍니다.
+
+---
+
+**다음 글:** [WebGPU로 브라우저에서 LLM 추론: 2026년 실측과 한계](/ko/study/E_edge-ai/webgpu-llm-browser)

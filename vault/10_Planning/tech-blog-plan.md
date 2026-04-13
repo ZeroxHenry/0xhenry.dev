@@ -142,10 +142,10 @@
 | E-06 | **Raspberry Pi 5로 로컬 LLM: 실제 토큰/초 속도 측정 결과** | `rpi5-llm-speed-test.md` | ✅ |
 | E-07 | **ROS 2 + AI 에이전트: 로봇의 두뇌를 LLM으로 교체한 실험** | `ros2-llm-agent.md` | ✅ |
 | E-08 | **ESP32 S3 + OpenAI Whisper: 저가형 칩으로 음성 인식 에이전트 만들기** | `esp32-whisper-voice-agent.md` | ✅ |
-| E-09 | **On-Device RAG: 스마트폰에서 인터넷 없이 RAG 돌리기** | `on-device-rag-mobile.md` | ⬜ |
-| E-10 | **Federated Learning 실전: 데이터를 공유하지 않고 모델 학습하기** | `federated-learning-implementation.md` | ⬜ |
-| E-11 | **WebGPU로 브라우저에서 LLM 추론: 2026년 실측과 한계** | `webgpu-llm-browser.md` | ⬜ |
-| E-12 | **NPU vs GPU vs CPU: llama.cpp 동일 모델 플랫폼별 속도 비교** | `npu-gpu-cpu-llm-benchmark.md` | ⬜ |
+| E-09 | **On-Device RAG: 스마트폰에서 인터넷 없이 RAG 돌리기** | `on-device-rag-mobile.md` | ✅ |
+| E-10 | **Federated Learning 실전: 데이터를 공유하지 않고 모델 학습하기** | `federated-learning-implementation.md` | ✅ |
+| E-11 | **WebGPU로 브라우저에서 LLM 추론: 2026년 실측과 한계** | `webgpu-llm-browser.md` | ✅ |
+| E-12 | **실시간 비디오 분석 에이전트: 엣지에서 비전을 처리하는 법** | `edge-vision-agent.md` | ✅ |
 
 ---
 
@@ -192,10 +192,10 @@
 | S. MCP & 보안 | 8 | 8 | 0 |
 | O. LLMOps | 10 | 10 | 0 |
 | R. RAG 심화 | 10 | 10 | 0 |
-| E. Edge AI | 12 | 8 | 4 |
+| E. Edge AI | 12 | 12 | 0 |
 | P. 커리어 & 관점 | 8 | 0 | 8 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **58** | **20** |
+| **합계** | **78** | **62** | **16** |
 
 ---
 
