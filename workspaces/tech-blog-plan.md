@@ -66,7 +66,7 @@
 | A-06 | **에이전트 트레이싱: 복잡한 멀티스텝 오류를 추적하는 법** | `agent-distributed-tracing.md` | ✅ |
 | A-07 | **Human-in-the-Loop의 진짜 구현법 — 단순 승인버튼이 아니다** | `human-in-the-loop-design.md` | ✅ |
 | A-08 | **멀티 에이전트 충돌: 두 에이전트가 같은 DB를 동시에 수정할 때** | `multi-agent-conflict.md` | ✅ |
-| A-09 | **에이전트 비용 계산서: GPT-4o 에이전트 운영 1개월 청구서 공개** | `agent-cost-breakdown.md` | ⬜ |
+| A-09 | **에이전트 비용 계산서: GPT-4o 에이전트 운영 1개월 청구서 공개** | `agent-cost-breakdown.md` | ✅ |
 | A-10 | **Supervisor 패턴 vs Swarm 패턴: 멀티 에이전트 아키텍처 선택 기준** | `multi-agent-architecture-choice.md` | ⬜ |
 | A-11 | **AI 에이전트의 법적 책임은 누구에게 있는가** | `agentic-ai-legal-liability.md` | ⬜ |
 | A-12 | **프롬프트를 코드처럼 관리하라 — Prompt Versioning 시스템 구축** | `prompt-as-code-versioning.md` | ⬜ |
@@ -102,7 +102,7 @@
 | O-04 | **AI Sprawl 감사: 우리 회사 AI 인프라에 얼마나 낭비하고 있는가** | `ai-sprawl-audit.md` | ✅ |
 | O-05 | **Shadow 환경에서 LLM 성능 검증하기 — Silent Test 패턴** | `llm-shadow-testing.md` | ✅ |
 | O-06 | **Confidence-Based 라우팅: 싸고 작은 모델과 비싸고 큰 모델을 동시에** | `confidence-based-routing.md` | ✅ |
-| O-07 | **LLM 버전 업데이트가 프로덕션을 망치는 방법 — 모델 드리프트 대응** | `llm-version-drift-production.md` | ⬜ |
+| O-07 | **LLM 버전 업데이트가 프로덕션을 망치는 방법 — 모델 드리프트 대응** | `llm-version-drift-production.md` | ✅ |
 | O-08 | **데이터 계보(Lineage) 추적: AI가 망했을 때 원인 역추적하는 법** | `ai-data-lineage.md` | ⬜ |
 | O-09 | **Evaluation-Driven Development: AI를 코드처럼 테스트하라** | `evaluation-driven-development.md` | ⬜ |
 | O-10 | **Fine-tuning vs RAG vs Prompt — 2026년 기준 선택 결정 트리** | `finetune-rag-prompt-decision.md` | ⬜ |
@@ -188,14 +188,14 @@
 | 챕터 | 주제 수 | 완성 | 남은 것 |
 |------|---------|------|---------|
 | C. Context & Memory | 10 | 6 | 4 |
-| A. 에이전트 신뢰성 | 12 | 8 | 4 |
+| A. 에이전트 신뢰성 | 12 | 9 | 3 |
 | S. MCP & 보안 | 8 | 4 | 4 |
-| O. LLMOps | 10 | 6 | 4 |
+| O. LLMOps | 10 | 7 | 3 |
 | R. RAG 심화 | 10 | 1 | 9 |
 | E. Edge AI | 12 | 0 | 12 |
 | P. 커리어 & 관점 | 8 | 0 | 8 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **25** | **53** |
+| **합계** | **78** | **27** | **51** |
 
 ---
 
