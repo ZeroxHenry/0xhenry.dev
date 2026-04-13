@@ -159,10 +159,10 @@
 | P-02 | **주니어 개발자를 위한 AI 활용 가이드: 도구에 의존할 것인가, 도구를 지배할 것인가** | `junior-ai-guide.md` | ✅ |
 | P-03 | **기술 블로그가 포트폴리오를 대체할 수 있을까?** | `tech-blog-vs-portfolio.md` | ✅ |
 | P-04 | **1인 개발자의 AI 에이전트 군단 구축기** | `solo-developer-ai-army.md` | ✅ |
-| P-05 | **나는 왜 Fine-tuning 대신 RAG를 선택했는가 — 실제 결정 과정** | `why-i-chose-rag-not-finetuning.md` | ⬜ |
-| P-06 | **Sandwich 아키텍처: LLM을 이용하되 LLM에 의존하지 않는 설계** | `sandwich-architecture-llm.md` | ⬜ |
-| P-07 | **AI 스타트업 코드베이스 해부 — 실제로 어떻게 구조가 짜여 있는가** | `ai-startup-codebase-anatomy.md` | ⬜ |
-| P-08 | **Vibe Coding의 위험성 — 검증 없이 AI 생성 코드를 배포하면 생기는 일** | `vibe-coding-dangers.md` | ⬜ |
+| P-05 | **나는 왜 Fine-tuning 대신 RAG를 선택했는가 — 실제 결정 과정** | `why-i-chose-rag-not-finetuning.md` | ✅ |
+| P-06 | **Sandwich 아키텍처: LLM을 이용하되 LLM에 의존하지 않는 설계** | `sandwich-architecture-llm.md` | ✅ |
+| P-07 | **AI 스타트업 코드베이스 해부 — 실제로 어떻게 구조가 짜여 있는가** | `ai-startup-codebase-anatomy.md` | ✅ |
+| P-08 | **2026년, 우리가 다시 '기본기'로 돌아가야 하는 이유** | `back-to-basics.md` | ✅ |
 
 ---
 
@@ -193,9 +193,9 @@
 | O. LLMOps | 10 | 10 | 0 |
 | R. RAG 심화 | 10 | 10 | 0 |
 | E. Edge AI | 12 | 12 | 0 |
-| P. 커리어 & 관점 | 8 | 4 | 4 |
+| P. 커리어 & 관점 | 8 | 8 | 0 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **66** | **12** |
+| **합계** | **78** | **70** | **8** |
 
 ---
 
