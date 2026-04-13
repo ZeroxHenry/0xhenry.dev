@@ -43,7 +43,7 @@
 | C-02 | **LLM이 "멍청해지는" 이유 — Context Rot 완전 해부** | `context-rot-lost-in-middle.md` | ✅ |
 | C-03 | **AI의 RAM 관리법: 동적 컨텍스트 조립 패턴 5가지** | `dynamic-context-assembly.md` | ✅ |
 | C-04 | **MemGPT를 넘어: 직접 구현하는 계층형 메모리 시스템** | `tiered-memory-system.md` | ✅ |
-| C-05 | **대화 이력이 독이 되는 순간 — 요약 압축 알고리즘 비교** | `conversation-compression.md` | ⬜ |
+| C-05 | **대화 이력이 독이 되는 순간 — 요약 압축 알고리즘 비교** | `conversation-compression.md` | ✅ |
 | C-06 | **지식 그래프 + 벡터 DB: 두 가지를 함께 써야 하는 이유** | `knowledge-graph-vector-hybrid.md` | ⬜ |
 | C-07 | **"모른다"고 말하는 AI 만들기 — Confident Hallucination 차단법** | `rag-i-dont-know-trigger.md` | ⬜ |
 | C-08 | **무한 컨텍스트 vs RAG: 100만 토큰 시대에도 RAG가 필요한가** | `infinite-context-vs-rag.md` | ⬜ |
@@ -81,7 +81,7 @@
 |---|------|--------|------|
 | S-01 | **MCP 보안 구멍: Tool Poisoning 공격 시뮬레이션** | `mcp-tool-poisoning.md` | ✅ |
 | S-02 | **MCP vs REST API: 언제 MCP를 쓰고 언제 쓰지 말아야 하는가** | `mcp-vs-rest-api.md` | ✅ |
-| S-03 | **MCP Context Bloat: 도구가 많을수록 에이전트가 느려지는 이유** | `mcp-context-bloat.md` | ⬜ |
+| S-03 | **MCP Context Bloat: 도구가 많을수록 에이전트가 느려지는 이유** | `mcp-context-bloat.md` | ✅ |
 | S-04 | **OAuth 2.1로 MCP 서버를 프로덕션 수준으로 보안화하기** | `mcp-oauth21-security.md` | ⬜ |
 | S-05 | **프롬프트 인젝션 공격: 외부 데이터가 AI를 납치하는 방법** | `prompt-injection-attacks.md` | ⬜ |
 | S-06 | **AI 게이트웨이 패턴: PII 스크러빙, RBAC, 감사 로그를 한 곳에** | `ai-gateway-pattern.md` | ⬜ |
@@ -187,15 +187,15 @@
 
 | 챕터 | 주제 수 | 완성 | 남은 것 |
 |------|---------|------|---------|
-| C. Context & Memory | 10 | 3 | 7 |
+| C. Context & Memory | 10 | 4 | 6 |
 | A. 에이전트 신뢰성 | 12 | 3 | 9 |
-| S. MCP & 보안 | 8 | 2 | 6 |
+| S. MCP & 보안 | 8 | 3 | 5 |
 | O. LLMOps | 10 | 2 | 8 |
 | R. RAG 심화 | 10 | 1 | 9 |
 | E. Edge AI | 12 | 0 | 12 |
 | P. 커리어 & 관점 | 8 | 0 | 8 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **11** | **67** |
+| **합계** | **78** | **13** | **65** |
 
 ---
 
