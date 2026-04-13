@@ -69,7 +69,7 @@
 | A-09 | **에이전트 비용 계산서: GPT-4o 에이전트 운영 1개월 청구서 공개** | `agent-cost-breakdown.md` | ✅ |
 | A-10 | **Supervisor 패턴 vs Swarm 패턴: 멀티 에이전트 아키텍처 선택 기준** | `multi-agent-architecture-choice.md` | ✅ |
 | A-11 | **AI 에이전트의 법적 책임은 누구에게 있는가** | `agentic-ai-legal-liability.md` | ✅ |
-| A-12 | **프롬프트를 코드처럼 관리하라 — Prompt Versioning 시스템 구축** | `prompt-as-code-versioning.md` | ⬜ |
+| A-12 | **프롬프트를 코드처럼 관리하라 — Prompt Versioning 시스템 구축** | `prompt-as-code-versioning.md` | ✅ |
 
 ---
 
@@ -105,7 +105,7 @@
 | O-07 | **LLM 버전 업데이트가 프로덕션을 망치는 방법 — 모델 드리프트 대응** | `llm-version-drift-production.md` | ✅ |
 | O-08 | **데이터 계보(Lineage) 추적: AI가 망했을 때 원인 역추적하는 법** | `ai-data-lineage.md` | ✅ |
 | O-09 | **Evaluation-Driven Development: AI를 코드처럼 테스트하라** | `evaluation-driven-development.md` | ✅ |
-| O-10 | **Fine-tuning vs RAG vs Prompt — 2026년 기준 선택 결정 트리** | `finetune-rag-prompt-decision.md` | ⬜ |
+| O-10 | **Fine-tuning vs RAG vs Prompt — 2026년 기준 선택 결정 트리** | `finetune-rag-prompt-decision.md` | ✅ |
 
 ---
 
@@ -188,14 +188,14 @@
 | 챕터 | 주제 수 | 완성 | 남은 것 |
 |------|---------|------|---------|
 | C. Context & Memory | 10 | 6 | 4 |
-| A. 에이전트 신뢰성 | 12 | 11 | 1 |
+| A. 에이전트 신뢰성 | 12 | 12 | 0 |
 | S. MCP & 보안 | 8 | 4 | 4 |
-| O. LLMOps | 10 | 9 | 1 |
+| O. LLMOps | 10 | 10 | 0 |
 | R. RAG 심화 | 10 | 1 | 9 |
 | E. Edge AI | 12 | 0 | 12 |
 | P. 커리어 & 관점 | 8 | 0 | 8 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **31** | **47** |
+| **합계** | **78** | **33** | **45** |
 
 ---
 

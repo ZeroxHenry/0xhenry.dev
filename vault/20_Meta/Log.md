@@ -2,6 +2,23 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-14] A & O 챕터 '완전 정복' (야간 세션 12 - No Nap 모드 42% 달성)
+
+### 🏆 챕터 완료 보고
+- **Chapter A (에이전트 신뢰성)**: 12/12 (100% 완료)
+- **Chapter O (LLMOps)**: 10/10 (100% 완료)
+
+### 기술블로그 신규 완성 (KO + EN)
+- ✅ A-12: `prompt-as-code-versioning.md` — "프롬프트를 코드처럼 관리하라 — Prompt Versioning 시스템 구축"
+  - 프롬프트를 YAML로 분리하고 Git 기반의 시맨틱 버저닝(v1.2.0)을 적용하는 Prompt-as-Code 체계 정립.
+- ✅ O-10: `finetune-rag-prompt-decision.md` — "Fine-tuning vs RAG vs Prompt — 2026년 기준 선택 결정 트리"
+  - 데이터 변동성, 출력 형식, 비용을 기준으로 한 하이브리드 전략 가이드 및 결정 알고리즘 제시.
+
+### Vault 및 플랜 업데이트
+- **Status**: No Nap 모드 4시간 경과. 33/78 (42%) 달성.
+- 신규 포스트 4개(KO/EN) `vault/00_Raw/` 동기화 완료.
+- `tech-blog-plan.md`: 두 개 챕터를 ✅로 마감.
+
 ## [2026-04-14] A-11 + O-08 완성 (야간 세션 11 - No Nap 모드 40% 임박)
 
 ### 기술블로그 완성 (KO + EN)

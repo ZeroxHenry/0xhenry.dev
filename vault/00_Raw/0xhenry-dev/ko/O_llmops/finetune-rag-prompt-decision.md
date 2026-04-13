@@ -1,0 +1,88 @@
+---
+title: "Fine-tuning vs RAG vs Prompt — 2026년 기준 선택 결정 트리"
+date: 2026-04-14
+draft: false
+tags: ["LLM아키텍처", "Fine-tuning", "RAG", "Prompt Engineering", "기술스택", "LLMOps"]
+description: "성능을 높이려면 모델을 새로 학습시켜야 할까요, 아니면 문서를 더 넣어줘야 할까요? 파인튜닝, RAG, 그리고 프롬프트 엔지니어링 중 현재 상황에 가장 적합한 전략을 선택하는 결정 트리를 제안합니다."
+author: "Henry"
+categories: ["LLMOps"]
+series: ["LLMOps 실전"]
+series_order: 10
+images_needed:
+  - position: "hero"
+    prompt: "A three-way crossroads sign in a futuristic digital landscape. The signs point to 'Fine-tuning', 'RAG', and 'Prompt Engineering'. A glowing AI core is trying to choose the path. Dark background #0d1117, teal and cyan, 16:9"
+    file: "images/O/finetune-rag-prompt-decision-hero.png"
+  - position: "diagram"
+    prompt: "Complex decision tree: 'Do you have static data?' -> Yes/No. 'Do you need specific tone?' -> Yes/No. Showing the final winning architecture. Labeled in Korean. 16:9"
+    file: "images/O/llm-architecture-decision-tree.png"
+---
+
+이 글은 **LLMOps 실전 시리즈**의 마직막 편(10편)입니다.
+→ 9편: [Evaluation-Driven Development — AI를 코드처럼 테스트하라](/ko/study/O_llmops/evaluation-driven-development)
+
+---
+
+"우리 데이터로 모델을 학습시켜야(Fine-tuning) 할까요, 아니면 RAG를 써야 할까요?"
+
+AI 프로젝트를 시작할 때 가장 많이 물어보는 질문입니다. 과거에는 이 둘이 서로 경쟁 관계처럼 보였지만, 2026년 현재는 각자의 역할이 명확히 정의되었습니다. 
+
+오늘 여러분의 고민을 단번에 해결해 줄 **선택 결정 트리**와 각 전략의 핵심 가치를 정리해 드립니다.
+
+---
+
+### 1단계: 프롬프트 엔지니어링 (The Base)
+**"가장 먼저 시도해야 할 것"**
+- **목적**: 모델의 지시 이행력 확인 및 프로스토타입 구현.
+- **강점**: 비용 0원, 즉시 변경 가능.
+- **한계**: 지식의 양(Context Window)에 제한이 있음.
+
+---
+
+### 2단계: RAG (The Knowledge)
+**"새로운 정보나 방대한 데이터가 필요할 때"**
+- **목적**: 실시간 데이터 반영, 출처(Source) 제시, 최신 정보 업데이트.
+- **강점**: 모델을 다시 학습시킬 필요 없음. 데이터가 수시로 변해도 대응 가능.
+- **한계**: 검색 품질에 의존함. 답변의 '스타일'이나 '복잡한 추론 방식' 자체를 바꾸기는 어려움.
+
+---
+
+### 3단계: 파인튜닝 (The Form & Skill)
+**"모델의 태도나 특수한 지식 체계를 고정하고 싶을 때"**
+- **목적**: 출력 형식의 엄격한 고정, 도메인 특화 용어 학습, 추론 속도 향상.
+- **강점**: 매번 거창한 예시를 프롬프트에 넣을 필요가 없어 토큰 비용 절감.
+- **한계**: 데이터를 최신으로 유지하기 힘듦(학습 시점에 고정됨). 비용과 시간이 많이 듦.
+
+---
+
+### Henry의 시크릿: 2026년형 결정 트리 (Algorithm)
+
+결정을 돕기 위해 아래 질문들을 순서대로 따라가 보세요.
+
+1. **지식이 실시간으로 변하는가?**
+   - YES → **RAG** (파인튜닝은 업데이트 속도를 못 따라감)
+2. **출력 형식이 극도로 복잡하고 고정되어야 하는가?** (예: 수천 줄의 특수 JSON)
+   - YES → **파인튜닝** (프롬프트만으로는 한계가 있음)
+3. **우리만 가진 특수한 말투나 '페르소나'가 중요한가?**
+   - YES → **파인튜닝**
+4. **답변의 근거가 어디인지 반드시 보여줘야 하는가?**
+   - YES → **RAG**
+5. **비용이 제일 중요한가?**
+   - YES → **RAG + 소형 모델(Llama/Gemma) 라우팅**
+
+---
+
+### 최종 승자: 하이브리드 전략
+
+실제로 가장 강력한 성능을 내는 팀들은 **'파인튜닝된 소형 모델 위에서 작동하는 RAG'**를 사용합니다. 
+- **파인튜닝**: 우리 회사의 말투와 도구 사용법(Function Calling)을 학습시킨 소형 모델 준비.
+- **RAG**: 그 모델에게 최신 사내 문서를 컨텍스트로 주입.
+
+---
+
+### 결론
+
+기술 선택은 유행이 아니라 **유즈케이스(Use-case)**를 따라가야 합니다. "파인튜닝이 더 고등 기술이다"라는 착각을 버리고, 지금 내 서비스에 필요한 것이 **'새로운 지식(RAG)'**인지 아니면 **'새로운 행동 방식(Fine-tuning)'**인지 먼저 질문해 보세요.
+
+---
+
+**다음 시리즈 예고:** [LLMOps 실전 시리즈를 마치며 — 2026년 AI 엔지니어링의 핵심 요약]
