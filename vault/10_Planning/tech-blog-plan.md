@@ -46,9 +46,9 @@
 | C-05 | **대화 이력이 독이 되는 순간 — 요약 압축 알고리즘 비교** | `conversation-compression.md` | ✅ |
 | C-06 | **지식 그래프 + 벡터 DB: 두 가지를 함께 써야 하는 이유** | `knowledge-graph-vector-hybrid.md` | ✅ |
 | C-07 | **"모른다"고 말하는 AI 만들기 — Confident Hallucination 차단법** | `rag-i-dont-know-trigger.md` | ✅ |
-| C-08 | **무한 컨텍스트 vs RAG: 100만 토큰 시대에도 RAG가 필요한가** | `infinite-context-vs-rag.md` | ⬜ |
-| C-09 | **멀티 유저 메모리 충돌 — 공유 에이전트에서 기억을 격리하는 법** | `multi-user-memory-isolation.md` | ⬜ |
-| C-10 | **AI가 "기억해줘"라고 했을 때 실제로 일어나는 일** | `how-llm-memory-actually-works.md` | ⬜ |
+| C-08 | **무한 컨텍스트 vs RAG: 100만 토큰 시대에도 RAG가 필요한가** | `infinite-context-vs-rag.md` | ✅ |
+| C-09 | **멀티 유저 메모리 충돌 — 공유 에이전트에서 기억을 격리하는 법** | `multi-user-memory-isolation.md` | ✅ |
+| C-10 | **AI가 "기억해줘"라고 했을 때 실제로 일어나는 일** | `how-llm-memory-actually-works.md` | ✅ |
 
 ---
 
@@ -187,7 +187,7 @@
 
 | 챕터 | 주제 수 | 완성 | 남은 것 |
 |------|---------|------|---------|
-| C. Context & Memory | 10 | 6 | 4 |
+| C. Context & Memory | 10 | 10 | 0 |
 | A. 에이전트 신뢰성 | 12 | 12 | 0 |
 | S. MCP & 보안 | 8 | 4 | 4 |
 | O. LLMOps | 10 | 10 | 0 |
@@ -195,7 +195,7 @@
 | E. Edge AI | 12 | 0 | 12 |
 | P. 커리어 & 관점 | 8 | 0 | 8 |
 | M. 최신 모델 | 8 | 0 | 8 |
-| **합계** | **78** | **33** | **45** |
+| **합계** | **78** | **36** | **42** |
 
 ---
 
