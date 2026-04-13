@@ -193,10 +193,111 @@ vault/10_Wiki/Topics/ 에 관련 위키 노트를 업데이트해줘.
 
 ---
 
+---
+
 ## 작업 순서 추천 (매일)
 
 1. `git pull` (Mac 작업물 동기화)
 2. **D-1** 브리핑으로 현황 파악
 3. **B-7** 기술블로그 1편 작성
-4. **A-2** 네이버 블로그 발행 (준비된 것)
-5. **E** Git sync
+4. **A-1** 이미지 프롬프트 생성 (JSON-AI 스타일)
+5. **A-2** 네이버 블로그 발행 (준비된 것)
+6. **E** Git sync
+
+---
+
+## F. 지능형 이미지 생성 가이드 (JSON-AI)
+
+Gemini를 활용한 이미지 생성 시 **JSON 구조화 프롬프트**를 적용하여 정밀도를 높입니다.
+
+### F-1. JSON-AI 프롬프트 표준 구조
+
+프롬프트 작성 시 아래 형식을 사용합니다:
+
+```json
+{
+  "style": "Minimalist 3D Claymation, Pastel Colors",
+  "composition": "Wide margins (크롭 대비), Subject centered",
+  "narrative": "이미지가 전달하려는 핵심 메시지",
+  "technical": "OctaneRender, High detail, Trending on Behance"
+}
+```
+
+### F-2. 0xhenry.dev 기술 다이어그램 표준 스타일
+
+```json
+{
+  "style": "Clean technical diagram, flat design, no gradients",
+  "background": "Dark #0d1117",
+  "accent_colors": "Electric blue #58a6ff, Mint green #4fffb0, Warning orange #ff9500",
+  "typography": "Monospace font for code labels, sans-serif for descriptions",
+  "composition": "Wide margins, subject centered, 16:9 aspect ratio",
+  "elements": "Minimal icons, labeled arrows, bordered component boxes",
+  "technical": "High contrast, professional tech blog style"
+}
+```
+
+### F-3. 네이버 블로그 이미지 표준 스타일
+
+```json
+{
+  "style": "Minimalist flat illustration, friendly and approachable",
+  "background": "Soft pastel or white, clean",
+  "accent_colors": "Brand blue, warm orange, fresh green — harmonious palette",
+  "composition": "Wide margins, subject centered, 16:9 aspect ratio",
+  "characters": "Simple robot or person icons, non-threatening, cute-tech hybrid",
+  "technical": "Trending on Behance, Behance design award, crisp edges"
+}
+```
+
+### F-4. 이미지 프롬프트 생성 명령 (A-1 버전)
+
+```
+@local workspaces/naver-blog/generated/index.json 을 읽어.
+images_ready가 false인 포스트 중 처음 5개를 골라서:
+
+1. 각 포스트의 .md 파일을 읽고 내용 파악
+2. 포스트당 이미지 3장의 JSON-AI 프롬프트 작성:
+   - 이미지1: 도입부 히어로 이미지 (비유/컨셉 시각화)
+   - 이미지2: 핵심 개념 다이어그램 또는 비교 인포그래픽
+   - 이미지3: 마무리/결론 요약 이미지
+3. 모든 프롬프트에 반드시 포함:
+   - "Wide margins", "Subject centered"
+   - 네이버 스타일: "Minimalist flat illustration, pastel colors, 16:9"
+4. 결과를 workspaces/naver-blog/generated/pending_images.json 에 저장
+
+포맷:
+{
+  "post_id": "...",
+  "images": [
+    { "position": "hero", "prompt": "...", "file": "images/YYYY-MM/slug-1.png" },
+    { "position": "diagram", "prompt": "...", "file": "images/YYYY-MM/slug-2.png" },
+    { "position": "conclusion", "prompt": "...", "file": "images/YYYY-MM/slug-3.png" }
+  ]
+}
+```
+
+### F-5. 이미지 가이드 참조
+
+각 챕터별 상세 이미지 프롬프트:
+- `vault/00_Raw/0xhenry-dev/_image-guides/C_context-memory-images.md`
+- `vault/00_Raw/0xhenry-dev/_image-guides/A_agent-reliability-images.md`
+- `vault/00_Raw/0xhenry-dev/_image-guides/S-O-R-chapters-images.md`
+- `vault/00_Raw/0xhenry-dev/_image-guides/E-P-M-U-chapters-images.md`
+
+---
+
+## 참고 경로 빠른 메모
+
+| 경로 | 내용 |
+|------|------|
+| `vault/10_Planning/tech-blog-plan.md` | 전체 78개 주제 플랜 (⬜/✅ 상태) |
+| `vault/20_Meta/Log.md` | 작업 로그 |
+| `vault/20_Meta/content-dashboard.md` | 전체 현황 대시보드 |
+| `vault/20_Meta/naver-blog-dashboard.md` | 네이버 블로그 현황 |
+| `workspaces/naver-blog/generated/index.json` | 56개 포스트 트래킹 |
+| `workspaces/naver-blog/generated/pending_images.json` | 이미지 생성 대기열 |
+| `workspaces/naver-blog/WORKFLOW.md` | 네이버 발행 가이드 |
+| `packages/website/content/ko/study/[챕터]/` | 기술블로그 한국어 |
+| `packages/website/content/en/study/[챕터]/` | 기술블로그 영어 |
+
