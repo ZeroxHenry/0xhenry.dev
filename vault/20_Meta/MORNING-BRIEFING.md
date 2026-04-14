@@ -1,76 +1,81 @@
 ---
 title: Morning Briefing — 2026-04-15
 created: 2026-04-15
+updated: 2026-04-15
 tags: [briefing, todo]
 ---
 
 # Morning Briefing
 
-> 이 세션에서 완료한 것 + 다음 세션에서 해야 할 것
+> 새 세션에서 `vault/20_Meta/MORNING-BRIEFING.md 읽어` 로 시작
 
 ---
 
-## 완료
+## 완료 (이번 세션)
+
+### skiro v4.0 — Obsidian 직접 읽기/쓰기
+- **learnings.jsonl 제거**, vault/Research/10_Wiki/skiro-learnings.md가 Single Source of Truth
+- skiro-learnings add/solve/list/search/count 전부 vault 마크다운 직접 파싱
+- 노이즈 필터 내장 (IDE 이벤트, 터미널 출력 자동 스킵)
+- chobyeongjun/skiro GitHub repo에 push 완료
 
 ### Encho Extension
-- Encho VS Code Extension 구현 (Quill 포크) → 삭제됨 (Antigravity 내장 @local 사용)
-- 결론: Extension 따로 만들 필요 없음
+- 구현 → 삭제됨 (Antigravity 내장 @local 사용)
 
 ### Mac/Win 통합
-- vault를 0xhenry.dev repo에 포함 (`~/vault` → symlink)
-- `git push/pull`로 양쪽 동기화
-- GEMINI.md: Windows @local 지시서 (Windows에서 이미 개편)
-- ENCHO.md: vault 하네스 (참조용)
-- WINDOWS-TASKS.md: 구체적 @local 명령 모음
+- vault → 0xhenry.dev repo에 포함, symlink로 접근
+- GEMINI.md + WINDOWS-TASKS.md 완성
 
-### Vault 구조 정리
-- `Research/` (연구) + `Life/` (잡무) + `20_Meta/` (시스템) 3분류
-- 루트 레거시 폴더 정리 완료
-
-### Skiro → Obsidian 연동 시작
-- `skiro-vault-sync` 스크립트 생성 (~/skiro/bin/)
-- learnings.jsonl → vault/Research/10_Wiki/skiro-learnings.md 자동 변환
-- 노이즈 필터링 적용
+### Vault 구조
+- Research/ (연구) + Life/ (잡무) + 20_Meta/ (시스템)
 
 ---
 
-## 다음 세션 TODO (우선순위순)
+## 다음 세션 TODO
 
-### 1. [HIGH] skiro hook에 vault-sync 자동 연결
-- skiro-learnings add/solve 후 자동으로 skiro-vault-sync 실행되도록
-- skiro-hook-prompt에 sync 트리거 추가
+### 1. [HIGH] Claude 메모리 → vault 참조 전환
+```
+Claude의 ~/.claude/memory/ 내용을 vault로 이전.
+CLAUDE.md에서 "작업 시작 시 vault/Research/10_Wiki/ 참조" 규칙 추가.
+목표: Claude 메모리 최소화, vault가 Single Source of Truth.
+```
 
-### 2. [HIGH] Claude 메모리 → vault 참조 전환
-- Claude의 ~/.claude/memory/ 에 있는 정보를 vault로 이전
-- Claude가 작업 시작할 때 vault에서 관련 노트를 읽도록 CLAUDE.md 수정
-- 목표: Claude 메모리를 최소화하고, vault가 Single Source of Truth
+### 2. [HIGH] skiro-classify 노이즈 개선
+```
+skiro-hook-prompt가 사용자 발화를 문제로 잘못 기록하는 문제.
+skiro-classify.py 수정: 실제 "문제 + 해결" 패턴만 통과.
+```
 
-### 3. [HIGH] skiro-classify 노이즈 개선
-- 터미널 출력, 사용자 감정 표현이 learnings에 들어가는 문제
-- 실제 "문제 + 해결" 패턴만 기록하도록 필터 강화
+### 3. [MEDIUM] Graphify 연동
+```
+/graphify 로 vault → knowledge graph 변환 테스트.
+wiki-links 기반 그래프 생성. 노트가 많아질수록 필수.
+```
 
-### 4. [MEDIUM] Graphify 연동
-- vault 내용이 많아지면 knowledge graph로 시각화
-- /graphify 명령으로 vault → graph 변환 테스트
-- 노트 간 연결(wiki-links) 기반 그래프 생성
+### 4. [MEDIUM] 참조 테스트 10회
+```
+1. "h-walker 하드웨어 문제 뭐 있었어?"
+2. "MIT 모드 토크 제어 어떻게 해?"
+3. "보드 파손 원인이 뭐였지?"
+4. "YOLO 인식 불량 해결법"
+5. "AP62200WU 문제"
+6. "카메라 배치 결정된 거 있어?"
+7. "어드미턴스 제어 파라미터"
+8. "INA333 로드셀 문제"
+9. "파이프라인 동기 모드 전환"
+10. "최근 미해결 CRITICAL"
+→ 각각 vault에서 정확히 찾아오는지 확인. 실패 시 구조 보완.
+```
 
-### 5. [MEDIUM] 참조 테스트 10회
-- "h-walker 관련 하드웨어 문제 뭐 있었어?" → vault에서 정확히 찾아오는지
-- "MIT 모드 토크 제어 어떻게 해?" → 해결된 교훈 정확히 참조하는지
-- 다양한 키워드로 10회 테스트 → 실패 시 구조 보완
-
-### 6. [MEDIUM] skiro GitHub repo 업데이트
-- chobyeongjun/skiro에 skiro-vault-sync 포함해서 push
-- README에 vault 연동 설명 추가
-
-### 7. [LOW] skiro-hook-prompt 전면 개편
-- vault 기반으로 동작하도록 변경
-- 새 문제 감지 시 → vault에서 유사 교훈 검색 → 있으면 자동 표시
-- "이전에 이런 문제 있었음: [링크]" 패턴
+### 5. [LOW] skiro-hook-prompt 전면 개편
+```
+새 문제 감지 시 → vault에서 유사 교훈 자동 검색 → 있으면 표시.
+"이전에 이런 문제 있었음: [[skiro-learnings]]" 패턴.
+```
 
 ---
 
 ## 핵심 원칙
 - **Obsidian vault = Second Brain = Single Source of Truth**
-- Claude 메모리, skiro learnings, GEMINI.md 다 vault를 바라봄
+- Claude 메모리, skiro learnings 다 vault를 바라봄
 - 어떤 기기(Mac/Win), 어떤 AI(Claude/Gemini) 쓰든 같은 메모리
