@@ -6,7 +6,7 @@
 ---
 
 
-![GPIO 4가지 모드](/images/study/stm32/gpio-modes.png)
+![GPIO 4가지 모드](/Users/chobyeongjun/0xhenry.dev/packages/website/public/images/study/stm32/gpio-modes.png)
 *GPIO Input/Output/AF/Analog 모드 비교*
 
 
@@ -23,7 +23,7 @@
 
 ### 4.2 Output Type: Push-Pull vs Open-Drain
 
-![Push-Pull vs Open-Drain](/images/study/stm32/push-pull-od.png)
+![Push-Pull vs Open-Drain](/Users/chobyeongjun/0xhenry.dev/packages/website/public/images/study/stm32/push-pull-od.png)
 *Push-Pull과 Open-Drain 출력 비교*
 
 Output 또는 AF 모드에서 출력 타입을 선택한다:

@@ -8,7 +8,7 @@
 
 ## 보드 브링업
 
-![보드 브링업 프로세스](/images/study/stm32/bringup-flow.png)
+![보드 브링업 프로세스](/Users/chobyeongjun/0xhenry.dev/packages/website/public/images/study/stm32/bringup-flow.png)
 *보드 브링업 9단계 플로차트*
 
 보드를 제작한 후, 페리페럴을 하나씩 테스트하며 정상 동작을 확인하는 과정이다.

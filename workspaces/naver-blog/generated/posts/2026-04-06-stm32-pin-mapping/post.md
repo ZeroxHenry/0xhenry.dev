@@ -8,7 +8,7 @@
 
 ## 로봇 보드 핀 매핑 전략
 
-![Teensy → STM32 핀 매핑](/images/study/stm32/pin-mapping.png)
+![Teensy → STM32 핀 매핑](/Users/chobyeongjun/0xhenry.dev/packages/website/public/images/study/stm32/pin-mapping.png)
 *Teensy 4.1에서 STM32H743으로의 핀 매핑 비교도*
 
 

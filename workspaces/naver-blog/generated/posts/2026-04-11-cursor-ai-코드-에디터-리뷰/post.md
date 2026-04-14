@@ -44,7 +44,7 @@ generated_at: "2026-04-11T20:00:00+09:00"
 
 이전에는 막히는 부분이 생기면 구글링을 하거나, 어렵게 검색해서 수많은 공식 문서를 읽어야 했잖아요? Cursor는 그 대신, 마치 옆에 앉은 선배 개발자에게 슬쩍 물어보듯이 "여기서 이 기능을 구현하고 싶은데, 어떻게 코드를 짜는 게 좋을까요?"라고 물어보면, **바로 코드를 짜서 보여줘요.**
 
-![Cursor AI 코딩 작업 환경](../../images/2026-04/cursor-ai-1.png)
+![Cursor AI 코딩 작업 환경](/Users/chobyeongjun/0xhenry.dev/workspaces/naver-blog/generated/images/2026-04/cursor-ai-1.png)
 
 ---
 
@@ -76,9 +76,9 @@ generated_at: "2026-04-11T20:00:00+09:00"
 
 막히는 지점에서 멈추지 않고, AI에게 설명을 요청하고, AI가 준 설명을 다시 이해하는 과정이 반복되니, 마치 AI가 나만의 개인 교사처럼 느껴지더라고요.
 
-![AI 코드 수정 및 설명 과정](../../images/2026-04/cursor-ai-2.png)
+![AI 코드 수정 및 설명 과정](/Users/chobyeongjun/0xhenry.dev/workspaces/naver-blog/generated/images/2026-04/cursor-ai-2.png)
 
-![비전공자 접근성 및 활용 상징 이미지](../../images/2026-04/cursor-ai-3.png)
+![비전공자 접근성 및 활용 상징 이미지](/Users/chobyeongjun/0xhenry.dev/workspaces/naver-blog/generated/images/2026-04/cursor-ai-3.png)
 
 ---
 

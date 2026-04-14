@@ -17,7 +17,7 @@
 단순히 명령을 수행하는 기계가 아니라, 우리의 의도를 이해하고 상황에 맞춰 스스로 움직이는 '지능형 로봇'의 뇌가 바로 이 에이전트 AI 거든요.
 
 ---
-![에이전트 AI 메인 이미지](../../images/2026-04/agentic-ai-1.png)
+![에이전트 AI 메인 이미지](/Users/chobyeongjun/0xhenry.dev/workspaces/naver-blog/generated/images/2026-04/agentic-ai-1.png)
 ---
 
 ## 3. 오픈북 시험을 보는 학생 vs 스스로 공부하는 우등생
@@ -41,9 +41,9 @@
 - **스마트 로봇**: 집안 상태를 봐가며 스스로 청소하거나 화분을 돌봅니다.
 
 ---
-![에이전트 AI 비교 이미지](../../images/2026-04/agentic-ai-2.png)
+![에이전트 AI 비교 이미지](/Users/chobyeongjun/0xhenry.dev/workspaces/naver-blog/generated/images/2026-04/agentic-ai-2.png)
 
-![에이전트 AI 활용 사례](../../images/2026-04/agentic-ai-3.png)
+![에이전트 AI 활용 사례](/Users/chobyeongjun/0xhenry.dev/workspaces/naver-blog/generated/images/2026-04/agentic-ai-3.png)
 ---
 
 ## 5. 로봇 교육은 결국 AI와 소통하는 법입니다

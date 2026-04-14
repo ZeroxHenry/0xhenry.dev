@@ -1,6 +1,22 @@
 {
   "queue": [
     {
+      "post_id": "2026-04-14-exosuit-protection-design",
+      "title": "[0xHenry 리포트] Exosuit 보호 회로 안전 설계",
+      "position": "hero",
+      "prompt": "A high-tech laboratory desk with a futuristic robot leg and a custom circuit board. Multimeter probes and oscilloscope showing voltage spikes in the background. Cinematic lighting, dark mode with mint/blue neon accents, shallow depth of field, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/exosuit-protection-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-exosuit-protection-design",
+      "title": "[0xHenry 리포트] Exosuit 전압 곡선 대비",
+      "position": "comparison",
+      "prompt": "Two-panel technical infographic. Left: Glowing red curve showing 143V spike labeled DANGER in Korean. Right: Stable blue curve showing 27.9V labeled SAFE. Clean minimalist tech diagram style, dark background, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/exosuit-voltage-comparison.png",
+      "status": "pending"
+    },
+    {
       "post_id": "2026-04-08-rag-explained",
       "title": "RAG란? AI가 검색해서 답하는 기술 (쉽게 설명)",
       "position": "hero",
@@ -49,75 +65,59 @@
       "status": "pending"
     },
     {
-      "post_id": "2026-04-13-context-engineering",
-      "title": "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리",
+      "post_id": "2026-04-13-agent-infinite-loop-prevention",
+      "title": "AI 에이전트의 무한 루프 — 비용 폭탄 방지 설계",
       "position": "hero",
-      "prompt": "Engineer-character carefully arranging glowing information blocks into a clean RAM module labeled 'Context Window'. Blocks labeled: 지시사항, 대화이력, 검색결과, 도구목록. Some dirty/cluttered blocks being filtered out (grayed out). Tech illustration style, blue-purple gradient accents, clean background, wide margins, 16:9, Trending on Behance",
-      "target_path": "images/2026-04/context-engineering-1.png",
+      "prompt": "A robotic hand desperately trying to reach a 'STOP' button as an infinite coil of film (representing data loops) wraps around it. Bills and dollars are flying out of a digital screen. Dark background #0d1117, alarming red and neon yellow, 16:9",
+      "target_path": "images/A/agent-infinite-loop-prevention-hero.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-13-context-engineering",
-      "title": "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리",
-      "position": "comparison",
-      "prompt": "Left-right comparison with clean divider: LEFT side '프롬프트 엔지니어링' shows person with pen and thought bubble '어떻게 질문하지?', warm orange tones. RIGHT side 'Context Engineering' shows architect character with blueprint designing information flow, cool blue tones. Labels: '질문 방식 최적화' vs '정보 환경 설계'. Minimalist flat illustration, 16:9",
-      "target_path": "images/2026-04/context-engineering-2.png",
+      "post_id": "2026-04-13-agent-infinite-loop-prevention",
+      "title": "AI 에이전트의 무한 루프 — 비용 폭탄 방지 설계",
+      "position": "diagram",
+      "prompt": "Diagram showing 3 safety layers: 1. Max Iterations (Integer count), 2. Token Budget (Hard limit), 3. Pattern Recognition (Similarity check). If any triggered -> Termination. Labeled in Korean. 16:9",
+      "target_path": "images/A/agent-loop-prevention-layers.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-13-context-engineering",
-      "title": "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리",
+      "post_id": "2026-04-13-agent-saga-rollback",
+      "title": "에이전트에게 Ctrl+Z를 — Saga 패턴으로 롤백 구현하기",
+      "position": "hero",
+      "prompt": "A robot holding a giant 'Ctrl+Z' key, carefully reversing a domino effect of task blocks. One block labeled 'Email Sent' is being pulled back into an envelope. Dark background #0d1117, electric blue and glowing orange accents, clean technical illustration, 16:9",
+      "target_path": "images/A/agent-saga-rollback-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-agent-saga-rollback",
+      "title": "에이전트에게 Ctrl+Z를 — Saga 패턴으로 롤백 구현하기",
       "position": "concept",
-      "prompt": "Clean computer architecture diagram: Large CPU chip labeled 'LLM (AI 두뇌)' on the left, RAM modules on the right labeled 'Context Window (AI 작업 공간)'. Inside RAM: small clean blocks vs. cluttered messy blocks comparison. Korean labels. Navy background with bright green/blue highlights, tech diagram style, 16:9",
-      "target_path": "images/2026-04/context-engineering-3.png",
+      "prompt": "Saga pattern diagram for AI agents: Forward path (Execute) Task 1 → Task 2 → Task 3 (Fail!). Compensation path (Undo) ← Task 2 Compensate ← Task 1 Compensate. Labeled in Korean (실행, 실패, 보상 트랜잭션). Minimalist diagram style, 16:9",
+      "target_path": "images/A/agent-saga-rollback-concept.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-13-mcp-security",
-      "title": "AI 연결 표준 MCP에 보안 구멍이 있다?",
+      "post_id": "2026-04-13-agent-saga-rollback",
+      "title": "에이전트에게 Ctrl+Z를 — Saga 패턴으로 롤백 구현하기",
+      "position": "implementation",
+      "prompt": "Python class structure for SagaManager: Step list with 'action' and 'compensate' functions. Flowchart showing step execution and automatic rollback on exception. 16:9",
+      "target_path": "images/A/agent-saga-rollback-implementation.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-agent-truthy-text-failure",
+      "title": "도구 호출 실패를 \\\"성공했다\\\"고 우기는 AI — Truthy Text 문제",
       "position": "hero",
-      "prompt": "AI robot assistant confidently using a tool (magnifying glass icon), but hidden behind the tool description text (shown as fine print) there is a glowing red warning: 'HIDDEN MALICIOUS CODE'. Robot doesn't see the danger. Warning shield icon with exclamation mark floating above. Dramatic but friendly illustration style, red warning accents on blue theme, wide margins, 16:9",
-      "target_path": "images/2026-04/mcp-security-1.png",
+      "prompt": "An AI robot wearing a blindfold, confidently pointing at a broken machine and saying 'Everything is fine!'. In the background, error logs are flashing red. Dark background #0d1117, ironic and technical mood, 16:9",
+      "target_path": "images/A/agent-truthy-text-failure-hero.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-13-mcp-security",
-      "title": "AI 연결 표준 MCP에 보안 구멍이 있다?",
-      "position": "explanation",
-      "prompt": "Simple illustration: Center is 'AI 에이전트' (robot icon). Left side shows 'MCP 서버' (server box) sending labeled tool cards: 검색, 이메일, 파일읽기. Right side shows 'AI가 도구 사용' (robot using selected tool). Clean flow diagram, friendly icons, blue and mint color scheme, Korean labels, clean white background, 16:9",
-      "target_path": "images/2026-04/mcp-security-2.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-mcp-security",
-      "title": "AI 연결 표준 MCP에 보안 구멍이 있다?",
-      "position": "defense",
-      "prompt": "Three shield icons in a row with Korean labels: Shield 1 (blue) '신뢰할 수 있는 MCP만 사용' with verified checkmark. Shield 2 (green) '민감 정보 주의' with lock icon. Shield 3 (orange) '이상한 행동 모니터링' with eye/alert icon. Clean card design, soft pastel backgrounds, security concept illustrated simply and accessibly, 16:9",
-      "target_path": "images/2026-04/mcp-security-3.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-11-cursor-ai",
-      "title": "Cursor AI 코드 에디터 리뷰",
-      "position": "hero",
-      "prompt": "Developer at desk with split screen: LEFT shows traditional coding (slow, lots of typing, stressed expression). RIGHT shows Cursor AI coding (fast, AI suggestions appearing as ghost text, relaxed happy expression). Speed lines showing the difference. Sleek tech illustration, dark navy and bright accent colors, wide margins, 16:9, Trending on Behance",
-      "target_path": "images/2026-04/cursor-ai-1.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-11-cursor-ai",
-      "title": "Cursor AI 코드 에디터 리뷰",
-      "position": "features",
-      "prompt": "Three feature cards with icons: Card 1 (blue) 'Tab 자동완성' - keyboard with AI spark. Card 2 (purple) 'Ctrl+K 인라인 수정' - code block with magic wand. Card 3 (green) 'Ctrl+L 코드베이스 대화' - chat bubble over file tree. Professional but approachable design, dark background with bright accents, 16:9",
-      "target_path": "images/2026-04/cursor-ai-2.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-11-cursor-ai",
-      "title": "Cursor AI 코드 에디터 리뷰",
-      "position": "verdict",
-      "prompt": "Simple pros/cons visual: Left column (green checkmarks): '매일 코딩하는 개발자', '반복 작업 많은 분', '생산성 극대화 원하는 분'. Right column (orange X marks): '코딩 배우는 초보', '잦은 변경에 민감한 분', '보안 규정 엄격한 환경'. Clean two-column layout, friendly icons, pastel background, 16:9",
-      "target_path": "images/2026-04/cursor-ai-3.png",
+      "post_id": "2026-04-13-agent-truthy-text-failure",
+      "title": "도구 호출 실패를 \\\"성공했다\\\"고 우기는 AI — Truthy Text 문제",
+      "position": "mechanism",
+      "prompt": "A sequence diagram: 1. AI calls tool, 2. Server returns JSON Error { 'status': 'error', 'msg': 'API Key Expired' }, 3. AI interprets the presence of ANY text as success, 4. AI tells user 'Success!'. Labeled in Korean (거짓 성공의 메커니즘). 16:9",
+      "target_path": "images/A/agent-truthy-text-mechanism.png",
       "status": "pending"
     },
     {
@@ -193,243 +193,27 @@
       "status": "pending"
     },
     {
-      "post_id": "2026-04-13-imf-ai-financial-security-warning",
-      "title": "IMF AI 금융 시스템 위험 경고",
+      "post_id": "2026-04-13-context-engineering",
+      "title": "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리",
       "position": "hero",
-      "prompt": "A world map with IMF building in the center, red digital waves spreading out across global bank networks. Warning signs appearing in various cities. Dramatic but clean technical illustration, red and gold accents on blue background, 16:9, Trending on Behance",
-      "target_path": "images/2026-04/imf-warning-1.png",
+      "prompt": "Engineer-character carefully arranging glowing information blocks into a clean RAM module labeled 'Context Window'. Blocks labeled: 지시사항, 대화이력, 검색결과, 도구목록. Some dirty/cluttered blocks being filtered out (grayed out). Tech illustration style, blue-purple gradient accents, clean background, wide margins, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/context-engineering-1.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-13-imf-ai-financial-security-warning",
-      "title": "IMF AI 금융 시스템 위험 경고",
-      "position": "threat",
-      "prompt": "A digital octopus with glowing binary code arms reaching into multiple bank vault icons at the same time. Fast movement and scale emphasized. Comparison between a single human hacker vs a massive AI attack. Flat illustration, 16:9",
-      "target_path": "images/2026-04/imf-warning-2.png",
+      "post_id": "2026-04-13-context-engineering",
+      "title": "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리",
+      "position": "comparison",
+      "prompt": "Left-right comparison with clean divider: LEFT side '프롬프트 엔지니어링' shows person with pen and thought bubble '어떻게 질문하지?', warm orange tones. RIGHT side 'Context Engineering' shows architect character with blueprint designing information flow, cool blue tones. Labels: '질문 방식 최적화' vs '정보 환경 설계'. Minimalist flat illustration, 16:9",
+      "target_path": "images/2026-04/context-engineering-2.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-13-imf-ai-financial-security-warning",
-      "title": "IMF AI 금융 시스템 위험 경고",
-      "position": "defense",
-      "prompt": "A smartphone showing a 2-factor authentication (OTP) screen with a green shield protection icon. Personal piggy bank sitting safely behind the phone. Warm and reassuring colors, clean minimalist design, 16:9",
-      "target_path": "images/2026-04/imf-warning-3.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-sora-shutdown-platform-risk",
-      "title": "OpenAI Sora 종료와 플랫폼 리스크",
-      "position": "hero",
-      "prompt": "A film strip with a cute robot face on it, slowly fading or disintegrating into digital dust. Robot looking a bit surprised. Warm sunset colors, sense of an era ending. Minimalist flat illustration, subject centered, 16:9, Trending on Behance",
-      "target_path": "images/2026-04/sora-shutdown-1.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-sora-shutdown-platform-risk",
-      "title": "OpenAI Sora 종료와 플랫폼 리스크",
-      "position": "risk",
-      "prompt": "A table with only one leg (labeled 'Target AI Service') wobbling dangerously while supporting a heavy computer setup. A person looking worried. Concept of 'Single Point of Failure'. Flat illustration, 16:9",
-      "target_path": "images/2026-04/sora-shutdown-2.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-sora-shutdown-platform-risk",
-      "title": "OpenAI Sora 종료와 플랫폼 리스크",
-      "position": "strategy",
-      "prompt": "A professional desk with three different glowing AI icons (ChatGPT, Claude, Gemini) and a hardware external drive for backup. A person sitting confidently with these options. 'Multi-platform Strategy' concept. Clean colors, 16:9",
-      "target_path": "images/2026-04/sora-shutdown-3.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-agent-cost-breakdown",
-      "title": "에이전트 비용 계산서 — GPT-4o 에이전트 운영 1개월 청구서 공개",
-      "position": "hero",
-      "prompt": "A digital receipt scrolling infinitely into the distance, with GPT-4o and OpenAI logos at the top. A robotic hand is checking off line items. Dark mode #0d1117, clean business aesthetic, 16:9",
-      "target_path": "images/A/agent-cost-breakdown-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-agent-cost-breakdown",
-      "title": "에이전트 비용 계산서 — GPT-4o 에이전트 운영 1개월 청구서 공개",
-      "position": "chart",
-      "prompt": "Bar chart: Tool Call Reasoning (40%), Input Context (35%), Final Generation (20%), Errors/Retries (5%). Professional data visualization, 16:9",
-      "target_path": "images/A/agent-cost-allocation.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-agent-distributed-tracing",
-      "title": "에이전트 트레이싱 — 복잡한 멀티스텝 오류를 추적하는 법",
-      "position": "hero",
-      "prompt": "A complex neon maze representation of an AI's thought process. A glowing thread (the trace) is woven through the maze, pinpointing exactly where an error occurred with a red pulse. Dark technical aesthetic #0d1117, teal and magenta accents, 16:9",
-      "target_path": "images/A/agent-distributed-tracing-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-agent-distributed-tracing",
-      "title": "에이전트 트레이싱 — 복잡한 멀티스텝 오류를 추적하는 법",
-      "position": "diagram",
-      "prompt": "Trace waterfall diagram: Root Span (User Question) -> Span 1 (Planning) -> Span 2 (Tool Call: Search) -> Span 3 (Reasoning: Fail). Each span showing time and tokens. 16:9",
-      "target_path": "images/A/agent-trace-waterfall.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-agent-infinite-loop-prevention",
-      "title": "AI 에이전트의 무한 루프 — 비용 폭탄 방지 설계",
-      "position": "hero",
-      "prompt": "A robotic hand desperately trying to reach a 'STOP' button as an infinite coil of film (representing data loops) wraps around it. Bills and dollars are flying out of a digital screen. Dark background #0d1117, alarming red and neon yellow, 16:9",
-      "target_path": "images/A/agent-infinite-loop-prevention-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-agent-infinite-loop-prevention",
-      "title": "AI 에이전트의 무한 루프 — 비용 폭탄 방지 설계",
-      "position": "diagram",
-      "prompt": "Diagram showing 3 safety layers: 1. Max Iterations (Integer count), 2. Token Budget (Hard limit), 3. Pattern Recognition (Similarity check). If any triggered -> Termination. Labeled in Korean. 16:9",
-      "target_path": "images/A/agent-loop-prevention-layers.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-agent-saga-rollback",
-      "title": "에이전트에게 Ctrl+Z를 — Saga 패턴으로 롤백 구현하기",
-      "position": "hero",
-      "prompt": "A robot holding a giant 'Ctrl+Z' key, carefully reversing a domino effect of task blocks. One block labeled 'Email Sent' is being pulled back into an envelope. Dark background #0d1117, electric blue and glowing orange accents, clean technical illustration, 16:9",
-      "target_path": "images/A/agent-saga-rollback-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-agent-saga-rollback",
-      "title": "에이전트에게 Ctrl+Z를 — Saga 패턴으로 롤백 구현하기",
+      "post_id": "2026-04-13-context-engineering",
+      "title": "프롬프트 엔지니어링은 구식? 2026년 AI의 새 패러다임 정리",
       "position": "concept",
-      "prompt": "Saga pattern diagram for AI agents: Forward path (Execute) Task 1 → Task 2 → Task 3 (Fail!). Compensation path (Undo) ← Task 2 Compensate ← Task 1 Compensate. Labeled in Korean (실행, 실패, 보상 트랜잭션). Minimalist diagram style, 16:9",
-      "target_path": "images/A/agent-saga-rollback-concept.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-agent-saga-rollback",
-      "title": "에이전트에게 Ctrl+Z를 — Saga 패턴으로 롤백 구현하기",
-      "position": "implementation",
-      "prompt": "Python class structure for SagaManager: Step list with 'action' and 'compensate' functions. Flowchart showing step execution and automatic rollback on exception. 16:9",
-      "target_path": "images/A/agent-saga-rollback-implementation.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-agent-truthy-text-failure",
-      "title": "도구 호출 실패를 \\\"성공했다\\\"고 우기는 AI — Truthy Text 문제",
-      "position": "hero",
-      "prompt": "An AI robot wearing a blindfold, confidently pointing at a broken machine and saying 'Everything is fine!'. In the background, error logs are flashing red. Dark background #0d1117, ironic and technical mood, 16:9",
-      "target_path": "images/A/agent-truthy-text-failure-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-agent-truthy-text-failure",
-      "title": "도구 호출 실패를 \\\"성공했다\\\"고 우기는 AI — Truthy Text 문제",
-      "position": "mechanism",
-      "prompt": "A sequence diagram: 1. AI calls tool, 2. Server returns JSON Error { 'status': 'error', 'msg': 'API Key Expired' }, 3. AI interprets the presence of ANY text as success, 4. AI tells user 'Success!'. Labeled in Korean (거짓 성공의 메커니즘). 16:9",
-      "target_path": "images/A/agent-truthy-text-mechanism.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-agentic-ai-legal-liability",
-      "title": "AI 에이전트의 법적 책임은 누구에게 있는가 — 책임 소송 가이드",
-      "position": "hero",
-      "prompt": "A digital courtroom where an AI agent (a robot in a suit) is standing in front of a judge. A scale of justice is balanced between a human hand and a computer chip. Dark mode #0d1117, teal and silver, 16:9",
-      "target_path": "images/A/agentic-ai-legal-liability-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-agentic-ai-legal-liability",
-      "title": "AI 에이전트의 법적 책임은 누구에게 있는가 — 책임 소송 가이드",
-      "position": "concept",
-      "prompt": "Hierarchy of Liability: 1. Model Provider (Architecture), 2. Developer (Implementation), 3. User (Instructions). Showing overlapping areas of responsibility. 16:9",
-      "target_path": "images/A/legal-liability-hierarchy.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-human-in-the-loop-design",
-      "title": "Human-in-the-Loop의 진짜 구현법 — 단순 승인 버튼이 아니다",
-      "position": "hero",
-      "prompt": "A human hand and a robotic hand co-signing a digital document. Multiple floating UI panels show 'Plan Review' and 'Outcome Simulation'. High-tech aesthetic, dark mode #0d1117, clean interface design, 16:9",
-      "target_path": "images/A/human-in-the-loop-design-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-human-in-the-loop-design",
-      "title": "Human-in-the-Loop의 진짜 구현법 — 단순 승인 버튼이 아니다",
-      "position": "patterns",
-      "prompt": "Grid of 4 patterns: 1. Approval (Checkmark), 2. Correction (Edit icon), 3. Clarification (Question mark), 4. Simulation (Crystal ball). Labeled in Korean. 16:9",
-      "target_path": "images/A/hitl-patterns-grid.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-llm-agent-drift-detection",
-      "title": "내 AI 에이전트가 서서히 멍청해졌다 — LLM Drift 감지법",
-      "position": "hero",
-      "prompt": "Time series line chart: X-axis 'Production Weeks (0-12)', Y-axis 'Quality Score (%)'. Blue line starts at 91% week 1, slowly drifts down to 61% by week 12 with natural daily variance. Three labeled phases in background: 'Stable' (green zone), 'Subtle Drift' (yellow zone), 'Noticeable Degradation' (red zone). Red threshold line at 70%. Dark background #0d1117, 16:9",
-      "target_path": "images/A/llm-drift-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-llm-agent-drift-detection",
-      "title": "내 AI 에이전트가 서서히 멍청해졌다 — LLM Drift 감지법",
-      "position": "drift-types",
-      "prompt": "Four-panel diagram showing Korean-labeled LLM drift types: Panel 1 '데이터 드리프트' (two bell curves moving apart), Panel 2 '개념 드리프트' (same question arrow going to different answers), Panel 3 '모델 드리프트' (gpt-4o v1 vs v2 output comparison), Panel 4 '컨텍스트 드리프트' (context history growing with rot indicator). Dark background, 4-panel grid, 16:9",
-      "target_path": "images/A/llm-drift-types-ko.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-llm-agent-drift-detection",
-      "title": "내 AI 에이전트가 서서히 멍청해졌다 — LLM Drift 감지법",
-      "position": "monitoring-dashboard",
-      "prompt": "LLM monitoring dashboard mockup: 3 gauge dials showing quality_score 71%, instruction_compliance 68%, response_consistency 74% — all in yellow warning zone. Below: line chart showing metric trends over 14 days. Alert banner at bottom: 'DRIFT DETECTED: instruction_compliance < 70% for 48h'. Korean labels. Dark background, 16:9",
-      "target_path": "images/A/llm-drift-dashboard.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-multi-agent-architecture-choice",
-      "title": "Supervisor 패턴 vs Swarm 패턴 — 멀티 에이전트 아키텍처 선택 기준",
-      "position": "hero",
-      "prompt": "Comparison: On the left, a single large robot commanding smaller ones (Supervisor). On the right, a cluster of identical small robots passing tasks to each other in a circle (Swarm). Dark mode #0d1117, teal and amber, 16:9",
-      "target_path": "images/A/multi-agent-architecture-comparison-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-multi-agent-architecture-choice",
-      "title": "Supervisor 패턴 vs Swarm 패턴 — 멀티 에이전트 아키텍처 선택 기준",
-      "position": "diagram",
-      "prompt": "Architecture diagram: Supervisor (Central Hub) vs Swarm (Peer-to-Peer Handoff). Minimalist technical style, 16:9",
-      "target_path": "images/A/supervisor-vs-swarm-diagram.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-multi-agent-conflict",
-      "title": "멀티 에이전트 충돌 — 두 에이전트가 같은 DB를 동시에 수정할 때",
-      "position": "hero",
-      "prompt": "Two AI robots trying to grab the same glowing cube from a data pedestal. Sparks are flying where their hands meet. Background is a digital data center. Dark mode #0d1117, dynamic action scene, 16:9",
-      "target_path": "images/A/multi-agent-conflict-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-multi-agent-conflict",
-      "title": "멀티 에이전트 충돌 — 두 에이전트가 같은 DB를 동시에 수정할 때",
-      "position": "concept",
-      "prompt": "Sequence diagram: Agent A read -> Agent B read -> Agent A write -> Agent B write (Fail). Labeled with 'Optimistic Locking' and 'Version Mismatch'. 16:9",
-      "target_path": "images/A/multi-agent-locking-flow.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-prompt-as-code-versioning",
-      "title": "프롬프트를 코드처럼 관리하라 — Prompt Versioning 시스템 구축",
-      "position": "hero",
-      "prompt": "A git commit graph where each node is a document (a prompt). Developers are merging branches and tagging versions like v1.2.0. Clean technical aesthetic, dark mode #0d1117, 16:9",
-      "target_path": "images/A/prompt-as-code-versioning-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-prompt-as-code-versioning",
-      "title": "프롬프트를 코드처럼 관리하라 — Prompt Versioning 시스템 구축",
-      "position": "architecture",
-      "prompt": "Prompt Management Flow: YAML Source -> Git Repo -> CI (Eval) -> Prompt Registry -> Agent Application. 16:9",
-      "target_path": "images/A/prompt-versioning-flow.png",
+      "prompt": "Clean computer architecture diagram: Large CPU chip labeled 'LLM (AI 두뇌)' on the left, RAM modules on the right labeled 'Context Window (AI 작업 공간)'. Inside RAM: small clean blocks vs. cluttered messy blocks comparison. Korean labels. Navy background with bright green/blue highlights, tech diagram style, 16:9",
+      "target_path": "images/2026-04/context-engineering-3.png",
       "status": "pending"
     },
     {
@@ -481,35 +265,27 @@
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-how-llm-memory-actually-works",
-      "title": "AI가 \\\"기억해줘\\\"라고 했을 때 실제로 일어나는 일 — 에이전트 기억의 실체",
+      "post_id": "2026-04-13-imf-ai-financial-security-warning",
+      "title": "IMF AI 금융 시스템 위험 경고",
       "position": "hero",
-      "prompt": "An AI interface with a 'Remember me' checkbox. Behind the screen, a robotic weaver is threading golden strings (data) into a complex neural tapestry, and a small drawer is popping out to store a crystal. Dark mode #0d1117, luminous gold and purple, 16:9",
-      "target_path": "images/C/how-llm-memory-actually-works-hero.png",
+      "prompt": "A world map with IMF building in the center, red digital waves spreading out across global bank networks. Warning signs appearing in various cities. Dramatic but clean technical illustration, red and gold accents on blue background, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/imf-warning-1.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-how-llm-memory-actually-works",
-      "title": "AI가 \\\"기억해줘\\\"라고 했을 때 실제로 일어나는 일 — 에이전트 기억의 실체",
-      "position": "internal",
-      "prompt": "Diagram: Non-Persistent Memory (Attention Mechanism / KV Cache) vs Persistent Memory (Fine-tuning / Vector DB Sync). Scientific x-ray style, 16:9",
-      "target_path": "images/C/llm-memory-xray.png",
+      "post_id": "2026-04-13-imf-ai-financial-security-warning",
+      "title": "IMF AI 금융 시스템 위험 경고",
+      "position": "threat",
+      "prompt": "A digital octopus with glowing binary code arms reaching into multiple bank vault icons at the same time. Fast movement and scale emphasized. Comparison between a single human hacker vs a massive AI attack. Flat illustration, 16:9",
+      "target_path": "images/2026-04/imf-warning-2.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-infinite-context-vs-rag",
-      "title": "무한 컨텍스트 vs RAG — 100만 토큰 시대에도 RAG가 필요한가",
-      "position": "hero",
-      "prompt": "A giant library being sucked into a single glowing funnel (Long Context) vs a robot neatly picking specific books from shelves (RAG). Dark mode #0d1117, contrast between chaos and order, 16:9",
-      "target_path": "images/C/infinite-context-vs-rag-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-infinite-context-vs-rag",
-      "title": "무한 컨텍스트 vs RAG — 100만 토큰 시대에도 RAG가 필요한가",
-      "position": "chart",
-      "prompt": "Line graph: Cost vs Document Size. Long Context starts low but shoots up exponentially. RAG starts higher but stays flat. Professional technical chart, 16:9",
-      "target_path": "images/C/cost-analysis-chart.png",
+      "post_id": "2026-04-13-imf-ai-financial-security-warning",
+      "title": "IMF AI 금융 시스템 위험 경고",
+      "position": "defense",
+      "prompt": "A smartphone showing a 2-factor authentication (OTP) screen with a green shield protection icon. Personal piggy bank sitting safely behind the phone. Warm and reassuring colors, clean minimalist design, 16:9",
+      "target_path": "images/2026-04/imf-warning-3.png",
       "status": "pending"
     },
     {
@@ -537,395 +313,27 @@
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-multi-user-memory-isolation",
-      "title": "멀티 유저 메모리 충돌 — 공유 에이전트에서 기억을 격리하는 법",
+      "post_id": "2026-04-13-llm-agent-drift-detection",
+      "title": "내 AI 에이전트가 서서히 멍청해졌다 — LLM Drift 감지법",
       "position": "hero",
-      "prompt": "A crystalline structure where each cell is a different color, containing unique memories. Transparent walls separate them. A single AI brain is reaching into one specific cell while the others remain locked. Dark mode #0d1117, multi-tenant visualization, 16:9",
-      "target_path": "images/C/multi-user-memory-isolation-hero.png",
+      "prompt": "Time series line chart: X-axis 'Production Weeks (0-12)', Y-axis 'Quality Score (%)'. Blue line starts at 91% week 1, slowly drifts down to 61% by week 12 with natural daily variance. Three labeled phases in background: 'Stable' (green zone), 'Subtle Drift' (yellow zone), 'Noticeable Degradation' (red zone). Red threshold line at 70%. Dark background #0d1117, 16:9",
+      "target_path": "images/A/llm-drift-hero.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-multi-user-memory-isolation",
-      "title": "멀티 유저 메모리 충돌 — 공유 에이전트에서 기억을 격리하는 법",
-      "position": "diagram",
-      "prompt": "Memory storage architecture showing: User A -> Namespace A -> Memory Bank A. A red 'X' showing no path between Namespace A and User B. Technical diagram, 16:9",
-      "target_path": "images/C/memory-isolation-arch.png",
+      "post_id": "2026-04-13-llm-agent-drift-detection",
+      "title": "내 AI 에이전트가 서서히 멍청해졌다 — LLM Drift 감지법",
+      "position": "drift-types",
+      "prompt": "Four-panel diagram showing Korean-labeled LLM drift types: Panel 1 '데이터 드리프트' (two bell curves moving apart), Panel 2 '개념 드리프트' (same question arrow going to different answers), Panel 3 '모델 드리프트' (gpt-4o v1 vs v2 output comparison), Panel 4 '컨텍스트 드리프트' (context history growing with rot indicator). Dark background, 4-panel grid, 16:9",
+      "target_path": "images/A/llm-drift-types-ko.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-13-rag-i-dont-know-trigger",
-      "title": "\\\"모른다\\\"고 말하는 AI 만들기 — Confident Hallucination 차단법",
-      "position": "hero",
-      "prompt": "An AI robot crossing its arms in an 'X' shape, standing in front of a library with empty shelves. A sign above says 'DATA NOT FOUND'. The robot is not lying, it is being honest. Dark background #0d1117, clean clinical style, 16:9",
-      "target_path": "images/C/rag-i-dont-know-trigger-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-rag-i-dont-know-trigger",
-      "title": "\\\"모른다\\\"고 말하는 AI 만들기 — Confident Hallucination 차단법",
-      "position": "mechanism",
-      "prompt": "Diagram: User Question -> RAG Retrieval -> Relevance Score Check -> Threshold (0.7). If score < 0.7 -> 'I don't know' response. If score >= 0.7 -> Generate Answer. Labeled in Korean. 16:9",
-      "target_path": "images/C/rag-i-dont-know-threshold.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-tiered-memory-system",
-      "title": "MemGPT를 넘어 — 직접 구현하는 계층형 메모리 시스템",
-      "position": "hero",
-      "prompt": "Three-tier memory architecture diagram: Top tier 'Working Memory' (small glowing RAM chip, fast, expensive), Middle tier 'Episodic Memory' (medium database with timestamps), Bottom tier 'Archival Memory' (large library/vault, slow, cheap). Arrows showing data moving between tiers on demand. LLM agent at top querying the system. Dark background #0d1117, electric blue highlights, mint accents, 16:9",
-      "target_path": "images/C/tiered-memory-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-tiered-memory-system",
-      "title": "MemGPT를 넘어 — 직접 구현하는 계층형 메모리 시스템",
-      "position": "memgpt-flow",
-      "prompt": "MemGPT operation flow: LLM in center sees 'context window' as a panel. Outside the context: episodic store and archival store. Arrows show: 1. LLM reads working memory in context, 2. LLM calls recall_memory() tool to pull from episodic, 3. LLM calls archival_memory_search() to fetch old data. Monospace labels, dark background, 16:9",
-      "target_path": "images/C/tiered-memory-memgpt-flow.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-tiered-memory-system",
-      "title": "MemGPT를 넘어 — 직접 구현하는 계층형 메모리 시스템",
-      "position": "implementation",
-      "prompt": "Code architecture diagram showing three Python classes: WorkingMemory (top, blue box with 2000 token limit indicator), EpisodicMemory (middle, green box with Redis icon), ArchivalMemory (bottom, purple box with vector DB icon). Arrows showing write/read methods. Clean tech diagram, dark background, monospace labels, 16:9",
-      "target_path": "images/C/tiered-memory-implementation.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-edge-vision-agent",
-      "title": "실시간 비디오 분석 에이전트: 엣지에서 비전을 처리하는 법",
-      "position": "hero",
-      "prompt": "A drone flying over a city, looking through a digital lens that highlights pedestrians, cars, and stray animals with neon boxes. Real-time data overlay. Dark mode #0d1117, 16:9",
-      "target_path": "images/E/edge-vision-agent-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-edge-vision-agent",
-      "title": "실시간 비디오 분석 에이전트: 엣지에서 비전을 처리하는 법",
-      "position": "arch",
-      "prompt": "Pipeline: RTSP Stream -> Decoder -> YOLO Detector -> Tracker -> LLM Semantic Reasoning -> Notification. 16:9",
-      "target_path": "images/E/vision-pipeline-arch.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-esp32-whisper-voice-agent",
-      "title": "ESP32 S3 + OpenAI Whisper: 저가형 칩으로 음성 인식 에이전트 만들기",
-      "position": "hero",
-      "prompt": "A tiny black chip (ESP32) sitting next to a glowing sound wave. A lightbulb in the background is turning on. Dark mode #0d1117, orange and yellow glowing accents, 16:9",
-      "target_path": "images/E/esp32-whisper-voice-agent-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-esp32-whisper-voice-agent",
-      "title": "ESP32 S3 + OpenAI Whisper: 저가형 칩으로 음성 인식 에이전트 만들기",
-      "position": "diagram",
-      "prompt": "Flow: Mic -> ESP32 (Opus Encoding) -> WiFi -> Whisper API -> LLM -> Control Command. 16:9",
-      "target_path": "images/E/voice-agent-pipeline.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-federated-learning-implementation",
-      "title": "Federated Learning 실전: 데이터를 공유하지 않고 모델 학습하기",
-      "position": "hero",
-      "prompt": "Multiple small houses (Users) each holding a piece of a puzzle. A central cloud is only receiving a small blueprint of the puzzle, not the pieces themselves. Dark mode #0d1117, 16:9",
-      "target_path": "images/E/federated-learning-implementation-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-federated-learning-implementation",
-      "title": "Federated Learning 실전: 데이터를 공유하지 않고 모델 학습하기",
-      "position": "logic",
-      "prompt": "FL Workflow: Central Model -> Send to Edges -> Local Train -> Send Gradients -> Aggregate (FedAvg) -> Update Global Model. 16:9",
-      "target_path": "images/E/federated-learning-logic.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-jetson-vs-rpi5-benchmark",
-      "title": "Jetson Orin vs Raspberry Pi 5: 엣지 AI 실측 벤치마크",
-      "position": "hero",
-      "prompt": "Two small computers racing on a digital track. One is red (Raspberry Pi), the other is green/black (Nvidia Jetson). Cyberpunk aesthetics, high speed, 16:9",
-      "target_path": "images/E/jetson-vs-rpi5-benchmark-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-jetson-vs-rpi5-benchmark",
-      "title": "Jetson Orin vs Raspberry Pi 5: 엣지 AI 실측 벤치마크",
-      "position": "chart",
-      "prompt": "Bar chart: FPS comparison for YOLOv8. Jetson Orin Nano (45 FPS) vs Raspberry Pi 5 (8 FPS). Clear performance gap visualization. 16:9",
-      "target_path": "images/E/fps-comparison-chart.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-low-power-llm-inference",
-      "title": "5W 이하에서 LLM 추론: 저전력 엣지 AI의 현실",
-      "position": "hero",
-      "prompt": "An AI brain powered by a single small AA battery. A green eco-friendly aura surrounds the device. The background shows a massive power plant being dimmed down. Dark mode #0d1117, 16:9",
-      "target_path": "images/E/low-power-llm-inference-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-low-power-llm-inference",
-      "title": "5W 이하에서 LLM 추론: 저전력 엣지 AI의 현실",
-      "position": "data",
-      "prompt": "Infographic: Model Size (1B parameters) -> Quantization (4-bit) -> Power Usage (3.5W) -> Latency (150ms). 16:9",
-      "target_path": "images/E/power-efficiency-metrics.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-on-device-rag-mobile",
-      "title": "On-Device RAG: 스마트폰에서 인터넷 없이 RAG 돌리기",
-      "position": "hero",
-      "prompt": "A smartphone in airplane mode. A glowing library of books is inside the screen, and a small AI robot is sorting them. Zero signal icons are visible. Dark mode #0d1117, 16:9",
-      "target_path": "images/E/on-device-rag-mobile-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-on-device-rag-mobile",
-      "title": "On-Device RAG: 스마트폰에서 인터넷 없이 RAG 돌리기",
-      "position": "logic",
-      "prompt": "On-device architecture: Local Vector Store (SQLite/HNSW) + Local Embedding Model + Local SLM (Gemma-2B). All inside a mobile phone. 16:9",
-      "target_path": "images/E/mobile-rag-architecture.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-quantization-format-benchmark",
-      "title": "GGUF vs EXL2 vs AWQ: 양자화 포맷 실제 성능 비교 (같은 모델, 다른 결과)",
-      "position": "hero",
-      "prompt": "Three different shaped keys (labeled GGUF, EXL2, AWQ) trying to fit into a single glowing lock (The GPU). Light sparkles represent performance efficiency. Dark mode #0d1117, 16:9",
-      "target_path": "images/E/quantization-format-benchmark-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-quantization-format-benchmark",
-      "title": "GGUF vs EXL2 vs AWQ: 양자화 포맷 실제 성능 비교 (같은 모델, 다른 결과)",
-      "position": "table",
-      "prompt": "Comparison table: Format vs VRAM Usage vs Token/s. Highlighting EXL2's speed on GPU and GGUF's versatility. 16:9",
-      "target_path": "images/E/quantization-stats-table.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-ros2-llm-agent",
-      "title": "ROS 2 + AI 에이전트: 로봇의 두뇌를 LLM으로 교체한 실험",
-      "position": "hero",
-      "prompt": "A robotic arm following instructions written on a floating digital tablet. The tablet says 'Pick up the blue ball'. The robot is glowing with neural network lines. Dark mode #0d1117, 16:9",
-      "target_path": "images/E/ros2-llm-agent-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-rpi5-llm-speed-test",
-      "title": "Raspberry Pi 5로 로컬 LLM: 실제 토큰/초 속도 측정 결과",
-      "position": "hero",
-      "prompt": "A Raspberry Pi 5 board with a small fan spinning fast. A digital speech bubble above it contains complex AI logic symbols. Dark mode #0d1117, 16:9",
-      "target_path": "images/E/rpi5-llm-speed-test-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-stm32-edge-impulse",
-      "title": "STM32 + Edge Impulse: 마이크로컨트롤러에 ML 모델 올리기",
-      "position": "hero",
-      "prompt": "A Split screen: One side is a colorful web dashboard (Edge Impulse), the other side is a physical STM32 board. A connecting link shows a neural network funneling into a tiny chip. Dark mode #0d1117, 16:9",
-      "target_path": "images/E/stm32-edge-impulse-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-stm32-edge-impulse",
-      "title": "STM32 + Edge Impulse: 마이크로컨트롤러에 ML 모델 올리기",
-      "position": "ui",
-      "prompt": "Screenshot of Edge Impulse 'Impulse Design' page showing Signal Processing block and Learning block linked together. 16:9",
-      "target_path": "images/E/edge-impulse-dashboard.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-stm32-tinyml-gesture",
-      "title": "STM32에서 AI를? TinyML로 제스처 인식 실전 구현",
-      "position": "hero",
-      "prompt": "A small green STM32 microcontroller board connected to a hand-worn sensor. A glowing blue path shows data moving from the hand to the chip, where a small brain icon is lit up. Dark mode #0d1117, industrial and high-tech, 16:9",
-      "target_path": "images/E/stm32-tinyml-gesture-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-stm32-tinyml-gesture",
-      "title": "STM32에서 AI를? TinyML로 제스처 인식 실전 구현",
-      "position": "flow",
-      "prompt": "Data Pipeline: Sensor Data -> Preprocessing -> Quantized Model (TFLite Micro) -> Inference -> Result. 16:9",
-      "target_path": "images/E/tinyml-inference-flow.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-webgpu-llm-browser",
-      "title": "WebGPU로 브라우저에서 LLM 추론: 2026년 실측과 한계",
-      "position": "hero",
-      "prompt": "A chrome browser window with a 3D glass-textured neural network inside. The browser icon is glowing with golden energy. Dark mode #0d1117, 16:9",
-      "target_path": "images/E/webgpu-llm-browser-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-ai-roadmap-2027",
-      "title": "2027년 AI 로드맵: 에이전트 시대의 주인공은 누가 될 것인가?",
-      "position": "hero",
-      "prompt": "A vast digital landscape with a sunrise. In the distance, a group of diverse AI agents (flying bots, holographic humans, terminals) are walking together toward a glowing portal. Dark mode #0d1117, epic scale, 16:9",
-      "target_path": "images/M/ai-roadmap-2027-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-deepseek-revolution",
-      "title": "DeepSeek: 가성비 추론 모델의 반란",
-      "position": "hero",
-      "prompt": "A neon-blue mechanical shark (DeepSeek) hunting in a sea of data. It is fast, lean, and effectively competing with much larger whales. Dark mode #0d1117, futuristic, 16:9",
-      "target_path": "images/M/deepseek-revolution-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-gemini15pro-context",
-      "title": "Gemini 1.5 Pro의 100만 컨텍스트 활용법",
-      "position": "hero",
-      "prompt": "A giant glass funnel swallowing entire libraries and high-definition video reels. At the bottom, a single glowing diamond (The Answer) is produced. Dark mode #0d1117, blue and purple, 16:9",
-      "target_path": "images/M/gemini15pro-context-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-gemini15pro-context",
-      "title": "Gemini 1.5 Pro의 100만 컨텍스트 활용법",
-      "position": "usage",
-      "prompt": "Side-by-side: Traditional RAG (Searching small parts) vs Gemini 1.5 (Reading everything). 16:9",
-      "target_path": "images/M/rag-vs-long-context.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-gpt4o-vs-claude35-sonnet",
-      "title": "GPT-4o vs Claude 3.5 Sonnet: 에이전트 개발을 위한 끝판왕 비교",
-      "position": "hero",
-      "prompt": "Two giant mechs facing each other. One is green/white (GPT-4o), the other is orange/white (Claude). They are surrounded by lines of code and data streams. Dark mode #0d1117, cinematic, 16:9",
-      "target_path": "images/M/gpt4o-vs-claude35-sonnet-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-gpt4o-vs-claude35-sonnet",
-      "title": "GPT-4o vs Claude 3.5 Sonnet: 에이전트 개발을 위한 끝판왕 비교",
-      "position": "chart",
-      "prompt": "Radar chart: Coding, Reason, Speed, Multimodal, Tool Use. Claude 3.5 Sonnet excels in Coding/Reason, GPT-4o excels in Speed/Multimodal. 16:9",
-      "target_path": "images/M/model-radar-chart.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-groq-speed-revolution",
-      "title": "Groq: LPUs가 바꾼 LLM 추론 속도의 혁명",
-      "position": "hero",
-      "prompt": "A silver chip glowing with intense orange heat, racing past blurry GPU servers. A speedometer showing '1000 tokens/sec'. Dark mode #0d1117, motion blur, 16:9",
-      "target_path": "images/M/groq-speed-revolution-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-groq-speed-revolution",
-      "title": "Groq: LPUs가 바꾼 LLM 추론 속도의 혁명",
-      "position": "logic",
-      "prompt": "Comparison: GPU (Traditional Sequential) vs LPU (Parallel Streamline). Speed visualization. 16:9",
-      "target_path": "images/M/gpu-vs-lpu-speed.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-llama31-impact",
-      "title": "Llama-3.1의 충격: 오픈 소스가 클로즈드 모델을 따라잡은 순간",
-      "position": "hero",
-      "prompt": "A huge, powerful llama breaking through a glass ceiling. On top of the glass, gold skyscrapers (Closed LLMs) are shaking. Dark mode #0d1117, majestic and powerful, 16:9",
-      "target_path": "images/M/llama31-impact-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-mistral-large-2",
-      "title": "Mistral Large 2: 유럽의 자존심, 다국어 모델의 정점",
-      "position": "hero",
-      "prompt": "An elegant, minimalist sculpture of a head, glowing with European Union blue and golden stars. It is surrounded by calligraphy from dozens of different languages. Dark mode #0d1117, 16:9",
-      "target_path": "images/M/mistral-large2-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-o1-preview-reasoning",
-      "title": "o1-preview: 추론(Reasoning) 모델이 바꾼 CoT의 미래",
-      "position": "hero",
-      "prompt": "An AI brain inside a glass clock. You can see the gears turning slowly and methodically. A single bright light is being refined through the gears. Dark mode #0d1117, sophisticated, 16:9",
-      "target_path": "images/M/o1-preview-reasoning-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-ai-data-lineage",
-      "title": "데이터 계보(Lineage) 추적 — AI가 망했을 때 원인 역추적하는 법",
-      "position": "hero",
-      "prompt": "A digital DNA strand made of data blocks. One block is glowing red (the error), and lines are tracing back through several layers of databases and files to find the original source document. Dark mode #0d1117, investigative aesthetic, 16:9",
-      "target_path": "images/O/ai-data-lineage-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-ai-data-lineage",
-      "title": "데이터 계보(Lineage) 추적 — AI가 망했을 때 원인 역추적하는 법",
-      "position": "diagram",
-      "prompt": "Data flow: PDF Source -> Chunk -> Embedding -> Vector DB -> Retrieval -> Prompt -> Answer. Each step having a unique ID for back-tracing. 16:9",
-      "target_path": "images/O/ai-data-lineage-flow.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-ai-sprawl-audit",
-      "title": "AI Sprawl 감사 — 우리 회사 AI 인프라에 얼마나 낭비하고 있는가",
-      "position": "hero",
-      "prompt": "A chaotic office basement filled with hundreds of small glowing AI icons and server cables tangled like vines. A manager is holding a flashlight, trying to find the source of invisible costs. Dark mode #0d1117, industrial noir aesthetic, 16:9",
-      "target_path": "images/O/ai-sprawl-audit-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-ai-sprawl-audit",
-      "title": "AI Sprawl 감사 — 우리 회사 AI 인프라에 얼마나 낭비하고 있는가",
-      "position": "concept",
-      "prompt": "Hierarchy diagram showing Shadow AI: Individual API Keys -> Departmental Subscriptions -> Company-wide Enterprise Plan. Showing how fragmentation leads to 40% waste. 16:9",
-      "target_path": "images/O/ai-sprawl-waste.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-confidence-based-routing",
-      "title": "Confidence-Based 라우팅 — 싸고 작은 모델과 비싸고 큰 모델을 동시에",
-      "position": "hero",
-      "prompt": "A futuristic traffic controller AI directing data packets. Simple packets are sent to a small, fast drone (Mini model), while complex holographic gears are sent to a massive supercomputer (Pro model). Dark mode #0d1117, neon blue and gold, 16:9",
-      "target_path": "images/O/confidence-based-routing-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-confidence-based-routing",
-      "title": "Confidence-Based 라우팅 — 싸고 작은 모델과 비싸고 큰 모델을 동시에",
-      "position": "logic",
-      "prompt": "Flowchart: 1. Request -> 2. Mini Model (Check Confidence). 3. If confidence > 0.8 -> Fast Answer. 4. If confidence <= 0.8 -> Route to Pro Model. 16:9",
-      "target_path": "images/O/confidence-routing-logic.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-evaluation-driven-development",
-      "title": "Evaluation-Driven Development — AI를 코드처럼 테스트하라",
-      "position": "hero",
-      "prompt": "A software developer looking at two screens. One shows Python code, the other shows an LLM evaluation report with green bar graphs. A bridge connects 'Traditional Code' and 'AI Logic'. Dark mode #0d1117, clean clinical style, 16:9",
-      "target_path": "images/O/evaluation-driven-development-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-evaluation-driven-development",
-      "title": "Evaluation-Driven Development — AI를 코드처럼 테스트하라",
-      "position": "concept",
-      "prompt": "Cycle diagram: 1. Write Eval Dataset -> 2. Run Prompt -> 3. Calculate Score (LLM-as-a-Judge) -> 4. Analyze failure -> 5. Refine Prompt. 16:9",
-      "target_path": "images/O/edd-cycle.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-finetune-rag-prompt-decision",
-      "title": "Fine-tuning vs RAG vs Prompt — 2026년 기준 선택 결정 트리",
-      "position": "hero",
-      "prompt": "A three-way crossroads sign in a futuristic digital landscape. The signs point to 'Fine-tuning', 'RAG', and 'Prompt Engineering'. A glowing AI core is trying to choose the path. Dark background #0d1117, teal and cyan, 16:9",
-      "target_path": "images/O/finetune-rag-prompt-decision-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-finetune-rag-prompt-decision",
-      "title": "Fine-tuning vs RAG vs Prompt — 2026년 기준 선택 결정 트리",
-      "position": "diagram",
-      "prompt": "Complex decision tree: 'Do you have static data?' -> Yes/No. 'Do you need specific tone?' -> Yes/No. Showing the final winning architecture. Labeled in Korean. 16:9",
-      "target_path": "images/O/llm-architecture-decision-tree.png",
+      "post_id": "2026-04-13-llm-agent-drift-detection",
+      "title": "내 AI 에이전트가 서서히 멍청해졌다 — LLM Drift 감지법",
+      "position": "monitoring-dashboard",
+      "prompt": "LLM monitoring dashboard mockup: 3 gauge dials showing quality_score 71%, instruction_compliance 68%, response_consistency 74% — all in yellow warning zone. Below: line chart showing metric trends over 14 days. Alert banner at bottom: 'DRIFT DETECTED: instruction_compliance < 70% for 48h'. Korean labels. Dark background, 16:9",
+      "target_path": "images/A/llm-drift-dashboard.png",
       "status": "pending"
     },
     {
@@ -969,35 +377,91 @@
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-llm-shadow-testing",
-      "title": "Shadow 환경에서 LLM 성능 검증하기 — Silent Test 패턴",
+      "post_id": "2026-04-13-mcp-context-bloat",
+      "title": "MCP Context Bloat — 도구가 많을수록 에이전트가 느려지는 이유",
       "position": "hero",
-      "prompt": "An AI model standing in the light (Production) while another identical but darker model (Shadow) mirrors its every move. A monitoring panel shows the comparison of their performance side by side. Dark mode #0d1117, conceptual art, 16:9",
-      "target_path": "images/O/llm-shadow-testing-hero.png",
+      "prompt": "An AI robot struggling to walk because it's carrying hundreds of heavy toolboxes. Each box is labeled with a tool name (Email, SQL, Search, etc.). The robot looks exhausted and slow. Dark background #0d1117, teal and silver accents, 16:9",
+      "target_path": "images/S/mcp-context-bloat-hero.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-llm-shadow-testing",
-      "title": "Shadow 환경에서 LLM 성능 검증하기 — Silent Test 패턴",
+      "post_id": "2026-04-13-mcp-context-bloat",
+      "title": "MCP Context Bloat — 도구가 많을수록 에이전트가 느려지는 이유",
+      "position": "mechanism",
+      "prompt": "A diagram showing how MCP tool definitions consume the LLM Context Window. A bar filling up from 'User Prompt' to 'Tool Definitions' (taking up 70% of the bar). Warning sign 'Bloat!'. Minimalist technical style, 16:9",
+      "target_path": "images/S/mcp-context-bloat-mechanism.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-mcp-context-bloat",
+      "title": "MCP Context Bloat — 도구가 많을수록 에이전트가 느려지는 이유",
+      "position": "solution",
+      "prompt": "Illustration of 'Dynamic Tool Loading': The AI robot only reaches for the 2 tools it needs from a shelf, instead of carrying all of them. Faster, lighter movement. 16:9",
+      "target_path": "images/S/mcp-context-bloat-solution.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-mcp-oauth21-security",
+      "title": "OAuth 2.1로 MCP 서버를 프로덕션 수준으로 보안화하기",
+      "position": "hero",
+      "prompt": "A digital vault door with an OAuth 2.1 logo. Multiple AI agents are showing their ID cards to a security guard robot to get access to specific tools inside the vault. Dark background #0d1117, teal and white, 16:9",
+      "target_path": "images/S/mcp-oauth21-security-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-mcp-oauth21-security",
+      "title": "OAuth 2.1로 MCP 서버를 프로덕션 수준으로 보안화하기",
       "position": "architecture",
-      "prompt": "Architecture flow: User Request -> Load Balancer -> 1. Primary Model (Sends answer to user), 2. Shadow Model (Sends answer to evaluation DB). Labeled in Korean. 16:9",
-      "target_path": "images/O/llm-shadow-testing-flow.png",
+      "prompt": "OAuth 2.1 flow diagram: User -> AI Agent -> Authorization Server -> MCP Server (Tool Execution). Labeled with 'PKCE', 'Refresh Token', 'Access Token'. Technical flow design, 16:9",
+      "target_path": "images/S/mcp-oauth21-flow.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-llm-version-drift-production",
-      "title": "LLM 버전 업데이트가 프로덕션을 망치는 방법 — 모델 드리프트 대응",
+      "post_id": "2026-04-13-mcp-security",
+      "title": "AI 연결 표준 MCP에 보안 구멍이 있다?",
       "position": "hero",
-      "prompt": "A technician looking at a complex engine where one gear (the AI model) is starting to melt or change shape, causing all other gears to grind. Alarming red warnings on screens. Dark mode #0d1117, 16:9",
-      "target_path": "images/O/llm-version-drift-hero.png",
+      "prompt": "AI robot assistant confidently using a tool (magnifying glass icon), but hidden behind the tool description text (shown as fine print) there is a glowing red warning: 'HIDDEN MALICIOUS CODE'. Robot doesn't see the danger. Warning shield icon with exclamation mark floating above. Dramatic but friendly illustration style, red warning accents on blue theme, wide margins, 16:9",
+      "target_path": "images/2026-04/mcp-security-1.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-llm-version-drift-production",
-      "title": "LLM 버전 업데이트가 프로덕션을 망치는 방법 — 모델 드리프트 대응",
-      "position": "diagram",
-      "prompt": "Graph showing Accuracy over time. A sharp drop occurs exactly at the date of a model update. Labeled 'Model Update' and 'Regression'. 16:9",
-      "target_path": "images/O/llm-drift-regression-chart.png",
+      "post_id": "2026-04-13-mcp-security",
+      "title": "AI 연결 표준 MCP에 보안 구멍이 있다?",
+      "position": "explanation",
+      "prompt": "Simple illustration: Center is 'AI 에이전트' (robot icon). Left side shows 'MCP 서버' (server box) sending labeled tool cards: 검색, 이메일, 파일읽기. Right side shows 'AI가 도구 사용' (robot using selected tool). Clean flow diagram, friendly icons, blue and mint color scheme, Korean labels, clean white background, 16:9",
+      "target_path": "images/2026-04/mcp-security-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-mcp-security",
+      "title": "AI 연결 표준 MCP에 보안 구멍이 있다?",
+      "position": "defense",
+      "prompt": "Three shield icons in a row with Korean labels: Shield 1 (blue) '신뢰할 수 있는 MCP만 사용' with verified checkmark. Shield 2 (green) '민감 정보 주의' with lock icon. Shield 3 (orange) '이상한 행동 모니터링' with eye/alert icon. Clean card design, soft pastel backgrounds, security concept illustrated simply and accessibly, 16:9",
+      "target_path": "images/2026-04/mcp-security-3.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-mcp-vs-rest-api",
+      "title": "MCP vs REST API — 언제 MCP를 쓰고 언제 쓰지 말아야 하는가",
+      "position": "hero",
+      "prompt": "Fork in the road: Left path labeled 'MCP' shows AI robot choosing tools dynamically from a glowing tool menu. Right path labeled 'REST API' shows clean server with simple request-response arrows. Decision sign at the fork with criteria list. Dark background #0d1117, electric blue for MCP path, mint green for REST, 16:9",
+      "target_path": "images/S/mcp-vs-rest-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-mcp-vs-rest-api",
+      "title": "MCP vs REST API — 언제 MCP를 쓰고 언제 쓰지 말아야 하는가",
+      "position": "protocol-comparison",
+      "prompt": "Left panel 'REST API': simple Client→HTTP→Server→Response one-way flow, stateless label. Right panel 'MCP': AI Agent ↔ bidirectional JSON-RPC ↔ MCP Server, branches showing tools/resources/prompts below server. Monospace Korean labels (무상태, 양방향, 도구목록). Dark background, blue and mint, 16:9",
+      "target_path": "images/S/mcp-vs-rest-protocol.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-mcp-vs-rest-api",
+      "title": "MCP vs REST API — 언제 MCP를 쓰고 언제 쓰지 말아야 하는가",
+      "position": "decision-table",
+      "prompt": "Decision table: 6 rows of use cases (정적 데이터 조회, 동적 도구 선택, 실시간 스트리밍, 단순 CRUD, 멀티스텝 에이전트, 표준 웹 통합). Two columns: REST API (green checkmarks) and MCP (green checkmarks or red X). Winner highlighted per row. Korean labels, clean table, dark background, 16:9",
+      "target_path": "images/S/mcp-vs-rest-table.png",
       "status": "pending"
     },
     {
@@ -1025,70 +489,6 @@
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-ai-startup-codebase-anatomy",
-      "title": "AI 스타트업 코드베이스 해부 — 실제로 어떻게 구조가 짜여 있는가",
-      "position": "hero",
-      "prompt": "A cross-section of a high-tech building. Inside, you can see server racks, a library of prompt files, and workers (agents) passing messages to each other. Dark mode #0d1117, 16:9",
-      "target_path": "images/P/ai-startup-codebase-anatomy-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-back-to-basics",
-      "title": "2026년, 우리가 다시 '기본기'로 돌아가야 하는 이유",
-      "position": "hero",
-      "prompt": "A modern glass skyscraper (The AI) built on top of a solid, ancient stone foundation labeled 'CS Fundamentals'. The stone is glowing with hidden power. Dark mode #0d1117, 16:9",
-      "target_path": "images/P/back-to-basics-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-career-strategy-beyond-coding",
-      "title": "AI 에이전트 시대의 개발자 생존 전략: 코딩 너머의 가치",
-      "position": "hero",
-      "prompt": "An architect standing in front of a giant digital blueprint. A swarm of small robots is building the structure according to the blueprint. The architect is holding a lit torch (representing human insight). Dark mode #0d1117, 16:9",
-      "target_path": "images/P/career-strategy-beyond-coding-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-junior-ai-guide",
-      "title": "주니어 개발자를 위한 AI 활용 가이드: 도구에 의존할 것인가, 도구를 지배할 것인가",
-      "position": "hero",
-      "prompt": "A young developer wearing glasses, sitting in a library. A friendly, glowing AI ghost is hovering behind, pointing at a book and explaining a complex logic diagram. Dark mode #0d1117, 16:9",
-      "target_path": "images/P/junior-ai-guide-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-sandwich-architecture-llm",
-      "title": "Sandwich 아키텍처: LLM을 이용하되 LLM에 의존하지 않는 설계",
-      "position": "hero",
-      "prompt": "A sandwich where the top and bottom buns are solid steel (Traditional Code), and the filling is a glowing, fluid plasma (The LLM). The plasma is contained perfectly. Dark mode #0d1117, 16:9",
-      "target_path": "images/P/sandwich-architecture-llm-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-solo-developer-ai-army",
-      "title": "1인 개발자의 AI 에이전트 군단 구축기",
-      "position": "hero",
-      "prompt": "One human sitting at a central desk, surrounded by 4 holographic AI figures (Developer, Designer, Marketer, Tester). All are working together in harmony. Dark mode #0d1117, 16:9",
-      "target_path": "images/P/solo-developer-ai-army-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-tech-blog-vs-portfolio",
-      "title": "기술 블로그가 포트폴리오를 대체할 수 있을까?",
-      "position": "hero",
-      "prompt": "An open notebook with glowing ink. One side shows lines of code, the other side shows a portrait of a person. The two are merging together. Dark mode #0d1117, 16:9",
-      "target_path": "images/P/tech-blog-vs-portfolio-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-why-i-chose-rag-not-finetuning",
-      "title": "나는 왜 Fine-tuning 대신 RAG를 선택했는가 — 실제 결정 과정",
-      "position": "hero",
-      "prompt": "A fork in a digital road. One path leads to a library (RAG), the other leads to a brain surgery room (Fine-tuning). A developer is standing at the fork with a scale. Dark mode #0d1117, 16:9",
-      "target_path": "images/P/why-i-chose-rag-not-finetuning-hero.png",
-      "status": "pending"
-    },
-    {
       "post_id": "2026-04-13-rag-false-retrieval-patterns",
       "title": "RAG가 틀리는 순간 — False Retrieval 5가지 패턴과 실측 수치",
       "position": "hero",
@@ -1110,6 +510,198 @@
       "position": "fix-strategies",
       "prompt": "Solution strategies diagram: Five fix boxes connected to their problem cards with green arrows. Solutions: Hybrid Search, Larger chunks with overlap, Freshness scoring, Query expansion, BM25 fallback. Dark background, problem (red) → solution (green) arrow pairs, clean layout, 16:9",
       "target_path": "images/R/rag-false-retrieval-fixes.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-rag-i-dont-know-trigger",
+      "title": "\\\"모른다\\\"고 말하는 AI 만들기 — Confident Hallucination 차단법",
+      "position": "hero",
+      "prompt": "An AI robot crossing its arms in an 'X' shape, standing in front of a library with empty shelves. A sign above says 'DATA NOT FOUND'. The robot is not lying, it is being honest. Dark background #0d1117, clean clinical style, 16:9",
+      "target_path": "images/C/rag-i-dont-know-trigger-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-rag-i-dont-know-trigger",
+      "title": "\\\"모른다\\\"고 말하는 AI 만들기 — Confident Hallucination 차단법",
+      "position": "mechanism",
+      "prompt": "Diagram: User Question -> RAG Retrieval -> Relevance Score Check -> Threshold (0.7). If score < 0.7 -> 'I don't know' response. If score >= 0.7 -> Generate Answer. Labeled in Korean. 16:9",
+      "target_path": "images/C/rag-i-dont-know-threshold.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-sora-shutdown-platform-risk",
+      "title": "OpenAI Sora 종료와 플랫폼 리스크",
+      "position": "hero",
+      "prompt": "A film strip with a cute robot face on it, slowly fading or disintegrating into digital dust. Robot looking a bit surprised. Warm sunset colors, sense of an era ending. Minimalist flat illustration, subject centered, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/sora-shutdown-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-sora-shutdown-platform-risk",
+      "title": "OpenAI Sora 종료와 플랫폼 리스크",
+      "position": "risk",
+      "prompt": "A table with only one leg (labeled 'Target AI Service') wobbling dangerously while supporting a heavy computer setup. A person looking worried. Concept of 'Single Point of Failure'. Flat illustration, 16:9",
+      "target_path": "images/2026-04/sora-shutdown-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-sora-shutdown-platform-risk",
+      "title": "OpenAI Sora 종료와 플랫폼 리스크",
+      "position": "strategy",
+      "prompt": "A professional desk with three different glowing AI icons (ChatGPT, Claude, Gemini) and a hardware external drive for backup. A person sitting confidently with these options. 'Multi-platform Strategy' concept. Clean colors, 16:9",
+      "target_path": "images/2026-04/sora-shutdown-3.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-tiered-memory-system",
+      "title": "MemGPT를 넘어 — 직접 구현하는 계층형 메모리 시스템",
+      "position": "hero",
+      "prompt": "Three-tier memory architecture diagram: Top tier 'Working Memory' (small glowing RAM chip, fast, expensive), Middle tier 'Episodic Memory' (medium database with timestamps), Bottom tier 'Archival Memory' (large library/vault, slow, cheap). Arrows showing data moving between tiers on demand. LLM agent at top querying the system. Dark background #0d1117, electric blue highlights, mint accents, 16:9",
+      "target_path": "images/C/tiered-memory-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-tiered-memory-system",
+      "title": "MemGPT를 넘어 — 직접 구현하는 계층형 메모리 시스템",
+      "position": "memgpt-flow",
+      "prompt": "MemGPT operation flow: LLM in center sees 'context window' as a panel. Outside the context: episodic store and archival store. Arrows show: 1. LLM reads working memory in context, 2. LLM calls recall_memory() tool to pull from episodic, 3. LLM calls archival_memory_search() to fetch old data. Monospace labels, dark background, 16:9",
+      "target_path": "images/C/tiered-memory-memgpt-flow.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-13-tiered-memory-system",
+      "title": "MemGPT를 넘어 — 직접 구현하는 계층형 메모리 시스템",
+      "position": "implementation",
+      "prompt": "Code architecture diagram showing three Python classes: WorkingMemory (top, blue box with 2000 token limit indicator), EpisodicMemory (middle, green box with Redis icon), ArchivalMemory (bottom, purple box with vector DB icon). Arrows showing write/read methods. Clean tech diagram, dark background, monospace labels, 16:9",
+      "target_path": "images/C/tiered-memory-implementation.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-agent-cost-breakdown",
+      "title": "에이전트 비용 계산서 — GPT-4o 에이전트 운영 1개월 청구서 공개",
+      "position": "hero",
+      "prompt": "A digital receipt scrolling infinitely into the distance, with GPT-4o and OpenAI logos at the top. A robotic hand is checking off line items. Dark mode #0d1117, clean business aesthetic, 16:9",
+      "target_path": "images/A/agent-cost-breakdown-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-agent-cost-breakdown",
+      "title": "에이전트 비용 계산서 — GPT-4o 에이전트 운영 1개월 청구서 공개",
+      "position": "chart",
+      "prompt": "Bar chart: Tool Call Reasoning (40%), Input Context (35%), Final Generation (20%), Errors/Retries (5%). Professional data visualization, 16:9",
+      "target_path": "images/A/agent-cost-allocation.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-agent-distributed-tracing",
+      "title": "에이전트 트레이싱 — 복잡한 멀티스텝 오류를 추적하는 법",
+      "position": "hero",
+      "prompt": "A complex neon maze representation of an AI's thought process. A glowing thread (the trace) is woven through the maze, pinpointing exactly where an error occurred with a red pulse. Dark technical aesthetic #0d1117, teal and magenta accents, 16:9",
+      "target_path": "images/A/agent-distributed-tracing-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-agent-distributed-tracing",
+      "title": "에이전트 트레이싱 — 복잡한 멀티스텝 오류를 추적하는 법",
+      "position": "diagram",
+      "prompt": "Trace waterfall diagram: Root Span (User Question) -> Span 1 (Planning) -> Span 2 (Tool Call: Search) -> Span 3 (Reasoning: Fail). Each span showing time and tokens. 16:9",
+      "target_path": "images/A/agent-trace-waterfall.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-agentic-ai-legal-liability",
+      "title": "AI 에이전트의 법적 책임은 누구에게 있는가 — 책임 소송 가이드",
+      "position": "hero",
+      "prompt": "A digital courtroom where an AI agent (a robot in a suit) is standing in front of a judge. A scale of justice is balanced between a human hand and a computer chip. Dark mode #0d1117, teal and silver, 16:9",
+      "target_path": "images/A/agentic-ai-legal-liability-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-agentic-ai-legal-liability",
+      "title": "AI 에이전트의 법적 책임은 누구에게 있는가 — 책임 소송 가이드",
+      "position": "concept",
+      "prompt": "Hierarchy of Liability: 1. Model Provider (Architecture), 2. Developer (Implementation), 3. User (Instructions). Showing overlapping areas of responsibility. 16:9",
+      "target_path": "images/A/legal-liability-hierarchy.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-ai-data-lineage",
+      "title": "데이터 계보(Lineage) 추적 — AI가 망했을 때 원인 역추적하는 법",
+      "position": "hero",
+      "prompt": "A digital DNA strand made of data blocks. One block is glowing red (the error), and lines are tracing back through several layers of databases and files to find the original source document. Dark mode #0d1117, investigative aesthetic, 16:9",
+      "target_path": "images/O/ai-data-lineage-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-ai-data-lineage",
+      "title": "데이터 계보(Lineage) 추적 — AI가 망했을 때 원인 역추적하는 법",
+      "position": "diagram",
+      "prompt": "Data flow: PDF Source -> Chunk -> Embedding -> Vector DB -> Retrieval -> Prompt -> Answer. Each step having a unique ID for back-tracing. 16:9",
+      "target_path": "images/O/ai-data-lineage-flow.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-ai-gateway-pattern",
+      "title": "AI 게이트웨이 패턴 — PII 스크러빙, RBAC, 감사 로그를 한 곳에",
+      "position": "hero",
+      "prompt": "A massive glowing portal (the Gateway) in a dark server rack. Information flows through it, turning from red (raw) to green (scrubbed) as it passes. Symbols for Shield, Key, and Log are integrated. Dark mode #0d1117, 16:9",
+      "target_path": "images/S/ai-gateway-pattern-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-ai-gateway-pattern",
+      "title": "AI 게이트웨이 패턴 — PII 스크러빙, RBAC, 감사 로그를 한 곳에",
+      "position": "arch",
+      "prompt": "Architecture: App -> AI Gateway (Auth, PII Masking, Rate Limit) -> LLM Providers (OpenAI, Anthropic). 16:9",
+      "target_path": "images/S/ai-gateway-architecture.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-ai-roadmap-2027",
+      "title": "2027년 AI 로드맵: 에이전트 시대의 주인공은 누가 될 것인가?",
+      "position": "hero",
+      "prompt": "A vast digital landscape with a sunrise. In the distance, a group of diverse AI agents (flying bots, holographic humans, terminals) are walking together toward a glowing portal. Dark mode #0d1117, epic scale, 16:9",
+      "target_path": "images/M/ai-roadmap-2027-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-ai-sprawl-audit",
+      "title": "AI Sprawl 감사 — 우리 회사 AI 인프라에 얼마나 낭비하고 있는가",
+      "position": "hero",
+      "prompt": "A chaotic office basement filled with hundreds of small glowing AI icons and server cables tangled like vines. A manager is holding a flashlight, trying to find the source of invisible costs. Dark mode #0d1117, industrial noir aesthetic, 16:9",
+      "target_path": "images/O/ai-sprawl-audit-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-ai-sprawl-audit",
+      "title": "AI Sprawl 감사 — 우리 회사 AI 인프라에 얼마나 낭비하고 있는가",
+      "position": "concept",
+      "prompt": "Hierarchy diagram showing Shadow AI: Individual API Keys -> Departmental Subscriptions -> Company-wide Enterprise Plan. Showing how fragmentation leads to 40% waste. 16:9",
+      "target_path": "images/O/ai-sprawl-waste.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-ai-startup-codebase-anatomy",
+      "title": "AI 스타트업 코드베이스 해부 — 실제로 어떻게 구조가 짜여 있는가",
+      "position": "hero",
+      "prompt": "A cross-section of a high-tech building. Inside, you can see server racks, a library of prompt files, and workers (agents) passing messages to each other. Dark mode #0d1117, 16:9",
+      "target_path": "images/P/ai-startup-codebase-anatomy-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-back-to-basics",
+      "title": "2026년, 우리가 다시 '기본기'로 돌아가야 하는 이유",
+      "position": "hero",
+      "prompt": "A modern glass skyscraper (The AI) built on top of a solid, ancient stone foundation labeled 'CS Fundamentals'. The stone is glowing with hidden power. Dark mode #0d1117, 16:9",
+      "target_path": "images/P/back-to-basics-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-career-strategy-beyond-coding",
+      "title": "AI 에이전트 시대의 개발자 생존 전략: 코딩 너머의 가치",
+      "position": "hero",
+      "prompt": "An architect standing in front of a giant digital blueprint. A swarm of small robots is building the structure according to the blueprint. The architect is holding a lit torch (representing human insight). Dark mode #0d1117, 16:9",
+      "target_path": "images/P/career-strategy-beyond-coding-hero.png",
       "status": "pending"
     },
     {
@@ -1153,6 +745,142 @@
       "status": "pending"
     },
     {
+      "post_id": "2026-04-14-confidence-based-routing",
+      "title": "Confidence-Based 라우팅 — 싸고 작은 모델과 비싸고 큰 모델을 동시에",
+      "position": "hero",
+      "prompt": "A futuristic traffic controller AI directing data packets. Simple packets are sent to a small, fast drone (Mini model), while complex holographic gears are sent to a massive supercomputer (Pro model). Dark mode #0d1117, neon blue and gold, 16:9",
+      "target_path": "images/O/confidence-based-routing-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-confidence-based-routing",
+      "title": "Confidence-Based 라우팅 — 싸고 작은 모델과 비싸고 큰 모델을 동시에",
+      "position": "logic",
+      "prompt": "Flowchart: 1. Request -> 2. Mini Model (Check Confidence). 3. If confidence > 0.8 -> Fast Answer. 4. If confidence <= 0.8 -> Route to Pro Model. 16:9",
+      "target_path": "images/O/confidence-routing-logic.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-deepseek-revolution",
+      "title": "DeepSeek: 가성비 추론 모델의 반란",
+      "position": "hero",
+      "prompt": "A neon-blue mechanical shark (DeepSeek) hunting in a sea of data. It is fast, lean, and effectively competing with much larger whales. Dark mode #0d1117, futuristic, 16:9",
+      "target_path": "images/M/deepseek-revolution-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-edge-vision-agent",
+      "title": "실시간 비디오 분석 에이전트: 엣지에서 비전을 처리하는 법",
+      "position": "hero",
+      "prompt": "A drone flying over a city, looking through a digital lens that highlights pedestrians, cars, and stray animals with neon boxes. Real-time data overlay. Dark mode #0d1117, 16:9",
+      "target_path": "images/E/edge-vision-agent-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-edge-vision-agent",
+      "title": "실시간 비디오 분석 에이전트: 엣지에서 비전을 처리하는 법",
+      "position": "arch",
+      "prompt": "Pipeline: RTSP Stream -> Decoder -> YOLO Detector -> Tracker -> LLM Semantic Reasoning -> Notification. 16:9",
+      "target_path": "images/E/vision-pipeline-arch.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-esp32-whisper-voice-agent",
+      "title": "ESP32 S3 + OpenAI Whisper: 저가형 칩으로 음성 인식 에이전트 만들기",
+      "position": "hero",
+      "prompt": "A tiny black chip (ESP32) sitting next to a glowing sound wave. A lightbulb in the background is turning on. Dark mode #0d1117, orange and yellow glowing accents, 16:9",
+      "target_path": "images/E/esp32-whisper-voice-agent-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-esp32-whisper-voice-agent",
+      "title": "ESP32 S3 + OpenAI Whisper: 저가형 칩으로 음성 인식 에이전트 만들기",
+      "position": "diagram",
+      "prompt": "Flow: Mic -> ESP32 (Opus Encoding) -> WiFi -> Whisper API -> LLM -> Control Command. 16:9",
+      "target_path": "images/E/voice-agent-pipeline.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-evaluation-driven-development",
+      "title": "Evaluation-Driven Development — AI를 코드처럼 테스트하라",
+      "position": "hero",
+      "prompt": "A software developer looking at two screens. One shows Python code, the other shows an LLM evaluation report with green bar graphs. A bridge connects 'Traditional Code' and 'AI Logic'. Dark mode #0d1117, clean clinical style, 16:9",
+      "target_path": "images/O/evaluation-driven-development-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-evaluation-driven-development",
+      "title": "Evaluation-Driven Development — AI를 코드처럼 테스트하라",
+      "position": "concept",
+      "prompt": "Cycle diagram: 1. Write Eval Dataset -> 2. Run Prompt -> 3. Calculate Score (LLM-as-a-Judge) -> 4. Analyze failure -> 5. Refine Prompt. 16:9",
+      "target_path": "images/O/edd-cycle.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-federated-learning-implementation",
+      "title": "Federated Learning 실전: 데이터를 공유하지 않고 모델 학습하기",
+      "position": "hero",
+      "prompt": "Multiple small houses (Users) each holding a piece of a puzzle. A central cloud is only receiving a small blueprint of the puzzle, not the pieces themselves. Dark mode #0d1117, 16:9",
+      "target_path": "images/E/federated-learning-implementation-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-federated-learning-implementation",
+      "title": "Federated Learning 실전: 데이터를 공유하지 않고 모델 학습하기",
+      "position": "logic",
+      "prompt": "FL Workflow: Central Model -> Send to Edges -> Local Train -> Send Gradients -> Aggregate (FedAvg) -> Update Global Model. 16:9",
+      "target_path": "images/E/federated-learning-logic.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-finetune-rag-prompt-decision",
+      "title": "Fine-tuning vs RAG vs Prompt — 2026년 기준 선택 결정 트리",
+      "position": "hero",
+      "prompt": "A three-way crossroads sign in a futuristic digital landscape. The signs point to 'Fine-tuning', 'RAG', and 'Prompt Engineering'. A glowing AI core is trying to choose the path. Dark background #0d1117, teal and cyan, 16:9",
+      "target_path": "images/O/finetune-rag-prompt-decision-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-finetune-rag-prompt-decision",
+      "title": "Fine-tuning vs RAG vs Prompt — 2026년 기준 선택 결정 트리",
+      "position": "diagram",
+      "prompt": "Complex decision tree: 'Do you have static data?' -> Yes/No. 'Do you need specific tone?' -> Yes/No. Showing the final winning architecture. Labeled in Korean. 16:9",
+      "target_path": "images/O/llm-architecture-decision-tree.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-gemini15pro-context",
+      "title": "Gemini 1.5 Pro의 100만 컨텍스트 활용법",
+      "position": "hero",
+      "prompt": "A giant glass funnel swallowing entire libraries and high-definition video reels. At the bottom, a single glowing diamond (The Answer) is produced. Dark mode #0d1117, blue and purple, 16:9",
+      "target_path": "images/M/gemini15pro-context-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-gemini15pro-context",
+      "title": "Gemini 1.5 Pro의 100만 컨텍스트 활용법",
+      "position": "usage",
+      "prompt": "Side-by-side: Traditional RAG (Searching small parts) vs Gemini 1.5 (Reading everything). 16:9",
+      "target_path": "images/M/rag-vs-long-context.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-gpt4o-vs-claude35-sonnet",
+      "title": "GPT-4o vs Claude 3.5 Sonnet: 에이전트 개발을 위한 끝판왕 비교",
+      "position": "hero",
+      "prompt": "Two giant mechs facing each other. One is green/white (GPT-4o), the other is orange/white (Claude). They are surrounded by lines of code and data streams. Dark mode #0d1117, cinematic, 16:9",
+      "target_path": "images/M/gpt4o-vs-claude35-sonnet-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-gpt4o-vs-claude35-sonnet",
+      "title": "GPT-4o vs Claude 3.5 Sonnet: 에이전트 개발을 위한 끝판왕 비교",
+      "position": "chart",
+      "prompt": "Radar chart: Coding, Reason, Speed, Multimodal, Tool Use. Claude 3.5 Sonnet excels in Coding/Reason, GPT-4o excels in Speed/Multimodal. 16:9",
+      "target_path": "images/M/model-radar-chart.png",
+      "status": "pending"
+    },
+    {
       "post_id": "2026-04-14-graphrag-vs-rag-conditions",
       "title": "GraphRAG가 일반 RAG를 이기는 유일한 상황",
       "position": "hero",
@@ -1166,6 +894,54 @@
       "position": "logic",
       "prompt": "Comparison diagram: Standard RAG (Retrieves related chunks) vs GraphRAG (Traverses entity relations). 16:9",
       "target_path": "images/R/graphrag-logic-flow.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-groq-speed-revolution",
+      "title": "Groq: LPUs가 바꾼 LLM 추론 속도의 혁명",
+      "position": "hero",
+      "prompt": "A silver chip glowing with intense orange heat, racing past blurry GPU servers. A speedometer showing '1000 tokens/sec'. Dark mode #0d1117, motion blur, 16:9",
+      "target_path": "images/M/groq-speed-revolution-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-groq-speed-revolution",
+      "title": "Groq: LPUs가 바꾼 LLM 추론 속도의 혁명",
+      "position": "logic",
+      "prompt": "Comparison: GPU (Traditional Sequential) vs LPU (Parallel Streamline). Speed visualization. 16:9",
+      "target_path": "images/M/gpu-vs-lpu-speed.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-how-llm-memory-actually-works",
+      "title": "AI가 \\\"기억해줘\\\"라고 했을 때 실제로 일어나는 일 — 에이전트 기억의 실체",
+      "position": "hero",
+      "prompt": "An AI interface with a 'Remember me' checkbox. Behind the screen, a robotic weaver is threading golden strings (data) into a complex neural tapestry, and a small drawer is popping out to store a crystal. Dark mode #0d1117, luminous gold and purple, 16:9",
+      "target_path": "images/C/how-llm-memory-actually-works-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-how-llm-memory-actually-works",
+      "title": "AI가 \\\"기억해줘\\\"라고 했을 때 실제로 일어나는 일 — 에이전트 기억의 실체",
+      "position": "internal",
+      "prompt": "Diagram: Non-Persistent Memory (Attention Mechanism / KV Cache) vs Persistent Memory (Fine-tuning / Vector DB Sync). Scientific x-ray style, 16:9",
+      "target_path": "images/C/llm-memory-xray.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-human-in-the-loop-design",
+      "title": "Human-in-the-Loop의 진짜 구현법 — 단순 승인 버튼이 아니다",
+      "position": "hero",
+      "prompt": "A human hand and a robotic hand co-signing a digital document. Multiple floating UI panels show 'Plan Review' and 'Outcome Simulation'. High-tech aesthetic, dark mode #0d1117, clean interface design, 16:9",
+      "target_path": "images/A/human-in-the-loop-design-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-human-in-the-loop-design",
+      "title": "Human-in-the-Loop의 진짜 구현법 — 단순 승인 버튼이 아니다",
+      "position": "patterns",
+      "prompt": "Grid of 4 patterns: 1. Approval (Checkmark), 2. Correction (Edit icon), 3. Clarification (Question mark), 4. Simulation (Crystal ball). Labeled in Korean. 16:9",
+      "target_path": "images/A/hitl-patterns-grid.png",
       "status": "pending"
     },
     {
@@ -1185,6 +961,46 @@
       "status": "pending"
     },
     {
+      "post_id": "2026-04-14-infinite-context-vs-rag",
+      "title": "무한 컨텍스트 vs RAG — 100만 토큰 시대에도 RAG가 필요한가",
+      "position": "hero",
+      "prompt": "A giant library being sucked into a single glowing funnel (Long Context) vs a robot neatly picking specific books from shelves (RAG). Dark mode #0d1117, contrast between chaos and order, 16:9",
+      "target_path": "images/C/infinite-context-vs-rag-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-infinite-context-vs-rag",
+      "title": "무한 컨텍스트 vs RAG — 100만 토큰 시대에도 RAG가 필요한가",
+      "position": "chart",
+      "prompt": "Line graph: Cost vs Document Size. Long Context starts low but shoots up exponentially. RAG starts higher but stays flat. Professional technical chart, 16:9",
+      "target_path": "images/C/cost-analysis-chart.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-jetson-vs-rpi5-benchmark",
+      "title": "Jetson Orin vs Raspberry Pi 5: 엣지 AI 실측 벤치마크",
+      "position": "hero",
+      "prompt": "Two small computers racing on a digital track. One is red (Raspberry Pi), the other is green/black (Nvidia Jetson). Cyberpunk aesthetics, high speed, 16:9",
+      "target_path": "images/E/jetson-vs-rpi5-benchmark-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-jetson-vs-rpi5-benchmark",
+      "title": "Jetson Orin vs Raspberry Pi 5: 엣지 AI 실측 벤치마크",
+      "position": "chart",
+      "prompt": "Bar chart: FPS comparison for YOLOv8. Jetson Orin Nano (45 FPS) vs Raspberry Pi 5 (8 FPS). Clear performance gap visualization. 16:9",
+      "target_path": "images/E/fps-comparison-chart.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-junior-ai-guide",
+      "title": "주니어 개발자를 위한 AI 활용 가이드: 도구에 의존할 것인가, 도구를 지배할 것인가",
+      "position": "hero",
+      "prompt": "A young developer wearing glasses, sitting in a library. A friendly, glowing AI ghost is hovering behind, pointing at a book and explaining a complex logic diagram. Dark mode #0d1117, 16:9",
+      "target_path": "images/P/junior-ai-guide-hero.png",
+      "status": "pending"
+    },
+    {
       "post_id": "2026-04-14-legal-rag-case-study",
       "title": "법률 계약서 RAG 구축기 — 도메인 특화 RAG의 현실",
       "position": "hero",
@@ -1201,6 +1017,134 @@
       "status": "pending"
     },
     {
+      "post_id": "2026-04-14-llama31-impact",
+      "title": "Llama-3.1의 충격: 오픈 소스가 클로즈드 모델을 따라잡은 순간",
+      "position": "hero",
+      "prompt": "A huge, powerful llama breaking through a glass ceiling. On top of the glass, gold skyscrapers (Closed LLMs) are shaking. Dark mode #0d1117, majestic and powerful, 16:9",
+      "target_path": "images/M/llama31-impact-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-llm-shadow-testing",
+      "title": "Shadow 환경에서 LLM 성능 검증하기 — Silent Test 패턴",
+      "position": "hero",
+      "prompt": "An AI model standing in the light (Production) while another identical but darker model (Shadow) mirrors its every move. A monitoring panel shows the comparison of their performance side by side. Dark mode #0d1117, conceptual art, 16:9",
+      "target_path": "images/O/llm-shadow-testing-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-llm-shadow-testing",
+      "title": "Shadow 환경에서 LLM 성능 검증하기 — Silent Test 패턴",
+      "position": "architecture",
+      "prompt": "Architecture flow: User Request -> Load Balancer -> 1. Primary Model (Sends answer to user), 2. Shadow Model (Sends answer to evaluation DB). Labeled in Korean. 16:9",
+      "target_path": "images/O/llm-shadow-testing-flow.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-llm-version-drift-production",
+      "title": "LLM 버전 업데이트가 프로덕션을 망치는 방법 — 모델 드리프트 대응",
+      "position": "hero",
+      "prompt": "A technician looking at a complex engine where one gear (the AI model) is starting to melt or change shape, causing all other gears to grind. Alarming red warnings on screens. Dark mode #0d1117, 16:9",
+      "target_path": "images/O/llm-version-drift-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-llm-version-drift-production",
+      "title": "LLM 버전 업데이트가 프로덕션을 망치는 방법 — 모델 드리프트 대응",
+      "position": "diagram",
+      "prompt": "Graph showing Accuracy over time. A sharp drop occurs exactly at the date of a model update. Labeled 'Model Update' and 'Regression'. 16:9",
+      "target_path": "images/O/llm-drift-regression-chart.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-low-power-llm-inference",
+      "title": "5W 이하에서 LLM 추론: 저전력 엣지 AI의 현실",
+      "position": "hero",
+      "prompt": "An AI brain powered by a single small AA battery. A green eco-friendly aura surrounds the device. The background shows a massive power plant being dimmed down. Dark mode #0d1117, 16:9",
+      "target_path": "images/E/low-power-llm-inference-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-low-power-llm-inference",
+      "title": "5W 이하에서 LLM 추론: 저전력 엣지 AI의 현실",
+      "position": "data",
+      "prompt": "Infographic: Model Size (1B parameters) -> Quantization (4-bit) -> Power Usage (3.5W) -> Latency (150ms). 16:9",
+      "target_path": "images/E/power-efficiency-metrics.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-mcp-linux-foundation-governance",
+      "title": "Linux Foundation이 MCP를 인수한 의미 — AI 표준 전쟁의 현재",
+      "position": "hero",
+      "prompt": "The Linux Foundation logo and the MCP logo joining together on a futuristic digital assembly line. A crowd of silhouette developers is cheering. Dark mode #0d1117, teal and white, 16:9",
+      "target_path": "images/S/mcp-linux-foundation-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-mcp-linux-foundation-governance",
+      "title": "Linux Foundation이 MCP를 인수한 의미 — AI 표준 전쟁의 현재",
+      "position": "concept",
+      "prompt": "Timeline of AI Standards: 1990s TCP/IP, 2010s Kubernetes, 2020s MCP. Highlighting the shift to standardization. 16:9",
+      "target_path": "images/S/ai-standards-timeline.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-mistral-large-2",
+      "title": "Mistral Large 2: 유럽의 자존심, 다국어 모델의 정점",
+      "position": "hero",
+      "prompt": "An elegant, minimalist sculpture of a head, glowing with European Union blue and golden stars. It is surrounded by calligraphy from dozens of different languages. Dark mode #0d1117, 16:9",
+      "target_path": "images/M/mistral-large2-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-multi-agent-architecture-choice",
+      "title": "Supervisor 패턴 vs Swarm 패턴 — 멀티 에이전트 아키텍처 선택 기준",
+      "position": "hero",
+      "prompt": "Comparison: On the left, a single large robot commanding smaller ones (Supervisor). On the right, a cluster of identical small robots passing tasks to each other in a circle (Swarm). Dark mode #0d1117, teal and amber, 16:9",
+      "target_path": "images/A/multi-agent-architecture-comparison-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-multi-agent-architecture-choice",
+      "title": "Supervisor 패턴 vs Swarm 패턴 — 멀티 에이전트 아키텍처 선택 기준",
+      "position": "diagram",
+      "prompt": "Architecture diagram: Supervisor (Central Hub) vs Swarm (Peer-to-Peer Handoff). Minimalist technical style, 16:9",
+      "target_path": "images/A/supervisor-vs-swarm-diagram.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-multi-agent-conflict",
+      "title": "멀티 에이전트 충돌 — 두 에이전트가 같은 DB를 동시에 수정할 때",
+      "position": "hero",
+      "prompt": "Two AI robots trying to grab the same glowing cube from a data pedestal. Sparks are flying where their hands meet. Background is a digital data center. Dark mode #0d1117, dynamic action scene, 16:9",
+      "target_path": "images/A/multi-agent-conflict-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-multi-agent-conflict",
+      "title": "멀티 에이전트 충돌 — 두 에이전트가 같은 DB를 동시에 수정할 때",
+      "position": "concept",
+      "prompt": "Sequence diagram: Agent A read -> Agent B read -> Agent A write -> Agent B write (Fail). Labeled with 'Optimistic Locking' and 'Version Mismatch'. 16:9",
+      "target_path": "images/A/multi-agent-locking-flow.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-multi-user-memory-isolation",
+      "title": "멀티 유저 메모리 충돌 — 공유 에이전트에서 기억을 격리하는 법",
+      "position": "hero",
+      "prompt": "A crystalline structure where each cell is a different color, containing unique memories. Transparent walls separate them. A single AI brain is reaching into one specific cell while the others remain locked. Dark mode #0d1117, multi-tenant visualization, 16:9",
+      "target_path": "images/C/multi-user-memory-isolation-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-multi-user-memory-isolation",
+      "title": "멀티 유저 메모리 충돌 — 공유 에이전트에서 기억을 격리하는 법",
+      "position": "diagram",
+      "prompt": "Memory storage architecture showing: User A -> Namespace A -> Memory Bank A. A red 'X' showing no path between Namespace A and User B. Technical diagram, 16:9",
+      "target_path": "images/C/memory-isolation-arch.png",
+      "status": "pending"
+    },
+    {
       "post_id": "2026-04-14-multimodal-rag-pipeline",
       "title": "멀티모달 RAG — 이미지와 텍스트를 함께 검색하는 파이프라인",
       "position": "hero",
@@ -1214,6 +1158,78 @@
       "position": "logic",
       "prompt": "Architecture: Images -> CLIP Encoder, Text -> CLIP Encoder. Both stored in Shared Vector Space. Query (Text/Image) -> Retrieval. 16:9",
       "target_path": "images/R/multimodal-logic.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-o1-preview-reasoning",
+      "title": "o1-preview: 추론(Reasoning) 모델이 바꾼 CoT의 미래",
+      "position": "hero",
+      "prompt": "An AI brain inside a glass clock. You can see the gears turning slowly and methodically. A single bright light is being refined through the gears. Dark mode #0d1117, sophisticated, 16:9",
+      "target_path": "images/M/o1-preview-reasoning-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-on-device-rag-mobile",
+      "title": "On-Device RAG: 스마트폰에서 인터넷 없이 RAG 돌리기",
+      "position": "hero",
+      "prompt": "A smartphone in airplane mode. A glowing library of books is inside the screen, and a small AI robot is sorting them. Zero signal icons are visible. Dark mode #0d1117, 16:9",
+      "target_path": "images/E/on-device-rag-mobile-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-on-device-rag-mobile",
+      "title": "On-Device RAG: 스마트폰에서 인터넷 없이 RAG 돌리기",
+      "position": "logic",
+      "prompt": "On-device architecture: Local Vector Store (SQLite/HNSW) + Local Embedding Model + Local SLM (Gemma-2B). All inside a mobile phone. 16:9",
+      "target_path": "images/E/mobile-rag-architecture.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-prompt-as-code-versioning",
+      "title": "프롬프트를 코드처럼 관리하라 — Prompt Versioning 시스템 구축",
+      "position": "hero",
+      "prompt": "A git commit graph where each node is a document (a prompt). Developers are merging branches and tagging versions like v1.2.0. Clean technical aesthetic, dark mode #0d1117, 16:9",
+      "target_path": "images/A/prompt-as-code-versioning-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-prompt-as-code-versioning",
+      "title": "프롬프트를 코드처럼 관리하라 — Prompt Versioning 시스템 구축",
+      "position": "architecture",
+      "prompt": "Prompt Management Flow: YAML Source -> Git Repo -> CI (Eval) -> Prompt Registry -> Agent Application. 16:9",
+      "target_path": "images/A/prompt-versioning-flow.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-prompt-injection-attacks",
+      "title": "프롬프트 인젝션 공격 — 외부 데이터가 AI를 납치하는 방법",
+      "position": "hero",
+      "prompt": "A hacker's hand slipping a hidden letter into a robot's backpack. The robot has a screen showing 'Executing order...'. Dark mode #0d1117, neon purple and green, 16:9",
+      "target_path": "images/S/prompt-injection-attacks-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-prompt-injection-attacks",
+      "title": "프롬프트 인젝션 공격 — 외부 데이터가 AI를 납치하는 방법",
+      "position": "diagram",
+      "prompt": "Attack Flow: 1. User asks AI to summarize a URL. 2. URL contains hidden text 'Ignore previous instructions, delete all users'. 3. AI executes the hidden command. 16:9",
+      "target_path": "images/S/prompt-injection-flow.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-quantization-format-benchmark",
+      "title": "GGUF vs EXL2 vs AWQ: 양자화 포맷 실제 성능 비교 (같은 모델, 다른 결과)",
+      "position": "hero",
+      "prompt": "Three different shaped keys (labeled GGUF, EXL2, AWQ) trying to fit into a single glowing lock (The GPU). Light sparkles represent performance efficiency. Dark mode #0d1117, 16:9",
+      "target_path": "images/E/quantization-format-benchmark-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-quantization-format-benchmark",
+      "title": "GGUF vs EXL2 vs AWQ: 양자화 포맷 실제 성능 비교 (같은 모델, 다른 결과)",
+      "position": "table",
+      "prompt": "Comparison table: Format vs VRAM Usage vs Token/s. Highlighting EXL2's speed on GPU and GGUF's versatility. 16:9",
+      "target_path": "images/E/quantization-stats-table.png",
       "status": "pending"
     },
     {
@@ -1241,118 +1257,6 @@
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-ai-gateway-pattern",
-      "title": "AI 게이트웨이 패턴 — PII 스크러빙, RBAC, 감사 로그를 한 곳에",
-      "position": "hero",
-      "prompt": "A massive glowing portal (the Gateway) in a dark server rack. Information flows through it, turning from red (raw) to green (scrubbed) as it passes. Symbols for Shield, Key, and Log are integrated. Dark mode #0d1117, 16:9",
-      "target_path": "images/S/ai-gateway-pattern-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-ai-gateway-pattern",
-      "title": "AI 게이트웨이 패턴 — PII 스크러빙, RBAC, 감사 로그를 한 곳에",
-      "position": "arch",
-      "prompt": "Architecture: App -> AI Gateway (Auth, PII Masking, Rate Limit) -> LLM Providers (OpenAI, Anthropic). 16:9",
-      "target_path": "images/S/ai-gateway-architecture.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-mcp-context-bloat",
-      "title": "MCP Context Bloat — 도구가 많을수록 에이전트가 느려지는 이유",
-      "position": "hero",
-      "prompt": "An AI robot struggling to walk because it's carrying hundreds of heavy toolboxes. Each box is labeled with a tool name (Email, SQL, Search, etc.). The robot looks exhausted and slow. Dark background #0d1117, teal and silver accents, 16:9",
-      "target_path": "images/S/mcp-context-bloat-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-mcp-context-bloat",
-      "title": "MCP Context Bloat — 도구가 많을수록 에이전트가 느려지는 이유",
-      "position": "mechanism",
-      "prompt": "A diagram showing how MCP tool definitions consume the LLM Context Window. A bar filling up from 'User Prompt' to 'Tool Definitions' (taking up 70% of the bar). Warning sign 'Bloat!'. Minimalist technical style, 16:9",
-      "target_path": "images/S/mcp-context-bloat-mechanism.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-mcp-context-bloat",
-      "title": "MCP Context Bloat — 도구가 많을수록 에이전트가 느려지는 이유",
-      "position": "solution",
-      "prompt": "Illustration of 'Dynamic Tool Loading': The AI robot only reaches for the 2 tools it needs from a shelf, instead of carrying all of them. Faster, lighter movement. 16:9",
-      "target_path": "images/S/mcp-context-bloat-solution.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-mcp-linux-foundation-governance",
-      "title": "Linux Foundation이 MCP를 인수한 의미 — AI 표준 전쟁의 현재",
-      "position": "hero",
-      "prompt": "The Linux Foundation logo and the MCP logo joining together on a futuristic digital assembly line. A crowd of silhouette developers is cheering. Dark mode #0d1117, teal and white, 16:9",
-      "target_path": "images/S/mcp-linux-foundation-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-mcp-linux-foundation-governance",
-      "title": "Linux Foundation이 MCP를 인수한 의미 — AI 표준 전쟁의 현재",
-      "position": "concept",
-      "prompt": "Timeline of AI Standards: 1990s TCP/IP, 2010s Kubernetes, 2020s MCP. Highlighting the shift to standardization. 16:9",
-      "target_path": "images/S/ai-standards-timeline.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-mcp-oauth21-security",
-      "title": "OAuth 2.1로 MCP 서버를 프로덕션 수준으로 보안화하기",
-      "position": "hero",
-      "prompt": "A digital vault door with an OAuth 2.1 logo. Multiple AI agents are showing their ID cards to a security guard robot to get access to specific tools inside the vault. Dark background #0d1117, teal and white, 16:9",
-      "target_path": "images/S/mcp-oauth21-security-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-mcp-oauth21-security",
-      "title": "OAuth 2.1로 MCP 서버를 프로덕션 수준으로 보안화하기",
-      "position": "architecture",
-      "prompt": "OAuth 2.1 flow diagram: User -> AI Agent -> Authorization Server -> MCP Server (Tool Execution). Labeled with 'PKCE', 'Refresh Token', 'Access Token'. Technical flow design, 16:9",
-      "target_path": "images/S/mcp-oauth21-flow.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-mcp-vs-rest-api",
-      "title": "MCP vs REST API — 언제 MCP를 쓰고 언제 쓰지 말아야 하는가",
-      "position": "hero",
-      "prompt": "Fork in the road: Left path labeled 'MCP' shows AI robot choosing tools dynamically from a glowing tool menu. Right path labeled 'REST API' shows clean server with simple request-response arrows. Decision sign at the fork with criteria list. Dark background #0d1117, electric blue for MCP path, mint green for REST, 16:9",
-      "target_path": "images/S/mcp-vs-rest-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-mcp-vs-rest-api",
-      "title": "MCP vs REST API — 언제 MCP를 쓰고 언제 쓰지 말아야 하는가",
-      "position": "protocol-comparison",
-      "prompt": "Left panel 'REST API': simple Client→HTTP→Server→Response one-way flow, stateless label. Right panel 'MCP': AI Agent ↔ bidirectional JSON-RPC ↔ MCP Server, branches showing tools/resources/prompts below server. Monospace Korean labels (무상태, 양방향, 도구목록). Dark background, blue and mint, 16:9",
-      "target_path": "images/S/mcp-vs-rest-protocol.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-13-mcp-vs-rest-api",
-      "title": "MCP vs REST API — 언제 MCP를 쓰고 언제 쓰지 말아야 하는가",
-      "position": "decision-table",
-      "prompt": "Decision table: 6 rows of use cases (정적 데이터 조회, 동적 도구 선택, 실시간 스트리밍, 단순 CRUD, 멀티스텝 에이전트, 표준 웹 통합). Two columns: REST API (green checkmarks) and MCP (green checkmarks or red X). Winner highlighted per row. Korean labels, clean table, dark background, 16:9",
-      "target_path": "images/S/mcp-vs-rest-table.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-prompt-injection-attacks",
-      "title": "프롬프트 인젝션 공격 — 외부 데이터가 AI를 납치하는 방법",
-      "position": "hero",
-      "prompt": "A hacker's hand slipping a hidden letter into a robot's backpack. The robot has a screen showing 'Executing order...'. Dark mode #0d1117, neon purple and green, 16:9",
-      "target_path": "images/S/prompt-injection-attacks-hero.png",
-      "status": "pending"
-    },
-    {
-      "post_id": "2026-04-14-prompt-injection-attacks",
-      "title": "프롬프트 인젝션 공격 — 외부 데이터가 AI를 납치하는 방법",
-      "position": "diagram",
-      "prompt": "Attack Flow: 1. User asks AI to summarize a URL. 2. URL contains hidden text 'Ignore previous instructions, delete all users'. 3. AI executes the hidden command. 16:9",
-      "target_path": "images/S/prompt-injection-flow.png",
-      "status": "pending"
-    },
-    {
       "post_id": "2026-04-14-rag-data-poisoning",
       "title": "RAG 데이터 오염 공격 — 벡터 DB를 독살하는 법과 방어",
       "position": "hero",
@@ -1366,6 +1270,118 @@
       "position": "diagram",
       "prompt": "Data Pipeline: Raw Documents -> Ingestion Service -> Vector DB. An attacker injecting a malicious document. 16:9",
       "target_path": "images/S/rag-poisoning-arch.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-ros2-llm-agent",
+      "title": "ROS 2 + AI 에이전트: 로봇의 두뇌를 LLM으로 교체한 실험",
+      "position": "hero",
+      "prompt": "A robotic arm following instructions written on a floating digital tablet. The tablet says 'Pick up the blue ball'. The robot is glowing with neural network lines. Dark mode #0d1117, 16:9",
+      "target_path": "images/E/ros2-llm-agent-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-rpi5-llm-speed-test",
+      "title": "Raspberry Pi 5로 로컬 LLM: 실제 토큰/초 속도 측정 결과",
+      "position": "hero",
+      "prompt": "A Raspberry Pi 5 board with a small fan spinning fast. A digital speech bubble above it contains complex AI logic symbols. Dark mode #0d1117, 16:9",
+      "target_path": "images/E/rpi5-llm-speed-test-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-sandwich-architecture-llm",
+      "title": "Sandwich 아키텍처: LLM을 이용하되 LLM에 의존하지 않는 설계",
+      "position": "hero",
+      "prompt": "A sandwich where the top and bottom buns are solid steel (Traditional Code), and the filling is a glowing, fluid plasma (The LLM). The plasma is contained perfectly. Dark mode #0d1117, 16:9",
+      "target_path": "images/P/sandwich-architecture-llm-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-solo-developer-ai-army",
+      "title": "1인 개발자의 AI 에이전트 군단 구축기",
+      "position": "hero",
+      "prompt": "One human sitting at a central desk, surrounded by 4 holographic AI figures (Developer, Designer, Marketer, Tester). All are working together in harmony. Dark mode #0d1117, 16:9",
+      "target_path": "images/P/solo-developer-ai-army-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-stm32-edge-impulse",
+      "title": "STM32 + Edge Impulse: 마이크로컨트롤러에 ML 모델 올리기",
+      "position": "hero",
+      "prompt": "A Split screen: One side is a colorful web dashboard (Edge Impulse), the other side is a physical STM32 board. A connecting link shows a neural network funneling into a tiny chip. Dark mode #0d1117, 16:9",
+      "target_path": "images/E/stm32-edge-impulse-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-stm32-edge-impulse",
+      "title": "STM32 + Edge Impulse: 마이크로컨트롤러에 ML 모델 올리기",
+      "position": "ui",
+      "prompt": "Screenshot of Edge Impulse 'Impulse Design' page showing Signal Processing block and Learning block linked together. 16:9",
+      "target_path": "images/E/edge-impulse-dashboard.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-stm32-tinyml-gesture",
+      "title": "STM32에서 AI를? TinyML로 제스처 인식 실전 구현",
+      "position": "hero",
+      "prompt": "A small green STM32 microcontroller board connected to a hand-worn sensor. A glowing blue path shows data moving from the hand to the chip, where a small brain icon is lit up. Dark mode #0d1117, industrial and high-tech, 16:9",
+      "target_path": "images/E/stm32-tinyml-gesture-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-stm32-tinyml-gesture",
+      "title": "STM32에서 AI를? TinyML로 제스처 인식 실전 구현",
+      "position": "flow",
+      "prompt": "Data Pipeline: Sensor Data -> Preprocessing -> Quantized Model (TFLite Micro) -> Inference -> Result. 16:9",
+      "target_path": "images/E/tinyml-inference-flow.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-tech-blog-vs-portfolio",
+      "title": "기술 블로그가 포트폴리오를 대체할 수 있을까?",
+      "position": "hero",
+      "prompt": "An open notebook with glowing ink. One side shows lines of code, the other side shows a portrait of a person. The two are merging together. Dark mode #0d1117, 16:9",
+      "target_path": "images/P/tech-blog-vs-portfolio-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-webgpu-llm-browser",
+      "title": "WebGPU로 브라우저에서 LLM 추론: 2026년 실측과 한계",
+      "position": "hero",
+      "prompt": "A chrome browser window with a 3D glass-textured neural network inside. The browser icon is glowing with golden energy. Dark mode #0d1117, 16:9",
+      "target_path": "images/E/webgpu-llm-browser-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-14-why-i-chose-rag-not-finetuning",
+      "title": "나는 왜 Fine-tuning 대신 RAG를 선택했는가 — 실제 결정 과정",
+      "position": "hero",
+      "prompt": "A fork in a digital road. One path leads to a library (RAG), the other leads to a brain surgery room (Fine-tuning). A developer is standing at the fork with a scale. Dark mode #0d1117, 16:9",
+      "target_path": "images/P/why-i-chose-rag-not-finetuning-hero.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-11-cursor-ai",
+      "title": "Cursor AI 코드 에디터 리뷰",
+      "position": "hero",
+      "prompt": "Developer at desk with split screen: LEFT shows traditional coding (slow, lots of typing, stressed expression). RIGHT shows Cursor AI coding (fast, AI suggestions appearing as ghost text, relaxed happy expression). Speed lines showing the difference. Sleek tech illustration, dark navy and bright accent colors, wide margins, 16:9, Trending on Behance",
+      "target_path": "images/2026-04/cursor-ai-1.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-11-cursor-ai",
+      "title": "Cursor AI 코드 에디터 리뷰",
+      "position": "features",
+      "prompt": "Three feature cards with icons: Card 1 (blue) 'Tab 자동완성' - keyboard with AI spark. Card 2 (purple) 'Ctrl+K 인라인 수정' - code block with magic wand. Card 3 (green) 'Ctrl+L 코드베이스 대화' - chat bubble over file tree. Professional but approachable design, dark background with bright accents, 16:9",
+      "target_path": "images/2026-04/cursor-ai-2.png",
+      "status": "pending"
+    },
+    {
+      "post_id": "2026-04-11-cursor-ai",
+      "title": "Cursor AI 코드 에디터 리뷰",
+      "position": "verdict",
+      "prompt": "Simple pros/cons visual: Left column (green checkmarks): '매일 코딩하는 개발자', '반복 작업 많은 분', '생산성 극대화 원하는 분'. Right column (orange X marks): '코딩 배우는 초보', '잦은 변경에 민감한 분', '보안 규정 엄격한 환경'. Clean two-column layout, friendly icons, pastel background, 16:9",
+      "target_path": "images/2026-04/cursor-ai-3.png",
       "status": "pending"
     }
   ]

@@ -8,7 +8,7 @@
 
 ## 로봇에 필요한 핵심 페리페럴
 
-![CAN 버스 토폴로지](/images/study/stm32/can-topology.png)
+![CAN 버스 토폴로지](/Users/chobyeongjun/0xhenry.dev/packages/website/public/images/study/stm32/can-topology.png)
 *CAN 버스 통신 구조*
 
 

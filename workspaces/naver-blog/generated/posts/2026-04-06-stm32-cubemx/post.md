@@ -8,7 +8,7 @@
 
 ## STM32CubeMX 실전 설정 과정
 
-![CubeMX 핀 설정 화면](/images/study/stm32/cubemx-pinout.png)
+![CubeMX 핀 설정 화면](/Users/chobyeongjun/0xhenry.dev/packages/website/public/images/study/stm32/cubemx-pinout.png)
 *CubeMX 핀 설정 화면*
 
 

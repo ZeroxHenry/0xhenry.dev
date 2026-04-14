@@ -6,7 +6,7 @@
 ---
 
 
-![클럭 트리](/images/study/stm32/clock-tree.png)
+![클럭 트리](/Users/chobyeongjun/0xhenry.dev/packages/website/public/images/study/stm32/clock-tree.png)
 *HSE → PLL → SYSCLK 클럭 트리*
 
 
@@ -113,7 +113,7 @@ SYSCLK (480 MHz)
 
 ### 3.4 CubeMX 클럭 설정 실전
 
-![CubeMX 클럭 설정](/images/study/stm32/cubemx-clock.png)
+![CubeMX 클럭 설정](/Users/chobyeongjun/0xhenry.dev/packages/website/public/images/study/stm32/cubemx-clock.png)
 *CubeMX Clock Configuration 탭 설정 화면*
 
 CubeMX의 Clock Configuration 탭에서:
