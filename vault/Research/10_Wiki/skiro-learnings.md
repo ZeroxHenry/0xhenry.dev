@@ -53,6 +53,11 @@ summary: 로봇 개발 문제-해결 교훈. Single Source of Truth. skiro-vault
 - **해결일:** 2026-04-14
 
 
+### [CRITICAL] 카메라 배치: 워커에서 하지가 다 보이도록 하는 높이 + 아래로 틸트 필요. 정확한 높이/각도 미결정
+- **상태:** 미해결
+- **컨텍스트:** 2026-04-11 h-walker 카메라 설치
+- **기록일:** 2026-04-15
+
 ## Software
 
 ### [WARNING] fetch    10ms (grab 동기 대기) 여기속도 줄이게 해주고
@@ -90,6 +95,14 @@ summary: 로봇 개발 문제-해결 교훈. Single Source of Truth. skiro-vault
 - **해결일:** 2026-04-12
 
 ---
+
+
+## Protocol
+
+### [WARNING] CAN 통신 에러가 계속 발생해
+- **상태:** 미해결
+- **컨텍스트:** 2026-04-15 hook-prompt
+- **기록일:** 2026-04-15
 
 ## Related
 - [[h-walker]]
