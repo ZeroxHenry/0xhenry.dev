@@ -1,19 +1,19 @@
 {
   "queue": [
     {
-      "post_id": "2026-04-14-exosuit-protection-design",
-      "title": "[0xHenry 리포트] Exosuit 보호 회로 안전 설계",
+      "post_id": "2026-04-14-high-power-robot-protection",
+      "title": "[0xHenry 리포트] 고출력 로봇 시스템 보호 설계 안전 설계",
       "position": "hero",
       "prompt": "A high-tech laboratory desk with a futuristic robot leg and a custom circuit board. Multimeter probes and oscilloscope showing voltage spikes in the background. Cinematic lighting, dark mode with mint/blue neon accents, shallow depth of field, 16:9, Trending on Behance",
-      "target_path": "images/2026-04/exosuit-protection-hero.png",
+      "target_path": "images/2026-04/high-power-robot-protection-hero.png",
       "status": "pending"
     },
     {
-      "post_id": "2026-04-14-exosuit-protection-design",
+      "post_id": "2026-04-14-high-power-robot-protection",
       "title": "[0xHenry 리포트] Exosuit 전압 곡선 대비",
       "position": "comparison",
       "prompt": "Two-panel technical infographic. Left: Glowing red curve showing 143V spike labeled DANGER in Korean. Right: Stable blue curve showing 27.9V labeled SAFE. Clean minimalist tech diagram style, dark background, 16:9, Trending on Behance",
-      "target_path": "images/2026-04/exosuit-voltage-comparison.png",
+      "target_path": "images/2026-04/high-power-voltage-comparison.png",
       "status": "pending"
     },
     {
