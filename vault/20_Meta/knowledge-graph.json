@@ -1,0 +1,1614 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {
+    "hyperedges": [
+      {
+        "id": "exosuit_core_system",
+        "label": "Exosuit Core Hardware System",
+        "members": [
+          "exosuit_hardware_overview",
+          "exosuit_handoff",
+          "elmo_driver_comparison",
+          "cable_driven_mechanism",
+          "robot_hardware_protection",
+          "stm32h743",
+          "canopen"
+        ],
+        "relation": "system_components",
+        "confidence": "INFERRED",
+        "confidence_score": 0.9
+      },
+      {
+        "id": "sensing_subsystem",
+        "label": "Exosuit Sensing Subsystem",
+        "members": [
+          "ebimu_imu",
+          "zed_x_mini",
+          "jetson_orin_nx",
+          "realtime_pose_estimation"
+        ],
+        "relation": "system_components",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85
+      },
+      {
+        "id": "motor_control_chain",
+        "label": "Motor Control Chain",
+        "members": [
+          "ak60_motor",
+          "can_communication",
+          "teensy_4_1",
+          "motor_benchmark",
+          "elmo_gold_twitter"
+        ],
+        "relation": "data_flow",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85
+      },
+      {
+        "id": "gait_rehab_research",
+        "label": "Gait Rehabilitation Research",
+        "members": [
+          "gait_analysis",
+          "stroke_gait_experiment",
+          "bumbuche_grant_2026",
+          "h_walker"
+        ],
+        "relation": "research_theme",
+        "confidence": "INFERRED",
+        "confidence_score": 0.85
+      },
+      {
+        "id": "ai_knowledge_mgmt",
+        "label": "AI Knowledge Management",
+        "members": [
+          "p_reinforce",
+          "antigravity",
+          "llm_wiki",
+          "obsidian"
+        ],
+        "relation": "research_theme",
+        "confidence": "INFERRED",
+        "confidence_score": 0.7
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "label": "P-Reinforce",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/p-reinforce.md",
+      "id": "p_reinforce",
+      "community": 0
+    },
+    {
+      "label": "Skiro Learnings",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/skiro-learnings.md",
+      "id": "skiro_learnings",
+      "community": 3
+    },
+    {
+      "label": "Cable-Driven Mechanism",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/cable-driven-mechanism.md",
+      "id": "cable_driven_mechanism",
+      "community": 2
+    },
+    {
+      "label": "Robot Hardware Protection",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/robot-hardware-protection.md",
+      "id": "robot_hardware_protection",
+      "community": 5
+    },
+    {
+      "label": "Exosuit Hardware Overview",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/exosuit-hardware-overview.md",
+      "id": "exosuit_hardware_overview",
+      "community": 1
+    },
+    {
+      "label": "2026 Bumbuche Grant",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/2026-bumbuche-grant.md",
+      "id": "bumbuche_grant_2026",
+      "community": 2
+    },
+    {
+      "label": "Exosuit Handoff",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "id": "exosuit_handoff",
+      "community": 1
+    },
+    {
+      "label": "EBIMU IMU",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/ebimu-imu.md",
+      "id": "ebimu_imu",
+      "community": 1
+    },
+    {
+      "label": "Motor Benchmark",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/motor-benchmark.md",
+      "id": "motor_benchmark",
+      "community": 3
+    },
+    {
+      "label": "Gait Analysis",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/gait-analysis.md",
+      "id": "gait_analysis",
+      "community": 2
+    },
+    {
+      "label": "Teensy 4.1",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/teensy-4-1.md",
+      "id": "teensy_4_1",
+      "community": 3
+    },
+    {
+      "label": "Elmo Driver Comparison",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/elmo-driver-comparison.md",
+      "id": "elmo_driver_comparison",
+      "community": 4
+    },
+    {
+      "label": "CAN Communication",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/can-communication.md",
+      "id": "can_communication",
+      "community": 3
+    },
+    {
+      "label": "ZED X Mini",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/zed-x-mini.md",
+      "id": "zed_x_mini",
+      "community": 1
+    },
+    {
+      "label": "Antigravity IDE",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/antigravity.md",
+      "id": "antigravity",
+      "community": 0
+    },
+    {
+      "label": "H-Walker",
+      "file_type": "document",
+      "source_file": "",
+      "id": "h_walker",
+      "community": 2
+    },
+    {
+      "label": "AK60 Motor",
+      "file_type": "document",
+      "source_file": "",
+      "id": "ak60_motor",
+      "community": 3
+    },
+    {
+      "label": "Admittance Control",
+      "file_type": "document",
+      "source_file": "",
+      "id": "admittance_control",
+      "community": 2
+    },
+    {
+      "label": "Realtime Pose Estimation",
+      "file_type": "document",
+      "source_file": "",
+      "id": "realtime_pose_estimation",
+      "community": 2
+    },
+    {
+      "label": "Stroke Gait Experiment",
+      "file_type": "document",
+      "source_file": "",
+      "id": "stroke_gait_experiment",
+      "community": 2
+    },
+    {
+      "label": "Jetson Orin NX",
+      "file_type": "document",
+      "source_file": "",
+      "id": "jetson_orin_nx",
+      "community": 1
+    },
+    {
+      "label": "Elmo Gold Twitter",
+      "file_type": "document",
+      "source_file": "",
+      "id": "elmo_gold_twitter",
+      "community": 4
+    },
+    {
+      "label": "STM32H743",
+      "file_type": "document",
+      "source_file": "",
+      "id": "stm32h743",
+      "community": 1
+    },
+    {
+      "label": "LLM Wiki",
+      "file_type": "document",
+      "source_file": "",
+      "id": "llm_wiki",
+      "community": 0
+    },
+    {
+      "label": "Gemma 4",
+      "file_type": "document",
+      "source_file": "",
+      "id": "gemma_4",
+      "community": 0
+    },
+    {
+      "label": "Obsidian",
+      "file_type": "document",
+      "source_file": "",
+      "id": "obsidian",
+      "community": 0
+    },
+    {
+      "label": "Exosuit Safety",
+      "file_type": "document",
+      "source_file": "",
+      "id": "exosuit_safety",
+      "community": 3
+    },
+    {
+      "label": "3D Assistance",
+      "file_type": "document",
+      "source_file": "",
+      "id": "three_d_assistance",
+      "community": 2
+    },
+    {
+      "label": "Motor Selection",
+      "file_type": "document",
+      "source_file": "",
+      "id": "motor_selection",
+      "community": 4
+    },
+    {
+      "label": "Exosuit Protection",
+      "file_type": "document",
+      "source_file": "",
+      "id": "exosuit_protection",
+      "community": 4
+    },
+    {
+      "label": "ISO1050 Isolated CAN",
+      "file_type": "document",
+      "source_file": "",
+      "id": "iso1050",
+      "community": 5
+    },
+    {
+      "label": "CANopen Protocol",
+      "file_type": "document",
+      "source_file": "",
+      "id": "canopen",
+      "community": 1
+    },
+    {
+      "label": "FreeRTOS",
+      "file_type": "document",
+      "source_file": "",
+      "id": "freertos",
+      "community": 1
+    },
+    {
+      "label": "0xhenry.dev",
+      "file_type": "document",
+      "source_file": "vault/Research/10_Wiki/0xhenry-dev.md",
+      "id": "zero_x_henry_dev",
+      "community": 0
+    },
+    {
+      "label": "Naver Blog Pipeline",
+      "file_type": "document",
+      "source_file": "",
+      "id": "naver_blog_pipeline",
+      "community": 0
+    },
+    {
+      "label": "Graphify",
+      "file_type": "document",
+      "source_file": "",
+      "id": "graphify",
+      "community": 0
+    }
+  ],
+  "links": [
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/p-reinforce.md",
+      "weight": 1.0,
+      "_src": "p_reinforce",
+      "_tgt": "llm_wiki",
+      "source": "p_reinforce",
+      "target": "llm_wiki"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/p-reinforce.md",
+      "weight": 1.0,
+      "_src": "p_reinforce",
+      "_tgt": "obsidian",
+      "source": "p_reinforce",
+      "target": "obsidian"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/p-reinforce.md",
+      "weight": 1.0,
+      "_src": "p_reinforce",
+      "_tgt": "gemma_4",
+      "source": "p_reinforce",
+      "target": "gemma_4"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.6,
+      "source_file": "vault/Research/10_Wiki/p-reinforce.md",
+      "weight": 0.6,
+      "_src": "p_reinforce",
+      "_tgt": "antigravity",
+      "source": "p_reinforce",
+      "target": "antigravity"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/skiro-learnings.md",
+      "weight": 1.0,
+      "_src": "skiro_learnings",
+      "_tgt": "h_walker",
+      "source": "skiro_learnings",
+      "target": "h_walker"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/skiro-learnings.md",
+      "weight": 1.0,
+      "_src": "skiro_learnings",
+      "_tgt": "exosuit_safety",
+      "source": "skiro_learnings",
+      "target": "exosuit_safety"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/skiro-learnings.md",
+      "weight": 1.0,
+      "_src": "skiro_learnings",
+      "_tgt": "ak60_motor",
+      "source": "skiro_learnings",
+      "target": "ak60_motor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/skiro-learnings.md",
+      "weight": 1.0,
+      "_src": "skiro_learnings",
+      "_tgt": "realtime_pose_estimation",
+      "source": "skiro_learnings",
+      "target": "realtime_pose_estimation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/skiro-learnings.md",
+      "weight": 1.0,
+      "_src": "skiro_learnings",
+      "_tgt": "can_communication",
+      "source": "skiro_learnings",
+      "target": "can_communication"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/skiro-learnings.md",
+      "weight": 1.0,
+      "_src": "skiro_learnings",
+      "_tgt": "admittance_control",
+      "source": "skiro_learnings",
+      "target": "admittance_control"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "vault/Research/10_Wiki/skiro-learnings.md",
+      "weight": 0.8,
+      "_src": "skiro_learnings",
+      "_tgt": "robot_hardware_protection",
+      "source": "skiro_learnings",
+      "target": "robot_hardware_protection"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 0.7,
+      "_src": "exosuit_handoff",
+      "_tgt": "skiro_learnings",
+      "source": "skiro_learnings",
+      "target": "exosuit_handoff"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/cable-driven-mechanism.md",
+      "weight": 1.0,
+      "_src": "cable_driven_mechanism",
+      "_tgt": "h_walker",
+      "source": "cable_driven_mechanism",
+      "target": "h_walker"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/cable-driven-mechanism.md",
+      "weight": 1.0,
+      "_src": "cable_driven_mechanism",
+      "_tgt": "three_d_assistance",
+      "source": "cable_driven_mechanism",
+      "target": "three_d_assistance"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/cable-driven-mechanism.md",
+      "weight": 1.0,
+      "_src": "cable_driven_mechanism",
+      "_tgt": "admittance_control",
+      "source": "cable_driven_mechanism",
+      "target": "admittance_control"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "vault/Research/10_Wiki/exosuit-hardware-overview.md",
+      "weight": 0.9,
+      "_src": "exosuit_hardware_overview",
+      "_tgt": "cable_driven_mechanism",
+      "source": "cable_driven_mechanism",
+      "target": "exosuit_hardware_overview"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "vault/Research/10_Wiki/2026-bumbuche-grant.md",
+      "weight": 0.8,
+      "_src": "bumbuche_grant_2026",
+      "_tgt": "cable_driven_mechanism",
+      "source": "cable_driven_mechanism",
+      "target": "bumbuche_grant_2026"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 0.8,
+      "_src": "exosuit_handoff",
+      "_tgt": "cable_driven_mechanism",
+      "source": "cable_driven_mechanism",
+      "target": "exosuit_handoff"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/robot-hardware-protection.md",
+      "weight": 1.0,
+      "_src": "robot_hardware_protection",
+      "_tgt": "exosuit_protection",
+      "source": "robot_hardware_protection",
+      "target": "exosuit_protection"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/robot-hardware-protection.md",
+      "weight": 1.0,
+      "_src": "robot_hardware_protection",
+      "_tgt": "iso1050",
+      "source": "robot_hardware_protection",
+      "target": "iso1050"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "vault/Research/10_Wiki/robot-hardware-protection.md",
+      "weight": 0.8,
+      "_src": "robot_hardware_protection",
+      "_tgt": "can_communication",
+      "source": "robot_hardware_protection",
+      "target": "can_communication"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "vault/Research/10_Wiki/robot-hardware-protection.md",
+      "weight": 0.9,
+      "_src": "robot_hardware_protection",
+      "_tgt": "exosuit_hardware_overview",
+      "source": "robot_hardware_protection",
+      "target": "exosuit_hardware_overview"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "vault/Research/10_Wiki/robot-hardware-protection.md",
+      "weight": 0.8,
+      "_src": "robot_hardware_protection",
+      "_tgt": "exosuit_handoff",
+      "source": "robot_hardware_protection",
+      "target": "exosuit_handoff"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-hardware-overview.md",
+      "weight": 1.0,
+      "_src": "exosuit_hardware_overview",
+      "_tgt": "elmo_gold_twitter",
+      "source": "exosuit_hardware_overview",
+      "target": "elmo_gold_twitter"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-hardware-overview.md",
+      "weight": 1.0,
+      "_src": "exosuit_hardware_overview",
+      "_tgt": "zed_x_mini",
+      "source": "exosuit_hardware_overview",
+      "target": "zed_x_mini"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-hardware-overview.md",
+      "weight": 1.0,
+      "_src": "exosuit_hardware_overview",
+      "_tgt": "jetson_orin_nx",
+      "source": "exosuit_hardware_overview",
+      "target": "jetson_orin_nx"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-hardware-overview.md",
+      "weight": 1.0,
+      "_src": "exosuit_hardware_overview",
+      "_tgt": "ebimu_imu",
+      "source": "exosuit_hardware_overview",
+      "target": "ebimu_imu"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-hardware-overview.md",
+      "weight": 1.0,
+      "_src": "exosuit_hardware_overview",
+      "_tgt": "stm32h743",
+      "source": "exosuit_hardware_overview",
+      "target": "stm32h743"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-hardware-overview.md",
+      "weight": 1.0,
+      "_src": "exosuit_hardware_overview",
+      "_tgt": "canopen",
+      "source": "exosuit_hardware_overview",
+      "target": "canopen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-hardware-overview.md",
+      "weight": 1.0,
+      "_src": "exosuit_hardware_overview",
+      "_tgt": "exosuit_protection",
+      "source": "exosuit_hardware_overview",
+      "target": "exosuit_protection"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "vault/Research/10_Wiki/exosuit-hardware-overview.md",
+      "weight": 0.8,
+      "_src": "exosuit_hardware_overview",
+      "_tgt": "iso1050",
+      "source": "exosuit_hardware_overview",
+      "target": "iso1050"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 1.0,
+      "_src": "exosuit_handoff",
+      "_tgt": "exosuit_hardware_overview",
+      "source": "exosuit_hardware_overview",
+      "target": "exosuit_handoff"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/elmo-driver-comparison.md",
+      "weight": 1.0,
+      "_src": "elmo_driver_comparison",
+      "_tgt": "exosuit_hardware_overview",
+      "source": "exosuit_hardware_overview",
+      "target": "elmo_driver_comparison"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "vault/Research/10_Wiki/2026-bumbuche-grant.md",
+      "weight": 0.9,
+      "_src": "bumbuche_grant_2026",
+      "_tgt": "exosuit_hardware_overview",
+      "source": "exosuit_hardware_overview",
+      "target": "bumbuche_grant_2026"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/h-walker.md",
+      "weight": 1.0,
+      "_src": "h_walker",
+      "_tgt": "bumbuche_grant_2026",
+      "source": "bumbuche_grant_2026",
+      "target": "h_walker"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/stroke-gait-experiment.md",
+      "weight": 1.0,
+      "_src": "stroke_gait_experiment",
+      "_tgt": "bumbuche_grant_2026",
+      "source": "bumbuche_grant_2026",
+      "target": "stroke_gait_experiment"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "vault/Research/10_Wiki/gait-analysis.md",
+      "weight": 0.7,
+      "_src": "gait_analysis",
+      "_tgt": "bumbuche_grant_2026",
+      "source": "bumbuche_grant_2026",
+      "target": "gait_analysis"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 1.0,
+      "_src": "exosuit_handoff",
+      "_tgt": "teensy_4_1",
+      "source": "exosuit_handoff",
+      "target": "teensy_4_1"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 1.0,
+      "_src": "exosuit_handoff",
+      "_tgt": "ebimu_imu",
+      "source": "exosuit_handoff",
+      "target": "ebimu_imu"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 1.0,
+      "_src": "exosuit_handoff",
+      "_tgt": "zed_x_mini",
+      "source": "exosuit_handoff",
+      "target": "zed_x_mini"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 1.0,
+      "_src": "exosuit_handoff",
+      "_tgt": "jetson_orin_nx",
+      "source": "exosuit_handoff",
+      "target": "jetson_orin_nx"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 1.0,
+      "_src": "exosuit_handoff",
+      "_tgt": "elmo_driver_comparison",
+      "source": "exosuit_handoff",
+      "target": "elmo_driver_comparison"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 1.0,
+      "_src": "exosuit_handoff",
+      "_tgt": "motor_selection",
+      "source": "exosuit_handoff",
+      "target": "motor_selection"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 1.0,
+      "_src": "exosuit_handoff",
+      "_tgt": "stm32h743",
+      "source": "exosuit_handoff",
+      "target": "stm32h743"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 1.0,
+      "_src": "exosuit_handoff",
+      "_tgt": "canopen",
+      "source": "exosuit_handoff",
+      "target": "canopen"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 1.0,
+      "_src": "exosuit_handoff",
+      "_tgt": "freertos",
+      "source": "exosuit_handoff",
+      "target": "freertos"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 0.8,
+      "_src": "exosuit_handoff",
+      "_tgt": "iso1050",
+      "source": "exosuit_handoff",
+      "target": "iso1050"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 0.8,
+      "_src": "exosuit_handoff",
+      "_tgt": "admittance_control",
+      "source": "exosuit_handoff",
+      "target": "admittance_control"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/ebimu-imu.md",
+      "weight": 1.0,
+      "_src": "ebimu_imu",
+      "_tgt": "h_walker",
+      "source": "ebimu_imu",
+      "target": "h_walker"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/ebimu-imu.md",
+      "weight": 1.0,
+      "_src": "ebimu_imu",
+      "_tgt": "elmo_gold_twitter",
+      "source": "ebimu_imu",
+      "target": "elmo_gold_twitter"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "vault/Research/10_Wiki/ebimu-imu.md",
+      "weight": 0.7,
+      "_src": "ebimu_imu",
+      "_tgt": "stm32h743",
+      "source": "ebimu_imu",
+      "target": "stm32h743"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "vault/Research/10_Wiki/gait-analysis.md",
+      "weight": 0.7,
+      "_src": "gait_analysis",
+      "_tgt": "ebimu_imu",
+      "source": "ebimu_imu",
+      "target": "gait_analysis"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/h-walker.md",
+      "weight": 1.0,
+      "_src": "h_walker",
+      "_tgt": "motor_benchmark",
+      "source": "motor_benchmark",
+      "target": "h_walker"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/ak60-motor.md",
+      "weight": 1.0,
+      "_src": "ak60_motor",
+      "_tgt": "motor_benchmark",
+      "source": "motor_benchmark",
+      "target": "ak60_motor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/can-communication.md",
+      "weight": 1.0,
+      "_src": "can_communication",
+      "_tgt": "motor_benchmark",
+      "source": "motor_benchmark",
+      "target": "can_communication"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "vault/Research/10_Wiki/motor-benchmark.md",
+      "weight": 0.8,
+      "_src": "motor_benchmark",
+      "_tgt": "teensy_4_1",
+      "source": "motor_benchmark",
+      "target": "teensy_4_1"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "vault/Research/10_Wiki/motor-benchmark.md",
+      "weight": 0.7,
+      "_src": "motor_benchmark",
+      "_tgt": "elmo_driver_comparison",
+      "source": "motor_benchmark",
+      "target": "elmo_driver_comparison"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/h-walker.md",
+      "weight": 1.0,
+      "_src": "h_walker",
+      "_tgt": "gait_analysis",
+      "source": "gait_analysis",
+      "target": "h_walker"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/stroke-gait-experiment.md",
+      "weight": 1.0,
+      "_src": "stroke_gait_experiment",
+      "_tgt": "gait_analysis",
+      "source": "gait_analysis",
+      "target": "stroke_gait_experiment"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/realtime-pose-estimation.md",
+      "weight": 1.0,
+      "_src": "realtime_pose_estimation",
+      "_tgt": "gait_analysis",
+      "source": "gait_analysis",
+      "target": "realtime_pose_estimation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/admittance-control.md",
+      "weight": 1.0,
+      "_src": "admittance_control",
+      "_tgt": "gait_analysis",
+      "source": "gait_analysis",
+      "target": "admittance_control"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/teensy-4-1.md",
+      "weight": 1.0,
+      "_src": "teensy_4_1",
+      "_tgt": "h_walker",
+      "source": "teensy_4_1",
+      "target": "h_walker"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "vault/Research/10_Wiki/can-communication.md",
+      "weight": 0.9,
+      "_src": "can_communication",
+      "_tgt": "teensy_4_1",
+      "source": "teensy_4_1",
+      "target": "can_communication"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/teensy-4-1.md",
+      "weight": 1.0,
+      "_src": "teensy_4_1",
+      "_tgt": "ak60_motor",
+      "source": "teensy_4_1",
+      "target": "ak60_motor"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "vault/Research/10_Wiki/teensy-4-1.md",
+      "weight": 0.7,
+      "_src": "teensy_4_1",
+      "_tgt": "iso1050",
+      "source": "teensy_4_1",
+      "target": "iso1050"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "vault/Research/10_Wiki/exosuit-handoff.md",
+      "weight": 0.8,
+      "_src": "teensy_4_1",
+      "_tgt": "stm32h743",
+      "source": "teensy_4_1",
+      "target": "stm32h743"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/elmo-driver-comparison.md",
+      "weight": 1.0,
+      "_src": "elmo_driver_comparison",
+      "_tgt": "motor_selection",
+      "source": "elmo_driver_comparison",
+      "target": "motor_selection"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/elmo-driver-comparison.md",
+      "weight": 1.0,
+      "_src": "elmo_driver_comparison",
+      "_tgt": "exosuit_protection",
+      "source": "elmo_driver_comparison",
+      "target": "exosuit_protection"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "vault/Research/10_Wiki/elmo-driver-comparison.md",
+      "weight": 0.9,
+      "_src": "elmo_driver_comparison",
+      "_tgt": "canopen",
+      "source": "elmo_driver_comparison",
+      "target": "canopen"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "vault/Research/10_Wiki/elmo-driver-comparison.md",
+      "weight": 0.9,
+      "_src": "elmo_driver_comparison",
+      "_tgt": "elmo_gold_twitter",
+      "source": "elmo_driver_comparison",
+      "target": "elmo_gold_twitter"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/can-communication.md",
+      "weight": 1.0,
+      "_src": "can_communication",
+      "_tgt": "ak60_motor",
+      "source": "can_communication",
+      "target": "ak60_motor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/can-communication.md",
+      "weight": 1.0,
+      "_src": "can_communication",
+      "_tgt": "h_walker",
+      "source": "can_communication",
+      "target": "h_walker"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/can-communication.md",
+      "weight": 1.0,
+      "_src": "can_communication",
+      "_tgt": "iso1050",
+      "source": "can_communication",
+      "target": "iso1050"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/jetson-orin-nx.md",
+      "weight": 1.0,
+      "_src": "jetson_orin_nx",
+      "_tgt": "zed_x_mini",
+      "source": "zed_x_mini",
+      "target": "jetson_orin_nx"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/zed-x-mini.md",
+      "weight": 1.0,
+      "_src": "zed_x_mini",
+      "_tgt": "h_walker",
+      "source": "zed_x_mini",
+      "target": "h_walker"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "vault/Research/10_Wiki/zed-x-mini.md",
+      "weight": 0.8,
+      "_src": "zed_x_mini",
+      "_tgt": "realtime_pose_estimation",
+      "source": "zed_x_mini",
+      "target": "realtime_pose_estimation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/gemma-4.md",
+      "weight": 1.0,
+      "_src": "gemma_4",
+      "_tgt": "antigravity",
+      "source": "antigravity",
+      "target": "gemma_4"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/antigravity.md",
+      "weight": 1.0,
+      "_src": "antigravity",
+      "_tgt": "llm_wiki",
+      "source": "antigravity",
+      "target": "llm_wiki"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/0xhenry-dev.md",
+      "weight": 1.0,
+      "_src": "zero_x_henry_dev",
+      "_tgt": "antigravity",
+      "source": "antigravity",
+      "target": "zero_x_henry_dev"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/ak60-motor.md",
+      "weight": 1.0,
+      "_src": "ak60_motor",
+      "_tgt": "h_walker",
+      "source": "h_walker",
+      "target": "ak60_motor"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/admittance-control.md",
+      "weight": 1.0,
+      "_src": "admittance_control",
+      "_tgt": "h_walker",
+      "source": "h_walker",
+      "target": "admittance_control"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/realtime-pose-estimation.md",
+      "weight": 1.0,
+      "_src": "realtime_pose_estimation",
+      "_tgt": "h_walker",
+      "source": "h_walker",
+      "target": "realtime_pose_estimation"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/stroke-gait-experiment.md",
+      "weight": 1.0,
+      "_src": "stroke_gait_experiment",
+      "_tgt": "h_walker",
+      "source": "h_walker",
+      "target": "stroke_gait_experiment"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/3d-assistance.md",
+      "weight": 1.0,
+      "_src": "three_d_assistance",
+      "_tgt": "h_walker",
+      "source": "h_walker",
+      "target": "three_d_assistance"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "vault/Research/10_Wiki/h-walker.md",
+      "weight": 0.9,
+      "_src": "h_walker",
+      "_tgt": "exosuit_safety",
+      "source": "h_walker",
+      "target": "exosuit_safety"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "vault/Research/10_Wiki/h-walker.md",
+      "weight": 0.7,
+      "_src": "h_walker",
+      "_tgt": "elmo_gold_twitter",
+      "source": "h_walker",
+      "target": "elmo_gold_twitter"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "vault/Research/10_Wiki/h-walker.md",
+      "weight": 0.8,
+      "_src": "h_walker",
+      "_tgt": "motor_selection",
+      "source": "h_walker",
+      "target": "motor_selection"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "vault/Research/10_Wiki/h-walker.md",
+      "weight": 0.9,
+      "_src": "h_walker",
+      "_tgt": "jetson_orin_nx",
+      "source": "h_walker",
+      "target": "jetson_orin_nx"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "vault/Research/10_Wiki/ak60-motor.md",
+      "weight": 0.9,
+      "_src": "ak60_motor",
+      "_tgt": "exosuit_safety",
+      "source": "ak60_motor",
+      "target": "exosuit_safety"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/ak60-motor.md",
+      "weight": 1.0,
+      "_src": "ak60_motor",
+      "_tgt": "admittance_control",
+      "source": "ak60_motor",
+      "target": "admittance_control"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "vault/Research/10_Wiki/motor-selection.md",
+      "weight": 0.8,
+      "_src": "motor_selection",
+      "_tgt": "ak60_motor",
+      "source": "ak60_motor",
+      "target": "motor_selection"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "vault/Research/10_Wiki/elmo-gold-twitter.md",
+      "weight": 0.8,
+      "_src": "elmo_gold_twitter",
+      "_tgt": "admittance_control",
+      "source": "admittance_control",
+      "target": "elmo_gold_twitter"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/3d-assistance.md",
+      "weight": 1.0,
+      "_src": "three_d_assistance",
+      "_tgt": "admittance_control",
+      "source": "admittance_control",
+      "target": "three_d_assistance"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/stroke-gait-experiment.md",
+      "weight": 1.0,
+      "_src": "stroke_gait_experiment",
+      "_tgt": "admittance_control",
+      "source": "admittance_control",
+      "target": "stroke_gait_experiment"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "vault/Research/10_Wiki/jetson-orin-nx.md",
+      "weight": 0.9,
+      "_src": "jetson_orin_nx",
+      "_tgt": "realtime_pose_estimation",
+      "source": "realtime_pose_estimation",
+      "target": "jetson_orin_nx"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9,
+      "source_file": "vault/Research/10_Wiki/stroke-gait-experiment.md",
+      "weight": 0.9,
+      "_src": "stroke_gait_experiment",
+      "_tgt": "exosuit_safety",
+      "source": "stroke_gait_experiment",
+      "target": "exosuit_safety"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/jetson-orin-nx.md",
+      "weight": 1.0,
+      "_src": "jetson_orin_nx",
+      "_tgt": "elmo_gold_twitter",
+      "source": "jetson_orin_nx",
+      "target": "elmo_gold_twitter"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/jetson-orin-nx.md",
+      "weight": 1.0,
+      "_src": "jetson_orin_nx",
+      "_tgt": "stm32h743",
+      "source": "jetson_orin_nx",
+      "target": "stm32h743"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/motor-selection.md",
+      "weight": 1.0,
+      "_src": "motor_selection",
+      "_tgt": "elmo_gold_twitter",
+      "source": "elmo_gold_twitter",
+      "target": "motor_selection"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/elmo-gold-twitter.md",
+      "weight": 1.0,
+      "_src": "elmo_gold_twitter",
+      "_tgt": "exosuit_protection",
+      "source": "elmo_gold_twitter",
+      "target": "exosuit_protection"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/elmo-gold-twitter.md",
+      "weight": 1.0,
+      "_src": "elmo_gold_twitter",
+      "_tgt": "stm32h743",
+      "source": "elmo_gold_twitter",
+      "target": "stm32h743"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/llm-wiki.md",
+      "weight": 1.0,
+      "_src": "llm_wiki",
+      "_tgt": "obsidian",
+      "source": "llm_wiki",
+      "target": "obsidian"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/gemma-4.md",
+      "weight": 1.0,
+      "_src": "gemma_4",
+      "_tgt": "llm_wiki",
+      "source": "llm_wiki",
+      "target": "gemma_4"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/llm-wiki.md",
+      "weight": 1.0,
+      "_src": "llm_wiki",
+      "_tgt": "graphify",
+      "source": "llm_wiki",
+      "target": "graphify"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/llm-wiki.md",
+      "weight": 1.0,
+      "_src": "llm_wiki",
+      "_tgt": "zero_x_henry_dev",
+      "source": "llm_wiki",
+      "target": "zero_x_henry_dev"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/obsidian.md",
+      "weight": 1.0,
+      "_src": "obsidian",
+      "_tgt": "gemma_4",
+      "source": "gemma_4",
+      "target": "obsidian"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/0xhenry-dev.md",
+      "weight": 1.0,
+      "_src": "zero_x_henry_dev",
+      "_tgt": "gemma_4",
+      "source": "gemma_4",
+      "target": "zero_x_henry_dev"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "vault/Research/10_Wiki/0xhenry-dev.md",
+      "weight": 0.8,
+      "_src": "zero_x_henry_dev",
+      "_tgt": "obsidian",
+      "source": "obsidian",
+      "target": "zero_x_henry_dev"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/motor-selection.md",
+      "weight": 1.0,
+      "_src": "motor_selection",
+      "_tgt": "exosuit_protection",
+      "source": "motor_selection",
+      "target": "exosuit_protection"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "vault/Research/10_Wiki/0xhenry-dev.md",
+      "weight": 1.0,
+      "_src": "zero_x_henry_dev",
+      "_tgt": "naver_blog_pipeline",
+      "source": "zero_x_henry_dev",
+      "target": "naver_blog_pipeline"
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "exosuit_core_system",
+      "label": "Exosuit Core Hardware System",
+      "members": [
+        "exosuit_hardware_overview",
+        "exosuit_handoff",
+        "elmo_driver_comparison",
+        "cable_driven_mechanism",
+        "robot_hardware_protection",
+        "stm32h743",
+        "canopen"
+      ],
+      "relation": "system_components",
+      "confidence": "INFERRED",
+      "confidence_score": 0.9
+    },
+    {
+      "id": "sensing_subsystem",
+      "label": "Exosuit Sensing Subsystem",
+      "members": [
+        "ebimu_imu",
+        "zed_x_mini",
+        "jetson_orin_nx",
+        "realtime_pose_estimation"
+      ],
+      "relation": "system_components",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85
+    },
+    {
+      "id": "motor_control_chain",
+      "label": "Motor Control Chain",
+      "members": [
+        "ak60_motor",
+        "can_communication",
+        "teensy_4_1",
+        "motor_benchmark",
+        "elmo_gold_twitter"
+      ],
+      "relation": "data_flow",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85
+    },
+    {
+      "id": "gait_rehab_research",
+      "label": "Gait Rehabilitation Research",
+      "members": [
+        "gait_analysis",
+        "stroke_gait_experiment",
+        "bumbuche_grant_2026",
+        "h_walker"
+      ],
+      "relation": "research_theme",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85
+    },
+    {
+      "id": "ai_knowledge_mgmt",
+      "label": "AI Knowledge Management",
+      "members": [
+        "p_reinforce",
+        "antigravity",
+        "llm_wiki",
+        "obsidian"
+      ],
+      "relation": "research_theme",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7
+    }
+  ]
+}
