@@ -2,7 +2,15 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-14] NVCA Workflow 가동: NotebookLM 파트너십 및 시각화 자동화 🎨🚀
+- **NICVP (NotebookLM-integrated Content & Visual Pipeline)**: `GEMINI.md` 정책 업데이트를 통해 "그림 없는 포스트 근절" 및 "신규 주제 전용 노트북 생성" 규칙 강제화.
+- **Visual Upgrade (Demo)**: `agent-idempotency.md` (KO/EN) 포스트를 대상으로 NotebookLM Studio(인포그래픽, 슬라이드) 연동 시연 완료.
+  - 생성 자산: `idempotency-guide.png`, `idempotency-architecture.png` 통합.
+- **Git Sync**: 로컬 연구 환경과 원격 저장소 간의 병합 충돌 해결 및 최신 정책 동기화 완료.
+- **Status**: 기술 블로그 시각적 수준 상향 평준화 프로세스 안착.
+
 ## [2026-04-15] Exosuit 전략 확장: 지식 이원화(Binary Split) 및 시각화 자동화 구축 🚀
+
 - **Binary Split Architecture**: Research(연구/기술)와 Life(여가/개인)를 최상위 분기하여 맥락의 완전 격리(Context-Isolation) 실현. (v6 구조 확정)
 - **Folder Flattening**: 복잡한 프로젝트 사일로를 파기하고 Research/Life 각각의 단일 위키/원본 폴더로 통합하여 관리 오버헤드 최소화.
 - **NotebookLM Integration**: `GEMINI.md`에 연구 전용 프롬프트 및 인포그래픽 생성 섹션 추가 연동 완료.
