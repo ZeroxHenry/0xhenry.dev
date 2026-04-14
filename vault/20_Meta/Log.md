@@ -2,11 +2,14 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
-## [2026-04-15] NotebookLM 인증 및 환경 설정 🔐
+## [2026-04-15] Exosuit 전략 확장: 지식 이원화(Binary Split) 및 시각화 자동화 구축 🚀
+- **Binary Split Architecture**: Research(연구/기술)와 Life(여가/개인)를 최상위 분기하여 맥락의 완전 격리(Context-Isolation) 실현. (v6 구조 확정)
+- **Folder Flattening**: 복잡한 프로젝트 사일로를 파기하고 Research/Life 각각의 단일 위키/원본 폴더로 통합하여 관리 오버헤드 최소화.
+- **NotebookLM Integration**: `GEMINI.md`에 연구 전용 프롬프트 및 인포그래픽 생성 섹션 추가 연동 완료.
 
-### 인프라 및 도구 설정
-- ✅ **NotebookLM 인증**: `setup_auth`를 통한 브라우저 수동 로그인 및 세션 동기화 완료.
-  - 이제 Exosuit(Antigravity)에서 NotebookLM 라이브러리 접근 및 RAG 연구가 가능합니다.
+## [2026-04-15] NotebookLM 인증 및 Exosuit 연구 환경 정비 🔧
+- **NotebookLM Auth**: NotebookLM MCP 서버 인증 서비스 연동 완료. (authenticated: true)
+- **Status**: 연구 및 지식 탐색을 위한 NotebookLM 세션 활성화 준비 완료.
 
 ## [2026-04-14] 240편 콘텐츠 운영 최적화 및 Exosuit 하드웨어 전략 수립 🚀
 - **Bulk Migration**: 윈도우 작업물 포함 총 240편의 기술 포스트를 네이버 블로그 전용 포맷으로 이식 완료.
@@ -14,7 +17,6 @@
 - **Hardware Content**: [EXOSUIT_PROTECTION.md] 분석을 통한 블로그 포스트 및 유튜브 Episode 01 스크립트 [EP01_script.md] 구축.
 - **Image Bridge**: 141건의 이미지 태스크를 발행 스케줄 순서로 정렬하여 생산 효율 극대화.
 - **Status**: 발행 준비 100% 완료. 이미지 생성 쿼터 대기 중.
-
 
 ## [2026-04-14] MISSION COMPLETE: 기술 블로그 파이프라인 100% 완결 (야간 세션 23 - No Nap 모드 종료) 🎊🥳🚀🔥👑💎🏆✨
 

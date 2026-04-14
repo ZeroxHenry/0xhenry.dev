@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloudflare × OpenAI Partner Slide</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            width: 1200px;
+            height: 675px;
+            font-family: 'Inter', 'Apple SD Gothic Neo', sans-serif;
+            background-color: #0f172a;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            color: #f8fafc;
+        }
+        .slide {
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at top right, #1e293b 0%, #0f172a 100%);
+            padding: 60px;
+            box-sizing: border-box;
+            position: relative;
+            border: 1px solid #334155;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 50px;
+            border-bottom: 2px solid #f97316;
+            padding-bottom: 20px;
+        }
+        .title {
+            font-size: 42px;
+            font-weight: 800;
+            color: #ffffff;
+            margin: 0;
+            letter-spacing: -1px;
+        }
+        .subtitle {
+            font-size: 20px;
+            color: #94a3b8;
+            margin-top: 10px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+            margin-top: 40px;
+        }
+        .card {
+            background: rgba(30, 41, 59, 0.5);
+            border-radius: 20px;
+            padding: 35px;
+            border: 1px solid rgba(249, 115, 22, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        .card-header {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+        .card-icon {
+            font-size: 28px;
+            background: #f97316;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 12px;
+            color: white;
+        }
+        .card-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #f8fafc;
+        }
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .feature-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 15px;
+            font-size: 16px;
+            color: #cbd5e1;
+            line-height: 1.5;
+        }
+        .feature-item::before {
+            content: "→";
+            color: #f97316;
+            font-weight: 900;
+        }
+        .footer {
+            position: absolute;
+            bottom: 40px;
+            left: 60px;
+            right: 60px;
+            display: flex;
+            justify-content: space-between;
+            color: #64748b;
+            font-size: 14px;
+        }
+        .logo-group {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-weight: 800;
+        }
+    </style>
+</head>
+<body>
+    <div class="slide">
+        <div class="header">
+            <div>
+                <h1 class="title">Cloudflare × OpenAI Partner Update</h1>
+                <div class="subtitle">Powering Enterprise Agentic Workflows at the Edge</div>
+            </div>
+            <div class="logo-group">
+                <span style="color: #f97316;">CLOUDFLARE</span>
+                <span style="color: #ffffff; opacity: 0.5;">|</span>
+                <span style="color: #10a37f;">OpenAI</span>
+            </div>
+        </div>
+
+        <div class="grid">
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">⚡</div>
+                    <div class="card-title">Frontier Model Integration</div>
+                </div>
+                <ul class="feature-list">
+                    <li class="feature-item"><b>GPT-5.4 & Codex</b>: Cloudflare Agent Cloud 내 최신 모델 직접 통합</li>
+                    <li class="feature-item"><b>Unified Model Catalog</b>: Replicate 인수로 proprietary/open-source 모델 자유 선택</li>
+                    <li class="feature-item"><b>Think Framework</b>: 장시간 실행되는 다단계 작업을 위한 전용 SDK 제공</li>
+                </ul>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <div class="card-icon">🏗️</div>
+                    <div class="card-title">Compute & Storage Innovation</div>
+                </div>
+                <ul class="feature-list">
+                    <li class="feature-item"><b>Dynamic Workers</b>: 밀리초 단위 부팅 속도의 샌드박스형 서버리스 런타임</li>
+                    <li class="feature-item"><b>Artifacts</b>: 천만 명 이상의 자발적 워크로드를 위한 Git 호환 스토리지</li>
+                    <li class="feature-item"><b>Cloudflare Mesh</b>: 에이전트와 내부 DB를 연결하는 보안 프라이빗 네트워크</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div>© 2026 Cloudflare | Strategic Infrastructure Report</div>
+            <div>Strategic Partner Launch | April 14, 2026</div>
+        </div>
+    </div>
+</body>
+</html>
