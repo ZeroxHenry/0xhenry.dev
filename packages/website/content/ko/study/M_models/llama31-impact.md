@@ -15,6 +15,8 @@ images_needed:
 ---
 
 이 글은 **최신 모델 시리즈** 2편입니다.
+
+![Llama-3.1 Impact Hero](images/M/llama31-impact-hero.png)
 → 1편: [GPT-4o vs Claude 3.5 Sonnet: 에이전트 개발을 위한 끝판왕 비교](/ko/study/M_models/gpt4o-vs-claude35-sonnet)
 
 ---

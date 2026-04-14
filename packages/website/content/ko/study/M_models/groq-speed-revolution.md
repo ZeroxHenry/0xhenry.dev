@@ -18,6 +18,8 @@ images_needed:
 ---
 
 이 글은 **최신 모델 시리즈** 4편입니다.
+
+![Groq Speed Revolution Hero](images/M/groq-speed-revolution-hero.png)
 → 3편: [Gemini 1.5 Pro의 100만 컨텍스트 활용법](/ko/study/M_models/gemini15pro-context)
 
 ---

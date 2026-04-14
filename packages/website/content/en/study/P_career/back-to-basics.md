@@ -14,7 +14,9 @@ images_needed:
     file: "images/P/back-to-basics-hero.png"
 ---
 
-This is the final part (Part 8) of the **Career & Perspective Series**.
+This is the finale (Part 8) of the **Career & Perspective Series**.
+
+![Back to Basics CS Foundation Hero](images/P/back-to-basics-hero.png)
 → Part 7: [Anatomy of an AI Startup Codebase — How the Structure is Actually Built](/en/study/P_career/ai-startup-codebase-anatomy)
 
 ---

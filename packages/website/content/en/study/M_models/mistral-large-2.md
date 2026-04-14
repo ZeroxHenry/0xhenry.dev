@@ -15,6 +15,8 @@ images_needed:
 ---
 
 This is Part 5 of the **Latest Models Series**.
+
+![Mistral Large 2 Hero](images/M/mistral-large-2-hero.png)
 → Part 4: [Groq: The Revolution in LLM Inference Speed Brought by LPUs](/en/study/M_models/groq-speed-revolution)
 
 ---

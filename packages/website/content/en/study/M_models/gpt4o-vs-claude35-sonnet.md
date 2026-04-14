@@ -16,6 +16,8 @@ images_needed:
 
 This is Part 1 of the **Latest Models Series**.
 
+![GPT-4o vs Claude 3.5 Sonnet Hero](images/M/gpt4o-vs-claude35-sonnet-hero.png)
+
 ---
 
 Choosing the right model is arguably the most critical decision when developing an AI agent. While GPT-4 was once the clear leader, a powerful challenger has emerged: **Claude 3.5 Sonnet.**
@@ -52,6 +54,10 @@ Agents must call external APIs.
 2. **Chatbots or multimodal assistants requiring high-speed responses**: **GPT-4o** will provide a smoother experience.
 
 ---
+
+### Model Performance Radar Chart (Henry's Practical Feel)
+
+![Model Radar Chart](images/M/model-radar-chart.png)
 
 ### Conclusion
 

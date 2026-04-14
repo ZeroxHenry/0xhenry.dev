@@ -15,6 +15,8 @@ images_needed:
 ---
 
 이 글은 **커리어 & 관점 시리즈** 7편입니다.
+
+![AI Startup Codebase Anatomy Hero](images/P/ai-startup-codebase-anatomy-hero.png)
 → 6편: [Sandwich 아키텍처: LLM을 이용하되 LLM에 의존하지 않는 설계](/ko/study/P_career/sandwich-architecture-llm)
 
 ---

@@ -15,6 +15,8 @@ images_needed:
 ---
 
 This is Part 4 of the **Latest Models Series**.
+
+![Groq Speed Revolution Hero](images/M/groq-speed-revolution-hero.png)
 → Part 3: [How to Utilize Gemini 1.5 Pro’s 1-Million Context Window](/en/study/M_models/gemini15pro-context)
 
 ---

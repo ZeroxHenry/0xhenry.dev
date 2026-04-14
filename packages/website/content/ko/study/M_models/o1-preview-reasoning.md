@@ -15,6 +15,8 @@ images_needed:
 ---
 
 이 글은 **최신 모델 시리즈** 7편입니다.
+
+![o1-preview Reasoning Hero](images/M/o1-preview-reasoning-hero.png)
 → 6편: [DeepSeek: 가성비 추론 모델의 반란](/ko/study/M_models/deepseek-revolution)
 
 ---

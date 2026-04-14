@@ -18,6 +18,8 @@ images_needed:
 ---
 
 이 글은 **최신 모델 시리즈** 3편입니다.
+
+![Gemini 1.5 Pro Context Hero](images/M/gemini15pro-context-hero.png)
 → 2편: [Llama-3.1의 충격: 오픈 소스가 클로즈드 모델을 따라잡은 순간](/ko/study/M_models/llama31-impact)
 
 ---

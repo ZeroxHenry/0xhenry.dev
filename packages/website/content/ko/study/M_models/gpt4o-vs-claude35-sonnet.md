@@ -19,6 +19,8 @@ images_needed:
 
 이 글은 **최신 모델 시리즈** 1편입니다.
 
+![GPT-4o vs Claude 3.5 Sonnet Hero](images/M/gpt4o-vs-claude35-sonnet-hero.png)
+
 ---
 
 AI 에이전트를 개발할 때 "어떤 모델을 쓸 것인가?"는 가장 중요한 결정입니다. 한때는 GPT-4가 독보적이었지만, 이제는 **Claude 3.5 Sonnet**이라는 강력한 대항마가 나타났습니다. 
@@ -55,6 +57,10 @@ AI 에이전트를 개발할 때 "어떤 모델을 쓸 것인가?"는 가장 중
 2. **고속 응답이 필요한 챗봇이나 멀티모달 비서**: **GPT-4o**가 더 쾌적한 경험을 제공할 것입니다.
 
 ---
+
+### 모델별 성능 레이더 차트 (헨리의 실측 체감)
+
+![Model Radar Chart](images/M/model-radar-chart.png)
 
 ### 결론
 

@@ -16,6 +16,8 @@ images_needed:
 
 This is Part 1 of the **Career & Perspective Series**.
 
+![Career Strategy Hero](images/P/career-strategy-beyond-coding-hero.png)
+
 ---
 
 In 2026, the question "Can you build a bulletin board with JavaScript?" has become meaningless. If you give an AI agent 10 seconds, it will produce more perfect code than you. Does this mean we developers are now obsolete?

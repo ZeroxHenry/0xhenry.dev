@@ -16,6 +16,8 @@ images_needed:
 
 이 글은 **커리어 & 관점 시리즈** 1편입니다.
 
+![Career Strategy Hero](images/P/career-strategy-beyond-coding-hero.png)
+
 ---
 
 2026년, 이제 "자바스크립트로 게시판을 만들 수 있나요?"라는 질문은 의미가 없어졌습니다. AI 에이전트에게 10초만 시간 주면 더 완벽한 코드를 짜낼 테니까요. 그렇다면 우리 개발자들은 이제 필요 없는 존재가 된 걸까요?

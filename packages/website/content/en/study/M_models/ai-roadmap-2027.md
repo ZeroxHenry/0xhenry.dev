@@ -16,6 +16,8 @@ images_needed:
 
 This is the **final installment of the 78-post technical blog pipeline** on 0xhenry.dev.
 
+![AI Roadmap 2027 Hero](images/M/ai-roadmap-2027-hero.png)
+
 ---
 
 Starting from embedded hardware to cloud security, MCP protocols, RAG deep dives, and the latest reasoning models... we’ve run at a breakneck pace. Now, I want to forecast the **AI ecosystem of 2027,** the point where all these technologies converge.
