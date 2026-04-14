@@ -167,13 +167,14 @@ vault/Research/10_Planning/ 에 저장.
 @local 노트북 분석 결과를 바탕으로 vault/Research/10_Wiki/[노트명].md 를 업데이트해줘.
 ```
 
-## 6. Visual Content Production
+## 6. Visual Content Production (Creative Partner)
 
-### 6-1. 인포그래픽/PPT 생성
+### 6-1. 인포그래픽/PPT 생성 (Studio 활용)
 ```
-@local [NotebookLM 연구 결과]를 바탕으로 다음 스타일의 이미지를 생성해줘:
-- 스타일: 인포그래픽 / PPT 슬라이드 / 미니멀 벡터
-- 제약사항: 워터마크 없음, 높은 대비, 전문적인 타이포그래피
+@local [주제]에 대해 NotebookLM Studio를 사용하여 다음 이미지를 생성해줘:
+1. 관련 소스(MD, PDF) 업로드
+2. Studio(인포그래픽/슬라이드)를 사용하여 기술 시각 자료 생성
+3. 생성된 자료 평가 후 기술 블로그에 통합 (워터마크 없음, 고대비 스타일)
 ```
 
 ### 6-2. 워터마크 제거 가이드 (Vision Cleaner)
@@ -189,7 +190,7 @@ vault/Research/10_Planning/ 에 저장.
 1. vault의 보관된 초안이나 오늘의 뉴스를 선택
 2. NotebookLM으로 관련 주제 심층 분석 및 인포그래픽 컨셉 도출
 3. 고화질 이미지 생성 및 vision_cleaner.py로 정제 (브랜드 제거)
-4. 본문 작성 및 네이버 블로그 자동 발행
+4. 본문 작성 및 기술 블로그(0xhenry.dev) 우선 발행
 ```
 
 ### 7-2. 이미지 대량 정제 (Vision Cleaner)
@@ -215,6 +216,9 @@ vault/Research/10_Planning/ 에 저장.
 - 작업 시작 전 `git pull` 필수
 - 작업 완료 후 `git push` 필수
 - vault Log에 모든 작업 기록
+- **NotebookLM Rule**: 새로운 주제 작업 시 반드시 전용 노트북을 생성할 것
+- **Visual Rule**: "그림 없는 포스트는 존재할 수 없음." 모든 기술 블로그 포스트는 NotebookLM Studio 등을 활용한 고품격 시각 자료를 포함해야 함
+- **Priority**: 기술 블로그(0xhenry.dev)의 기술적 수월성을 최우선으로 하며, 네이버 블로그는 보조 수단으로만 활용
 - 파일명은 한국어 가능, 특수문자 최소화
 - 이미지는 해당 포스트 폴더에 함께 저장
 - JSON-AI 구조화 프롬프트 스타일 활용 (복잡한 지시 시)
