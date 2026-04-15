@@ -149,11 +149,21 @@ def load_file_snippet(rel_path: str, max_lines: int = 30) -> str:
         snippet += f"\n... ({len(lines) - max_lines} more lines)"
     return snippet
 
+HANDOFF_FILE = META_DIR / "HANDOFF_TMP.md"
+
+def check_handoff() -> str | None:
+    """Detect and consume a temporary handoff document if it exists."""
+    if not HANDOFF_FILE.exists():
+        return None
+    content = HANDOFF_FILE.read_text(encoding="utf-8")
+    HANDOFF_FILE.unlink()  # Delete immediately after reading
+    print("🔄 Handoff document found and loaded. File deleted.")
+    return content
+
 def build_context(topic_text: str) -> str:
     matched_topics = detect_topics(topic_text)
     
-    # Collect unique files to load
-    files_to_load = dict.fromkeys(ALWAYS_LOAD)  # preserve order, deduplicate
+    files_to_load = dict.fromkeys(ALWAYS_LOAD)
     for topic in matched_topics:
         for f in TOPIC_ROUTES[topic]:
             files_to_load[f] = None
@@ -163,6 +173,14 @@ def build_context(topic_text: str) -> str:
     output.append("📚 SESSION CONTEXT LOADER — Antigravity")
     output.append(f"🔍 Detected topics: {matched_topics or ['(none — loading defaults)']}")
     output.append("=" * 60)
+
+    # Check for handoff first — highest priority
+    handoff = check_handoff()
+    if handoff:
+        output.append("\n### 🔄 HANDOFF DOC (이전 세션 인수인계)")
+        output.append("-" * 40)
+        output.append(handoff)
+        output.append("\n⚠️  위 내용부터 이어서 작업하세요. 인수인계 문서는 삭제되었습니다.\n")
 
     for rel_path in files_to_load:
         output.append(f"\n### 📄 {rel_path}")
