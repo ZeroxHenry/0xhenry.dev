@@ -7,7 +7,32 @@
 - **Mac**: 기술 개발 전용 (코딩, 연구). 콘텐츠 작업 안 함.
 - 중복 방지: 작업 전 `vault/20_Meta/Log.md` 확인
 
-## P-Reinforce Loop (MANDATORY)
+## Session Start Protocol (MANDATORY on every new conversation)
+
+**새 대화가 시작될 때 반드시 실행:**
+
+1. 사용자의 **첫 메시지** 키워드를 감지
+2. 아래 라우팅 테이블 기준으로 관련 Obsidian 노트를 즉시 읽기
+3. 읽은 내용을 컨텍스트로 삼아 이전 작업을 복원하여 대화 시작
+
+```bash
+python3 ~/0xhenry.dev/workspaces/naver-blog/scripts/session_start.py --topic "[첫 메시지]"
+```
+
+### 라우팅 테이블 요약
+
+| 키워드 | 로드할 파일 |
+|--------|------------|
+| ros2, exosuit, motor, h-walker, gait | Research/10_Wiki/(관련 노트들) |
+| naver, blog, youtube, content | 20_Meta/naver-blog-dashboard.md + Reinforcement_Insights.md |
+| p-reinforce, vault, obsidian | 20_Meta/Reinforcement_Insights.md + Log.md + Policy.md |
+| llm, gemma, antigravity | Research/10_Wiki/llm-wiki.md + antigravity.md |
+
+> 항상 로드: `20_Meta/Reinforcement_Insights.md` (P-Reinforce 규칙), `20_Meta/Log.md` (최근 작업)
+
+---
+
+
 **모든 콘텐츠 작업 시작 전 반드시 실행:**
 1. `vault/20_Meta/Reinforcement_Insights.md` 읽기 → 현재 Reward/Punish 규칙 확인
 2. ✅ Reward Rules에 명시된 패턴은 적극 복제
