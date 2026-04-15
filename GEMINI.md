@@ -7,6 +7,17 @@
 - **Mac**: 기술 개발 전용 (코딩, 연구). 콘텐츠 작업 안 함.
 - 중복 방지: 작업 전 `vault/20_Meta/Log.md` 확인
 
+## P-Reinforce Loop (MANDATORY)
+**모든 콘텐츠 작업 시작 전 반드시 실행:**
+1. `vault/20_Meta/Reinforcement_Insights.md` 읽기 → 현재 Reward/Punish 규칙 확인
+2. ✅ Reward Rules에 명시된 패턴은 적극 복제
+3. ❌ Punish Rules에 명시된 패턴은 즉시 배제
+4. 작업 완료 후 `p_reinforce_collector.py` → `p_reinforce_analyzer.py` 순서로 실행하여 최신 인사이트 갱신
+
+> 판단 기준: 조회수(블로그), 구독자/조회수(YouTube). 목표치 미달 시 원인 분석 필수.
+
+---
+
 ## @local Model Routing
 `@local` 입력 시 로컬 모델로 라우팅:
 - `baseUrl`: `http://localhost:1234/v1`
