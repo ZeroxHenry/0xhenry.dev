@@ -17,6 +17,8 @@ summary: 로봇 개발 문제-해결 교훈. Single Source of Truth. skiro-vault
 
 ## Protocol
 
+## Control
+
 ## Related
 - [[h-walker]]
 - [[exosuit-safety]]
