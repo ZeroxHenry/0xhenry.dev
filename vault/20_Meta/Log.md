@@ -15,3 +15,59 @@
   - 생성 자산: `idempotency-guide.png`, `idempotency-architecture.png` 통합.
 - **Git Sync**: 로컬 연구 환경과 원격 저장소 간의 병합 충돌 해결 및 최신 정책 동기화 완료.
 - **Status**: 기술 블로그 시각적 수준 상향 평준화 프로세스 안착.
+
+## [2026-04-15 11:21] 📊 Vault Weekly Lint Report 🔴
+
+**Vault 품질 점수: 0/100**
+
+| 항목 | 발견 수 | 상태 |
+|------|---------|------|
+| 총 노트 수 | 477 | - |
+| 🔴 고아 노트 | 420 | ⚠️ 정리 필요 |
+| 🔴 깨진 링크 | 64 | ⚠️ 수정 필요 |
+| 🟡 태그 없는 노트 | 63 | 점검 권장 |
+| 🟡 장기 미업데이트 (90일+) | 0 | ✅ 없음 |
+| 🟡 밀도 초과 폴더 | 14 | 세분화 고려 |
+
+### 🔴 고아 노트 목록
+- `README.md`
+- `PORTABILITY.md`
+- `Research/00_Raw/youtube/2026-04-12-obsidian-ai-era.md`
+- `Research/00_Raw/youtube/2026-04-12-karpathy-llm-wiki.md`
+- `Research/00_Raw/youtube/2026-04-12-gemma4-second-brain.md`
+- `Research/00_Raw/0xhenry-dev/_image-guides/E-P-M-U-chapters-images.md`
+- `Research/00_Raw/0xhenry-dev/_image-guides/C_context-memory-images.md`
+- `Research/00_Raw/0xhenry-dev/_image-guides/S-O-R-chapters-images.md`
+- `Research/00_Raw/0xhenry-dev/_image-guides/A_agent-reliability-images.md`
+- `Research/00_Raw/0xhenry-dev/ko/E_edge-ai/federated-learning-implementation.md`
+- ... 외 410개
+
+### 🔴 깨진 링크 목록
+- `PORTABILITY.md` → `[[파일명]]`
+- `Research/00_Raw/youtube/2026-04-12-obsidian-ai-era.md` → `[[위키링크]]`
+- `Research/00_Raw/0xhenry-dev/ko/O_llmops/evaluating-rag-ragas.md` → `[["ChromaDB는 벡터 DB입니다. pip install chromadb를 통해 설치하세요."]]`
+- `Research/00_Raw/0xhenry-dev/en/O_llmops/evaluating-rag-ragas.md` → `[["ChromaDB is a vector DB. Install it via pip install chromadb."]]`
+- `Research/10_Wiki/p-reinforce.md` → `[[P-Reinforce]]`
+- `Research/10_Wiki/cable-driven-mechanism.md` → `[[Cable-Driven Mechanism]]`
+- `Research/10_Wiki/robot-hardware-protection.md` → `[[EXOSUIT_PROTECTION.md]]`
+- `Research/10_Wiki/robot-hardware-protection.md` → `[[EXOSUIT_PROTECTION.md]]`
+- `Research/10_Wiki/exosuit-hardware-overview.md` → `[[BOARD_DESIGN_REVIEWED]]`
+- `Research/10_Wiki/exosuit-hardware-overview.md` → `[[EXOSUIT_PROTECTION]]`
+
+### 🟡 밀도 초과 폴더 (세분화 권장)
+- `Research/10_Wiki` (29개 파일)
+- `Research/00_Raw/0xhenry-dev/ko/E_edge-ai` (27개 파일)
+- `Research/00_Raw/0xhenry-dev/ko/C_context-memory` (19개 파일)
+- `Research/00_Raw/0xhenry-dev/ko/M_models` (16개 파일)
+- `Research/00_Raw/0xhenry-dev/ko/R_rag-advanced` (36개 파일)
+- `Research/00_Raw/0xhenry-dev/ko/O_llmops` (23개 파일)
+- `Research/00_Raw/0xhenry-dev/ko/A_agent-reliability` (28개 파일)
+- `Research/00_Raw/0xhenry-dev/en/E_edge-ai` (27개 파일)
+- `Research/00_Raw/0xhenry-dev/en/C_context-memory` (19개 파일)
+- `Research/00_Raw/0xhenry-dev/en/M_models` (16개 파일)
+- `Research/00_Raw/0xhenry-dev/en/R_rag-advanced` (36개 파일)
+- `Research/00_Raw/0xhenry-dev/en/O_llmops` (23개 파일)
+- `Research/00_Raw/0xhenry-dev/en/A_agent-reliability` (28개 파일)
+- `Life/00_Raw/naver-blog` (52개 파일)
+
+---
