@@ -5,7 +5,7 @@ import asyncio
 from playwright.async_api import async_playwright
 
 CONTEXT_DIR = os.path.expanduser("~/0xhenry.dev/workspaces/naver-blog/.naver_context")
-DRAFTS_DIR  = os.path.expanduser("~/0xhenry.dev/workspaces/visual-infographic-engine/generated/drafts")
+DRAFTS_DIR  = os.path.expanduser("~/0xhenry.dev/workspaces/naver-blog/generated/posts")
 
 def parse_markdown(file_path):
     with open(file_path, encoding="utf-8") as f:
