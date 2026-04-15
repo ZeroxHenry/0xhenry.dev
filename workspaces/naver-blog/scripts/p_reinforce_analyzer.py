@@ -12,10 +12,12 @@ Usage:
 import json
 import os
 import argparse
+import re
 from datetime import datetime
 from collections import defaultdict
 
 MEMORY_FILE  = os.path.expanduser("~/0xhenry.dev/vault/20_Meta/Performance_Memory.json")
+MANUAL_LOG_FILE = os.path.expanduser("~/0xhenry.dev/vault/20_Meta/Reinforcement_Log.md")
 INSIGHTS_FILE = os.path.expanduser("~/0xhenry.dev/vault/20_Meta/Reinforcement_Insights.md")
 POLICY_FILE  = os.path.expanduser("~/0xhenry.dev/vault/20_Meta/Policy.md")
 
@@ -38,12 +40,40 @@ def classify_signal(views: int) -> str:
         return "PUNISH"
     return "NEUTRAL"
 
+def parse_manual_feedback() -> list[dict]:
+    """Parse Reinforcement_Log.md for manual text feedbacks."""
+    feedbacks = []
+    if not os.path.exists(MANUAL_LOG_FILE):
+        return feedbacks
+    with open(MANUAL_LOG_FILE, encoding="utf-8") as f:
+        content = f.read()
+    
+    # Match: - [Domain] Signal: Feedback text
+    pattern = r"-\s*\[(.*?)\]\s*(Reward|Punish):\s*(.*)"
+    matches = re.findall(pattern, content, re.IGNORECASE)
+    
+    for domain, signal, text in matches:
+        feedbacks.append({
+            "domain": domain.strip().title(),  # Research or Life
+            "signal": signal.strip().upper(),  # REWARD or PUNISH
+            "rule": text.strip(),
+            "evidence": "수동 피드백 (Reinforcement_Log.md)"
+        })
+    return feedbacks
+
 def analyze(memory: dict) -> dict:
     """Core root cause analysis engine."""
     posts = memory.get("posts", {})
+    
+    analysis = {
+        "summary": {"total_posts": len(posts), "reward_count": 0, "punish_count": 0, "avg_views": 0},
+        "patterns": {},
+        "rewards": [],
+        "punishes": []
+    }
+    
     if not posts:
-        print("No post data available. Skipping analysis.")
-        return {}
+        return analysis
 
     rewards = []
     punishes = []
@@ -56,105 +86,58 @@ def analyze(memory: dict) -> dict:
         elif signal == "PUNISH":
             punishes.append(data)
 
-    # ─── Pattern extraction ────────────────────────────────────────────────────
+    analysis["summary"]["reward_count"] = len(rewards)
+    analysis["summary"]["punish_count"] = len(punishes)
+    analysis["summary"]["avg_views"] = sum(d.get("views", 0) for d in posts.values()) / max(1, len(posts))
 
     # 1. Category performance
     cat_views = defaultdict(list)
     for post_id, data in posts.items():
         cat_views[data.get("category", "Unknown")].append(data.get("views", 0))
-    cat_avg = {cat: sum(v)/len(v) for cat, v in cat_views.items()}
+    analysis["patterns"]["category_avg"] = {cat: sum(v)/len(v) for cat, v in cat_views.items()}
 
     # 2. Image count correlation
     high_img_views = [d.get("views", 0) for d in posts.values() if d.get("image_count", 0) >= 3]
     low_img_views  = [d.get("views", 0) for d in posts.values() if d.get("image_count", 0) < 3]
-    avg_high = sum(high_img_views) / max(1, len(high_img_views))
-    avg_low  = sum(low_img_views)  / max(1, len(low_img_views))
-    image_impact = avg_high - avg_low
-
-    # 3. Tag density correlation
-    high_tag_views = [d.get("views", 0) for d in posts.values() if len(d.get("tags", [])) >= 5]
-    low_tag_views  = [d.get("views", 0) for d in posts.values() if len(d.get("tags", [])) < 5]
-    avg_htag = sum(high_tag_views) / max(1, len(high_tag_views))
-    avg_ltag = sum(low_tag_views)  / max(1, len(low_tag_views))
-
-    # 4. Character count correlation
+    analysis["patterns"]["high_img_avg"] = sum(high_img_views) / max(1, len(high_img_views))
+    analysis["patterns"]["low_img_avg"]  = sum(low_img_views)  / max(1, len(low_img_views))
+    analysis["patterns"]["image_impact"] = analysis["patterns"]["high_img_avg"] - analysis["patterns"]["low_img_avg"]
+    
+    # 3. Content Length
     short_views = [d.get("views", 0) for d in posts.values() if d.get("char_count", 0) < 2000]
     long_views  = [d.get("views", 0) for d in posts.values() if d.get("char_count", 0) >= 2000]
-    avg_short = sum(short_views) / max(1, len(short_views))
-    avg_long  = sum(long_views)  / max(1, len(long_views))
+    analysis["patterns"]["short_post_avg"] = sum(short_views) / max(1, len(short_views))
+    analysis["patterns"]["long_post_avg"]  = sum(long_views)  / max(1, len(long_views))
 
-    return {
-        "summary": {
-            "total_posts":    len(posts),
-            "reward_count":   len(rewards),
-            "punish_count":   len(punishes),
-            "avg_views":      sum(d.get("views", 0) for d in posts.values()) / max(1, len(posts))
-        },
-        "patterns": {
-            "category_avg":   cat_avg,
-            "image_impact":   image_impact,
-            "high_img_avg":   avg_high,
-            "low_img_avg":    avg_low,
-            "high_tag_avg":   avg_htag,
-            "low_tag_avg":    avg_ltag,
-            "long_post_avg":  avg_long,
-            "short_post_avg": avg_short
-        },
-        "rewards":   rewards[:5],
-        "punishes":  punishes[:5]
-    }
+    analysis["rewards"] = rewards[:5]
+    analysis["punishes"] = punishes[:5]
+    
+    return analysis
 
 def derive_rules(analysis: dict) -> list[dict]:
-    """Convert analysis patterns into concrete behavioral rules."""
+    """Convert analysis patterns into concrete behavioral rules and inject manual feedback."""
     rules = []
     p = analysis.get("patterns", {})
 
-    # Rule: Image count
-    if p.get("image_impact", 0) > 10:
-        rules.append({
-            "signal": "REWARD",
-            "rule": "이미지 3장 이상 포함 시 평균 조회수 높음 → 모든 포스트에 이미지 3장 이상 필수",
-            "evidence": f"이미지 3장+ 평균 {p['high_img_avg']:.0f}회 vs 미포함 {p['low_img_avg']:.0f}회"
-        })
-    elif p.get("image_impact", 0) < -10:
-        rules.append({
-            "signal": "PUNISH",
-            "rule": "이미지 과다 포함이 오히려 이탈률 상승 유발 → 이미지는 핵심 2~3장으로 제한",
-            "evidence": f"이미지 3장+ 평균 {p['high_img_avg']:.0f}회 vs 미포함 {p['low_img_avg']:.0f}회"
-        })
+    if p:
+        # Automated Rules for 'Life' (Blog Posts)
+        if p.get("image_impact", 0) > 10:
+            rules.append({"domain": "Life", "signal": "REWARD", "rule": "이미지 3장 이상 포함 시 평균 조회수 상승 → 모든 포스트에 이미지 3장 이상 필수", "evidence": f"평균 {p['high_img_avg']:.0f}회 vs {p['low_img_avg']:.0f}회"})
+        elif p.get("image_impact", 0) < -10:
+            rules.append({"domain": "Life", "signal": "PUNISH", "rule": "이미지 과다 포함이 오히려 이탈 유발 → 심플한 포맷 유지", "evidence": f"평균 {p['high_img_avg']:.0f}회 vs {p['low_img_avg']:.0f}회"})
+            
+        if p.get("long_post_avg", 0) > p.get("short_post_avg", 0):
+            rules.append({"domain": "Life", "signal": "REWARD", "rule": "2000자 이상 장문 포스트가 더 높은 조회수 기록 → 깊이 있는 콘텐츠 유지", "evidence": f"장문 {p['long_post_avg']:.0f}회 vs 단문 {p['short_post_avg']:.0f}회"})
+            
+        cat_avg = p.get("category_avg", {})
+        if cat_avg:
+            best_cat = max(cat_avg, key=cat_avg.get)
+            rules.append({"domain": "Life", "signal": "REWARD", "rule": f"'{best_cat}' 카테고리 반응 최고 → 해당 주제 우선 편성", "evidence": f"평균 {cat_avg[best_cat]:.0f}회"})
 
-    # Rule: Content length
-    if p.get("long_post_avg", 0) > p.get("short_post_avg", 0):
-        rules.append({
-            "signal": "REWARD",
-            "rule": "2000자 이상 글이 더 높은 조회수를 기록 → 깊이 있는 콘텐츠 우선 작성",
-            "evidence": f"장문 {p['long_post_avg']:.0f}회 vs 단문 {p['short_post_avg']:.0f}회"
-        })
-    else:
-        rules.append({
-            "signal": "PUNISH",
-            "rule": "과도하게 긴 글이 이탈 유발 → 핵심만 담은 1500~2500자 최적 분량 준수",
-            "evidence": f"장문 {p['long_post_avg']:.0f}회 vs 단문 {p['short_post_avg']:.0f}회"
-        })
-
-    # Rule: Tag density
-    if p.get("high_tag_avg", 0) > p.get("low_tag_avg", 0) * 1.2:
-        rules.append({
-            "signal": "REWARD",
-            "rule": "태그 5개 이상 사용이 유입 증가에 기여 → 모든 글에 5~8개 태그 필수",
-            "evidence": f"태그 5+ 평균 {p['high_tag_avg']:.0f}회 vs 태그 5미만 {p['low_tag_avg']:.0f}회"
-        })
-
-    # Rule: Best performing category
-    cat_avg = p.get("category_avg", {})
-    if cat_avg:
-        best_cat = max(cat_avg, key=cat_avg.get)
-        rules.append({
-            "signal": "REWARD",
-            "rule": f"'{best_cat}' 카테고리 포스트가 최고 평균 조회수 기록 → 해당 주제 우선 배치",
-            "evidence": f"평균 {cat_avg[best_cat]:.0f}회"
-        })
-
+    # Parse and Inject Manual Rules from Log
+    manual_rules = parse_manual_feedback()
+    rules.extend(manual_rules)
+    
     return rules
 
 def generate_insights_md(analysis: dict, rules: list[dict], timestamp: str) -> str:
@@ -185,59 +168,79 @@ def generate_insights_md(analysis: dict, rules: list[dict], timestamp: str) -> s
         "",
         "---",
         "",
-        "## ✅ Reward Rules (반드시 따를 것)",
+        "# 🔬 Research Rules (연구, 코딩, 논문 분석)",
+        "",
+        "> 사용자가 직접 입력한 '연구/코딩' 도메인의 피드백 룰셋입니다.",
         ""
     ]
+    
+    research_rewards = [r for r in rules if r["domain"] == "Research" and r["signal"] == "REWARD"]
+    research_punishes = [r for r in rules if r["domain"] == "Research" and r["signal"] == "PUNISH"]
 
-    reward_rules = [r for r in rules if r["signal"] == "REWARD"]
-    if reward_rules:
-        for i, r in enumerate(reward_rules, 1):
-            lines.append(f"### R{i}. {r['rule']}")
-            lines.append(f"> 근거: {r['evidence']}")
-            lines.append("")
+    lines.append("## ✅ Reward (강화할 행동)")
+    if research_rewards:
+        for i, r in enumerate(research_rewards, 1):
+            lines.append(f"### R-RES{i}. {r['rule']}")
+            lines.append(f"> 근거: {r['evidence']}\n")
     else:
-        lines.append("*(아직 데이터 없음 — 더 많은 포스트가 발행되면 자동 업데이트)*")
-        lines.append("")
+        lines.append("*(아직 기록된 피드백 없음)*\n")
+
+    lines.append("## ❌ Punish (배제할 행동)")
+    if research_punishes:
+        for i, r in enumerate(research_punishes, 1):
+            lines.append(f"### P-RES{i}. {r['rule']}")
+            lines.append(f"> 근거: {r['evidence']}\n")
+    else:
+        lines.append("*(아직 기록된 피드백 없음)*\n")
 
     lines += [
         "---",
         "",
-        "## ❌ Punish Rules (절대 하지 말 것)",
+        "# 📝 Life Rules (블로그, 자동화 콘텐츠)",
+        "",
+        "> 통계 데이터 기반으로 자율 추출되었거나 사용자가 입력한 콘텐츠 도메인 룰셋입니다.",
         ""
     ]
 
-    punish_rules = [r for r in rules if r["signal"] == "PUNISH"]
-    if punish_rules:
-        for i, r in enumerate(punish_rules, 1):
-            lines.append(f"### P{i}. {r['rule']}")
-            lines.append(f"> 근거: {r['evidence']}")
-            lines.append("")
+    life_rewards = [r for r in rules if r["domain"] == "Life" and r["signal"] == "REWARD"]
+    life_punishes = [r for r in rules if r["domain"] == "Life" and r["signal"] == "PUNISH"]
+
+    lines.append("## ✅ Reward (강화할 행동)")
+    if life_rewards:
+        for i, r in enumerate(life_rewards, 1):
+            lines.append(f"### R-LIF{i}. {r['rule']}")
+            lines.append(f"> 근거: {r['evidence']}\n")
     else:
-        lines.append("*(아직 데이터 없음)*")
-        lines.append("")
+        lines.append("*(아직 기록된 피드백 없음)*\n")
+
+    lines.append("## ❌ Punish (배제할 행동)")
+    if life_punishes:
+        for i, r in enumerate(life_punishes, 1):
+            lines.append(f"### P-LIF{i}. {r['rule']}")
+            lines.append(f"> 근거: {r['evidence']}\n")
+    else:
+        lines.append("*(아직 기록된 피드백 없음)*\n")
 
     lines += [
         "---",
         "",
-        "## 🏆 Top Performing Posts",
-        ""
+        "## 🏆 Top Performing Posts (Life)"
     ]
     for post in top_rewards:
         lines.append(f"- **{post.get('title', '')}** — {post.get('views', 0)}회")
     if not top_rewards:
-        lines.append("*(아직 발행된 포스트 없음)*")
+        lines.append("\n*(아직 발행된 포스트 없음)*")
 
     lines += [
         "",
-        "## ⚠️ Underperforming Posts",
-        ""
+        "## ⚠️ Underperforming Posts (Life)"
     ]
     for post in top_punishes:
         lines.append(f"- **{post.get('title', '')}** — {post.get('views', 0)}회")
     if not top_punishes:
-        lines.append("*(아직 발행된 포스트 없음)*")
+        lines.append("\n*(아직 발행된 포스트 없음)*")
 
-    lines += ["", f"---", f"*마지막 자동 분석: {timestamp}*", ""]
+    lines += ["\n---", f"*마지막 자동 분석: {timestamp}*"]
     return "\n".join(lines)
 
 def update_policy(rules: list[dict], dry_run: bool):
@@ -262,13 +265,13 @@ def main():
 
     print("🔍 P-Reinforce Analyzer starting...\n")
     memory   = load_memory()
-    if not memory or not memory.get("posts"):
-        print("No data to analyze. Run p_reinforce_collector.py first.")
-        return
-
     analysis = analyze(memory)
     rules    = derive_rules(analysis)
     ts       = datetime.now().isoformat()
+
+    if not rules:
+        print("⚠️  No rules derived. Add entries to Reinforcement_Log.md or publish posts first.")
+        return
 
     # Write insights
     insights_md = generate_insights_md(analysis, rules, ts)
@@ -284,7 +287,8 @@ def main():
     print(f"\n📋 Derived {len(rules)} behavioral rules:")
     for r in rules:
         icon = "✅" if r["signal"] == "REWARD" else "❌"
-        print(f"  {icon} {r['rule']}")
+        domain = r.get("domain", "?")
+        print(f"  {icon} [{domain}] {r['rule']}")
 
     update_policy(rules, args.dry_run)
     print("\n✨ P-Reinforce analysis complete.")
