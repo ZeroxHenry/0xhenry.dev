@@ -33,10 +33,12 @@
    │   ├── 10_Wiki/      ← AI가 정리하는 위키 (Topics, Projects)
    │   └── 10_Planning/  ← 기술 로드맵
    ├── Life/               ← 개인 생활, 여가, 취미
-   │   ├── 00_Raw/      ← 소셜, 블로그 원본
-   │   └── 10_Wiki/      ← 개인 기록, 인사이트
+   │   ├── 00_Raw/      ← 임시 스테이징 (초안, 발행 전) — Obsidian 지식으로 취급 안 함
+   │   └── 10_Wiki/      ← 발행 완료된 포스트 아카이브 (글 + 사진 포함)
    └── 20_Meta/            ← 시스템 공통 관리 (Log, Policy, GEMINI)
   ```
+- **Obsidian 정책**: `10_Wiki`에는 **발행 완료된 글만** 저장. 초안/작업 중인 파일은 `00_Raw`에서 관리.
+- **발행 후 자동 아카이브**: `python3 scripts/vault_archive.py --post [파일명] --url [네이버URL]`
 - **Log.md**: 모든 작업 기록. 작업 완료 시 반드시 추가.
 - **wiki-link**: `[[노트이름]]` 형식으로 노트 간 연결
 - **YAML frontmatter**: 모든 위키 노트에 tags, created, summary 포함

@@ -30,8 +30,12 @@ DENSITY_MAX = 12
 # ───────────────────────────────────────────────────────────────────────────
 
 def collect_all_notes() -> list[Path]:
-    """Collect all .md files under vault."""
-    return list(VAULT_ROOT.rglob("*.md"))
+    """Collect all .md files under vault, excluding 00_Raw staging areas."""
+    # 00_Raw = draft staging, not Obsidian knowledge. Only lint published 10_Wiki + 20_Meta.
+    return [
+        p for p in VAULT_ROOT.rglob("*.md")
+        if "/00_Raw/" not in str(p)
+    ]
 
 def extract_frontmatter(content: str) -> dict:
     """Parse YAML frontmatter from markdown."""
@@ -66,8 +70,13 @@ def run_lint() -> dict:
         "timestamp": datetime.now().isoformat(),
     }
     
-    # Build incoming link map
+    # Build incoming link map with normalized names
     incoming: dict[str, list[str]] = {n.stem: [] for n in notes}
+    # Normalized lookup: lowercase + spaces→hyphens
+    normalized_names = {
+        re.sub(r'\s+', '-', n.stem.lower()): n.stem
+        for n in notes
+    }
     all_links: dict[str, list[str]] = {}
     
     for note in notes:
@@ -77,16 +86,23 @@ def run_lint() -> dict:
         for link in links:
             target = link.split("|")[0].strip()
             target_stem = Path(target).stem
+            # Normalize for comparison
+            norm_target = re.sub(r'\s+', '-', target_stem.lower())
             if target_stem in incoming:
                 incoming[target_stem].append(note.stem)
+            elif norm_target in normalized_names:
+                # Case/space mismatch but file exists — not really broken
+                real_stem = normalized_names[norm_target]
+                incoming[real_stem].append(note.stem)
             else:
-                # Broken link — target doesn't exist
+                # Truly broken link — target doesn't exist
                 results["broken"].append({"note": str(note.relative_to(VAULT_ROOT)), "link": link})
 
     # Check each note
     for note in notes:
-        # Skip meta templates and system files
-        if "_templates" in str(note) or note.name.startswith("."):
+        # Skip templates, system files, and raw draft staging areas
+        # 00_Raw is a staging area, not Obsidian knowledge — skip entirely
+        if "_templates" in str(note) or note.name.startswith(".") or "/00_Raw/" in str(note):
             continue
         
         content = note.read_text(encoding="utf-8", errors="ignore")
@@ -132,10 +148,11 @@ def write_log(results: dict):
     dense_count    = len(results["dense"])
     
     quality_score = 100
-    quality_score -= orphan_count * 3
-    quality_score -= broken_count * 5
-    quality_score -= no_tags_count * 2
-    quality_score -= stale_count * 1
+    total = max(1, results["total"])
+    quality_score -= int((orphan_count  / total) * 40)  # orphans: up to -40
+    quality_score -= int((broken_count  / total) * 30)  # broken:  up to -30
+    quality_score -= int((no_tags_count / total) * 20)  # no tags: up to -20
+    quality_score -= int((dense_count   / 10)    * 10)  # density: up to -10
     quality_score = max(0, quality_score)
     
     health_emoji = "🟢" if quality_score >= 80 else "🟡" if quality_score >= 60 else "🔴"
