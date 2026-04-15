@@ -5,13 +5,6 @@ category: AI 뉴스
 tags: [AI저작권, 미드저니저작권, 생성AI법률, 저작권법, AI이미지저작권, Midjourney, StabilityAI, 인공지능저작권, AI법률, 0xHenry]
 status: ready
 char_count: 2200
-images_needed:
-  - position: "도입부 아래"
-    description: "AI 저작권 분쟁 상징 이미지"
-    source: "gemini"
-    prompt: "Judge's gavel next to a glowing AI robot head, digital law documents, courtroom aesthetic, minimalist flat illustration, 16:9"
-    file: "images/2026-04/ai-copyright-1.png"
-generated_at: "2026-04-13T10:00:00+09:00"
 ---
 
 # "AI 이미지는 저작권 없다?" — 2026년 최신 소송으로 본 진짜 위험과 기회 (0xHenry 칼럼)
@@ -27,6 +20,8 @@ generated_at: "2026-04-13T10:00:00+09:00"
 미드저니로 이미지 만들어서 상업적으로 쓰시는 분, 혹은 AI 이미지를 유튜브 썸네일이나 블로그 커버에 올리시는 분들은 오늘 내용 꼭 읽어보세요.
 
 ---
+
+![AI 저작권 분쟁 상징 이미지](../../images/2026-04/ai-copyright-1.jpg)
 
 ## 최근 실제로 터진 소송들
 
@@ -55,6 +50,8 @@ Getty Images(세계 최대 이미지 라이브러리)가 Stable Diffusion 만든
 이 소송은 아직 진행 중이에요.
 
 ---
+
+![AI 저작권 변환물 비교](../../images/2026-04/ai-copyright-2.jpg)
 
 ## "AI가 만들면 저작권이 없다"는 판결은 이미 확정됐어요
 
@@ -100,6 +97,10 @@ Getty Images(세계 최대 이미지 라이브러리)가 Stable Diffusion 만든
 ---
 
 법이 기술을 따라잡는 속도가 너무 느려서 지금은 회색 지대가 많아요. 하지만 소송들이 결론 나면서 판례가 쌓이는 중입니다. 이 흐름 계속 지켜봐야 할 것 같아요.
+
+---
+
+![AI 이미지 저작권 확보 가이드](../../images/2026-04/ai-copyright-3.jpg)
 
 ### ⚖️ 0xHenry의 한 줄 평: "기술의 복제가 아닌, 창의의 증명이 필요합니다"
 

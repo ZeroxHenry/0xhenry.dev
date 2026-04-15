@@ -3241,8 +3241,8 @@
         "AI법률"
       ],
       "char_count": 2000,
-      "image_count": 0,
-      "images_ready": false,
+      "image_count": 3,
+      "images_ready": true,
       "folder": "generated/posts/2026-04-13-ai-copyright-real-cases",
       "scheduled_at": "2026-06-07T13:18:00+09:00"
     },
@@ -3266,8 +3266,8 @@
         "AI뉴스"
       ],
       "char_count": 2000,
-      "image_count": 0,
-      "images_ready": false,
+      "image_count": 3,
+      "images_ready": true,
       "folder": "generated/posts/2026-04-13-ai-hospital-recording-lawsuit",
       "scheduled_at": "2026-06-07T20:44:00+09:00"
     },
@@ -3291,8 +3291,8 @@
         "제로데이"
       ],
       "char_count": 2100,
-      "image_count": 0,
-      "images_ready": false,
+      "image_count": 3,
+      "images_ready": true,
       "folder": "generated/posts/2026-04-13-claude-mythos-ai-hacking",
       "scheduled_at": "2026-06-08T08:19:00+09:00"
     },
@@ -3402,8 +3402,8 @@
         "글로벌AI"
       ],
       "char_count": 1900,
-      "image_count": 0,
-      "images_ready": false,
+      "image_count": 3,
+      "images_ready": true,
       "folder": "generated/posts/2026-04-13-imf-ai-financial-security-warning",
       "scheduled_at": "2026-06-09T20:40:00+09:00"
     },

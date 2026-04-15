@@ -5,13 +5,6 @@ category: AI 뉴스
 tags: [AI보안, Anthropic, 클로드Mythos, 사이버보안, ProjectGlasswing, 인공지능위험, 해킹AI, AI뉴스, 제로데이, 0xHenry]
 status: ready
 char_count: 2100
-images_needed:
-  - position: "도입부 아래"
-    description: "스스로 해킹하는 AI Mythos 상징 이미지"
-    source: "gemini"
-    prompt: "Robot character unlocking a complex digital safe, glowing code lines, cyber security theme, 16:9"
-    file: "images/2026-04/claude-hacking-1.png"
-generated_at: "2026-04-13T12:00:00+09:00"
 ---
 
 # AI가 스스로 해킹을 했다고? — 클로드 Mythos 사태, 한국어로 제대로 정리
@@ -27,6 +20,8 @@ generated_at: "2026-04-13T12:00:00+09:00"
 오늘은 글로벌 AI 커뮤니티에서 지금 난리 난 **클로드 Mythos 사태**를 한국어로 정리해드릴게요. 아직 한국 블로그에는 거의 안 다뤄진 주제인데, 알고 보면 우리한테도 꽤 직접적으로 연관된 얘기거든요.
 
 ---
+
+![스스로 해킹하는 AI Mythos 상징 이미지](../../images/2026-04/claude-hacking-1.jpg)
 
 ## Anthropic이 만든 AI가 뭘 했길래
 
@@ -53,6 +48,8 @@ Anthropic이라는 회사, 아시는 분들은 아시겠지만 ChatGPT 만든 Op
 Anthropic은 여기에 1억 달러(한화 약 1,400억 원)의 사용 크레딧을 지원하고, 오픈소스 보안 단체에 40억 원 상당의 추가 기부도 약속했습니다.
 
 ---
+
+![AI 보안 연합 Project Glasswing](../../images/2026-04/claude-hacking-2.jpg)
 
 ## 이게 우리랑 무슨 상관인가요
 
@@ -85,6 +82,10 @@ AI는 이제 단순히 "글 써주는 도구"나 "이미지 만드는 도구"의
 앞으로 이런 기술이 틀린 손에 들어가면 어떻게 되는지에 대한 논의, 그리고 그에 대한 국제적 규제 합의가 필요한 시점이 분명히 오고 있습니다.
 
 AI 보안 관련 뉴스, 앞으로도 계속 추적하면서 올릴게요. 이 주제에 관심 있으신 분 있으면 댓글로 알려주세요 — 어떤 각도에서 더 파고들면 좋을지 의견 듣고 싶습니다.
+
+---
+
+![AI 자가 치유 보안 기술](../../images/2026-04/claude-hacking-3.jpg)
 
 ### 🛡️ 0xHenry의 한 줄 평: "창과 방패의 대결, 승부의 추는 '책임감'에 있습니다"
 
