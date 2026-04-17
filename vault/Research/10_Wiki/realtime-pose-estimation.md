@@ -1,10 +1,10 @@
 ---
 title: Realtime Pose Estimation
 created: 2026-04-13
-updated: 2026-04-15
+updated: 2026-04-18
 sources: []
-tags: [pose-estimation, zed-camera, yolo, tensorrt, jetson, perception, pipeline]
-summary: ZED X Mini + YOLO26s-lower6 6kpt TRT FP16 실시간 포즈 추정. 16.4ms/61fps(verify), 17ms/60fps(pipeline) 달성.
+tags: [pose-estimation, zed-camera, yolo, tensorrt, jetson, perception, pipeline, method-b, imu, teensy]
+summary: ZED X Mini + YOLO26s-lower6 TRT FP16. fetch=0ms 파이프라인 재설계, Method B World Frame, Teensy end-to-end 연결. 13.7ms/73Hz (Python only), 14.6ms/67Hz (Python+C++).
 confidence_score: 0.95
 ---
 
@@ -50,7 +50,21 @@ no-display, DirectTRT, Safety/KF 제거:
 20.2ms (50fps) → DirectTRT + 3D EMA
 16.4ms (61fps) → --no-display (verify_geometry 최종)
 17.7ms (56fps) → pipeline_main (Safety/KF 제거, sleep 제거)
-~15ms  (67fps) → pipeline release 즉시 호출 (미테스트)
+~15ms  (67fps) → pipeline release 즉시 호출 (2026-04-17 확인)
+13.7ms (73Hz) → 2026-04-17: ready_rgb/ready_depth 분리 + release 즉시 → fetch 0ms
+14.6ms (67Hz) → 2026-04-17: Python+C++ 동시 (CPU 경합 -3Hz)
+```
+
+### 최종 세팅 (2026-04-17 기준)
+```
+Python only:  13.7ms / 73Hz
+Python + C++: 14.6ms / 67Hz
+  fetch 0.0ms | predict 12.8-14ms | depth_3d 0.3ms | shm 0.5ms
+  e2e lat 13.8±1.8ms (max 22ms)
+  Method B (World frame, static R, skip_imu=True)
+  CPU: Python 2-5, C++ 6-7 (isolated)
+  GPU: 918MHz locked (jetson_clocks)
+  Depth: PERFORMANCE (NEURAL는 GPU 경합으로 기각)
 ```
 
 ---
@@ -101,6 +115,32 @@ no-display, DirectTRT, Safety/KF 제거:
 5. **Ultralytics 우회 효과는 제한적** — torch upload 오버헤드 존재 (13ms vs 16ms, 3ms 절약)
 6. **C++이 RT 타이밍 담당** — Python GC/sleep 지터로 정시성 보장 불가. C++ clock_nanosleep 사용
 7. **ONNX→엔진 빌드는 imgsz 고정** — imgsz 변경 시 해당 크기 ONNX를 먼저 export해야 함
+
+### 2026-04-17 추가 교훈
+
+8. **🚨 Jetson + GMSL/CSI 카메라: GDM(X server) 절대 끄지 말 것**
+   - ZED X Mini는 NVIDIA Argus 프레임워크 사용 → EGL 컨텍스트 필요 → X server에서 공급
+   - GDM stop 시: `nvbufsurface: Failed to create EGLImage` + Segfault
+   - GDM 복구해도 Argus daemon 내부 state 깨짐 → **리부팅 강제**
+9. **NEURAL depth mode는 TRT 동시 환경에서 기각** — GPU SM 경합으로 predict 30ms (x2.4)
+10. **ZED depth view(copy=False)는 파이프라인 병렬에서 race** — release 즉시 호출 시 ZED 내부 버퍼가 다음 frame으로 overwrite됨. 반드시 `copy=True` (SVGA 2.3MB, +0.5ms)
+11. **release 즉시 호출(get_rgb 직후)이 파이프라인 핵심** — 프레임 끝 release는 역효과 (fetch 그대로)
+12. **Method B + 카메라 고정 = static R** — `skip_imu=True`로 capture 스레드 IMU 호출 제거 (1ms 절감)
+13. **Python + C++ 동시 실행 시 CPU isolation 필수** — Python 2-5, C++ 6-7, system 0-1
+14. **jetson_clocks는 부팅마다 재적용** (persistent 아님) — 안 하면 GPU 306MHz로 떨어짐
+15. **Python sagittal display는 실험 중 FPS 반토막** — 74→42Hz. 개발 전용
+16. **SHM atomic write 미보장** — Python 종료 직전 half-write 발생 가능. C++ watchdog 0.2s fallback이 흡수
+
+### 기각 목록 (재시도 금지)
+
+- **GDM-off 최적화**: F7, Argus 파괴
+- **NEURAL/NEURAL_LIGHT depth**: F1-F2, 속도 큰 손실
+- **One Euro Filter (모든 variant)**: Joints 0/6 완전 실패
+- **SegmentLengthConstraint on 2D**: 피드백 루프 고착 (3D+static ref는 미정)
+- **imgsz 480**: 사용자 거부
+- **zero-copy depth**: race 반복 확인
+- **cv2.cuda**: JetPack 미빌드
+- **C++ loop rate 낮추기**: 효과 없음 (CPU 3%, GPU 미사용)
 
 ---
 
