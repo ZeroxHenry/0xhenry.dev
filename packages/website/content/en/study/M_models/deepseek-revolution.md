@@ -14,7 +14,7 @@ images_needed:
     file: "/images/study/M_models/M/deepseek-revolution-hero.png"
 ---
 
-This is Part 6 of the **Latest Models Series**.
+**.
 
 ![DeepSeek Revolution Hero](/images/study/M_models/M/deepseek-revolution-hero.png)
 → Part 5: [Mistral Large 2: Europe's Pride and the Zenith of Multilingual Models](/en/study/M_models/mistral-large-2)

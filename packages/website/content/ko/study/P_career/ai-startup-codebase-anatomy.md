@@ -14,8 +14,6 @@ images_needed:
     file: "/images/study/P_career/P/ai-startup-codebase-anatomy-hero.png"
 ---
 
-이 글은 **커리어 & 관점 시리즈** 7편입니다.
-
 ![AI Startup Codebase Anatomy Hero](/images/study/P_career/P/ai-startup-codebase-anatomy-hero.png)
 → 6편: [Sandwich 아키텍처: LLM을 이용하되 LLM에 의존하지 않는 설계](/ko/study/P_career/sandwich-architecture-llm)
 
@@ -53,5 +51,3 @@ images_needed:
 AI가 들어갔다고 해서 특별한 마법이 있는 게 아닙니다. 오히려 AI가 가진 불확실성 때문에 **폴더 구조와 관심사 분리(Separation of Concerns)**가 훨씬 더 엄격해야 합니다. 여러분의 프로젝트가 커지기 전에, 지금 바로 `/prompts`와 `/tools` 폴더부터 독립시키세요.
 
 ---
-
-**다음 글:** [2026년, 우리가 다시 '기본기'로 돌아가야 하는 이유](/ko/study/P_career/back-to-basics)

@@ -11,7 +11,6 @@ categories: ["STM32 Robot Board Development"]
 ![LQFP-100 Pinout](/images/study/stm32/lqfp100-pinout.png)
 *STM32H743VITx LQFP-100 pinout diagram*
 
-
 ### 2.1 Physical Pins vs. GPIO Ports
 
 To understand the STM32 pin system, you need to distinguish between two different "pin numbers":

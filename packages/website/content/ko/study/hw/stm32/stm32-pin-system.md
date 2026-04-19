@@ -11,7 +11,6 @@ categories: ["STM32 로봇 보드 개발"]
 ![LQFP-100 핀아웃](/images/study/stm32/lqfp100-pinout.png)
 *STM32H743VITx LQFP-100 핀아웃 다이어그램*
 
-
 ### 2.1 물리적 핀 vs GPIO 포트
 
 STM32의 핀 시스템을 이해하려면 두 가지 "핀 번호"의 차이를 알아야 한다:
@@ -265,5 +264,3 @@ STM32H743VITx의 핀 정보를 찾으려면 두 문서가 필요하다:
 > 데이터시트를 직접 읽는 습관을 들이면 하드웨어 설계 시 큰 도움이 된다.
 
 ---
-
-이전 글: [STM32 아키텍처 기초](/ko/study/stm32-architecture) | 다음 글: [STM32 클럭 시스템](/ko/study/stm32-clock-system)

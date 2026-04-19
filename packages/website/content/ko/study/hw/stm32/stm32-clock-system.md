@@ -11,7 +11,6 @@ categories: ["STM32 로봇 보드 개발"]
 ![클럭 트리](/images/study/stm32/clock-tree.png)
 *HSE → PLL → SYSCLK 클럭 트리*
 
-
 ### 3.1 클럭 소스
 
 STM32H743에는 4가지 클럭 소스가 있다:
@@ -130,5 +129,3 @@ CubeMX의 Clock Configuration 탭에서:
 > 이 경우 분주기를 조절하여 각 버스의 최대 주파수 이하로 맞춘다.
 
 ---
-
-이전 글: [STM32 핀 시스템](/ko/study/stm32-pin-system) | 다음 글: [STM32 GPIO 설정](/ko/study/stm32-gpio)

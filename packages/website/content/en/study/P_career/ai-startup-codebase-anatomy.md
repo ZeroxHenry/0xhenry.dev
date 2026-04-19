@@ -14,7 +14,7 @@ images_needed:
     file: "/images/study/P_career/P/ai-startup-codebase-anatomy-hero.png"
 ---
 
-This is Part 7 of the **Career & Perspective Series**.
+**.
 
 ![AI Startup Codebase Anatomy Hero](/images/study/P_career/P/ai-startup-codebase-anatomy-hero.png)
 → Part 6: [Sandwich Architecture: Designing with LLMs without Depending on Them](/en/study/P_career/sandwich-architecture-llm)

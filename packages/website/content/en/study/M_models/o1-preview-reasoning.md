@@ -14,7 +14,7 @@ images_needed:
     file: "/images/study/M_models/M/o1-preview-reasoning-hero.png"
 ---
 
-This is Part 7 of the **Latest Models Series**.
+**.
 
 ![o1-preview Reasoning Hero](/images/study/M_models/M/o1-preview-reasoning-hero.png)
 → Part 6: [DeepSeek: The Rebellion of Value-for-Money Reasoning Models](/en/study/M_models/deepseek-revolution)

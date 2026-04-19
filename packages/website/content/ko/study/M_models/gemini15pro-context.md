@@ -17,8 +17,6 @@ images_needed:
     file: "/images/study/M_models/M/rag-vs-long-context.png"
 ---
 
-이 글은 **최신 모델 시리즈** 3편입니다.
-
 ![Gemini 1.5 Pro Context Hero](/images/study/M_models/M/gemini15pro-context-hero.png)
 → 2편: [Llama-3.1의 충격: 오픈 소스가 클로즈드 모델을 따라잡은 순간](/ko/study/M_models/llama31-impact)
 
@@ -55,5 +53,3 @@ images_needed:
 100만 토큰을 매번 보내면 비용과 시간이 많이 듭니다. 구글이 제공하는 **Context Caching** 기능을 쓰세요. 한 번 올려둔 거대한 데이터는 캐싱되어, 다음 질문부터는 훨씬 저렴하고 빠르게 답변을 받을 수 있습니다.
 
 ---
-
-**다음 글:** [Groq: LPUs가 바꾼 LLM 추론 속도의 혁명](/ko/study/M_models/groq-speed-revolution)

@@ -17,8 +17,6 @@ images_needed:
     file: "/images/study/M_models/M/gpu-vs-lpu-speed.png"
 ---
 
-이 글은 **최신 모델 시리즈** 4편입니다.
-
 ![Groq Speed Revolution Hero](/images/study/M_models/M/groq-speed-revolution-hero.png)
 → 3편: [Gemini 1.5 Pro의 100만 컨텍스트 활용법](/ko/study/M_models/gemini15pro-context)
 
@@ -55,5 +53,4 @@ Groq의 속도는 특히 **음성 대화**에서 빛을 발합니다. 사람이 
 
 ---
 
-**다음 글:** [Mistral Large 2: 유럽의 자존심, 다국어 모델의 정점](/ko/study/M_models/mistral-large-2)
 (최신 모델 챕터의 절반을 통과했습니다! 94% 달성!)

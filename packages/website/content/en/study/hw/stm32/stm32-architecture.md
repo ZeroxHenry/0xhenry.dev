@@ -11,7 +11,6 @@ categories: ["STM32 Robot Board Development"]
 ![ARM Cortex-M7 Architecture](/images/study/stm32/cortex-m7-block.png)
 *Cortex-M7 core block diagram*
 
-
 ### 1.1 ARM Cortex-M7 Core
 
 The STM32H743VITx is a high-performance microcontroller built around the ARM Cortex-M7 core.

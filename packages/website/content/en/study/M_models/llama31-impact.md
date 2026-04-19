@@ -14,7 +14,7 @@ images_needed:
     file: "/images/study/M_models/M/llama31-impact-hero.png"
 ---
 
-This is Part 2 of the **Latest Models Series**.
+**.
 
 ![Llama-3.1 Impact Hero](/images/study/M_models/M/llama31-impact-hero.png)
 → Part 1: [GPT-4o vs Claude 3.5 Sonnet: The Ultimate Comparison for Agent Development](/en/study/M_models/gpt4o-vs-claude35-sonnet)

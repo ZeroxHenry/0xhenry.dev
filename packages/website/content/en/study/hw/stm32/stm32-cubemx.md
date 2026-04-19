@@ -13,7 +13,6 @@ categories: ["STM32 Robot Board Development"]
 ![CubeMX Pinout View](/images/study/stm32/cubemx-pinout.png)
 *CubeMX pinout view*
 
-
 CubeMX is a tool that lets you configure STM32 pin assignments, clocks, and peripherals through a GUI and automatically generates the initialization code. It is built into STM32CubeIDE.
 
 ### Step 1: Create Project & Select Chip

@@ -11,7 +11,6 @@ categories: ["STM32 로봇 보드 개발"]
 ![GPIO 4가지 모드](/images/study/stm32/gpio-modes.png)
 *GPIO Input/Output/AF/Analog 모드 비교*
 
-
 ### 4.1 GPIO 4가지 모드
 
 모든 GPIO 핀은 4가지 모드 중 하나로 설정된다:
@@ -180,5 +179,3 @@ int main(void)
 > 5. 플래시 프로그래밍이 정상 (코드가 실행됨)
 
 ---
-
-이전 글: [STM32 클럭 시스템](/ko/study/stm32-clock-system) | 다음 글: [STM32 핵심 페리페럴](/ko/study/stm32-peripherals)

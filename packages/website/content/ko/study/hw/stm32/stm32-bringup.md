@@ -311,5 +311,3 @@ while (1)
 > **프로젝트**: AR_Walker (보행 보조 로봇 외골격)
 
 ---
-
-이전 글: [STM32 핀 매핑 전략](/ko/study/stm32-pin-mapping) | [시리즈 처음으로](/ko/study/stm32-architecture)

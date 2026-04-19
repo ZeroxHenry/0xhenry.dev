@@ -11,7 +11,6 @@ categories: ["STM32 로봇 보드 개발"]
 ![ARM Cortex-M7 아키텍처](/images/study/stm32/cortex-m7-block.png)
 *Cortex-M7 코어 블록 다이어그램*
 
-
 ### 1.1 ARM Cortex-M7 코어
 
 STM32H743VITx는 ARM Cortex-M7 코어를 탑재한 고성능 마이크로컨트롤러이다.
@@ -85,5 +84,3 @@ STM32H7의 버스는 3개의 전원 도메인(D1, D2, D3)으로 나뉜다:
 - ADC1/2는 APB2에, ADC3는 AHB4에 있어 서로 다른 도메인 → DMA 버퍼 위치 주의
 
 ---
-
-다음 글: [STM32 핀 시스템 완전 정복](/ko/study/stm32-pin-system)

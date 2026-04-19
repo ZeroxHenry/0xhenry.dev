@@ -13,7 +13,6 @@ categories: ["STM32 로봇 보드 개발"]
 ![Teensy → STM32 핀 매핑](/images/study/stm32/pin-mapping.png)
 *Teensy 4.1에서 STM32H743으로의 핀 매핑 비교도*
 
-
 ### 7.1 핀 배치 원칙
 
 1. **AF 충돌 방지**: 하나의 핀에는 하나의 AF만 사용 가능
@@ -127,5 +126,3 @@ categories: ["STM32 로봇 보드 개발"]
 `Documentation/Hardware/AR_Walker_STM32_Pinmap.md`로 작성한다.
 
 ---
-
-이전 글: [STM32CubeMX 실전 설정](/ko/study/stm32-cubemx) | 다음 글: [STM32 보드 브링업](/ko/study/stm32-bringup)

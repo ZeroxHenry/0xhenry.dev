@@ -14,8 +14,6 @@ images_needed:
     file: "/images/study/M_models/M/llama31-impact-hero.png"
 ---
 
-이 글은 **최신 모델 시리즈** 2편입니다.
-
 ![Llama-3.1 Impact Hero](/images/study/M_models/M/llama31-impact-hero.png)
 → 1편: [GPT-4o vs Claude 3.5 Sonnet: 에이전트 개발을 위한 끝판왕 비교](/ko/study/M_models/gpt4o-vs-claude35-sonnet)
 
@@ -50,5 +48,3 @@ Llama-3.1은 에이전트 개발을 위해 태어났습니다. 128K의 넉넉한
 지능이 소수 거대 기업의 전유물이었던 시대는 끝났습니다. Llama-3.1은 모든 개발자에게 강력한 무기를 쥐여주었습니다. 여러분의 로컬 서버에 Llama를 올리는 순간, 여러분은 독자적인 지능의 주권을 갖게 됩니다.
 
 ---
-
-**다음 글:** [Gemini 1.5 Pro의 100만 컨텍스트 활용법](/ko/study/M_models/gemini15pro-context)

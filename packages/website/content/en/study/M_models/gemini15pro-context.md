@@ -14,7 +14,7 @@ images_needed:
     file: "/images/study/M_models/M/gemini15pro-context-hero.png"
 ---
 
-This is Part 3 of the **Latest Models Series**.
+**.
 
 ![Gemini 1.5 Pro Context Hero](/images/study/M_models/M/gemini15pro-context-hero.png)
 → Part 2: [The Impact of Llama-3.1: The Moment Open Source Caught Up to Closed Models](/en/study/M_models/llama31-impact)

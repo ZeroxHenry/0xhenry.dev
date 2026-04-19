@@ -11,7 +11,6 @@ categories: ["STM32 Robot Board Development"]
 ![GPIO 4 Modes](/images/study/stm32/gpio-modes.png)
 *GPIO Input/Output/AF/Analog mode comparison*
 
-
 ### 4.1 The Four GPIO Modes
 
 Every GPIO pin is configured in one of four modes:

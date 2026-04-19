@@ -14,7 +14,7 @@ images_needed:
     file: "/images/study/P_career/P/career-strategy-beyond-coding-hero.png"
 ---
 
-This is Part 1 of the **Career & Perspective Series**.
+**.
 
 ![Career Strategy Hero](/images/study/P_career/P/career-strategy-beyond-coding-hero.png)
 

@@ -22,7 +22,6 @@ The name for this problem is **Idempotency**. And in the age of AI agents, this 
 
 ---
 
-
 ### What is Idempotency?
 
 In mathematics, idempotency means "a property where applying the same operation multiple times produces the same result as applying it once."
@@ -269,5 +268,3 @@ Next time you add an external API tool to an AI agent, ask yourself:
 If you don't have an immediate answer, your design isn't finished yet.
 
 ---
-
-**Next Topic:** [My AI Agent Was Slowly Getting Dumber — How to Detect LLM Drift](/en/study/llm-agent-drift-detection)

@@ -13,7 +13,6 @@ categories: ["STM32 로봇 보드 개발"]
 ![CAN 버스 토폴로지](/images/study/stm32/can-topology.png)
 *CAN 버스 통신 구조*
 
-
 ### 5.1 FDCAN (모터 CAN 통신)
 
 AR_Walker의 T-Motor (AK60, AK70, AK80) 모터들은 CAN 버스로 통신한다.
@@ -473,5 +472,3 @@ void Motor_Stop(void)
 ```
 
 ---
-
-이전 글: [STM32 GPIO 설정](/ko/study/stm32-gpio) | 다음 글: [STM32CubeMX 실전 설정](/ko/study/stm32-cubemx)

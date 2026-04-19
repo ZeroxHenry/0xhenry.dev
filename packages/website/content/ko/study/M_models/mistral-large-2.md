@@ -14,8 +14,6 @@ images_needed:
     file: "/images/study/M_models/M/mistral-large2-hero.png"
 ---
 
-이 글은 **최신 모델 시리즈** 5편입니다.
-
 ![Mistral Large 2 Hero](/images/study/M_models/M/mistral-large-2-hero.png)
 → 4편: [Groq: LPUs가 바꾼 LLM 추론 속도의 혁명](/ko/study/M_models/groq-speed-revolution)
 
@@ -52,5 +50,3 @@ Mistral은 전통적으로 코딩 능력에서 강점을 보여왔습니다. Lar
 만약 여러분의 서비스가 글로벌 시장을 타겟으로 한다면, 영어에 치우친 미국 모델보다 Mistral Large 2가 더 현명한 동반자가 될 수 있습니다. 유럽의 섬세한 지능이 여러분의 에이전트에 깊이를 더해줄 것입니다.
 
 ---
-
-**다음 글:** [DeepSeek: 가성비 추론 모델의 반란](/ko/study/M_models/deepseek-revolution)

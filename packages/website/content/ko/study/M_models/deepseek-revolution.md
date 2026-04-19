@@ -14,8 +14,6 @@ images_needed:
     file: "/images/study/M_models/M/deepseek-revolution-hero.png"
 ---
 
-이 글은 **최신 모델 시리즈** 6편입니다.
-
 ![DeepSeek Revolution Hero](/images/study/M_models/M/deepseek-revolution-hero.png)
 → 5편: [Mistral Large 2: 유럽의 자존심, 다국어 모델의 정점](/ko/study/M_models/mistral-large-2)
 
@@ -52,5 +50,3 @@ DeepSeek가 처음 주목받은 계기는 바로 코딩이었습니다.
 DeepSeek는 더 이상 '저렴한 대안'이 아닙니다. 어떤 분야(특히 코딩)에서는 가장 먼저 고려해야 할 '최우선 순위'가 되었습니다. 여러분의 에이전트 파이프라인 중 반복적인 코딩 작업이나 데이터 추출이 필요하다면 DeepSeek를 강력히 추천합니다.
 
 ---
-
-**다음 글:** [o1-preview: 추론(Reasoning) 모델이 바꾼 CoT의 미래](/ko/study/M_models/o1-preview-reasoning)

@@ -17,8 +17,6 @@ images_needed:
     file: "/images/study/M_models/M/model-radar-chart.png"
 ---
 
-이 글은 **최신 모델 시리즈** 1편입니다.
-
 ![GPT-4o vs Claude 3.5 Sonnet Hero](/images/study/M_models/M/gpt4o-vs-claude35-sonnet-hero.png)
 
 ---
@@ -67,5 +65,3 @@ AI 에이전트를 개발할 때 "어떤 모델을 쓸 것인가?"는 가장 중
 이제는 '절대 강자'가 없습니다. 여러분의 에이전트가 수행할 '페르소나'에 맞춰 모델을 선택하세요. 챕터의 나머지 부분에서는 에이전트 세상을 더 넓혀줄 오픈 소스 모델과 특수 목적 모델들을 다룹니다.
 
 ---
-
-**다음 글:** [Llama-3.1의 충격: 오픈 소스가 클로즈드 모델을 따라잡은 순간](/ko/study/M_models/llama31-impact)

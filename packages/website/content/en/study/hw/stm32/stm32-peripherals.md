@@ -13,7 +13,6 @@ categories: ["STM32 Robot Board Development"]
 ![CAN Bus Topology](/images/study/stm32/can-topology.png)
 *CAN bus communication topology*
 
-
 ### 5.1 FDCAN (Motor CAN Communication)
 
 The T-Motor units (AK60, AK70, AK80) in AR_Walker communicate over a CAN bus.

@@ -11,7 +11,6 @@ categories: ["STM32 Robot Board Development"]
 ![Clock Tree](/images/study/stm32/clock-tree.png)
 *HSE → PLL → SYSCLK clock tree*
 
-
 ### 3.1 Clock Sources
 
 The STM32H743 has four clock sources:

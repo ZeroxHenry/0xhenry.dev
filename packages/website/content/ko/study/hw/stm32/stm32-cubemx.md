@@ -13,7 +13,6 @@ categories: ["STM32 로봇 보드 개발"]
 ![CubeMX 핀 설정 화면](/images/study/stm32/cubemx-pinout.png)
 *CubeMX 핀 설정 화면*
 
-
 CubeMX는 STM32의 핀 배치, 클럭, 페리페럴을 GUI로 설정하고 초기화 코드를 자동 생성하는 도구이다.
 STM32CubeIDE에 내장되어 있다.
 
@@ -165,5 +164,3 @@ void my_init(void) { }        // ✅ 안전!
 > (자세한 내용은 README.md의 "자동 생성 코드와 유저 코드 관리" 섹션 참고)
 
 ---
-
-이전 글: [STM32 핵심 페리페럴](/ko/study/stm32-peripherals) | 다음 글: [STM32 핀 매핑 전략](/ko/study/stm32-pin-mapping)

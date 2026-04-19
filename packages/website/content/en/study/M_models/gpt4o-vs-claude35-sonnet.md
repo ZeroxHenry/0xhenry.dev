@@ -14,7 +14,7 @@ images_needed:
     file: "/images/study/M_models/M/gpt4o-vs-claude35-sonnet-hero.png"
 ---
 
-This is Part 1 of the **Latest Models Series**.
+**.
 
 ![GPT-4o vs Claude 3.5 Sonnet Hero](/images/study/M_models/M/gpt4o-vs-claude35-sonnet-hero.png)
 

@@ -73,5 +73,3 @@ The browser is no longer just a document viewer; it is a distributed compute nod
 In our next session, we’ll look at how we are replacing traditional web forms with **Conversational Interfaces**.
 
 ---
-
-**Next Topic:** [Conversational Interfaces: Replacing Forms with Chat](/en/study/conversational-interfaces-chat)

@@ -13,7 +13,6 @@ categories: ["STM32 Robot Board Development"]
 ![Teensy → STM32 Pin Mapping](/images/study/stm32/pin-mapping.png)
 *Pin mapping comparison between Teensy 4.1 and STM32H743*
 
-
 ### 7.1 Pin Assignment Principles
 
 1. **Prevent AF conflicts**: Only one AF can be used per pin
