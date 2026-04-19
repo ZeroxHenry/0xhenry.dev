@@ -179,5 +179,3 @@ int main(void)
 > 5. Flash programming succeeded (code is executing)
 
 ---
-
-Previous: [STM32 Clock System](/en/study/stm32-clock-system) | Next: [STM32 Core Peripherals](/en/study/stm32-peripherals)

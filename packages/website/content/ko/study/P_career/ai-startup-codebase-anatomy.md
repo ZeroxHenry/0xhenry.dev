@@ -15,7 +15,6 @@ images_needed:
 ---
 
 ![AI Startup Codebase Anatomy Hero](/images/study/P_career/P/ai-startup-codebase-anatomy-hero.png)
-→ 6편: [Sandwich 아키텍처: LLM을 이용하되 LLM에 의존하지 않는 설계](/ko/study/P_career/sandwich-architecture-llm)
 
 ---
 

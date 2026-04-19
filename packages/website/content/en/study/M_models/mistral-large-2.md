@@ -17,7 +17,6 @@ images_needed:
 **.
 
 ![Mistral Large 2 Hero](/images/study/M_models/M/mistral-large-2-hero.png)
-→ Part 4: [Groq: The Revolution in LLM Inference Speed Brought by LPUs](/en/study/M_models/groq-speed-revolution)
 
 ---
 
@@ -52,5 +51,3 @@ Mistral has traditionally shown strength in coding ability. The Large 2 model al
 If your service targets the global market, Mistral Large 2 might be a smarter companion than an English-centric American model. European refined intelligence will add depth to your agents.
 
 ---
-
-**Next:** [DeepSeek: The Rebellion of Value-for-Money Reasoning Models](/en/study/M_models/deepseek-revolution)

@@ -17,7 +17,6 @@ images_needed:
 **.
 
 ![Groq Speed Revolution Hero](/images/study/M_models/M/groq-speed-revolution-hero.png)
-→ Part 3: [How to Utilize Gemini 1.5 Pro’s 1-Million Context Window](/en/study/M_models/gemini15pro-context)
 
 ---
 
@@ -52,5 +51,4 @@ Increased speed allows a model to think more. A model that goes through 10 round
 
 ---
 
-**Next:** [Mistral Large 2: Europe's Pride and the Zenith of Multilingual Models](/en/study/M_models/mistral-large-2)
 (Halfway through the Latest Models chapter! 94% complete!)

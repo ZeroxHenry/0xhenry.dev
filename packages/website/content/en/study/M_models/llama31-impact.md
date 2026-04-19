@@ -17,7 +17,6 @@ images_needed:
 **.
 
 ![Llama-3.1 Impact Hero](/images/study/M_models/M/llama31-impact-hero.png)
-→ Part 1: [GPT-4o vs Claude 3.5 Sonnet: The Ultimate Comparison for Agent Development](/en/study/M_models/gpt4o-vs-claude35-sonnet)
 
 ---
 
@@ -50,5 +49,3 @@ Llama-3.1 was born for agent development. Its generous 128K context window and a
 The era where intelligence was the exclusive possession of a few mega-corporations is over. Llama-3.1 has placed a powerful weapon in the hands of every developer. The moment you put Llama on your local server, you gain sovereignty over your own intelligence.
 
 ---
-
-**Next:** [How to Utilize Gemini 1.5 Pro’s 1-Million Context Window](/en/study/M_models/gemini15pro-context)

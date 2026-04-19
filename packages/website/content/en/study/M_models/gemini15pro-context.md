@@ -17,7 +17,6 @@ images_needed:
 **.
 
 ![Gemini 1.5 Pro Context Hero](/images/study/M_models/M/gemini15pro-context-hero.png)
-→ Part 2: [The Impact of Llama-3.1: The Moment Open Source Caught Up to Closed Models](/en/study/M_models/llama31-impact)
 
 ---
 
@@ -52,5 +51,3 @@ Reading a lot is useless if the model forgets information in the middle. Gemini 
 Sending 1 million tokens every time is expensive and slow. Use Google's **Context Caching** feature. Once uploaded, the massive data is cached, making subsequent questions much cheaper and faster to answer.
 
 ---
-
-**Next:** [Groq: The Revolution in LLM Inference Speed Brought by LPUs](/en/study/M_models/groq-speed-revolution)

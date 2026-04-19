@@ -15,7 +15,6 @@ images_needed:
 ---
 
 ![Mistral Large 2 Hero](/images/study/M_models/M/mistral-large-2-hero.png)
-→ 4편: [Groq: LPUs가 바꾼 LLM 추론 속도의 혁명](/ko/study/M_models/groq-speed-revolution)
 
 ---
 

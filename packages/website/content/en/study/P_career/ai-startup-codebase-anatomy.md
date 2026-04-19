@@ -17,7 +17,6 @@ images_needed:
 **.
 
 ![AI Startup Codebase Anatomy Hero](/images/study/P_career/P/ai-startup-codebase-anatomy-hero.png)
-→ Part 6: [Sandwich Architecture: Designing with LLMs without Depending on Them](/en/study/P_career/sandwich-architecture-llm)
 
 ---
 
@@ -53,5 +52,3 @@ Remembering previous conversations and recording which step an agent is currentl
 There is no special magic just because AI is involved. In fact, because of AI's uncertainty, **folder structure and Separation of Concerns** must be much more rigorous. Before your project grows, isolate your `/prompts` and `/tools` folders right now.
 
 ---
-
-**Next:** [2026: Why We Must Return to 'Basics' Once More](/en/study/P_career/back-to-basics)

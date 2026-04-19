@@ -15,7 +15,6 @@ images_needed:
 ---
 
 ![o1-preview Reasoning Hero](/images/study/M_models/M/o1-preview-reasoning-hero.png)
-→ 6편: [DeepSeek: 가성비 추론 모델의 반란](/ko/study/M_models/deepseek-revolution)
 
 ---
 

@@ -49,5 +49,3 @@ AI-generated code works 90% of the time, but the remaining 10% of errors are muc
 If you try to swim against a wave, you'll be swept away, but if you get on a surfboard, you'll move faster than anyone. Don't fear the massive wave of AI agents; be the surfer who carries your design skills and business insights to create greater value.
 
 ---
-
-**Next:** [A Guide to Using AI for Junior Developers: Depend on Tools, or Dominate Them?](/en/study/P_career/junior-ai-guide)

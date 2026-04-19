@@ -64,5 +64,3 @@ Agents must call external APIs.
 There is no longer an 'absolute ruler.' Choose the model based on the 'persona' your agent will embody. The rest of this chapter will explore the open-source and special-purpose models that are expanding the agent world even further.
 
 ---
-
-**Next:** [The Impact of Llama-3.1: The Moment Open Source Caught Up to Closed Models](/en/study/M_models/llama31-impact)

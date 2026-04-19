@@ -17,7 +17,6 @@ images_needed:
 **.
 
 ![o1-preview Reasoning Hero](/images/study/M_models/M/o1-preview-reasoning-hero.png)
-→ Part 6: [DeepSeek: The Rebellion of Value-for-Money Reasoning Models](/en/study/M_models/deepseek-revolution)
 
 ---
 
@@ -51,5 +50,4 @@ Watching o1, we realize once again that intelligence isn't just about having a g
 
 ---
 
-**Next:** [AI Roadmap 2027: Who Will Be the Lead in the Agent Era?](/en/study/M_models/ai-roadmap-2027)
 (Only one post left until 100% completion of the final goal!)

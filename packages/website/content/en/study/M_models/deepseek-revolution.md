@@ -17,7 +17,6 @@ images_needed:
 **.
 
 ![DeepSeek Revolution Hero](/images/study/M_models/M/deepseek-revolution-hero.png)
-→ Part 5: [Mistral Large 2: Europe's Pride and the Zenith of Multilingual Models](/en/study/M_models/mistral-large-2)
 
 ---
 
@@ -52,5 +51,3 @@ They disclose how they trained their models and built their datasets in relative
 DeepSeek is no longer just a 'cheap alternative.' In some areas (particularly coding), it has become the 'top priority' to consider. If your agent pipeline involves repetitive coding tasks or data extraction, I highly recommend DeepSeek.
 
 ---
-
-**Next:** [o1-preview: The Future of CoT Changed by Reasoning Models](/en/study/M_models/o1-preview-reasoning)

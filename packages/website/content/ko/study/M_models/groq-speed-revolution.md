@@ -18,7 +18,6 @@ images_needed:
 ---
 
 ![Groq Speed Revolution Hero](/images/study/M_models/M/groq-speed-revolution-hero.png)
-→ 3편: [Gemini 1.5 Pro의 100만 컨텍스트 활용법](/ko/study/M_models/gemini15pro-context)
 
 ---
 

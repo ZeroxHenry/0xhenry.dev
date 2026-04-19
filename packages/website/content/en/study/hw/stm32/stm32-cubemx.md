@@ -163,5 +163,3 @@ void my_init(void) { }        // ✅ safe!
 > (See the "Managing Auto-Generated and User Code" section in README.md for details.)
 
 ---
-
-Previous: [STM32 Essential Peripherals](/en/study/stm32-peripherals) | Next: [STM32 Pin Mapping Strategy](/en/study/stm32-pin-mapping)

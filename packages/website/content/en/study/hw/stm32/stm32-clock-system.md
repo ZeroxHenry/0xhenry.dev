@@ -129,5 +129,3 @@ In the CubeMX Clock Configuration tab:
 > Adjust the prescalers to bring each bus frequency within its allowed maximum.
 
 ---
-
-Previous: [STM32 Pin System](/en/study/stm32-pin-system) | Next: [STM32 GPIO Configuration](/en/study/stm32-gpio)

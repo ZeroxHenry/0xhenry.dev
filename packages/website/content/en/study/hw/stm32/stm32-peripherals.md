@@ -471,5 +471,3 @@ void Motor_Stop(void)
 ```
 
 ---
-
-Previous: [STM32 GPIO Configuration](/en/study/stm32-gpio) | Next: [STM32CubeMX Practical Setup](/en/study/stm32-cubemx)
