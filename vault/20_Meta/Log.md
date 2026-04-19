@@ -2,6 +2,12 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-19] 🧹 MISSION COMPLETE: Blog Content Normalization & Visual Audit
+- **Duplicate Removal**: `E_edge-ai` 디렉토리 내의 중복 하드웨어 포스트(STM32, ZED) 일괄 삭제 완료 (hw 카테고리 단일화).
+- **Visual Audit**: "그림 없는 포스트 근절" 정책에 따라 시각 자료가 없는 100여 개의 저품질/드래프트 포스트 일괄 제거.
+- **Language Sync**: 한국어(ko) 및 영어(en) 모든 스터디 콘텐츠에 동일한 기준 적용.
+- **Status**: 블로그 구조 정규화 및 고품격 시각 블로깅 환경 구축 완료.
+
 ## [2026-04-18] 🛡️ MISSION COMPLETE: Blog Management Recovery & Normalization
 - **Spam Cleanup**: `generated/posts/` 내 무의미한 AI 양산 폴더(200여 개) 일괄 삭제 완료.
 - **System Normalization**: `vault/Meta` -> `vault/20_Meta` 정규화 및 스크립트 실행 경로 복구.

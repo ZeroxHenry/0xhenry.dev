@@ -1,7 +1,7 @@
 ---
 title: "Realtime Pose Estimation: ZED X Mini와 TensorRT로 16ms(61fps) 파이프라인 구축하기"
 date: 2026-04-15
-draft: false
+draft: true
 tags: ["pose-estimation", "zed-camera", "yolo", "tensorrt", "jetson", "robotics"]
 description: "ZED X Mini 카메라와 Jetson Orin NX를 사용하여 하드웨어 제어용 실시간 자세 추정 파이프라인을 구축한 과정을 상세히 기록합니다. PipelinedCamera, DirectTRT 등 16ms(61fps) 달성을 위한 최적화 기법을 포함합니다."
 author: "Henry"

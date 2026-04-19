@@ -1,4 +1,4 @@
-# 뉴스 스카우트 결과 — 2026-04-18
+# 뉴스 스카우트 결과 — 2026-04-19
 총 18개 후보 발견
 ---
 ## 1. Trusted access for the next era of cyber defense
@@ -25,20 +25,20 @@
 - 차별화 신호: 고가치 키워드: ban, 고가치 키워드: security, 영문 소스 → 한국어 해석 공백 존재
 
 ---
-## 4. Thousands of consumer routers hacked by Russia's military
+## 4. US-sanctioned currency exchange says $15 million heist done by "unfriendly states"
+- 점수: 40 | 🟡 검토 필요
+- 출처: Ars Technica AI
+- 왜 이 소스인가: 기술 심층. 다른 매체보다 빠르고 정확.
+- 링크: https://arstechnica.com/security/2026/04/russia-friendly-exchange-says-western-special-service-behind-15-million-cyberattack/
+- 차별화 신호: 고가치 키워드: end, 고가치 키워드: hack, 영문 소스 → 한국어 해석 공백 존재
+
+---
+## 5. Thousands of consumer routers hacked by Russia's military
 - 점수: 40 | 🟡 검토 필요
 - 출처: Ars Technica AI
 - 왜 이 소스인가: 기술 심층. 다른 매체보다 빠르고 정확.
 - 링크: https://arstechnica.com/security/2026/04/russias-military-hacks-thousands-of-consumer-routers-to-steal-credentials/
 - 차별화 신호: 고가치 키워드: end, 고가치 키워드: hack, 영문 소스 → 한국어 해석 공백 존재
-
----
-## 5. Widely used Trivy scanner compromised in ongoing supply-chain attack
-- 점수: 40 | 🟡 검토 필요
-- 출처: Ars Technica AI
-- 왜 이 소스인가: 기술 심층. 다른 매체보다 빠르고 정확.
-- 링크: https://arstechnica.com/security/2026/03/widely-used-trivy-scanner-compromised-in-ongoing-supply-chain-attack/
-- 차별화 신호: 고가치 키워드: end, 고가치 키워드: secret, 영문 소스 → 한국어 해석 공백 존재
 
 ---
 ## 6. The scientific case for being nice to your chatbot
