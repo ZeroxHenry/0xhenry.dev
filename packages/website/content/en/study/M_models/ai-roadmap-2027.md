@@ -11,12 +11,12 @@ series_order: 8
 images_needed:
   - position: "hero"
     prompt: "A vast digital landscape with a sunrise. In the distance, a group of diverse AI agents (flying bots, holographic humans, terminals) are walking together toward a glowing portal. Dark mode #0d1117, epic scale, 16:9"
-    file: "images/M/ai-roadmap-2027-hero.png"
+    file: "/images/study/M_models/M/ai-roadmap-2027-hero.png"
 ---
 
 This is the **final installment of the 78-post technical blog pipeline** on 0xhenry.dev.
 
-![AI Roadmap 2027 Hero](images/M/ai-roadmap-2027-hero.png)
+![AI Roadmap 2027 Hero](/images/study/M_models/M/ai-roadmap-2027-hero.png)
 
 ---
 

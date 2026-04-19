@@ -11,12 +11,12 @@ series_order: 7
 images_needed:
   - position: "hero"
     prompt: "A cross-section of a high-tech building. Inside, you can see server racks, a library of prompt files, and workers (agents) passing messages to each other. Dark mode #0d1117, 16:9"
-    file: "images/P/ai-startup-codebase-anatomy-hero.png"
+    file: "/images/study/P_career/P/ai-startup-codebase-anatomy-hero.png"
 ---
 
 이 글은 **커리어 & 관점 시리즈** 7편입니다.
 
-![AI Startup Codebase Anatomy Hero](images/P/ai-startup-codebase-anatomy-hero.png)
+![AI Startup Codebase Anatomy Hero](/images/study/P_career/P/ai-startup-codebase-anatomy-hero.png)
 → 6편: [Sandwich 아키텍처: LLM을 이용하되 LLM에 의존하지 않는 설계](/ko/study/P_career/sandwich-architecture-llm)
 
 ---

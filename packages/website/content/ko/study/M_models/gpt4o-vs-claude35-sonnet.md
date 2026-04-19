@@ -11,15 +11,15 @@ series_order: 1
 images_needed:
   - position: "hero"
     prompt: "Two giant mechs facing each other. One is green/white (GPT-4o), the other is orange/white (Claude). They are surrounded by lines of code and data streams. Dark mode #0d1117, cinematic, 16:9"
-    file: "images/M/gpt4o-vs-claude35-sonnet-hero.png"
+    file: "/images/study/M_models/M/gpt4o-vs-claude35-sonnet-hero.png"
   - position: "chart"
     prompt: "Radar chart: Coding, Reason, Speed, Multimodal, Tool Use. Claude 3.5 Sonnet excels in Coding/Reason, GPT-4o excels in Speed/Multimodal. 16:9"
-    file: "images/M/model-radar-chart.png"
+    file: "/images/study/M_models/M/model-radar-chart.png"
 ---
 
 이 글은 **최신 모델 시리즈** 1편입니다.
 
-![GPT-4o vs Claude 3.5 Sonnet Hero](images/M/gpt4o-vs-claude35-sonnet-hero.png)
+![GPT-4o vs Claude 3.5 Sonnet Hero](/images/study/M_models/M/gpt4o-vs-claude35-sonnet-hero.png)
 
 ---
 
@@ -60,7 +60,7 @@ AI 에이전트를 개발할 때 "어떤 모델을 쓸 것인가?"는 가장 중
 
 ### 모델별 성능 레이더 차트 (헨리의 실측 체감)
 
-![Model Radar Chart](images/M/model-radar-chart.png)
+![Model Radar Chart](/images/study/M_models/M/model-radar-chart.png)
 
 ### 결론
 

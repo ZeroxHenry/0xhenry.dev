@@ -11,12 +11,12 @@ series_order: 7
 images_needed:
   - position: "hero"
     prompt: "An AI brain inside a glass clock. You can see the gears turning slowly and methodically. A single bright light is being refined through the gears. Dark mode #0d1117, sophisticated, 16:9"
-    file: "images/M/o1-preview-reasoning-hero.png"
+    file: "/images/study/M_models/M/o1-preview-reasoning-hero.png"
 ---
 
 This is Part 7 of the **Latest Models Series**.
 
-![o1-preview Reasoning Hero](images/M/o1-preview-reasoning-hero.png)
+![o1-preview Reasoning Hero](/images/study/M_models/M/o1-preview-reasoning-hero.png)
 → Part 6: [DeepSeek: The Rebellion of Value-for-Money Reasoning Models](/en/study/M_models/deepseek-revolution)
 
 ---

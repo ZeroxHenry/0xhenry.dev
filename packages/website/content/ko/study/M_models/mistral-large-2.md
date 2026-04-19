@@ -11,12 +11,12 @@ series_order: 5
 images_needed:
   - position: "hero"
     prompt: "An elegant, minimalist sculpture of a head, glowing with European Union blue and golden stars. It is surrounded by calligraphy from dozens of different languages. Dark mode #0d1117, 16:9"
-    file: "images/M/mistral-large2-hero.png"
+    file: "/images/study/M_models/M/mistral-large2-hero.png"
 ---
 
 이 글은 **최신 모델 시리즈** 5편입니다.
 
-![Mistral Large 2 Hero](images/M/mistral-large-2-hero.png)
+![Mistral Large 2 Hero](/images/study/M_models/M/mistral-large-2-hero.png)
 → 4편: [Groq: LPUs가 바꾼 LLM 추론 속도의 혁명](/ko/study/M_models/groq-speed-revolution)
 
 ---

@@ -11,12 +11,12 @@ series_order: 1
 images_needed:
   - position: "hero"
     prompt: "Two giant mechs facing each other. One is green/white (GPT-4o), the other is orange/white (Claude). They are surrounded by lines of code and data streams. Dark mode #0d1117, cinematic, 16:9"
-    file: "images/M/gpt4o-vs-claude35-sonnet-hero.png"
+    file: "/images/study/M_models/M/gpt4o-vs-claude35-sonnet-hero.png"
 ---
 
 This is Part 1 of the **Latest Models Series**.
 
-![GPT-4o vs Claude 3.5 Sonnet Hero](images/M/gpt4o-vs-claude35-sonnet-hero.png)
+![GPT-4o vs Claude 3.5 Sonnet Hero](/images/study/M_models/M/gpt4o-vs-claude35-sonnet-hero.png)
 
 ---
 
@@ -57,7 +57,7 @@ Agents must call external APIs.
 
 ### Model Performance Radar Chart (Henry's Practical Feel)
 
-![Model Radar Chart](images/M/model-radar-chart.png)
+![Model Radar Chart](/images/study/M_models/M/model-radar-chart.png)
 
 ### Conclusion
 

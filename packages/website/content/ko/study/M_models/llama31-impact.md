@@ -11,12 +11,12 @@ series_order: 2
 images_needed:
   - position: "hero"
     prompt: "A huge, powerful llama breaking through a glass ceiling. On top of the glass, gold skyscrapers (Closed LLMs) are shaking. Dark mode #0d1117, majestic and powerful, 16:9"
-    file: "images/M/llama31-impact-hero.png"
+    file: "/images/study/M_models/M/llama31-impact-hero.png"
 ---
 
 이 글은 **최신 모델 시리즈** 2편입니다.
 
-![Llama-3.1 Impact Hero](images/M/llama31-impact-hero.png)
+![Llama-3.1 Impact Hero](/images/study/M_models/M/llama31-impact-hero.png)
 → 1편: [GPT-4o vs Claude 3.5 Sonnet: 에이전트 개발을 위한 끝판왕 비교](/ko/study/M_models/gpt4o-vs-claude35-sonnet)
 
 ---

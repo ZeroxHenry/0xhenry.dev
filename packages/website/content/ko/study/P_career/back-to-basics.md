@@ -11,12 +11,12 @@ series_order: 8
 images_needed:
   - position: "hero"
     prompt: "A modern glass skyscraper (The AI) built on top of a solid, ancient stone foundation labeled 'CS Fundamentals'. The stone is glowing with hidden power. Dark mode #0d1117, 16:9"
-    file: "images/P/back-to-basics-hero.png"
+    file: "/images/study/P_career/P/back-to-basics-hero.png"
 ---
 
 이 글은 **커리어 & 관점 시리즈**의 마감(8편)입니다.
 
-![Back to Basics CS Foundation Hero](images/P/back-to-basics-hero.png)
+![Back to Basics CS Foundation Hero](/images/study/P_career/P/back-to-basics-hero.png)
 → 7편: [AI 스타트업 코드베이스 해부 — 실제로 어떻게 구조가 짜여 있는가](/ko/study/P_career/ai-startup-codebase-anatomy)
 
 ---

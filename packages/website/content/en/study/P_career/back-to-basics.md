@@ -11,12 +11,12 @@ series_order: 8
 images_needed:
   - position: "hero"
     prompt: "A modern glass skyscraper (The AI) built on top of a solid, ancient stone foundation labeled 'CS Fundamentals'. The stone is glowing with hidden power. Dark mode #0d1117, 16:9"
-    file: "images/P/back-to-basics-hero.png"
+    file: "/images/study/P_career/P/back-to-basics-hero.png"
 ---
 
 This is the finale (Part 8) of the **Career & Perspective Series**.
 
-![Back to Basics CS Foundation Hero](images/P/back-to-basics-hero.png)
+![Back to Basics CS Foundation Hero](/images/study/P_career/P/back-to-basics-hero.png)
 → Part 7: [Anatomy of an AI Startup Codebase — How the Structure is Actually Built](/en/study/P_career/ai-startup-codebase-anatomy)
 
 ---

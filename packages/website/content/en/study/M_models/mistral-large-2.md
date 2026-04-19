@@ -11,12 +11,12 @@ series_order: 5
 images_needed:
   - position: "hero"
     prompt: "An elegant, minimalist sculpture of a head, glowing with European Union blue and golden stars. It is surrounded by calligraphy from dozens of different languages. Dark mode #0d1117, 16:9"
-    file: "images/M/mistral-large2-hero.png"
+    file: "/images/study/M_models/M/mistral-large2-hero.png"
 ---
 
 This is Part 5 of the **Latest Models Series**.
 
-![Mistral Large 2 Hero](images/M/mistral-large-2-hero.png)
+![Mistral Large 2 Hero](/images/study/M_models/M/mistral-large-2-hero.png)
 → Part 4: [Groq: The Revolution in LLM Inference Speed Brought by LPUs](/en/study/M_models/groq-speed-revolution)
 
 ---

@@ -12,7 +12,7 @@ series_order: 3
 
 로보틱스, 특히 외골격 로봇(Exosuit)이나 보행 보조 로봇에서 '인지-판단-제어' 루프의 지연시간(Latency)은 시스템의 안정성과 직결됩니다. 이번 글에서는 **[ZED X Mini 카메라](/ko/study/hw/zed-x-mini-jetson-setup)와 YOLO 모델, 그리고 TensorRT를 활용하여 16ms(61fps)의 초저지연 실시간 포즈 추정 파이프라인을 구축한 과정**을 공유합니다.
 
-![실험실에서의 연구 개발 모습 — 우리의 시도는 멈추지 않는다](../../images/realtime-pose-estimation/Lab.jpg)
+![실험실에서의 연구 개발 모습 — 우리의 시도는 멈추지 않는다](/images/study/hw/realtime-pose-estimation/Lab.jpg)
 
 ---
 
@@ -59,7 +59,7 @@ series_order: 3
 
 ---
 
-![파이프라인 병목 해결 및 프레임 렌더링 과정](../../images/realtime-pose-estimation/Main.jpg)
+![파이프라인 병목 해결 및 프레임 렌더링 과정](/images/study/hw/realtime-pose-estimation/Main.jpg)
 
 ## 3. 지연시간 16ms를 만든 7가지 성공적 최적화
 
@@ -88,7 +88,7 @@ Safety Limit 검사나 Kalman/One-Euro 필터링 같은 무거운 로직을 Pyth
 
 ---
 
-![로봇의 전체적인 하드웨어 설계 — 여기서부터 비전 처리가 시작된다](../../images/realtime-pose-estimation/Whole-Body.jpg)
+![로봇의 전체적인 하드웨어 설계 — 여기서부터 비전 처리가 시작된다](/images/study/hw/realtime-pose-estimation/Whole-Body.jpg)
 
 ## 4. 로봇 제어를 위한 전체 아키텍처
 
@@ -123,7 +123,7 @@ ZED X Mini (SVGA@120fps, PERFORMANCE depth)
 
 Python과 GPU를 쓰면서 16ms에 도달하는 건 쉽지 않았습니다. 특히 제일 뼈아팠던 교훈은 **"비전 파이프라인에서 Python의 sleep이나 rate limiting을 쓰면 GPU 오버랩 스케줄링을 다 망친다"**는 사실이었습니다. 파이프라인은 멈추지 않고 데이터를 밀어내고, 타이밍 제어는 철저하게 실시간 OS 레벨 언어(C++)에 맡겨야 합니다.
 
-![성과 달성 후 가벼워진 마음 — 최적화의 묘미](../../images/realtime-pose-estimation/Expression.jpg)
+![성과 달성 후 가벼워진 마음 — 최적화의 묘미](/images/study/hw/realtime-pose-estimation/Expression.jpg)
 
 **다음 단계 과제:**
 1. 제어단 C++ 루프와 Teensy 하드웨어 간의 장시간(수 시간) 안정성 검증.

@@ -11,12 +11,12 @@ series_order: 7
 images_needed:
   - position: "hero"
     prompt: "A cross-section of a high-tech building. Inside, you can see server racks, a library of prompt files, and workers (agents) passing messages to each other. Dark mode #0d1117, 16:9"
-    file: "images/P/ai-startup-codebase-anatomy-hero.png"
+    file: "/images/study/P_career/P/ai-startup-codebase-anatomy-hero.png"
 ---
 
 This is Part 7 of the **Career & Perspective Series**.
 
-![AI Startup Codebase Anatomy Hero](images/P/ai-startup-codebase-anatomy-hero.png)
+![AI Startup Codebase Anatomy Hero](/images/study/P_career/P/ai-startup-codebase-anatomy-hero.png)
 → Part 6: [Sandwich Architecture: Designing with LLMs without Depending on Them](/en/study/P_career/sandwich-architecture-llm)
 
 ---

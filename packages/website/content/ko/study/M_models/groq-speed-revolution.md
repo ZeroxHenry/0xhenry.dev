@@ -11,15 +11,15 @@ series_order: 4
 images_needed:
   - position: "hero"
     prompt: "A silver chip glowing with intense orange heat, racing past blurry GPU servers. A speedometer showing '1000 tokens/sec'. Dark mode #0d1117, motion blur, 16:9"
-    file: "images/M/groq-speed-revolution-hero.png"
+    file: "/images/study/M_models/M/groq-speed-revolution-hero.png"
   - position: "logic"
     prompt: "Comparison: GPU (Traditional Sequential) vs LPU (Parallel Streamline). Speed visualization. 16:9"
-    file: "images/M/gpu-vs-lpu-speed.png"
+    file: "/images/study/M_models/M/gpu-vs-lpu-speed.png"
 ---
 
 이 글은 **최신 모델 시리즈** 4편입니다.
 
-![Groq Speed Revolution Hero](images/M/groq-speed-revolution-hero.png)
+![Groq Speed Revolution Hero](/images/study/M_models/M/groq-speed-revolution-hero.png)
 → 3편: [Gemini 1.5 Pro의 100만 컨텍스트 활용법](/ko/study/M_models/gemini15pro-context)
 
 ---

@@ -11,12 +11,12 @@ series_order: 7
 images_needed:
   - position: "hero"
     prompt: "An AI brain inside a glass clock. You can see the gears turning slowly and methodically. A single bright light is being refined through the gears. Dark mode #0d1117, sophisticated, 16:9"
-    file: "images/M/o1-preview-reasoning-hero.png"
+    file: "/images/study/M_models/M/o1-preview-reasoning-hero.png"
 ---
 
 이 글은 **최신 모델 시리즈** 7편입니다.
 
-![o1-preview Reasoning Hero](images/M/o1-preview-reasoning-hero.png)
+![o1-preview Reasoning Hero](/images/study/M_models/M/o1-preview-reasoning-hero.png)
 → 6편: [DeepSeek: 가성비 추론 모델의 반란](/ko/study/M_models/deepseek-revolution)
 
 ---

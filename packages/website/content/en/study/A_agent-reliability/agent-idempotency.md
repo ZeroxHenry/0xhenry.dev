@@ -18,7 +18,7 @@ This isn't a minor inconvenience. What if it wasn't an email, but a payment requ
 
 The name for this problem is **Idempotency**. And in the age of AI agents, this concept has never been more important.
 
-![AI Agent Idempotency Design Guide](./images/idempotency-guide.png)
+![AI Agent Idempotency Design Guide](/images/study/A_agent-reliability/idempotency-guide.png)
 
 ---
 
@@ -95,7 +95,7 @@ Agent: Response delayed → INSERTs again
 DB: Two duplicate records created (hard to detect without a primary key)
 ```
 
-![Idempotency Architecture Pattern](./images/idempotency-architecture.png)
+![Idempotency Architecture Pattern](/images/study/A_agent-reliability/idempotency-architecture.png)
 
 ---
 

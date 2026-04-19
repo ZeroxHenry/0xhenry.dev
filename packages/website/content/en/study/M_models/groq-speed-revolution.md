@@ -11,12 +11,12 @@ series_order: 4
 images_needed:
   - position: "hero"
     prompt: "A silver chip glowing with intense orange heat, racing past blurry GPU servers. A speedometer showing '1000 tokens/sec'. Dark mode #0d1117, motion blur, 16:9"
-    file: "images/M/groq-speed-revolution-hero.png"
+    file: "/images/study/M_models/M/groq-speed-revolution-hero.png"
 ---
 
 This is Part 4 of the **Latest Models Series**.
 
-![Groq Speed Revolution Hero](images/M/groq-speed-revolution-hero.png)
+![Groq Speed Revolution Hero](/images/study/M_models/M/groq-speed-revolution-hero.png)
 → Part 3: [How to Utilize Gemini 1.5 Pro’s 1-Million Context Window](/en/study/M_models/gemini15pro-context)
 
 ---

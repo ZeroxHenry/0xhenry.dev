@@ -2,6 +2,12 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-19] 🖼️ MISSION COMPLETE: Blog Image Recovery & Path Normalization
+- **Asset Migration**: `content/` 폴더 내에 흩어져 있던 모든 시각 자료를 Next.js 표준인 `public/images/study/`로 이관 완료.
+- **Path Normalization**: 모든 마크다운 파일의 본문 및 프론트매터(썸네일) 경로를 절대 경로(`/images/study/...`)로 일괄 수정.
+- **Verification**: 브라우저 서브에이전트를 통해 'AI 로드맵 2027' 등 주요 포스트의 이미지 정상 출력을 최종 확인.
+- **Status**: 블로그 시각적 결함 완전 복구 및 안정적 자산 관리 구조 확립.
+
 ## [2026-04-19] 🧹 MISSION COMPLETE: Blog Content Normalization & Visual Audit
 - **Duplicate Removal**: `E_edge-ai` 디렉토리 내의 중복 하드웨어 포스트(STM32, ZED) 일괄 삭제 완료 (hw 카테고리 단일화).
 - **Visual Audit**: "그림 없는 포스트 근절" 정책에 따라 시각 자료가 없는 100여 개의 저품질/드래프트 포스트 일괄 제거.

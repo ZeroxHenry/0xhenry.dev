@@ -11,12 +11,12 @@ series_order: 6
 images_needed:
   - position: "hero"
     prompt: "A neon-blue mechanical shark (DeepSeek) hunting in a sea of data. It is fast, lean, and effectively competing with much larger whales. Dark mode #0d1117, futuristic, 16:9"
-    file: "images/M/deepseek-revolution-hero.png"
+    file: "/images/study/M_models/M/deepseek-revolution-hero.png"
 ---
 
 This is Part 6 of the **Latest Models Series**.
 
-![DeepSeek Revolution Hero](images/M/deepseek-revolution-hero.png)
+![DeepSeek Revolution Hero](/images/study/M_models/M/deepseek-revolution-hero.png)
 → Part 5: [Mistral Large 2: Europe's Pride and the Zenith of Multilingual Models](/en/study/M_models/mistral-large-2)
 
 ---

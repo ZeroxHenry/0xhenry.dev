@@ -11,12 +11,12 @@ series_order: 1
 images_needed:
   - position: "hero"
     prompt: "An architect standing in front of a giant digital blueprint. A swarm of small robots is building the structure according to the blueprint. The architect is holding a lit torch (representing human insight). Dark mode #0d1117, 16:9"
-    file: "images/P/career-strategy-beyond-coding-hero.png"
+    file: "/images/study/P_career/P/career-strategy-beyond-coding-hero.png"
 ---
 
 This is Part 1 of the **Career & Perspective Series**.
 
-![Career Strategy Hero](images/P/career-strategy-beyond-coding-hero.png)
+![Career Strategy Hero](/images/study/P_career/P/career-strategy-beyond-coding-hero.png)
 
 ---
 

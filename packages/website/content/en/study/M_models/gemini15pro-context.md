@@ -11,12 +11,12 @@ series_order: 3
 images_needed:
   - position: "hero"
     prompt: "A giant glass funnel swallowing entire libraries and high-definition video reels. At the bottom, a single glowing diamond (The Answer) is produced. Dark mode #0d1117, blue and purple, 16:9"
-    file: "images/M/gemini15pro-context-hero.png"
+    file: "/images/study/M_models/M/gemini15pro-context-hero.png"
 ---
 
 This is Part 3 of the **Latest Models Series**.
 
-![Gemini 1.5 Pro Context Hero](images/M/gemini15pro-context-hero.png)
+![Gemini 1.5 Pro Context Hero](/images/study/M_models/M/gemini15pro-context-hero.png)
 → Part 2: [The Impact of Llama-3.1: The Moment Open Source Caught Up to Closed Models](/en/study/M_models/llama31-impact)
 
 ---

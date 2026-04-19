@@ -11,15 +11,15 @@ series_order: 3
 images_needed:
   - position: "hero"
     prompt: "A giant glass funnel swallowing entire libraries and high-definition video reels. At the bottom, a single glowing diamond (The Answer) is produced. Dark mode #0d1117, blue and purple, 16:9"
-    file: "images/M/gemini15pro-context-hero.png"
+    file: "/images/study/M_models/M/gemini15pro-context-hero.png"
   - position: "usage"
     prompt: "Side-by-side: Traditional RAG (Searching small parts) vs Gemini 1.5 (Reading everything). 16:9"
-    file: "images/M/rag-vs-long-context.png"
+    file: "/images/study/M_models/M/rag-vs-long-context.png"
 ---
 
 이 글은 **최신 모델 시리즈** 3편입니다.
 
-![Gemini 1.5 Pro Context Hero](images/M/gemini15pro-context-hero.png)
+![Gemini 1.5 Pro Context Hero](/images/study/M_models/M/gemini15pro-context-hero.png)
 → 2편: [Llama-3.1의 충격: 오픈 소스가 클로즈드 모델을 따라잡은 순간](/ko/study/M_models/llama31-impact)
 
 ---
