@@ -2,6 +2,11 @@
 
 > 모든 ingest/lint/변경 작업 기록. AI가 자동으로 추가.
 
+## [2026-04-19] ✍️ Content Polish: Removal of "78-Post" Branding
+- **Branding Audit**: "78편 완결", "78-post pipeline" 등 특정 숫자를 강조하는 멘트와 시리즈 완결 푸터 일괄 제거.
+- **Tone Adjustment**: 콘텐츠를 특정 패키지 완결이 아닌, 지속 가능한 기술 아카이브 톤으로 조정 (`ai-roadmap-2027.md` 수정).
+- **Status**: 블로그 콘텐츠 정규화 및 브랜딩 최적화 완료.
+
 ## [2026-04-19] 🖼️ MISSION COMPLETE: Blog Image Recovery & Path Normalization
 - **Asset Migration**: `content/` 폴더 내에 흩어져 있던 모든 시각 자료를 Next.js 표준인 `public/images/study/`로 이관 완료.
 - **Path Normalization**: 모든 마크다운 파일의 본문 및 프론트매터(썸네일) 경로를 절대 경로(`/images/study/...`)로 일괄 수정.
