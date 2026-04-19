@@ -6,8 +6,6 @@ tags: ["Gemini 1.5 Pro", "Long Context", "Google AI", "RAG", "비디오분석", 
 description: "RAG가 필요 없는 세상이 올까요? 책 수십 권, 혹은 1시간 분량의 영상을 통째로 읽어내는 Gemini 1.5 Pro의 100만 토큰 컨텍스트를 실전에서 어떻게 활용하는지 분석합니다."
 author: "Henry"
 categories: ["최신 모델"]
-series: ["최신 모델 시리즈"]
-series_order: 3
 images_needed:
   - position: "hero"
     prompt: "A giant glass funnel swallowing entire libraries and high-definition video reels. At the bottom, a single glowing diamond (The Answer) is produced. Dark mode #0d1117, blue and purple, 16:9"

@@ -6,8 +6,6 @@ tags: ["Llama 3.1", "Meta", "Open Source LLM", "Agents", "Democratization of AI"
 description: "Meta's Llama-3.1 405B model stands for more than just a number. We explore the revolutionary shift where you can own intelligence rivaling expensive corporate APIs without paying for them."
 author: "Henry"
 categories: ["Latest Models"]
-series: ["Latest Models Series"]
-series_order: 2
 images_needed:
   - position: "hero"
     prompt: "A huge, powerful llama breaking through a glass ceiling. On top of the glass, gold skyscrapers (Closed LLMs) are shaking. Dark mode #0d1117, majestic and powerful, 16:9"

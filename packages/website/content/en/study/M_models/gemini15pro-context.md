@@ -6,8 +6,6 @@ tags: ["Gemini 1.5 Pro", "Long Context", "Google AI", "RAG", "Video Analysis", "
 description: "Is a world without RAG coming? We analyze how to practically use the 1-million token context window of Gemini 1.5 Pro, which can read dozens of books or entire hour-long videos at once."
 author: "Henry"
 categories: ["Latest Models"]
-series: ["Latest Models Series"]
-series_order: 3
 images_needed:
   - position: "hero"
     prompt: "A giant glass funnel swallowing entire libraries and high-definition video reels. At the bottom, a single glowing diamond (The Answer) is produced. Dark mode #0d1117, blue and purple, 16:9"

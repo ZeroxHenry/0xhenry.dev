@@ -6,8 +6,6 @@ tags: ["GPT-4o", "Claude 3.5 Sonnet", "Agents", "LLM", "Benchmark", "Model Compa
 description: "In 2026, which model should you choose as your agent's brain? We perform a detailed comparison of these two giants in terms of speed, coding ability, and tool-calling precision."
 author: "Henry"
 categories: ["Latest Models"]
-series: ["Latest Models Series"]
-series_order: 1
 images_needed:
   - position: "hero"
     prompt: "Two giant mechs facing each other. One is green/white (GPT-4o), the other is orange/white (Claude). They are surrounded by lines of code and data streams. Dark mode #0d1117, cinematic, 16:9"

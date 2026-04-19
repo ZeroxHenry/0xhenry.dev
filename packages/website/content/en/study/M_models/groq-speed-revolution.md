@@ -6,8 +6,6 @@ tags: ["Groq", "LPU", "LLM Speed", "Agent", "Real-time AI", "Hardware Innovation
 description: "What if AI could think faster than humans? We analyze how Groq's LPU technology, pouring out thousands of tokens per second, is changing the UX of real-time voice agents and conversational AI."
 author: "Henry"
 categories: ["Latest Models"]
-series: ["Latest Models Series"]
-series_order: 4
 images_needed:
   - position: "hero"
     prompt: "A silver chip glowing with intense orange heat, racing past blurry GPU servers. A speedometer showing '1000 tokens/sec'. Dark mode #0d1117, motion blur, 16:9"

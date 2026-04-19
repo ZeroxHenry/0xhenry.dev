@@ -6,8 +6,6 @@ tags: ["Career", "AI Agent", "Developer", "Survival Strategy", "Future Predictio
 description: "In an era where AI writes code, what should we developers do? We present survival strategies that find 'value beyond coding'—moving beyond syntax to problem definition and system design."
 author: "Henry"
 categories: ["Career & Perspective"]
-series: ["Career & Perspective Series"]
-series_order: 1
 images_needed:
   - position: "hero"
     prompt: "An architect standing in front of a giant digital blueprint. A swarm of small robots is building the structure according to the blueprint. The architect is holding a lit torch (representing human insight). Dark mode #0d1117, 16:9"

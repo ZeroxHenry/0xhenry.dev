@@ -6,8 +6,6 @@ tags: ["기본기", "컴퓨터과학", "알고리즘", "네트워킹", "AI시대
 description: "AI가 모든 것을 해결해 줄 것 같은 시대, 아이러니하게도 승패는 '기본기'에서 갈립니다. 데이터 구조, 운영체제, 네트워크 기초가 왜 인공지능 시대에 더 강력한 무기가 되는지 고찰합니다."
 author: "Henry"
 categories: ["커리어 & 관점"]
-series: ["커리어 & 관점 시리즈"]
-series_order: 8
 images_needed:
   - position: "hero"
     prompt: "A modern glass skyscraper (The AI) built on top of a solid, ancient stone foundation labeled 'CS Fundamentals'. The stone is glowing with hidden power. Dark mode #0d1117, 16:9"

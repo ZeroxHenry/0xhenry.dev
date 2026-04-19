@@ -6,8 +6,6 @@ tags: ["스타트업", "코드구조", "아키텍처", "OpenSource", "LangChain"
 description: "유명한 AI 서비스들의 깃허브 저장소는 어떤 모습일까요? 실제 잘나가는 AI 스타트업들의 폴더 구조와 프롬프트 관리 방식, 그리고 에이전트 워크플로우를 구현하는 실무 패턴을 파헤칩니다."
 author: "Henry"
 categories: ["커리어 & 관점"]
-series: ["커리어 & 관점 시리즈"]
-series_order: 7
 images_needed:
   - position: "hero"
     prompt: "A cross-section of a high-tech building. Inside, you can see server racks, a library of prompt files, and workers (agents) passing messages to each other. Dark mode #0d1117, 16:9"

@@ -6,8 +6,6 @@ tags: ["Basics", "Computer Science", "Algorithms", "Networking", "AI Era", "Care
 description: "In an era where it feels like AI solves everything, victory ironically depends on the 'basics.' We explore why data structures, operating systems, and network fundamentals are more powerful weapons in the age of AI."
 author: "Henry"
 categories: ["Career & Perspective"]
-series: ["Career & Perspective Series"]
-series_order: 8
 images_needed:
   - position: "hero"
     prompt: "A modern glass skyscraper (The AI) built on top of a solid, ancient stone foundation labeled 'CS Fundamentals'. The stone is glowing with hidden power. Dark mode #0d1117, 16:9"

@@ -6,8 +6,6 @@ tags: ["DeepSeek", "Value-for-Money AI", "Reasoning Model", "Open Source LLM", "
 description: "Do only expensive models deliver good performance? We analyze the topic DeepSeek models have brought to the AI industry—chasing at the heels of paid models at a fraction of the cost—and their actual utility."
 author: "Henry"
 categories: ["Latest Models"]
-series: ["Latest Models Series"]
-series_order: 6
 images_needed:
   - position: "hero"
     prompt: "A neon-blue mechanical shark (DeepSeek) hunting in a sea of data. It is fast, lean, and effectively competing with much larger whales. Dark mode #0d1117, futuristic, 16:9"

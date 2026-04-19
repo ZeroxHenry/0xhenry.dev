@@ -6,8 +6,6 @@ tags: ["Startup", "Code Structure", "Architecture", "Open Source", "LangChain", 
 description: "What do the GitHub repositories of famous AI services look like? We dig into the folder structures, prompt management styles, and practical patterns for implementing agentic workflows used by leading AI startups."
 author: "Henry"
 categories: ["Career & Perspective"]
-series: ["Career & Perspective Series"]
-series_order: 7
 images_needed:
   - position: "hero"
     prompt: "A cross-section of a high-tech building. Inside, you can see server racks, a library of prompt files, and workers (agents) passing messages to each other. Dark mode #0d1117, 16:9"

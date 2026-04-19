@@ -6,8 +6,6 @@ tags: ["Mistral Large 2", "Mistral AI", "European AI", "Multilingual", "Agents",
 description: "Is an American model always the answer? We explore the performance and advantages for agent development of Mistral Large 2, which perfectly supports over 80 languages and challenges the largest open models."
 author: "Henry"
 categories: ["Latest Models"]
-series: ["Latest Models Series"]
-series_order: 5
 images_needed:
   - position: "hero"
     prompt: "An elegant, minimalist sculpture of a head, glowing with European Union blue and golden stars. It is surrounded by calligraphy from dozens of different languages. Dark mode #0d1117, 16:9"

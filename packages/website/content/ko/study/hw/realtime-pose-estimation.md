@@ -6,8 +6,6 @@ tags: ["pose-estimation", "zed-camera", "yolo", "tensorrt", "jetson", "robotics"
 description: "ZED X Mini 카메라와 Jetson Orin NX를 사용하여 하드웨어 제어용 실시간 자세 추정 파이프라인을 구축한 과정을 상세히 기록합니다. PipelinedCamera, DirectTRT 등 16ms(61fps) 달성을 위한 최적화 기법을 포함합니다."
 author: "Henry"
 categories: ["Robotics & Edge AI"]
-series: ["Exosuit 하드웨어 개발기"]
-series_order: 3
 ---
 
 로보틱스, 특히 외골격 로봇(Exosuit)이나 보행 보조 로봇에서 '인지-판단-제어' 루프의 지연시간(Latency)은 시스템의 안정성과 직결됩니다. 이번 글에서는 **[ZED X Mini 카메라](/ko/study/hw/zed-x-mini-jetson-setup)와 YOLO 모델, 그리고 TensorRT를 활용하여 16ms(61fps)의 초저지연 실시간 포즈 추정 파이프라인을 구축한 과정**을 공유합니다.

@@ -6,8 +6,6 @@ tags: ["o1-preview", "OpenAI", "Reasoning", "CoT", "Thinking AI", "Agent"]
 description: "AI 'thinks' for itself before giving an answer. We analyze the revolution in reasoning brought by OpenAI's o1 model and why we no longer need complex prompt engineering."
 author: "Henry"
 categories: ["Latest Models"]
-series: ["Latest Models Series"]
-series_order: 7
 images_needed:
   - position: "hero"
     prompt: "An AI brain inside a glass clock. You can see the gears turning slowly and methodically. A single bright light is being refined through the gears. Dark mode #0d1117, sophisticated, 16:9"

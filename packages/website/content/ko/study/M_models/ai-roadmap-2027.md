@@ -6,8 +6,6 @@ tags: ["미래예측", "AI로드맵", "에이전트시대", "AGI", "기술전망
 description: "우리가 지난 챕터들에서 배운 기술들이 2027년의 세상을 어떻게 바꿀지, 그리고 그 중심에 설 주인공은 누구일지 정리합니다."
 author: "Henry"
 categories: ["최신 모델"]
-series: ["최신 모델 시리즈"]
-series_order: 8
 images_needed:
   - position: "hero"
     prompt: "A vast digital landscape with a sunrise. In the distance, a group of diverse AI agents (flying bots, holographic humans, terminals) are walking together toward a glowing portal. Dark mode #0d1117, epic scale, 16:9"

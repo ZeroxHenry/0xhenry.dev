@@ -6,8 +6,6 @@ tags: ["커리어", "AI에이전트", "개발자", "생존전략", "미래예측
 description: "AI가 코드를 짜주는 시대, 우리 개발자들은 무엇을 해야 할까요? 단순히 문법을 아는 단계를 넘어, 문제 정의와 시스템 설계라는 '코딩 너머의 가치'를 찾는 생존 전략을 제시합니다."
 author: "Henry"
 categories: ["커리어 & 관점"]
-series: ["커리어 & 관점 시리즈"]
-series_order: 1
 images_needed:
   - position: "hero"
     prompt: "An architect standing in front of a giant digital blueprint. A swarm of small robots is building the structure according to the blueprint. The architect is holding a lit torch (representing human insight). Dark mode #0d1117, 16:9"
